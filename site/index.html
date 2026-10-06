@@ -293,6 +293,17 @@
 .ev-row b{font-variant-numeric:tabular-nums}
 .ev-zero{color:#c5221f}
 </style>
+<style>
+.opp-table{width:100%;border-collapse:collapse;margin-top:12px;font-size:.88rem}
+.opp-table th{text-align:left;font-weight:600;font-size:.74rem;letter-spacing:.06em;
+  text-transform:uppercase;color:#80868b;padding:0 10px 7px 0;border-bottom:1px solid #e8eaed}
+.opp-table td{padding:9px 10px 9px 0;border-bottom:1px solid #f1f3f4;vertical-align:top}
+.opp-table .num{text-align:right;font-variant-numeric:tabular-nums;width:48px;white-space:nowrap}
+</style>
+<style>
+.pull{margin:10px 0;padding:9px 0 9px 14px;border-left:3px solid #fbbc04;
+  font-size:.88rem;line-height:1.5;color:#3c4043}
+</style>
 </head>
 <body>
     <div class="container">
@@ -325,7 +336,20 @@
             <p class="note">Rollup (n=715): <strong>57%</strong> a describable kind of photo, <strong>19%</strong> not a photo at all, <strong>13%</strong> a photo the user cannot describe.</p>
         </section>
 
+        
         <section>
+            <h2>How Old the Photo Was</h2>
+            <p class="section-lead">Age was stated in 153 of 720 units. Where it was stated, <b>69% were
+            old photos</b> &mdash; the brief's question answered directly: the retrieval problem is
+            overwhelmingly a problem with the back catalogue, not with this week's camera roll.</p>
+            <div class="chart">
+                <div class="bar-container"><div class="bar-label">an old photo</div><div class="bar-wrapper"><div class="bar emphasis" style="width: 100%;"></div><div class="bar-value">106</div></div></div>
+                <div class="bar-container"><div class="bar-label">a recent photo</div><div class="bar-wrapper"><div class="bar" style="width: 44.3%;"></div><div class="bar-value">47</div></div></div>
+                <div class="bar-container"><div class="bar-label">not stated</div><div class="bar-wrapper"><div class="bar" style="width: 100%; opacity:.35;"></div><div class="bar-value">562</div></div></div>
+            </div>
+            <p class="ev-hint">Most people never say how old the photo is &mdash; they say what was in it.</p>
+        </section>
+<section>
             <h2>What They Remember</h2>
             <div class="chart">
                 <div class="bar-container has-ev" tabindex="0" role="button" data-g="remember" data-c="content description"><div class="bar-label">content description</div><div class="bar-wrapper"><div class="bar" style="width: 100%;"></div><div class="bar-value">140</div></div></div>
@@ -345,11 +369,11 @@
         <section>
             <h2>What They Don't</h2>
             <div class="chart">
-                <div class="bar-container"><div class="bar-label">memory</div><div class="bar-wrapper"><div class="bar failure" style="width: 100%;"></div><div class="bar-value">26</div></div></div>
-                <div class="bar-container"><div class="bar-label">navigation</div><div class="bar-wrapper"><div class="bar" style="width: 65.4%;"></div><div class="bar-value">17</div></div></div>
-                <div class="bar-container"><div class="bar-label">product</div><div class="bar-wrapper"><div class="bar" style="width: 34.6%;"></div><div class="bar-value">9</div></div></div>
-                <div class="bar-container"><div class="bar-label">not a cue</div><div class="bar-wrapper"><div class="bar" style="width: 19.2%;"></div><div class="bar-value">5</div></div></div>
-                <div class="bar-container"><div class="bar-label">system</div><div class="bar-wrapper"><div class="bar" style="width: 15.4%;"></div><div class="bar-value">4</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="forgotten" data-c="a genuine memory gap"><div class="bar-label">a genuine memory gap</div><div class="bar-wrapper"><div class="bar failure" style="width: 100%;"></div><div class="bar-value">26</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="forgotten" data-c="couldn't find the control"><div class="bar-label">couldn't find the control</div><div class="bar-wrapper"><div class="bar" style="width: 65.4%;"></div><div class="bar-value">17</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="forgotten" data-c="the product never exposed it"><div class="bar-label">the product never exposed it</div><div class="bar-wrapper"><div class="bar" style="width: 34.6%;"></div><div class="bar-value">9</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="forgotten" data-c="not a retrieval cue"><div class="bar-label">not a retrieval cue</div><div class="bar-wrapper"><div class="bar" style="width: 19.2%;"></div><div class="bar-value">5</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="forgotten" data-c="the system lost or changed it"><div class="bar-label">the system lost or changed it</div><div class="bar-wrapper"><div class="bar" style="width: 15.4%;"></div><div class="bar-value">4</div></div></div>
             </div>
             <div class="big-numbers">
                 <div class="big-number"><span class="val">26</span><span class="lbl">memory gaps</span></div>
@@ -474,16 +498,68 @@
                         <td class="num">715</td>
                         <td>v1 scored 62.9%; rebuilt single-axis v2 scored 85.9% consistency</td>
                     </tr>
-                    <tr>
-                        <td>Cost</td>
-                        <td class="num">~$15</td>
-                        <td>Total pipeline API spend</td>
-                    </tr>
                 </tbody>
             </table>
         </section>
 
-        <section class="limitations">
+        
+        
+        <section>
+            <h2>When Memory Runs Out Mid-Search</h2>
+            <p class="section-lead">The brief asks how people search when their memory is incomplete.
+            That population can be isolated exactly: <b>51 of 720 units carry both a remembered cue and
+            a forgotten one</b> &mdash; someone who knew something, and not enough. Splitting them is
+            the most useful thing in this study.</p>
+            <div class="chart">
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="incomplete" data-c="knew the photo, couldn't drive the app"><div class="bar-label">knew the photo, couldn't drive the app</div><div class="bar-wrapper"><div class="bar" style="width: 100%;"></div><div class="bar-value">24</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="incomplete" data-c="still remembered it, had lost the handle"><div class="bar-label">still remembered it, had lost the handle</div><div class="bar-wrapper"><div class="bar emphasis" style="width: 87.5%;"></div><div class="bar-value">21</div></div></div>
+                <div class="bar-container"><div class="bar-label">system lost or changed it</div><div class="bar-wrapper"><div class="bar" style="width: 12.5%;"></div><div class="bar-value">3</div></div></div>
+                <div class="bar-container"><div class="bar-label">not a retrieval cue</div><div class="bar-wrapper"><div class="bar" style="width: 12.5%;"></div><div class="bar-value">3</div></div></div>
+            </div>
+            <p class="section-lead" style="margin-top:14px">Nearly half are not memory failures at all.
+            They are people who know exactly which photo they want and cannot find the control &mdash;
+            the sort option, the hidden-faces list, the locked folder. Counting those as a memory
+            problem would overstate it by about two to one.</p>
+            <p class="section-lead"><b>The 21 that remain are the ones worth building for, and they
+            have a shape.</b> Thirteen of the twenty-one still held a content description &mdash; they
+            could say what was in the photograph. What had gone was the handle: the date, the filename,
+            which app made it, where it had been saved.</p>
+            <blockquote class="pull">Held: location where photo was taken &mdash; Gone: when the photo was taken</blockquote>
+            <blockquote class="pull">Held: it was a screen recording &mdash; Gone: the filename of the recording</blockquote>
+            <blockquote class="pull">Held: event was an award ceremony; who gave the award &mdash; Gone: which of many Drives it was saved in</blockquote>
+            <p class="section-lead">Every one of those people could have described the photo to a
+            friend. None of them could give a search box the one token it wanted. <b>Search indexes
+            handles; memory keeps descriptions.</b> That gap is the problem this project exists to
+            close, and it is 21 units wide in this corpus &mdash; small, specific, and under-served
+            rather than large and vague.</p>
+            <p class="ev-hint"><b>Tap either of the top two bars</b> to read the held-and-gone pairs
+            behind them.</p>
+        </section>
+<section>
+            <h2>Where the Opportunity Is</h2>
+            <p class="section-lead">Putting the two distributions side by side answers the brief's
+            last question. <b>The cue people hold most often is the one the system handles worst.</b>
+            Content description is the single most common thing a person remembers &mdash; and text
+            and keyword search is the single most common way the search fails them.</p>
+            <table class="opp-table">
+                <thead><tr><th>What they bring to the search</th><th class="num">n</th><th>What happens to it</th><th class="num">n</th></tr></thead>
+                <tbody>
+                    <tr><td>content description</td><td class="num">140</td><td>text and keyword search fails</td><td class="num">37</td></tr>
+                    <tr><td>date and time</td><td class="num">94</td><td>date and time search fails &mdash; dates are treated as soft keywords, not filters</td><td class="num">11</td></tr>
+                    <tr><td>person identity</td><td class="num">87</td><td>face and people search fails</td><td class="num">8</td></tr>
+                    <tr><td>location</td><td class="num">32</td><td>location search fails or is unavailable</td><td class="num">2</td></tr>
+                </tbody>
+            </table>
+            <p class="section-lead" style="margin-top:14px">Two opportunity areas fall out of that.
+            <b>First</b>, the describable-but-unsearchable gap: people arrive holding a description
+            and the system can only match keywords, so 57% of targets are a describable kind of photo
+            while the commonest failure is description-shaped. <b>Second</b>, the hedged-detail gap:
+            dates and places are remembered often and imprecisely, and a system that treats them as
+            hard filters rejects the very users who are closest to the answer.</p>
+            <p class="ev-hint">Counts as published above; the two columns are independent taxonomies
+            over the same 720 units, not a measured causal link.</p>
+        </section>
+<section class="limitations">
             <h2>Limitations</h2>
             <ul>
                 <li>Gate over-inclusion at 56% precision so counts are upper bounds.</li>
@@ -543,7 +619,14 @@
         '<div class="ev-card"><p>“' + esc(k.q) + '”</p><div class="ev-meta">' + esc(k.src) +
         (k.url ? ' · <a href="' + esc(k.url) + '" target="_blank" rel="noopener">original ↗</a>' : '') +
         (k.target ? '<br>Looking for: ' + esc(k.target) : '') +
-        '</div></div>').join('')
+        '</div>
+        <p style="margin:44px 0 0;padding-top:18px;border-top:1px solid #e8eaed;
+                  font-size:.85rem;color:#80868b;text-align:center">
+          The prompts, the four taxonomies with their full definitions, and the validation at each
+          stage are in the <a href="notes.html" style="color:#1a73e8">reference notes</a>, for anyone
+          who wants to check the numbers.
+        </p>
+</div>').join('')
         : '<p class="ev-sub">No quotable units for this category.</p>') +
       '<button class="ev-close">Close</button>';
     panel.querySelector('.ev-close').addEventListener('click', close);
