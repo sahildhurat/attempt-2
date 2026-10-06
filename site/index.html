@@ -572,6 +572,13 @@
                 <li>Source Coverage: The brief names social media and YouTube comments among its example sources and neither was collected. The five source types used (Google Help Community, Stack Exchange, Hacker News, App Store, Play Store) mean the corpus skews toward written help-seeking rather than conversational commentary.</li>
             </ul>
         </section>
+        <p style="margin:44px 0 0;padding-top:18px;border-top:1px solid #e8eaed;
+                  font-size:.85rem;color:#80868b;text-align:center">
+          The prompts, the four taxonomies with their full definitions, and the validation at each
+          stage are in the <a href="notes.html" style="color:#1a73e8">reference notes</a>, for anyone
+          who wants to check the numbers.
+        </p>
+
     </div>
 
 <script>
@@ -619,14 +626,7 @@
         '<div class="ev-card"><p>“' + esc(k.q) + '”</p><div class="ev-meta">' + esc(k.src) +
         (k.url ? ' · <a href="' + esc(k.url) + '" target="_blank" rel="noopener">original ↗</a>' : '') +
         (k.target ? '<br>Looking for: ' + esc(k.target) : '') +
-        '</div>
-        <p style="margin:44px 0 0;padding-top:18px;border-top:1px solid #e8eaed;
-                  font-size:.85rem;color:#80868b;text-align:center">
-          The prompts, the four taxonomies with their full definitions, and the validation at each
-          stage are in the <a href="notes.html" style="color:#1a73e8">reference notes</a>, for anyone
-          who wants to check the numbers.
-        </p>
-</div>').join('')
+        '</div></div>').join('')
         : '<p class="ev-sub">No quotable units for this category.</p>') +
       '<button class="ev-close">Close</button>';
     panel.querySelector('.ev-close').addEventListener('click', close);
