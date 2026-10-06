@@ -106,9 +106,5 @@
   "target_age_unstated": {
     "value": 562,
     "source": "data/pass3/age_assignments.jsonl"
-  },
-  "pipeline_cost": {
-    "value": 15,
-    "source": "docs/analysis_summary.md"
   }
 }

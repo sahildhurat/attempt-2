@@ -266,6 +266,33 @@
             }
         }
     </style>
+
+<style>
+/* Every number on this page is a claim; clicking one shows the units it rests on. */
+.has-ev{cursor:pointer;position:relative;border-radius:6px;transition:background .12s}
+.has-ev:hover,.has-ev:focus-visible{background:rgba(26,115,232,.08);outline:none}
+.has-ev:focus-visible{box-shadow:0 0 0 2px #1a73e8}
+.ev-hint{font-size:.78rem;color:#80868b;margin:6px 0 0}
+.ev-hint b{color:#1a73e8;font-weight:500}
+.ev-back{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:90;display:flex;
+  align-items:flex-end;justify-content:center}
+.ev-back[hidden]{display:none}
+.ev-panel{background:#fff;width:100%;max-width:620px;max-height:86vh;overflow-y:auto;
+  border-radius:16px 16px 0 0;padding:20px 18px 28px;-webkit-overflow-scrolling:touch}
+@media(min-width:700px){.ev-back{align-items:center}.ev-panel{border-radius:16px;max-height:80vh}}
+.ev-panel h3{margin:0;font-size:1.05rem}
+.ev-sub{margin:4px 0 16px;font-size:.82rem;color:#5f6368}
+.ev-card{border-left:3px solid #1a73e8;padding:8px 0 8px 12px;margin-bottom:14px}
+.ev-card p{margin:0 0 6px;font-size:.9rem;line-height:1.5}
+.ev-meta{font-size:.74rem;color:#80868b}
+.ev-meta a{color:#1a73e8}
+.ev-close{margin-top:6px;width:100%;padding:11px;border:0;border-radius:999px;
+  background:#f1f3f4;font:inherit;font-weight:500;cursor:pointer}
+.ev-row{display:flex;justify-content:space-between;gap:12px;padding:7px 0;
+  border-bottom:1px solid #f1f3f4;font-size:.88rem}
+.ev-row b{font-variant-numeric:tabular-nums}
+.ev-zero{color:#c5221f}
+</style>
 </head>
 <body>
     <div class="container">
@@ -276,25 +303,24 @@
             <div class="metadata-strip">
                 <div class="metadata-item">Corpus: <span>41,006 units</span></div>
                 <div class="metadata-item">Gate Processed: <span>7,840</span></div>
-                <div class="metadata-item">Cost: <span>~$15</span></div>
-                <div class="metadata-item">Sources: <span>7 platforms</span></div>
+                <div class="metadata-item has-ev" tabindex="0" role="button" data-g="sources" data-c="funnel">Sources: <span>7 collected &middot; 5 carried evidence</span></div>
             </div>
         </header>
 
         <section>
             <h2>What People Were Looking For</h2>
             <div class="chart">
-                <div class="bar-container"><div class="bar-label">a specific person</div><div class="bar-wrapper"><div class="bar emphasis" style="width: 100%;"></div><div class="bar-value">181</div></div></div>
-                <div class="bar-container"><div class="bar-label">not a specific photo</div><div class="bar-wrapper"><div class="bar" style="width: 76.2%;"></div><div class="bar-value">138</div></div></div>
-                <div class="bar-container"><div class="bar-label">particular photo (unstated)</div><div class="bar-wrapper"><div class="bar" style="width: 49.7%;"></div><div class="bar-value">90</div></div></div>
-                <div class="bar-container"><div class="bar-label">an object/scene/subject</div><div class="bar-wrapper"><div class="bar" style="width: 36.5%;"></div><div class="bar-value">66</div></div></div>
-                <div class="bar-container"><div class="bar-label">media of a particular type</div><div class="bar-wrapper"><div class="bar" style="width: 30.9%;"></div><div class="bar-value">56</div></div></div>
-                <div class="bar-container"><div class="bar-label">unassigned</div><div class="bar-wrapper"><div class="bar" style="width: 23.2%;"></div><div class="bar-value">42</div></div></div>
-                <div class="bar-container"><div class="bar-label">unspecified</div><div class="bar-wrapper"><div class="bar" style="width: 21.0%;"></div><div class="bar-value">38</div></div></div>
-                <div class="bar-container"><div class="bar-label">a document/ID/text</div><div class="bar-wrapper"><div class="bar" style="width: 17.1%;"></div><div class="bar-value">31</div></div></div>
-                <div class="bar-container"><div class="bar-label">a place</div><div class="bar-wrapper"><div class="bar" style="width: 14.9%;"></div><div class="bar-value">27</div></div></div>
-                <div class="bar-container"><div class="bar-label">an event</div><div class="bar-wrapper"><div class="bar" style="width: 13.3%;"></div><div class="bar-value">24</div></div></div>
-                <div class="bar-container"><div class="bar-label">a pet or animal</div><div class="bar-wrapper"><div class="bar" style="width: 12.2%;"></div><div class="bar-value">22</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="looking_for" data-c="a specific person"><div class="bar-label">a specific person</div><div class="bar-wrapper"><div class="bar emphasis" style="width: 100%;"></div><div class="bar-value">181</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="looking_for" data-c="not a specific photo"><div class="bar-label">not a specific photo</div><div class="bar-wrapper"><div class="bar" style="width: 76.2%;"></div><div class="bar-value">138</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="looking_for" data-c="one particular photo, content not described"><div class="bar-label">particular photo (unstated)</div><div class="bar-wrapper"><div class="bar" style="width: 49.7%;"></div><div class="bar-value">90</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="looking_for" data-c="an object, scene or subject"><div class="bar-label">an object/scene/subject</div><div class="bar-wrapper"><div class="bar" style="width: 36.5%;"></div><div class="bar-value">66</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="looking_for" data-c="media of a particular type"><div class="bar-label">media of a particular type</div><div class="bar-wrapper"><div class="bar" style="width: 30.9%;"></div><div class="bar-value">56</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="looking_for" data-c="UNASSIGNED"><div class="bar-label">unassigned</div><div class="bar-wrapper"><div class="bar" style="width: 23.2%;"></div><div class="bar-value">42</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="looking_for" data-c="unspecified"><div class="bar-label">unspecified</div><div class="bar-wrapper"><div class="bar" style="width: 21.0%;"></div><div class="bar-value">38</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="looking_for" data-c="a document, ID or text"><div class="bar-label">a document/ID/text</div><div class="bar-wrapper"><div class="bar" style="width: 17.1%;"></div><div class="bar-value">31</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="looking_for" data-c="a place"><div class="bar-label">a place</div><div class="bar-wrapper"><div class="bar" style="width: 14.9%;"></div><div class="bar-value">27</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="looking_for" data-c="an event, occasion or trip"><div class="bar-label">an event</div><div class="bar-wrapper"><div class="bar" style="width: 13.3%;"></div><div class="bar-value">24</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="looking_for" data-c="a pet or animal"><div class="bar-label">a pet or animal</div><div class="bar-wrapper"><div class="bar" style="width: 12.2%;"></div><div class="bar-value">22</div></div></div>
             </div>
             <p class="note">Rollup (n=715): <strong>57%</strong> a describable kind of photo, <strong>19%</strong> not a photo at all, <strong>13%</strong> a photo the user cannot describe.</p>
         </section>
@@ -302,15 +328,15 @@
         <section>
             <h2>What They Remember</h2>
             <div class="chart">
-                <div class="bar-container"><div class="bar-label">content description</div><div class="bar-wrapper"><div class="bar" style="width: 100%;"></div><div class="bar-value">140</div></div></div>
-                <div class="bar-container"><div class="bar-label">date and time</div><div class="bar-wrapper"><div class="bar emphasis" style="width: 67.1%;"></div><div class="bar-value">94</div></div></div>
-                <div class="bar-container"><div class="bar-label">person identity</div><div class="bar-wrapper"><div class="bar" style="width: 62.1%;"></div><div class="bar-value">87</div></div></div>
-                <div class="bar-container"><div class="bar-label">search term used</div><div class="bar-wrapper"><div class="bar" style="width: 29.3%;"></div><div class="bar-value">41</div></div></div>
-                <div class="bar-container"><div class="bar-label">file identity</div><div class="bar-wrapper"><div class="bar" style="width: 25.0%;"></div><div class="bar-value">35</div></div></div>
-                <div class="bar-container"><div class="bar-label">location</div><div class="bar-wrapper"><div class="bar" style="width: 22.9%;"></div><div class="bar-value">32</div></div></div>
-                <div class="bar-container"><div class="bar-label">capture source</div><div class="bar-wrapper"><div class="bar" style="width: 22.1%;"></div><div class="bar-value">31</div></div></div>
-                <div class="bar-container"><div class="bar-label">album or folder</div><div class="bar-wrapper"><div class="bar" style="width: 14.3%;"></div><div class="bar-value">20</div></div></div>
-                <div class="bar-container"><div class="bar-label">occasion</div><div class="bar-wrapper"><div class="bar" style="width: 12.1%;"></div><div class="bar-value">17</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="remember" data-c="content description"><div class="bar-label">content description</div><div class="bar-wrapper"><div class="bar" style="width: 100%;"></div><div class="bar-value">140</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="remember" data-c="date and time"><div class="bar-label">date and time</div><div class="bar-wrapper"><div class="bar emphasis" style="width: 67.1%;"></div><div class="bar-value">94</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="remember" data-c="person identity"><div class="bar-label">person identity</div><div class="bar-wrapper"><div class="bar" style="width: 62.1%;"></div><div class="bar-value">87</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="remember" data-c="search term used"><div class="bar-label">search term used</div><div class="bar-wrapper"><div class="bar" style="width: 29.3%;"></div><div class="bar-value">41</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="remember" data-c="file identity"><div class="bar-label">file identity</div><div class="bar-wrapper"><div class="bar" style="width: 25.0%;"></div><div class="bar-value">35</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="remember" data-c="location"><div class="bar-label">location</div><div class="bar-wrapper"><div class="bar" style="width: 22.9%;"></div><div class="bar-value">32</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="remember" data-c="capture source"><div class="bar-label">capture source</div><div class="bar-wrapper"><div class="bar" style="width: 22.1%;"></div><div class="bar-value">31</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="remember" data-c="album or folder name"><div class="bar-label">album or folder</div><div class="bar-wrapper"><div class="bar" style="width: 14.3%;"></div><div class="bar-value">20</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="remember" data-c="occasion or event"><div class="bar-label">occasion</div><div class="bar-wrapper"><div class="bar" style="width: 12.1%;"></div><div class="bar-value">17</div></div></div>
             </div>
             <p class="note">Of 554 extracted cues, 497 were assigned successfully. An additional 57 unassignable items were recorded separately.</p>
             <div class="quote">"I know for a fact I took a photo of my dog sleeping next to a blowtorch. I searched 'blowtorch', I searched 'dog', I scrolled back to August 2021 where I think it was. Nothing."</div>
@@ -350,19 +376,19 @@
         <section>
             <h2>Where It Breaks</h2>
             <div class="chart">
-                <div class="bar-container"><div class="bar-label">text and keyword</div><div class="bar-wrapper"><div class="bar failure" style="width: 100%;"></div><div class="bar-value">37</div></div></div>
-                <div class="bar-container"><div class="bar-label">capability does not exist</div><div class="bar-wrapper"><div class="bar" style="width: 56.8%;"></div><div class="bar-value">21</div></div></div>
-                <div class="bar-container"><div class="bar-label">display and platform</div><div class="bar-wrapper"><div class="bar" style="width: 48.6%;"></div><div class="bar-value">18</div></div></div>
-                <div class="bar-container"><div class="bar-label">not yet indexed</div><div class="bar-wrapper"><div class="bar" style="width: 45.9%;"></div><div class="bar-value">17</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="breaks" data-c="text and keyword search fails"><div class="bar-label">text and keyword</div><div class="bar-wrapper"><div class="bar failure" style="width: 100%;"></div><div class="bar-value">37</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="breaks" data-c="the capability does not exist"><div class="bar-label">capability does not exist</div><div class="bar-wrapper"><div class="bar" style="width: 56.8%;"></div><div class="bar-value">21</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="breaks" data-c="display and platform inconsistency"><div class="bar-label">display and platform</div><div class="bar-wrapper"><div class="bar" style="width: 48.6%;"></div><div class="bar-value">18</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="breaks" data-c="content not yet indexed or synced"><div class="bar-label">not yet indexed</div><div class="bar-wrapper"><div class="bar" style="width: 45.9%;"></div><div class="bar-value">17</div></div></div>
                 <div class="bar-container"><div class="bar-label">unassigned</div><div class="bar-wrapper"><div class="bar" style="width: 45.9%;"></div><div class="bar-value">17</div></div></div>
-                <div class="bar-container"><div class="bar-label">user misunderstanding</div><div class="bar-wrapper"><div class="bar" style="width: 29.7%;"></div><div class="bar-value">11</div></div></div>
-                <div class="bar-container"><div class="bar-label">date and time</div><div class="bar-wrapper"><div class="bar" style="width: 29.7%;"></div><div class="bar-value">11</div></div></div>
-                <div class="bar-container"><div class="bar-label">incomplete subset</div><div class="bar-wrapper"><div class="bar" style="width: 24.3%;"></div><div class="bar-value">9</div></div></div>
-                <div class="bar-container"><div class="bar-label">face and people</div><div class="bar-wrapper"><div class="bar" style="width: 21.6%;"></div><div class="bar-value">8</div></div></div>
-                <div class="bar-container"><div class="bar-label">user metadata ignored</div><div class="bar-wrapper"><div class="bar" style="width: 16.2%;"></div><div class="bar-value">6</div></div></div>
-                <div class="bar-container"><div class="bar-label">blocked terms</div><div class="bar-wrapper"><div class="bar" style="width: 10.8%;"></div><div class="bar-value">4</div></div></div>
-                <div class="bar-container"><div class="bar-label">data lost</div><div class="bar-wrapper"><div class="bar" style="width: 8.1%;"></div><div class="bar-value">3</div></div></div>
-                <div class="bar-container"><div class="bar-label">location</div><div class="bar-wrapper"><div class="bar" style="width: 5.4%;"></div><div class="bar-value">2</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="breaks" data-c="user misunderstanding"><div class="bar-label">user misunderstanding</div><div class="bar-wrapper"><div class="bar" style="width: 29.7%;"></div><div class="bar-value">11</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="breaks" data-c="date and time search fails"><div class="bar-label">date and time</div><div class="bar-wrapper"><div class="bar" style="width: 29.7%;"></div><div class="bar-value">11</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="breaks" data-c="search returns an incomplete subset"><div class="bar-label">incomplete subset</div><div class="bar-wrapper"><div class="bar" style="width: 24.3%;"></div><div class="bar-value">9</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="breaks" data-c="face and people search fails"><div class="bar-label">face and people</div><div class="bar-wrapper"><div class="bar" style="width: 21.6%;"></div><div class="bar-value">8</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="breaks" data-c="user-supplied metadata is ignored"><div class="bar-label">user metadata ignored</div><div class="bar-wrapper"><div class="bar" style="width: 16.2%;"></div><div class="bar-value">6</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="breaks" data-c="search terms are blocked or filtered"><div class="bar-label">blocked terms</div><div class="bar-wrapper"><div class="bar" style="width: 10.8%;"></div><div class="bar-value">4</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="breaks" data-c="data lost or deleted"><div class="bar-label">data lost</div><div class="bar-wrapper"><div class="bar" style="width: 8.1%;"></div><div class="bar-value">3</div></div></div>
+                <div class="bar-container has-ev" tabindex="0" role="button" data-g="breaks" data-c="location search fails or is unavailable"><div class="bar-label">location</div><div class="bar-wrapper"><div class="bar" style="width: 5.4%;"></div><div class="bar-value">2</div></div></div>
             </div>
             <p class="note">n=164 breakdowns.</p>
             <div class="quote">"I know the exact date I took the photo, I entered it in search, and Photos told me 'No results'."<br><span style="font-size: 0.875rem; color: var(--secondary); font-style: normal; display: block; margin-top: 0.5rem;">Users expect precise dates to act as hard filters, but search treats them as soft keywords.</span></div>
@@ -471,5 +497,81 @@
             </ul>
         </section>
     </div>
+
+<script>
+(async function () {
+  let DATA;
+  try { DATA = await fetch('evidence.json').then(r => r.json()); }
+  catch (e) { document.querySelectorAll('.has-ev').forEach(n => n.classList.remove('has-ev')); return; }
+
+  const esc = s => String(s == null ? '' : s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+
+  const back = document.createElement('div');
+  back.className = 'ev-back'; back.hidden = true;
+  back.innerHTML = '<div class="ev-panel" role="dialog" aria-modal="true" id="ev-panel"></div>';
+  document.body.appendChild(back);
+  const panel = back.querySelector('#ev-panel');
+
+  const close = () => { back.hidden = true; };
+  back.addEventListener('click', e => { if (e.target === back) close(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+
+  function openFunnel() {
+    const rows = DATA.sources.map(s =>
+      '<div class="ev-row"><span>' + esc(s.name) + '</span><b class="' +
+      (s.units ? '' : 'ev-zero') + '">' + s.units + '</b></div>').join('');
+    panel.innerHTML =
+      '<h3>Where the evidence actually came from</h3>' +
+      '<p class="ev-sub">Units surviving the relevance gate, by platform. Seven platforms were ' +
+      'collected from, including 3,000 Play Store reviews — but a review rarely contains a ' +
+      'retrieval narrative, so almost none passed. People describe a failed photo search where ' +
+      'they are asking for help, not where they are rating an app.</p>' +
+      rows +
+      '<button class="ev-close">Close</button>';
+    panel.querySelector('.ev-close').addEventListener('click', close);
+    back.hidden = false;
+  }
+
+  function openCategory(g, c) {
+    const cards = ((DATA.evidence[g] || {})[c]) || [];
+    panel.innerHTML =
+      '<h3>' + esc(c) + '</h3>' +
+      '<p class="ev-sub">' + cards.length + ' of the units behind this number, quoted as collected. ' +
+      'Each links to the thread it came from.</p>' +
+      (cards.length ? cards.map(k =>
+        '<div class="ev-card"><p>“' + esc(k.q) + '”</p><div class="ev-meta">' + esc(k.src) +
+        (k.url ? ' · <a href="' + esc(k.url) + '" target="_blank" rel="noopener">original ↗</a>' : '') +
+        (k.target ? '<br>Looking for: ' + esc(k.target) : '') +
+        '</div></div>').join('')
+        : '<p class="ev-sub">No quotable units for this category.</p>') +
+      '<button class="ev-close">Close</button>';
+    panel.querySelector('.ev-close').addEventListener('click', close);
+    panel.scrollTop = 0;
+    back.hidden = false;
+  }
+
+  document.querySelectorAll('.has-ev').forEach(el => {
+    const go = () => (el.dataset.g === 'sources') ? openFunnel()
+                                                 : openCategory(el.dataset.g, el.dataset.c);
+    el.addEventListener('click', go);
+    el.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); go(); }
+    });
+  });
+
+  // Say that the bars are live, once per chart.
+  document.querySelectorAll('.has-ev[data-g]:not([data-g="sources"])').forEach(el => {
+    const chart = el.parentElement;
+    if (chart && !chart.dataset.hinted) {
+      chart.dataset.hinted = '1';
+      const p = document.createElement('p');
+      p.className = 'ev-hint';
+      p.innerHTML = '<b>Tap any bar</b> to read the units it is counting.';
+      chart.appendChild(p);
+    }
+  });
+})();
+</script>
 </body>
 </html>
