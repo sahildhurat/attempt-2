@@ -1,0 +1,25 @@
+﻿Category        | Max Results Req | Unique Threads | View More? | Oldest Date
+Search          | 500             | 500            | True       | Updated: Earlier
+Search          | 1000 | ERROR | The operation has timed out.
+Search          | 2000            | 2000           | True       | Updated: Earlier
+Search          | 5000 | ERROR | Unable to read data from the transport connection: An established connection was aborted by the software in your host machine.
+Organisation    | 500 | ERROR | The remote name could not be resolved: 'support.google.com'
+Organisation    | 1000 | ERROR | The remote name could not be resolved: 'support.google.com'
+Organisation    | 2000 | ERROR | The remote name could not be resolved: 'support.google.com'
+Organisation    | 5000 | ERROR | The remote name could not be resolved: 'support.google.com'
+Albums          | 500 | ERROR | The remote name could not be resolved: 'support.google.com'
+Albums          | 1000 | ERROR | The remote name could not be resolved: 'support.google.com'
+Albums          | 2000 | ERROR | The remote name could not be resolved: 'support.google.com'
+Albums          | 5000 | ERROR | The remote name could not be resolved: 'support.google.com'
+Manage          | 500 | ERROR | The remote name could not be resolved: 'support.google.com'
+Manage          | 1000 | ERROR | The remote name could not be resolved: 'support.google.com'
+Manage          | 2000 | ERROR | The remote name could not be resolved: 'support.google.com'
+Manage          | 5000 | ERROR | The remote name could not be resolved: 'support.google.com'
+Sharing         | 500 | ERROR | The remote name could not be resolved: 'support.google.com'
+Sharing         | 1000 | ERROR | The remote name could not be resolved: 'support.google.com'
+Sharing         | 2000 | ERROR | The remote name could not be resolved: 'support.google.com'
+Sharing         | 5000 | ERROR | The remote name could not be resolved: 'support.google.com'
+Storage         | 500 | ERROR | The remote name could not be resolved: 'support.google.com'
+Storage         | 1000 | ERROR | The remote name could not be resolved: 'support.google.com'
+Storage         | 2000 | ERROR | The remote name could not be resolved: 'support.google.com'
+Storage         | 5000 | ERROR | The remote name could not be resolved: 'support.google.com'

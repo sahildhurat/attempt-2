@@ -1,0 +1,13 @@
+
+## Help Community Collection Coverage limitation (30 September 2026)
+Google Help Community contributes 19,345 OP-only units with zero replies. As a result, section 6.5 (workarounds) will draw entirely on `reddit_assisted`, `hn` and `stackexchange` — roughly 4,100 above-floor units. This is a recognized coverage limitation.
+
+## Return to Anthropic Models (30 September 2026)
+The pipeline has reverted to the original Anthropic specification:
+- **Pass 1 Gate:** claude-haiku-4-5-20251001
+- **Pass 2 Extraction:** claude-sonnet-5
+- **Pass 3 Induction & Assignment:** claude-sonnet-5
+
+**Rationale & Exhaustion Sequence:** The pivot to Gemini was forced by the environment constraints (no billed account API key initially available), not by choice. The free tier of Gemini ultimately failed three times in 24 hours across multiple model variants due to strict 20 request/day quotas which were repeatedly exhausted.
+With a billed Anthropic API key now available, the pipeline has reverted to the specified Claude models using standard HTTP requests (via `network_utils` to manage retry/rate limiting), with Structured Outputs forced via Anthropic Tool Use.
+All prompts were originally developed against Gemini. They were re-validated against Claude (haiku-4-5) for the Pass 1 gate. A batching validation (100 units one-per-call vs batch-25) yielded an agreement rate of 79.00%. Since this is below the 97% threshold, further prompt tuning or batch-size adjustment on Claude is required before launching the full-corpus gate.

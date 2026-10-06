@@ -1,0 +1,14 @@
+{
+  "pass2_grounding": {
+    "remembered": {
+      "total": 989,
+      "grounded": 985,
+      "dropped": 4
+    },
+    "forgotten": {
+      "total": 61,
+      "grounded": 59,
+      "dropped": 2
+    }
+  }
+}

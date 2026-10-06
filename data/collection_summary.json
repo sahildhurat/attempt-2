@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-09-27T15:23:40+0530",
+  "results": {
+    "help_community": {
+      "count": 3304,
+      "source_type": "discussion"
+    },
+    "stackexchange": {
+      "count": 459,
+      "source_type": "discussion"
+    },
+    "playstore": {
+      "count": 3000,
+      "source_type": "review"
+    },
+    "appstore": {
+      "count": 0,
+      "source_type": "review"
+    },
+    "youtube": {
+      "count": 0,
+      "source_type": "discussion"
+    },
+    "hn": {
+      "count": 0,
+      "source_type": "discussion"
+    }
+  },
+  "total": 6763,
+  "discussion_total": 3763,
+  "review_total": 3000
+}

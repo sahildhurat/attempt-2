@@ -1,0 +1,16 @@
+{
+  "confirmed": true,
+  "date": "2026-09-30",
+  "pass1_gate": {
+    "model": "claude-haiku-4-5-20251001"
+  },
+  "pass2_extraction": {
+    "model": "claude-sonnet-5"
+  },
+  "pass3_induction": {
+    "model": "claude-sonnet-5"
+  },
+  "pass3_assignment": {
+    "model": "claude-sonnet-5"
+  }
+}

@@ -1,0 +1,114 @@
+--- ACCEPTANCE TEST: S031 ---
+Unit 1 (Reply: False):
+Question 🤔 So me and my brother share a google account definitely not after today I know he has deleted my photos in the past but he told me he will only delete some so apparently a month or two ago he decided to delete everything every photo and memory I have ever taken. Looking at previous post on here I kinda get the fact that there's nothing I can do but I'm posting this hoping I missed something some way to bring back years worth of memories
+----------------------------------------
+Unit 2 (Reply: True):
+did you check the trash can? Deleted photo stay in Trash for 30 days prior to be permanently deleted
+----------------------------------------
+Unit 3 (Reply: True):
+Yeah I found some not a whole lot but it's better than nothing
+----------------------------------------
+Unit 4 (Reply: True):
+All of the most important ones aren't there probably over 30 days ago is there anything I can do to get them back would Google service help are they somehow on my phone still or is it just over
+----------------------------------------
+Unit 5 (Reply: True):
+If you shot the photos with your phone, there is a chance that they may be in its storage. Try checking the Files app. Go to /storage/emulated/0/Pictures. Or if you are an iPhone user, they should be apparent but if not you can try accessing the local Photos app to see if any remains are present. Given what you've said, I don't think the images are going to be found here (Android/iOS). You CAN try to contact Google about recovering photos. They'll probably give you what this sub generally does that you seem to know of as far as the comments/post herein. Other question: did you have a Family Group set up before the photos deleted? If so, there is a slim chance that any "family" who may have been added onto your Family Group could have devices who had access to your past images. For example, if your family member added to the account (Jim, Jack, Jessica ...) was logged into Google Photos and had your images pulled up at the time -- and the noted device has been offline since the specified time -- they would technically be able to see any and all pictures you had on Google Photos to download et al. as they (or you, if you had access to the noted device) please. I take it you did not make a takeout file that happened to have every photo on it before this (possible) loss?
+----------------------------------------
+Unit 6 (Reply: True):
+Thank you and my dad was part of the family group I'll see if he has them and I didn't make a takeout file and the files didn't work thank you so much though
+----------------------------------------
+Unit 7 (Reply: True):
+I'm sorry that all you can get here is lessons for the future. Never ever ever share accounts or login credentials with anyone, ever. Always keep backups of anything you don't want to lose. A good backup plan is to always have at least three copies of the data on at least two different kinds of storage (like local and cloud) with at least one in a separate location (cloud again). For photos, you can use Takeout, or just download them in batches.
+----------------------------------------
+Unit 8 (Reply: True):
+I definitely have learned my lesson now and from now on will do all that thank you
+----------------------------------------
+Unit 9 (Reply: True):
+I get the story is kinda unbelievable like how can I not check my photos the things I cherish so much for 2 whole months but it's honestly true for two months I just went along with my life not really checking and now countless memories went down the drain
+----------------------------------------
+Unit 10 (Reply: True):
+Never share accounts. Check the trash to see if they are still there and can be restored. You should've been downloading backups regularly from the Google Takeout website. If all of your data is in one place/service, you have no backups! and sharing the account makes it even more risky than it would be otherwise.
+----------------------------------------
+Unit 11 (Reply: True):
+You're learning the hard way to (A) not share your Google account with anyone, and (B) not taking better care of your memories like photos and videos. It's just asking for problems having years worth of memories but having no backup 'just in case'.
+----------------------------------------
+Unit 12 (Reply: True):
+Yeah I'll make sure any future memories will be backed up thank you
+----------------------------------------
+Unit 13 (Reply: True):
+You can’t lose anything by trying the recovery process, but it’s probably too late: https://support.google.com/photos/answer/9343482#zippy=%2Creview-photo-recovery-requirements (need to be signed into the affected account).
+----------------------------------------
+Unit 14 (Reply: True):
+Account are free, and if you paid just set up a family account to share the benefits.
+----------------------------------------
+Unit 15 (Reply: True):
+https://support.google.com/photos/answer/9343482#:~:text=Recover%20permanently%20deleted%20photos%20with%20our%20recovery%20process
+----------------------------------------
+Unit 16 (Reply: True):
+I'm so sorry that happened. I once had to take a laptop to a computer store to have some files restored. If the files ever lived locally you might give that a try.
+----------------------------------------
+Unit 17 (Reply: True):
+I doubt this will help the current situation but to anyone else, run several cloud accounts at the same time. Amazon prime gives unlimited photo storage. It saved my ass when I mistakenly erased a ton of pictures
+----------------------------------------
+
+--- REPORT ---
+Entries parsed (total): 278
+Units produced: 1610
+Reply count: 1464
+Rejections by status:
+  Google Community: 30
+  UNAVAILABLE / TITLE ONLY: 102
+Units per thread distribution:
+  Min: 1
+  Max: 154
+  Mean: 11.0
+  Median: 6.0
+Length deciles (characters):
+  10th percentile: 26.0
+  20th percentile: 47.0
+  30th percentile: 72.0
+  40th percentile: 99.0
+  50th percentile: 136.0
+  60th percentile: 173.0
+  70th percentile: 227.0
+  80th percentile: 311.0
+  90th percentile: 499.9
+
+--- 3 VERBATIM THREADS ---
+THREAD 1:
+  Unit 1 (Reply: False): Question 🤔 So me and my brother share a google account definitely not after today I know he has deleted my photos in the past but he told me he will only delete some so apparently a month or two ago he decided to delete everything every photo and memory I have ever taken. Looking at previous post on here I kinda get the fact that there's nothing I can do but I'm posting this hoping I missed something some way to bring back years worth of memories
+  Unit 2 (Reply: True): did you check the trash can? Deleted photo stay in Trash for 30 days prior to be permanently deleted
+  Unit 3 (Reply: True): Yeah I found some not a whole lot but it's better than nothing
+  Unit 4 (Reply: True): All of the most important ones aren't there probably over 30 days ago is there anything I can do to get them back would Google service help are they somehow on my phone still or is it just over
+  Unit 5 (Reply: True): If you shot the photos with your phone, there is a chance that they may be in its storage. Try checking the Files app. Go to /storage/emulated/0/Pictures. Or if you are an iPhone user, they should be apparent but if not you can try accessing the local Photos app to see if any remains are present. Given what you've said, I don't think the images are going to be found here (Android/iOS). You CAN try to contact Google about recovering photos. They'll probably give you what this sub generally does that you seem to know of as far as the comments/post herein. Other question: did you have a Family Group set up before the photos deleted? If so, there is a slim chance that any "family" who may have been added onto your Family Group could have devices who had access to your past images. For example, if your family member added to the account (Jim, Jack, Jessica ...) was logged into Google Photos and had your images pulled up at the time -- and the noted device has been offline since the specified time -- they would technically be able to see any and all pictures you had on Google Photos to download et al. as they (or you, if you had access to the noted device) please. I take it you did not make a takeout file that happened to have every photo on it before this (possible) loss?
+  Unit 6 (Reply: True): Thank you and my dad was part of the family group I'll see if he has them and I didn't make a takeout file and the files didn't work thank you so much though
+  Unit 7 (Reply: True): I'm sorry that all you can get here is lessons for the future. Never ever ever share accounts or login credentials with anyone, ever. Always keep backups of anything you don't want to lose. A good backup plan is to always have at least three copies of the data on at least two different kinds of storage (like local and cloud) with at least one in a separate location (cloud again). For photos, you can use Takeout, or just download them in batches.
+  Unit 8 (Reply: True): I definitely have learned my lesson now and from now on will do all that thank you
+  Unit 9 (Reply: True): I get the story is kinda unbelievable like how can I not check my photos the things I cherish so much for 2 whole months but it's honestly true for two months I just went along with my life not really checking and now countless memories went down the drain
+  Unit 10 (Reply: True): Never share accounts. Check the trash to see if they are still there and can be restored. You should've been downloading backups regularly from the Google Takeout website. If all of your data is in one place/service, you have no backups! and sharing the account makes it even more risky than it would be otherwise.
+  Unit 11 (Reply: True): You're learning the hard way to (A) not share your Google account with anyone, and (B) not taking better care of your memories like photos and videos. It's just asking for problems having years worth of memories but having no backup 'just in case'.
+  Unit 12 (Reply: True): Yeah I'll make sure any future memories will be backed up thank you
+  Unit 13 (Reply: True): You can’t lose anything by trying the recovery process, but it’s probably too late: https://support.google.com/photos/answer/9343482#zippy=%2Creview-photo-recovery-requirements (need to be signed into the affected account).
+  Unit 14 (Reply: True): Account are free, and if you paid just set up a family account to share the benefits.
+  Unit 15 (Reply: True): https://support.google.com/photos/answer/9343482#:~:text=Recover%20permanently%20deleted%20photos%20with%20our%20recovery%20process
+  Unit 16 (Reply: True): I'm so sorry that happened. I once had to take a laptop to a computer store to have some files restored. If the files ever lived locally you might give that a try.
+  Unit 17 (Reply: True): I doubt this will help the current situation but to anyone else, run several cloud accounts at the same time. Amazon prime gives unlimited photo storage. It saved my ass when I mistakenly erased a ton of pictures
+========================================
+THREAD 2:
+  Unit 1 (Reply: False): Troubleshooting ⚠️ No matter what device I try the search function on, it only shows me a few photos. For example, when I search for "dog" , only 6 pictures come up (4 from 2015, 2 from this year???) even though I am SURE I have more dog photos. I tried contacting support but they were very useless. They kept telling me to search for some Gemini function in Preferences but the setting just isn't there on my phone! They could not wrap their head around that for some reason and kept telling me to find it. This has been a problem for like a year or two. Help would be much appreciated.
+  Unit 2 (Reply: True): Yes thats the main problem,try searching by date instead of just names it works perfectly fine and sort out the photos in one album so you dont misplace them wherever.
+  Unit 3 (Reply: True): yeah searching by date does work but I just really wanted it to work for the keywords since it works perfectly fine on my husband's account
+  Unit 4 (Reply: True): Yep thats the problem sometimes with google photos
+  Unit 5 (Reply: True): This sounds like the search index is not recognizing all of the older images, rather than those photos being gone. I’d confirm the photos are visible in the main library, compare the app with the web version, and try broad terms alongside date or location searches. Leaving the account online for a while may help; I don’t know of a reliable setting that forces keyword recognition to rebuild. Since another account works normally, an account-specific indexing issue is plausible. I wouldn’t delete, re-upload, or reorganize originals just to make search find them. Keep an untouched backup while testing.
+  Unit 6 (Reply: True): The photos are visible in the main library, the app and web version both have the same exact issue, and date and location searches do work. Not sure what I can do
+  Unit 7 (Reply: True): That pattern sounds like the files are present and the date/place indexes work; the problem is more likely the people/things label index or the Ask Photos/Gemini search layer. I’d check Search > People & pets for dog faces, confirm Face Groups is on and faces are labeled, and try a few synonyms. For filenames, captions, or OCR text, use quotation marks for an exact phrase; unquoted searches are broader. On mobile, Ask Photos is Gemini’s conversational search, while classic keyword search still exists. If “Search with Ask Photos” is enabled, try turning it off under Photos settings > Preferences > Gemini features in Photos (wording may differ, especially on iPhone), then try classic/fast search. There generally isn’t a reliable user-facing “rebuild index” button, so I wouldn’t delete or re-upload anything. Leave the account online, and if it persists, tell support that keyword/object results are incomplete while date/place searches work and the library is intact on both web and app.
+  Unit 8 (Reply: True): Thank you. Do you have any idea why "Gemini features in photos" does not appear in my Preferences tab? Google support keeps asking me to find it but it's just not there! I am on android, on the latest version of google photos and android.
+  Unit 9 (Reply: True): One extra check: “visible in Photos” doesn’t always mean “backed up and searchable.” Open a few photos that fail → More → Details and confirm their backup status. Local-only or on-device folders can remain visible while keyword search skips them until they’re backed up. If this followed a bulk upload or move, the search index may also need several days to catch up. Try a broad synonym or category (“dog” instead of a specific breed, or “food”/“beach”); for text in an image, try the exact phrase in quotation marks. Name searches need Face Groups enabled and faces labeled. I’d also verify the same Google account in the app and web, and check Archive, Locked Folder, or other relevant collections. If the photos are backed up and searches still fail in both places, send feedback through Photos → Help & feedback. That might indicate an account-side indexing issue, so I wouldn’t delete or re-upload everything while testing.
+========================================
+THREAD 3:
+  Unit 1 (Reply: False): Search by file extension possible? (https://www.reddit.com/r/googlephotos/comments/1wjmnzm/search_by_file_extension_possible/) Published: last week; Google removed the ability to search for file types recently. ... The suggestions that work use an automation to move the RAW files out of the DCIM folder as soon as the photo is taken so that they don't get backed up, but that doesn't help clear out already backed up RAW photos. ... You must use quotes for searching in the file name/extension, it's literally "DNG". [Friday September 18 2026] [+3 votes] I want to delete all my raw photo files (.dng) as I run out of storage. But how to find them? What doesn´t work: \*.dng .dng dng raw photos [Friday September 18 2026] [+1 votes] on the web version you can. Don't use wildcards though. So DNG should work [Friday September 18 2026] [+1 votes] Unfortunately not :( [Friday September 18 2026] [+1 votes] Hmmm weird. It does it but isn’t consistent. Just tried and I see what you’re saying. [Friday September 18 2026] [+2 votes] “dng” appears to work, but only for those that don’t have a jpg cover photo… [Friday September 18 2026] [+1 votes] It shows even JPGs without any "DNG" in the file name. [Friday September 18 2026] [+1 votes] Seems inconsistent across platforms and probably a different (worse?) search engine if you have Gemini enabled. [Friday September 18 2026] [+2 votes] Use the actual quotes around DNG when you use the search, like : "DNG" : is what you put in the search bar.
+========================================
+
+Merged-unit detector (units containing '• Nd ago' pattern >50 chars in): 0
+Snippet entries marked multi_speaker=true: 18
+Units above 250-character floor: 429

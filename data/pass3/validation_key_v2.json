@@ -1,0 +1,152 @@
+[
+  {
+    "n": 1,
+    "phrase": "created a profile and added photos for new cat",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 2,
+    "phrase": "attempted to use face highlighting on a photo per instructions",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 3,
+    "phrase": "aware there are more recent photos in album",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 4,
+    "phrase": "location name - Pee Pee Township, Ohio",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 5,
+    "phrase": "subject of photos is a dog",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 6,
+    "phrase": "previously organized in a separate album",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 7,
+    "phrase": "the specific photo itself (opened it)",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 8,
+    "phrase": "same account used on new device",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 9,
+    "phrase": "received notification about new additions to shared album",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 10,
+    "phrase": "faces/people groups existed and were visible previously",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 11,
+    "phrase": "photos likely uploaded on the day sync was turned on",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 12,
+    "phrase": "that the person had been previously tagged/recognized",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 13,
+    "phrase": "the label or name they gave the photo",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 14,
+    "phrase": "manually added place/location to the photos",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 15,
+    "phrase": "which people are tagged (Hans, Julia)",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 16,
+    "phrase": "name of the notification/slideshow",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 17,
+    "phrase": "specific words/strings contained in video filenames",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 18,
+    "phrase": "phone model and Android version",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 19,
+    "phrase": "photos were backed up last year",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 20,
+    "phrase": "exact text shown in the screenshot (KeroKero)",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 21,
+    "phrase": "general subject keyword 'motorcycle'",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 22,
+    "phrase": "search term 'blowtorch'",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 23,
+    "phrase": "filename contains 'WA' from WhatsApp",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 24,
+    "phrase": "large volume of photos taken during that walk",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 25,
+    "phrase": "specific locations searched for",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 26,
+    "phrase": "dog's name (Anubis)",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 27,
+    "phrase": "general location - New York City",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 28,
+    "phrase": "subject of photo (basketball goal)",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 29,
+    "phrase": "the friend's identity/who the person is",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 30,
+    "phrase": "location near a pier",
+    "classifier_label": "CUE"
+  }
+]

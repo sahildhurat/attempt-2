@@ -1,0 +1,531 @@
+{
+  "run_1": {
+    "categories": [
+      {
+        "name": "Temporal Information",
+        "definition": "Specific dates, times, time ranges, or temporal descriptors indicating when a photo or video was taken or created.",
+        "examples": [
+          "date of the video (21 March 2024)",
+          "specific date of the photos",
+          "approximate time taken (about an hour ago)"
+        ]
+      },
+      {
+        "name": "Geographic Location",
+        "definition": "Place names, locations, or geographic references indicating where a photo or video was taken.",
+        "examples": [
+          "the place/location where photo was taken",
+          "location of trip (Thailand)",
+          "general location - New York City"
+        ]
+      },
+      {
+        "name": "Person Identity",
+        "definition": "Names, identities, or relationships of specific people who are subjects of or appear in photos.",
+        "examples": [
+          "identity of the specific person being searched",
+          "person's name",
+          "which person/subject (daughter)"
+        ]
+      },
+      {
+        "name": "Visual Content Description",
+        "definition": "Descriptions of what is visually depicted in a photo, including subjects, objects, clothing, and scene composition.",
+        "examples": [
+          "subject type - flowers, specifically sunflower",
+          "subject wearing pink dress",
+          "subject of photo - mountain with a tree blocking the view"
+        ]
+      },
+      {
+        "name": "Device & Technical Metadata",
+        "definition": "Information about the device, camera model, file format, or technical specifications of how a photo was captured or stored.",
+        "examples": [
+          "device model used to take the photo",
+          "original quality photos came from Pixel 2",
+          "file type/format is RAW or RAF"
+        ]
+      },
+      {
+        "name": "Filename & Text Identifiers",
+        "definition": "Exact filenames, text strings, keywords, or captions associated with or appearing in photos.",
+        "examples": [
+          "exact filename of the video",
+          "specific words/strings contained in video filenames",
+          "the keyword/word appearing in the photo's text"
+        ]
+      },
+      {
+        "name": "Album & Collection Organization",
+        "definition": "Names, purposes, or organizational structures of photo albums, folders, or shared collections.",
+        "examples": [
+          "name of the album",
+          "folder name/purpose (recipes)",
+          "specific folder name (WhatsApp images)"
+        ]
+      },
+      {
+        "name": "Photo Physical Characteristics",
+        "definition": "Observable physical properties or formats of the image itself, such as color, size, or type.",
+        "examples": [
+          "photos are black and white",
+          "photos are small thumbnail-sized images",
+          "photos are sky photos"
+        ]
+      },
+      {
+        "name": "Search Strategy & Keywords",
+        "definition": "Search terms, keywords, or strategies used to locate or identify photos.",
+        "examples": [
+          "search term 'vicious'",
+          "search term New England Patriots",
+          "specific search term that isolates the desired images"
+        ]
+      },
+      {
+        "name": "Source & Transmission",
+        "definition": "Information about how a photo was obtained, transmitted, or backed up.",
+        "examples": [
+          "photos were sent via WhatsApp",
+          "photos were taken on Snapchat",
+          "transferred from Samsung during phone switch"
+        ]
+      },
+      {
+        "name": "Contextual Event",
+        "definition": "Specific events, occasions, or circumstances surrounding when photos were taken.",
+        "examples": [
+          "event was an award ceremony",
+          "occasion/context (first moving to Seattle)",
+          "intentional purpose of photos - tracking growth"
+        ]
+      },
+      {
+        "name": "Photo Reference Knowledge",
+        "definition": "User's awareness or memory of specific photos existing or their characteristics without needing additional details.",
+        "examples": [
+          "has one reference photo of the subject",
+          "knows it is their dad's face that was hidden",
+          "knows a specific photo that belongs to the album"
+        ]
+      }
+    ]
+  },
+  "run_2": {
+    "categories": [
+      {
+        "name": "Temporal Identifiers",
+        "definition": "Specific or approximate dates, times, time periods, or temporal markers that indicate when a photo was taken or added.",
+        "examples": [
+          "specific date of photos",
+          "approximate time period (10+ years ago)",
+          "month and year of photos"
+        ]
+      },
+      {
+        "name": "Geographic Locations",
+        "definition": "Specific or general place names, addresses, landmarks, or geographic descriptions indicating where a photo was taken.",
+        "examples": [
+          "location of the cabin on the map",
+          "the place/location where photo was taken",
+          "location name - Pee Pee Township, Ohio"
+        ]
+      },
+      {
+        "name": "Person Identity",
+        "definition": "Names, identities, or specific identifying information about people who appear in or are the subject of photos.",
+        "examples": [
+          "the person's name/identity (Fred)",
+          "identity of the labeled person (a specific child)",
+          "the two specific people/names involved"
+        ]
+      },
+      {
+        "name": "Physical Description",
+        "definition": "Visual characteristics, appearance details, or physical attributes of subjects, objects, or people in photos.",
+        "examples": [
+          "new cat's appearance (dark tortie)",
+          "the car make/model (Camaro)",
+          "clothing description - orange multi colored full length dress"
+        ]
+      },
+      {
+        "name": "Subject Matter",
+        "definition": "What the photo depicts or shows\u2014the primary content, objects, animals, or themes captured in the image.",
+        "examples": [
+          "subject is sunrises",
+          "subject is a groundhog",
+          "subject matter - cats"
+        ]
+      },
+      {
+        "name": "Text Content",
+        "definition": "Exact words, captions, descriptions, or text visible in or attached to photos.",
+        "examples": [
+          "the exact word typed into the photo description",
+          "the text that appeared in the photo",
+          "exact caption text contained in the photo"
+        ]
+      },
+      {
+        "name": "File Properties",
+        "definition": "Technical file characteristics including filename, file format, extension, naming convention, or file metadata.",
+        "examples": [
+          "filename had a ~2 suffix",
+          "the file name of the photo(s)",
+          "file type/duration of the videos"
+        ]
+      },
+      {
+        "name": "Device Information",
+        "definition": "Camera model, phone model, or device specifications used to capture or store the photos.",
+        "examples": [
+          "camera model name EOS 450D",
+          "device model used to take the photo",
+          "phone model and Android version"
+        ]
+      },
+      {
+        "name": "Album Organization",
+        "definition": "Folder names, album titles, or organizational structures where photos are stored or grouped.",
+        "examples": [
+          "album/folder name",
+          "the album title",
+          "which album the photos are in"
+        ]
+      },
+      {
+        "name": "Search Methods",
+        "definition": "Keywords, search terms, or search strategies used to locate or identify photos.",
+        "examples": [
+          "the search term 'tropical'",
+          "search term 'map'",
+          "a keyword related to the photo"
+        ]
+      },
+      {
+        "name": "Photo Format",
+        "definition": "Type, format, or structural characteristics of the media file itself (video vs photo, RAW, HDR, motion, etc.).",
+        "examples": [
+          "that it was a video, not a photo, that was wrongly matched",
+          "file type/format is RAW or RAF",
+          "it is a 2 frame motion photo"
+        ]
+      },
+      {
+        "name": "Source Origin",
+        "definition": "Where, how, or through what method photos were obtained or transferred.",
+        "examples": [
+          "had posted the photos on Facebook",
+          "transferred from Samsung during phone switch",
+          "photos were sent by a friend"
+        ]
+      },
+      {
+        "name": "Group Composition",
+        "definition": "Information about multiple people, their relationships, or how they appear together in photos.",
+        "examples": [
+          "photos contain people/faces",
+          "two women positioned to the left and behind, near driver area",
+          "photos containing only him and his wife"
+        ]
+      }
+    ]
+  },
+  "run_3": {
+    "categories": [
+      {
+        "name": "Temporal Details",
+        "definition": "Specific or approximate dates, times, years, months, or time periods when photos or videos were taken or created.",
+        "examples": [
+          "specific date of photo (April 8 2011)",
+          "approximate dates of the photos",
+          "year the photo was taken"
+        ]
+      },
+      {
+        "name": "Subject/Content",
+        "definition": "The main subject, object, or content depicted in the photo or video.",
+        "examples": [
+          "subject is dogs",
+          "subject matter - weddings",
+          "subject of photo - dog catching a frisbee"
+        ]
+      },
+      {
+        "name": "Person Identity",
+        "definition": "Names, identities, or faces of specific people in photos or being searched for.",
+        "examples": [
+          "specific person's name (e.g. Abigail)",
+          "person's name (Denise)",
+          "identity of the person (themselves)"
+        ]
+      },
+      {
+        "name": "Location",
+        "definition": "Geographic places, landmarks, or specific locations where photos were taken.",
+        "examples": [
+          "specific landmark visited",
+          "location name - Havelock Island",
+          "location near a pier"
+        ]
+      },
+      {
+        "name": "Image Text",
+        "definition": "Text, words, captions, or written content visible in or added to photos or videos.",
+        "examples": [
+          "text within the image",
+          "the text that appeared in the photo",
+          "exact words/sentence written in the image"
+        ]
+      },
+      {
+        "name": "Device/Camera",
+        "definition": "Camera model, device brand, or equipment used to capture or store photos.",
+        "examples": [
+          "camera model name EOS 90D",
+          "camera brand/make (Sony)",
+          "device used to take photo"
+        ]
+      },
+      {
+        "name": "Filename",
+        "definition": "Exact or partial filenames, naming patterns, or file naming conventions.",
+        "examples": [
+          "possible filename substring 'slowmo'",
+          "exact filename of the photo",
+          "partial filename ABC"
+        ]
+      },
+      {
+        "name": "Photo Format/Type",
+        "definition": "File format, image type, or processing method of photos and videos.",
+        "examples": [
+          "photos are HDR type/format",
+          "file type/format is RAW or RAF",
+          "it's a motion photo/sequence"
+        ]
+      },
+      {
+        "name": "Album/Collection",
+        "definition": "Album names, shared collections, folders, or groupings of photos.",
+        "examples": [
+          "the album is a shared/collaborative album from a recent big event",
+          "album name 'England'",
+          "photos are located in a shared album"
+        ]
+      },
+      {
+        "name": "Pet/Animal Name",
+        "definition": "Names or identifiers of specific animals appearing in photos.",
+        "examples": [
+          "pet's name recorded in the photo's Info field",
+          "dog's name (Anubis)",
+          "pet's name"
+        ]
+      },
+      {
+        "name": "Photo Source",
+        "definition": "Where photos came from or how they were obtained (device, app, transfer method).",
+        "examples": [
+          "photos were from WhatsApp (images and videos sent to them)",
+          "original quality photos came from Pixel 2",
+          "transferred via data cable from Pixel 7"
+        ]
+      },
+      {
+        "name": "Search Strategy",
+        "definition": "Search terms, keywords, or methods used to locate photos.",
+        "examples": [
+          "search term 'dog'",
+          "search term 'Christmas tree 2019' with year",
+          "full search term 'kerokero' returns the image"
+        ]
+      },
+      {
+        "name": "Object/Item Depicted",
+        "definition": "Specific objects, vehicles, products, or items shown in the photo.",
+        "examples": [
+          "the car color (white)",
+          "object depicted - bowtie",
+          "car make and model"
+        ]
+      },
+      {
+        "name": "Photo Description",
+        "definition": "Labels, captions, tags, or descriptions manually added to photos.",
+        "examples": [
+          "exact descriptor/term added to the photo description",
+          "remembered the comment/text they added to the photo",
+          "the label/keyword applied to the photo"
+        ]
+      },
+      {
+        "name": "Relationship/Context",
+        "definition": "Who people are to the searcher or context of their relationship.",
+        "examples": [
+          "identity of the person (best friend)",
+          "person being searched for is 'Dad'",
+          "knows the two people are her children"
+        ]
+      },
+      {
+        "name": "Event/Occasion",
+        "definition": "Specific events, milestones, or occasions documented in photos.",
+        "examples": [
+          "photos represent important/precious events",
+          "occasion/context (vacation)",
+          "event was an award ceremony"
+        ]
+      },
+      {
+        "name": "Quantity/Volume",
+        "definition": "Number of photos, frequency, count, or volume of media related to a subject.",
+        "examples": [
+          "frequency and duration - daily over 6 months",
+          "person was tagged in at least 500 photos",
+          "approximate total count of photos of her"
+        ]
+      }
+    ]
+  },
+  "run_4": {
+    "categories": [
+      {
+        "name": "Temporal Metadata",
+        "definition": "Specific date, time, or time-related information about when a photo was taken or created",
+        "examples": [
+          "the date of the photo",
+          "the time the photo was taken",
+          "specific date of photo (Aug 11 2010)"
+        ]
+      },
+      {
+        "name": "Person Identity",
+        "definition": "Information identifying a specific person who appears in or is the subject of photos",
+        "examples": [
+          "identity of the specific person being searched for",
+          "the person's name",
+          "which family member's face to find"
+        ]
+      },
+      {
+        "name": "Location/Place",
+        "definition": "Geographic location or specific place where a photo was taken or associated event occurred",
+        "examples": [
+          "setting/location where photo was taken",
+          "location of trip (Thailand)",
+          "location name - Penn Station"
+        ]
+      },
+      {
+        "name": "File Properties",
+        "definition": "Technical properties of the photo file including name, format, or device information",
+        "examples": [
+          "the file name of the photo",
+          "file type/format is RAW or RAF",
+          "camera model name EOS 450D"
+        ]
+      },
+      {
+        "name": "Photo Content/Subject",
+        "definition": "Descriptive information about what is actually depicted in the photo",
+        "examples": [
+          "the subject is a dog",
+          "subject/content of photo (cat)",
+          "subject of photo - mountain with a tree blocking the view"
+        ]
+      },
+      {
+        "name": "Added Metadata",
+        "definition": "Text, captions, labels, or tags that were manually added to the photo by a user",
+        "examples": [
+          "the label/keyword used on the photo",
+          "the description text added to the photo",
+          "the exact caption text they added to the photo"
+        ]
+      },
+      {
+        "name": "Album/Collection",
+        "definition": "Information about the folder, album, or collection grouping that contains the photos",
+        "examples": [
+          "album/folder name",
+          "specific folder name (WhatsApp images)",
+          "which album the photo is in"
+        ]
+      },
+      {
+        "name": "Search Strategy",
+        "definition": "Keywords, search terms, or strategies used to locate the desired photos",
+        "examples": [
+          "search term 'Cat'",
+          "a specific search term that isolates the desired images",
+          "correct search words/keywords for the content"
+        ]
+      },
+      {
+        "name": "Event/Occasion",
+        "definition": "The specific trip, event, or occasion during which photos were taken",
+        "examples": [
+          "trip/event when new photos were taken",
+          "occasion/context (vacation)",
+          "event was an award ceremony"
+        ]
+      },
+      {
+        "name": "Photo Source Device",
+        "definition": "Information about which camera, phone, or device took the photos",
+        "examples": [
+          "which device/camera took the photos",
+          "photos were taken by husband's device",
+          "photos were taken on Snapchat"
+        ]
+      },
+      {
+        "name": "Physical Appearance",
+        "definition": "Descriptive details about visual characteristics like clothing, colors, or physical attributes visible in the photo",
+        "examples": [
+          "clothing description - orange multi colored full length dress",
+          "the car color (white)",
+          "subject wearing pink dress"
+        ]
+      },
+      {
+        "name": "Time Period Range",
+        "definition": "A broader timeframe or date range for photos rather than a specific date",
+        "examples": [
+          "time period of photos (before 2017)",
+          "approximate time period of photos (before 2019/2020)",
+          "time period since July"
+        ]
+      },
+      {
+        "name": "Relationship Context",
+        "definition": "Information about how a person relates to the searcher or their connection to others in photos",
+        "examples": [
+          "the person is a friend",
+          "knows which friend's photos they want",
+          "knows the people whose faces should have photos grouped"
+        ]
+      },
+      {
+        "name": "Photo Characteristics",
+        "definition": "Special properties or format types of the photo itself",
+        "examples": [
+          "it was a screenshot",
+          "it was a video, not a photo, that was wrongly matched",
+          "it's a motion photo/sequence"
+        ]
+      },
+      {
+        "name": "Visual Text/Writing",
+        "definition": "Text, words, or written content that appears within the photo image itself",
+        "examples": [
+          "text visible in the photo",
+          "the keyword 'insurance' appearing in the photo",
+          "exact text shown in the screenshot (KeroKero)"
+        ]
+      }
+    ]
+  }
+}

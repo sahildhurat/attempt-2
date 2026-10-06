@@ -1,0 +1,554 @@
+3 people inside a car
+a basic/simple descriptive term for the photo
+a face in the photo
+a keyword related to the photo
+a second specific person to add to the search
+a specific search term that isolates the desired images
+a specific word present in the photo
+a specific word present in the screenshot text
+album name
+album name 'England'
+album name/number
+album title/name
+album was dated in November
+album was named Hangouts
+album/folder name
+albums were created and shared around specific events (weddings, vacations)
+alternate keyword 'pickup truck'
+app used to capture/store photo
+approximate age of photos (3-4 years old)
+approximate age/event of child in photo
+approximate date of photo
+approximate date of photos - February 2020
+approximate date range of old photos
+approximate date range of photo
+approximate date taken (Monday, this week)
+approximate date taken/created/modified
+approximate date/month and year
+approximate date/time of the video
+approximate date/time period
+approximate dates of the photos
+approximate geographic location of the cabin
+approximate month of photos
+approximate time (Christmastime)
+approximate time period (10+ years ago)
+approximate time period of older videos (2 years ago, 5 years ago)
+approximate time period of photo
+approximate time period of photos (before 2019/2020)
+approximate time taken
+approximate time taken (about an hour ago)
+approximate time taken - 6 months ago
+approximate time the picture was taken
+approximate timeframe (2018/2019)
+approximate timeframe (couple of weeks back)
+approximate timeframe (recent months)
+approximate timeframe of the photos
+approximate total count of photos of her
+approximate year/decade of oldest photos
+aware there are more recent photos in album
+baby's name (added as label to a photo)
+beer name shown in the picture
+best pen set
+black and white dog in Hawaii
+brand name of the slicer
+brand/label name on the clothing tag
+camera brand/make (Sony)
+camera model name EOS 450D
+camera model name EOS 90D
+camera model name PENTAX K-S2
+camera/device name
+car make and model
+car was rear-ended
+category/object type - tools
+city/place name
+clothing description - orange multi colored full length dress
+clothing detail - Papa John's uniform
+color of the car
+color of the trucks (banana yellow)
+company/brand name on document (Progressive)
+content of the image - a condolence message
+content of the photos
+context that lockdown period is wrong for this event
+correct search words/keywords for the content
+customer name tagged in the photo description
+date after which photos should exist
+date and location metadata of the invisible photos
+date of photo
+date of photos
+date of the video (21 March 2024)
+date photo was taken
+date photos were taken (today's date)
+date range of photos (1st April 2026 to now)
+date range of the photos
+date received
+date/when the beer photo was taken
+dates of photos
+dates of the photos
+daughter was little in the photo
+descriptive word for item in photo (e.g. dress)
+desired media format (videos)
+device model used to take the photo
+device the video was on
+device used to take photo
+distinctive icon associated with compilation videos
+dog's name (Anubis)
+dog's name Roscoe
+event was an award ceremony
+event/date of videos
+exact album title word
+exact caption text contained in the photo
+exact date of the event
+exact date of the photo
+exact date photo was taken
+exact description text added to photo
+exact descriptor/term added to the photo description
+exact file name of the photo
+exact filename of the photo
+exact filename of the video
+exact full filename
+exact image filename
+exact photo comment/caption text
+exact text appearing in the image
+exact text shown in the screenshot (KeroKero)
+exact words/sentence written in the image
+expected date/time location next to original
+faces appearing in the photos
+faces in the photos (children as babies)
+file extension/type (.dng/RAW)
+file name format of WhatsApp photos
+file name of the photo
+file naming convention for recent screen recordings
+file type is RAW format
+file type/duration of the videos
+file type/format is RAW or RAF
+filename contains 'WA' from WhatsApp
+filename had a ~2 suffix
+filename with ABC_2022
+first names of people/pets used in search
+flower is vibrant blue
+folder name/purpose (recipes)
+folder name/topic (canva images for advertising)
+frequency and duration - daily over 6 months
+full search term 'kerokero' returns the image
+general area/location of photos
+general location - New York City
+general location of the photo
+general product category (shampoo)
+general subject keyword 'motorcycle'
+general topic/theme like pink color
+general type of device (e.g. iPhone)
+green pancakes in Japan
+groundhog was in a bucket after being fished out of the pool
+had posted the photos on Facebook
+has a screenshot of the image
+has a similar video of a classmate at the same event
+has a specific photo of the person
+has many backed up pictures that should contain the person
+has many photos containing her
+has one reference photo of the subject
+husband took the photos
+identifier text present in screenshot
+identity as new grandchild born last month
+identity of person searched for (wife)
+identity of the contact (person known from phone contacts)
+identity of the friend being searched for
+identity of the labeled person (a specific child)
+identity of the people in the photos
+identity of the person
+identity of the person (best friend)
+identity of the person (face) in the photos
+identity of the person (themselves)
+identity of the person whose face was added
+identity of the person/face added manually
+identity of the specific person being searched
+identity of the specific person searched for
+identity of the specific person whose face group is missing
+identity/face of person in photo
+images contain only the truck
+includes both own and pet x-rays
+intentional purpose of photos - tracking growth
+it is a 2 frame motion photo
+it is a photo of the car fob code
+it was a screen recording
+it was a screenshot of a costume
+it was an animated/moving photo
+it was an important document
+it was part of a series taken with stock Camera app
+it's a motion photo/sequence
+it's an old Polaroid of herself and siblings
+keyword 'yellow truck'
+knows a specific photo that belongs to the album
+knows category type (memes and screenshots)
+knows it is their dad's face that was hidden
+knows it's a person-category album (like Nova the cat or unnamed dog album)
+knows photos are within a specific large album
+knows the children don't look similar
+knows the mistaken photo is of their grandson as a baby
+knows the people whose faces should have photos grouped
+knows the person's name/identity they are searching for
+knows the specific video (crime video) that keeps appearing
+knows the subject's eyes are open at a different point in the motion picture
+knows the two people are her children
+knows there are more/older photos existing beyond 2022
+knows they have many photos of these people
+knows which child is which in the photos
+knows which friend's photos they want
+knows which specific person they are looking for
+large volume of photos taken during that walk
+last seen a couple of days ago
+less than a minute between the two pictures
+location name - Havelock Island
+location name - Pee Pee Township, Ohio
+location name - Penn Station
+location name in various formats
+location near a pier
+location near home
+location of parents' house
+location of photos (Japan)
+location of the cabin on the map
+location of trip (Thailand)
+location such as Utah
+location where photo was taken
+location where photos were taken
+location where the image was taken
+location where videos were taken (Delaware)
+location/place name
+locations of photos
+locations where photos were taken
+locations where temple photos were taken
+meeting Peavy Wagner photo
+moments/events of kids and other relevant things
+month and year of photos
+month or year
+month/date the photos were from
+name appears in caption
+name appears in filename
+name of the album
+name of the costume
+name of the original image file (e.g. PXL_12345...)
+name of the person
+name of the person (Paul)
+name of the person (daughter) to search for
+name typed in photo description
+name/identity of the album as something they searched for
+names of the two people in the photo
+names of the two people involved
+new cat's appearance (dark tortie)
+no other details about the photo
+no other identifying details given (date, location, names)
+no other information about the photo (e.g. date, location, content details)
+number is texted onto the image
+number of people in photo
+object depicted - bowtie
+object type - car
+object was a firepit
+occasion/context (first moving to Seattle)
+occasion/context (vacation)
+old cat's appearance (dark tabby)
+older file naming convention for screen recordings
+original filename format/pattern used by phone
+original quality photos came from Pixel 2
+other keywords that successfully find the same photos
+over 10 years of photos of them together
+own screenname as search term
+painting of a woman in a blue dress
+part of the ID card number
+partial filename ABC
+partial filename ending in 172629
+partial word match attempt (Boyfriend for boyfriendtv)
+passport photo
+peace gesture/theme in photo
+people in photos: grandparents and children
+people in the video (tagged names)
+person appears in majority of photos
+person being searched for is 'Dad'
+person in photo
+person of interest - Sue
+person was tagged in at least 500 photos
+person's name
+person's name (Denise)
+person's name used as search term
+person's name/identity tag
+pet's name
+pet's name recorded in the photo's Info field
+pet's name/label used in search
+pets like dog, cat
+phone model and Android version
+photo is from 2019
+photo is of a specific person
+photo of self climbing a mountain
+photo of self holding a snake
+photo taken in 2023
+photo was a group photo
+photo was missed due to bad lighting
+photos are HDR type/format
+photos are black and white
+photos are from before 2018 (date range)
+photos are important
+photos are in a specific shared album
+photos are located in a shared album
+photos are of a specific friend
+photos are of panoramas or persons
+photos are similar shots/poses shared between two daughters
+photos are sky photos
+photos are small thumbnail-sized images
+photos before and after the period are present
+photos contain people/faces
+photos contain their pet
+photos containing only him and his wife
+photos date back to at least 2014
+photos exist up to 2007
+photos existed from before 2019
+photos have GPS location data embedded
+photos represent important/precious events
+photos were added 2 days ago
+photos were backed up last year
+photos were edited with Snapseed
+photos were from WhatsApp (images and videos sent to them)
+photos were memes
+photos were sent by a friend
+photos were sent via WhatsApp
+photos were taken by husband
+photos were taken by husband's device
+photos were taken on Snapchat
+photos were taken on current phone
+photos were taken with camera
+phrase associated with the moment
+portrait of a woman
+possible device name used for bluetooth/wifi
+possible filename substring 'slowmo'
+product name/text written on the item
+purchased last year
+recency of the photo
+recent photos from yesterday
+recently took a group photo with the friend
+related objects like bed, blankets, shower, horses, pineapple
+remembered the comment/text they added to the photo
+remembered the person's name/identity to search for
+roughly when it was created (recent edit)
+roughly when photos were taken
+scanner name for scanned film
+search keyword 'knife'
+search keyword/topic
+search term 'Cat'
+search term 'Christmas tree 2019' with year
+search term 'Christmas tree'
+search term 'Lamborghini' works correctly
+search term 'blowtorch'
+search term 'car'
+search term 'cars'
+search term 'dog'
+search term 'ford'
+search term 'golf'
+search term 'map'
+search term 'men' works
+search term 'pen'
+search term 'recipes'
+search term 'shirt stripes'
+search term 'vicious'
+search term 'wedding'
+search term New England Patriots
+search terms used to find matching photos
+searched a person's name
+searched by a specific person's name
+searched by year
+selfie photo
+setting/location where photo was taken
+she was singing
+some photos from Dec 10 are visible
+some words of the album title
+son born in 2013, expects photos of him
+son's name
+specific RAW extension .arw
+specific date of photo (April 8 2011)
+specific date of photo (Aug 11 2010)
+specific date of photos
+specific date of the photos
+specific date photos were taken/added
+specific date range of photos
+specific date taken
+specific dates of the photos
+specific design number on the product photo
+specific film title
+specific folder name (WhatsApp images)
+specific landmark visited
+specific month and day
+specific month and day of photos
+specific number/text in photo (e.g. 1234, 5678)
+specific orchid species/plant name
+specific pen brand
+specific person - daughter
+specific person's name (e.g. Abigail)
+specific subject 'dog on the tuckerbox' photo
+specific text string 'A71'
+specific time window of photos (8:10AM-8:20AM)
+specific word or two from the caption they wrote
+specific words contained in video file names
+specific words visible in the screenshot
+specific words/strings contained in video filenames
+store name on receipt
+subject and framing of the photo
+subject description: man with green hair
+subject is a QR code
+subject is a bee
+subject is a groundhog
+subject is a locker
+subject is a woman
+subject is car odometer
+subject is dogs
+subject is sunrises
+subject is the back of their house
+subject is their children as babies
+subject is themselves with arms crossed
+subject matter (beach/shirtless)
+subject matter - blood pressure readings
+subject matter - cats
+subject matter - galaxy photos
+subject matter - mom and cats
+subject matter - weddings
+subject matter is tattoos (henna and permanent)
+subject matter is x-ray images
+subject matter of photos - cannabis/hemp
+subject of photo (a monkey)
+subject of photo (basketball goal)
+subject of photo (dog)
+subject of photo - dog catching a frisbee
+subject of photo - mountain with a tree blocking the view
+subject of photo is girlfriend
+subject of photo is late uncle
+subject of photo is their car
+subject of photos is a dog
+subject of photos is daughter at school drop-off
+subject of videos is kid growing up
+subject text written in each quiz question
+subject type - flowers, specifically sunflower
+subject was paint buckets with paint codes
+subject wearing pink dress
+subject/breed of dog depicted (e.g., poodles, labs, Chihuahuas, German Shepherds)
+subject/content of photo (cat)
+subject/location of photo (waterfall)
+subject/object depicted in photo
+subjects in photo (self and husband)
+subjects in photo: elderly person holding baby
+taken before every gas fill-up
+text appearing in the photo
+text visible in the photo
+text within the image
+text/letters appearing in the photo
+that it was a screenshot
+that it was a video, not a photo, that was wrongly matched
+that it was an edited version of an existing photo
+that the people look similar and get mixed up
+the album is a shared/collaborative album from a recent big event
+the album title
+the caption assigned to the photo
+the caption text added to the photo
+the car color (white)
+the car make/model (Camaro)
+the company name 香港終端 associated with the image
+the correct date and time of the photo
+the date of the photo
+the date the photo was actually taken
+the description text added to the photo
+the descriptions/words added to the photos
+the distinct item/object shown in the recent photo
+the document type was a Global Entry Card
+the document type was a passport
+the exact caption text they added to the photo
+the exact number/digits they were searching for
+the exact tag/wording they added to the video's info field
+the exact word typed into the photo description
+the file name of the photo
+the file name of the photo(s)
+the friend's identity/who the person is
+the general area/location where photos were taken
+the keyword 'insurance' appearing in the photo
+the keyword/word appearing in the photo's text
+the label or name they gave the photo
+the label/keyword applied to the photo
+the label/keyword used on the photo
+the month and year of the photos
+the month/year the photos were taken
+the name given to the person
+the name previously given to the photos
+the name/person they tagged
+the numeric filename/timestamp of the photo
+the people in the photos (mum, sister, children, disliked person)
+the person is a friend
+the person whose photos they wanted to find
+the person's name
+the person's name/identity
+the person's name/identity (Fred)
+the photo containing the hidden face
+the photos involve a specific person
+the photos were taken at a specific place
+the place/location where photo was taken
+the search keyword/term used
+the search term 'tropical'
+the specific calendar date
+the specific date in question
+the specific date of the photos
+the specific person's name/face category
+the specific photo already found via search
+the specific photo itself (opened it)
+the specific year
+the subject is a dog
+the term THC describing the products
+the text that appeared in the photo
+the time the photo was taken
+the title given to the Moment
+the two people in the photos (self and partner)
+the two specific people in the photo
+the two specific people/names involved
+the word Thunderbird associated with the wifi
+the year the picture was taken
+theme of eye infested with parasites
+they have the same type of phone
+thousands of photos of her exist
+time period of missing photos
+time period of missing photos (2011-2016)
+time period of photos (before 2017)
+time period since July
+time range of last 20 days
+time the filename was derived from (5:26:29 pm)
+took the picture just now
+topic and year
+transferred from Samsung during phone switch
+transferred via data cable from Pixel 7
+trip/event when new photos were taken
+two different people look completely different
+two people, one female one male
+two women positioned to the left and behind, near driver area
+type of document in photo (vehicle title, ID)
+upload source distinction - pixel XL vs laptop
+uploaded photos from Pixel 3
+video content - singing
+videos were from 2024
+visited Monkey Island
+visits the state regularly due to family
+what the object in the photo was (a driver's license)
+when the older photo was taken
+when the photo was taken
+which album the photo is in
+which album the photos are in
+which app generated it
+which child (person) to search for
+which device/camera took the photos
+which dog/category the photos belong to
+which face/person to search for
+which family member's face to find
+which family member/person the photo was of
+which people are tagged (Hans, Julia)
+which person to search for
+which person was in the photo
+which person/subject (daughter)
+who gave the award (the principal)
+who is in the photo (self and son)
+who the photo was of (brother)
+word 'devil' associated with the content
+year 2021 for first album
+year 2022 for second album
+year of photos/videos
+year of the photos
+year taken
+year the photo was taken

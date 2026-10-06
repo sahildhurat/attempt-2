@@ -1,0 +1,50 @@
+{
+  "confirmed_by": "AI-consolidated (Claude), v2 single-axis",
+  "confirmed_at": "2026-10-03",
+  "notes": "v2 replaces the v1 flat list, which mixed two dimensions (what the user wanted, and what was wrong) and produced 62.9% duplicate consistency because many targets legitimately carried both. This version asks one question only: what kind of thing was the user trying to reach. The tie-break rule below resolves targets that also describe a problem.",
+  "tie_break_rule": "If a target names BOTH a kind of photo AND a problem with it (missing, hidden, wrongly grouped, not syncing), choose the KIND OF PHOTO. The problem is already captured by the breakdown field. Choose 'not a specific photo' only when no kind of photo is identifiable at all.",
+  "fields": {
+    "target": [
+      {
+        "name": "a specific person",
+        "definition": "Photos of one or more named individuals, or of the user themselves, wanted because of who is in them. Includes people reached through face groups, and includes cases where those photos are missing or wrongly grouped. NOT a pet."
+      },
+      {
+        "name": "a pet or animal",
+        "definition": "Photos of a named pet or a particular animal the user owns or knows. NOT animals as a generic search subject such as 'dogs' or 'deer', which is an object or scene."
+      },
+      {
+        "name": "an object, scene or subject",
+        "definition": "Photos wanted for what they depict: an object, vehicle, food, landscape, colour, plant or activity. Examples: red cars, sunrises, a bee on a blue flower, a basketball goal. NOT a named person or pet, and NOT a document or text."
+      },
+      {
+        "name": "a document, ID or text",
+        "definition": "Photos taken to store information rather than to remember a moment: receipts, IDs, passwords, forms, labels, prescriptions, screenshots wanted for words or numbers in them. The photo is a record. NOT a screenshot wanted for its picture."
+      },
+      {
+        "name": "an event, occasion or trip",
+        "definition": "Photos belonging to a bounded happening: a wedding, birthday, holiday, walk, hospital visit. The event is the handle. NOT a bare date, and NOT the people who were present."
+      },
+      {
+        "name": "a place",
+        "definition": "Photos wanted because of where they were taken: a city, country, cabin, address or geotagged area. NOT an event that happened there, and NOT a feature of the app such as the map view."
+      },
+      {
+        "name": "media of a particular type",
+        "definition": "Photos or videos wanted for their format or capture mode: videos, motion or live photos, burst shots, RAW or DNG, HDR, screenshots as a class, WhatsApp images as a class. The format defines the set. NOT one individual file."
+      },
+      {
+        "name": "one particular photo, content not described",
+        "definition": "A single photo identified only by a filename, timestamp, caption the user added, or the fact that they once saw it, with nothing said about what it shows. Use only when no subject can be read from the target. NOT a class of files such as all videos or all screenshots, which is media of a particular type."
+      },
+      {
+        "name": "not a specific photo",
+        "definition": "The target is not a photo: a place in the app (Locked Folder, Sharing, an album, Memories, Recently Added), a feature, a setting, the search function itself, storage space, or a general complaint about behaviour. Use only when no kind of photo is identifiable. NOT photos that merely sit inside one of these places."
+      },
+      {
+        "name": "unspecified",
+        "definition": "The account does not say what the user was looking for. NOT a vague description that still names a subject or a format."
+      }
+    ]
+  }
+}

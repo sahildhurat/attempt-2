@@ -1,0 +1,16 @@
+--- THREAD 367230169 ---
+Title: Google photos app started crashing when I try to use search function
+[OP]
+This started happening yesterday. I've tried the recommended solutions of 1) clear cache (done no result) 2) restart phone (no result) 3) uninstall and reinstalled app ( no result) I have plenty of storage available in Google and on my pixel 7. Any ideas please? Thanks. Gaynor
+
+[REPLY 1] by KC Hampton [RECOMMENDED]
+same. Galaxy s24+ I tried uninstalling and installing, I even wiped the cache partition on my phone. It ran an update overnight and I wonder if the new update is not compatible with Google photos.
+
+[REPLY 2] by चंद्रशेखर [RECOMMENDED] [EXPERT]
+Hi, User 3432539377891349093 Thanks for your reply. Can you provide these details? OS name & version. Google Google Photos app version. Base Android version. Security patch version. Play Services app version. Free space on your phone. Upload & download speeds over WIFI. Upload & download speeds over mobile data. Have you activated "battery saver" modes? Have you activated data saver mode? Have you put a daily or monthly limit on the mobile data usage? Does the Google Photos app have permission to use the internet data in the background? Have you installed any file cleaners, ad blockers, antivirus software, VPNs, or similar apps that continue to run in the background? Is private DNS in use? If not, can you add Google DNS? Have you activated the "Developer mode"? Have you obtained administrative rights in the OS? Have you installed apps through the APK route? That will help in understanding the problem.
+
+[REPLY 3] by चंद्रशेखर [EXPERT]
+Hi, User 3432539377891349093, Welcome to the Google Photos Community Support Forum. Thank you for your post. Can you uninstall all updates & see whether the app works?
+
+[REPLY 4] by KC Hampton
+Tried this, still same problem. Started today for me. Galaxy s24+

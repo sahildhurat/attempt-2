@@ -1,0 +1,13 @@
+with open("docs/method_notes.md", "a", encoding="utf-8") as f:
+    f.write("\n### Final Target List and Sampling Design\n")
+    f.write("A strict budget limit of $11 was allocated for the Pass 1 gate. To maximize the utility of this budget, we applied a weighted sampling design rather than running a complete census. The ordering rationale and weights are as follows:\n\n")
+    f.write("Taxonomy saturation is reached well before processing the full population of homogeneous datasets (like the Help Community, which has >19k units). Therefore, the budget was better spent on complete coverage of the richest narrative and Q&A sources (StackExchange, Reddit, App Store) than partial coverage of everything.\n\n")
+    f.write("Target sources were gated in the following order:\n")
+    f.write("1. **stackexchange**: 490 units (ALL). Weight: 1.00\n")
+    f.write("2. **reddit_assisted**: 1,578 units (ALL). Weight: 1.00\n")
+    f.write("3. **appstore**: 41 units (ALL). Weight: 1.00\n")
+    f.write("4. **help_community**: 3,000 units (random sample, seed 42, of 19,345). Weight: 6.45. *Note: We honestly state that this is a ~15% sample, not the entire population.*\n")
+    f.write("5. **hn**: 1,000 units (random sample, seed 42, of 2,125). Weight: 2.13\n")
+    f.write("6. **playstore**: 300 units (random sample, seed 42, of 11,025). Weight: 36.75\n")
+    f.write("7. **youtube**: 200 units (random sample, seed 42, of 6,402). Weight: 32.01\n\n")
+    f.write("Total target list size: 6,609 units. Every downstream count (Checkpoint 1, memory map, frequencies) is required to be reported both raw and weighted to ensure interpretability.\n")

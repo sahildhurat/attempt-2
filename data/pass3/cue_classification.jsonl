@@ -1,0 +1,970 @@
+{"phrase": "3 people inside a car", "label": "CUE", "reason": "describes the content/subject of a photo"}
+{"phrase": "French search term 'thermique' previously worked", "label": "SYSTEM", "reason": "describes a previous search behavior/feature state"}
+{"phrase": "a basic/simple descriptive term for the photo", "label": "CUE", "reason": "describes how the user characterizes the photo itself"}
+{"phrase": "a face in the photo", "label": "CUE", "reason": "describes a visual element in the photo"}
+{"phrase": "a keyword related to the photo", "label": "CUE", "reason": "describes a search term for photo content"}
+{"phrase": "a keyword that used to work for finding the photo", "label": "SYSTEM", "reason": "describes how search functionality worked previously"}
+{"phrase": "a popup appeared to toggle group photos on/off", "label": "SYSTEM", "reason": "describes a UI popup and feature toggle"}
+{"phrase": "a second specific person to add to the search", "label": "CUE", "reason": "describes a person in the photo to search for"}
+{"phrase": "a specific search term that isolates the desired images", "label": "CUE", "reason": "describes a search term used to find photos"}
+{"phrase": "a specific word present in the photo", "label": "CUE", "reason": "describes text content visible in the photo"}
+{"phrase": "a specific word present in the screenshot text", "label": "CUE", "reason": "describes text content visible in the photo"}
+{"phrase": "ability to combine two specified people", "label": "SYSTEM", "reason": "describes a search/filtering capability of the app"}
+{"phrase": "able to add photos to the conversation", "label": "SYSTEM", "reason": "describes an action/feature of the app"}
+{"phrase": "able to search and find the photos", "label": "SYSTEM", "reason": "describes search functionality behavior"}
+{"phrase": "action taken - saved as copy", "label": "SYSTEM", "reason": "describes an action taken within the app"}
+{"phrase": "action taken - starred recent photos", "label": "SYSTEM", "reason": "describes an action taken within the app"}
+{"phrase": "action taken of moving video to secure folder", "label": "SYSTEM", "reason": "describes an action taken within the app"}
+{"phrase": "action that caused the photos to be saved", "label": "SYSTEM", "reason": "describes an action/behavior of the app"}
+{"phrase": "added a description containing the word 'wedding'", "label": "SYSTEM", "reason": "describes an action taken and data added within the app"}
+{"phrase": "added the person's name and a reference picture for them", "label": "SYSTEM", "reason": "describes an action taken within the app's face recognition system"}
+{"phrase": "album URL structure still visible via picture link", "label": "SYSTEM", "reason": "describes technical behavior/structure of the system"}
+{"phrase": "album created yesterday", "label": "SYSTEM", "reason": "describes album metadata/creation state"}
+{"phrase": "album name", "label": "CUE", "reason": "describes the album identifier for finding photos"}
+{"phrase": "album name 'England'", "label": "CUE", "reason": "describes the specific album name containing photos"}
+{"phrase": "album name/number", "label": "CUE", "reason": "describes the album identifier for finding photos"}
+{"phrase": "album still reports original count", "label": "SYSTEM", "reason": "describes album state and system behavior"}
+{"phrase": "album title/name", "label": "CUE", "reason": "describes the album identifier for finding photos"}
+{"phrase": "album was dated in November", "label": "CUE", "reason": "describes when an album was created"}
+{"phrase": "album was marked/moved to hidden", "label": "SYSTEM", "reason": "describes album status/setting change"}
+{"phrase": "album was named Hangouts", "label": "CUE", "reason": "describes the album name containing photos"}
+{"phrase": "album/folder name", "label": "CUE", "reason": "describes the album/folder identifier for finding photos"}
+{"phrase": "albums are present on device and visible via WhatsApp share", "label": "SYSTEM", "reason": "describes how albums are accessible via integrations"}
+{"phrase": "albums are recent", "label": "SYSTEM", "reason": "describes album characteristic/state"}
+{"phrase": "albums are shared type", "label": "SYSTEM", "reason": "describes album type/setting"}
+{"phrase": "albums exist and are accessible via timeline", "label": "SYSTEM", "reason": "describes album accessibility and state"}
+{"phrase": "albums exist and show up when adding a photo", "label": "SYSTEM", "reason": "describes album visibility and system behavior"}
+{"phrase": "albums existed and are visible on the website", "label": "SYSTEM", "reason": "describes album accessibility across platforms"}
+{"phrase": "albums were created and shared around specific events (weddings, vacations)", "label": "CUE", "reason": "describes when albums were created (event-based timing)"}
+{"phrase": "albums were created by the user", "label": "SYSTEM", "reason": "describes who created the albums"}
+{"phrase": "albums were stored on Picasa", "label": "SYSTEM", "reason": "describes the previous storage system/platform"}
+{"phrase": "all of the person's photos were archived", "label": "SYSTEM", "reason": "describes an action taken on photos (archiving) and the state of the app"}
+{"phrase": "all photos now dated Wednesday", "label": "SYSTEM", "reason": "describes how the app changed the metadata of photos (date assignment)"}
+{"phrase": "already able to make album of all 2021 photos", "label": "SYSTEM", "reason": "describes the capability/feature of creating albums by date filter"}
+{"phrase": "already able to make album of all Sue photos", "label": "SYSTEM", "reason": "describes the capability/feature of creating albums by person filter"}
+{"phrase": "already created album of photos created by Sue", "label": "SYSTEM", "reason": "describes an album that was already created and album management state"}
+{"phrase": "already has a separate group for mother in law", "label": "SYSTEM", "reason": "describes face grouping/recognition state in the app"}
+{"phrase": "alternate keyword 'pickup truck'", "label": "CUE", "reason": "describes a search term/keyword for finding the photo"}
+{"phrase": "amount of space being used", "label": "SYSTEM", "reason": "describes storage/account state, not the photo itself"}
+{"phrase": "app indicated it saved a copy of the edited photo", "label": "SYSTEM", "reason": "describes what the app did with an edited photo (saving action)"}
+{"phrase": "app used to capture/store photo", "label": "CUE", "reason": "describes the device/camera used to capture the photo"}
+{"phrase": "approximate age of photos (3-4 years old)", "label": "CUE", "reason": "describes the approximate age of the photo being searched for"}
+{"phrase": "approximate age/event of child in photo", "label": "CUE", "reason": "describes the content of the photo (age/event of child in it)"}
+{"phrase": "approximate count of affected baby photos", "label": "SYSTEM", "reason": "describes a count of affected photos, which is system state/observation"}
+{"phrase": "approximate date of backup/upload (e.g. yesterday)", "label": "SYSTEM", "reason": "describes when backup/upload occurred, which is a system action/history"}
+{"phrase": "approximate date of photo", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "approximate date of photos - February 2020", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "approximate date photos were shared", "label": "SYSTEM", "reason": "describes when photos were shared, a system action/history"}
+{"phrase": "approximate date range (searchable by date)", "label": "SYSTEM", "reason": "describes a searchable feature/capability of the app"}
+{"phrase": "approximate date range of old photos", "label": "CUE", "reason": "describes the approximate age/date of photos being searched for"}
+{"phrase": "approximate date range of photo", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "approximate date taken (Monday, this week)", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "approximate date taken/created/modified", "label": "CUE", "reason": "describes when the photo was taken/created/modified"}
+{"phrase": "approximate date/month and year", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "approximate date/time of the video", "label": "CUE", "reason": "describes when the video was taken"}
+{"phrase": "approximate date/time period", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "approximate dates of the photos", "label": "CUE", "reason": "describes when the photos were taken"}
+{"phrase": "approximate end date of issue", "label": "SYSTEM", "reason": "describes when an issue occurred, which is about system behavior/state"}
+{"phrase": "approximate geographic location of the cabin", "label": "CUE", "reason": "describes the geographic location where the photo was taken"}
+{"phrase": "approximate month of photos", "label": "CUE", "reason": "describes when the photos were taken"}
+{"phrase": "approximate number of photos uploaded", "label": "SYSTEM", "reason": "describes upload activity/history of the app"}
+{"phrase": "approximate previous count of photos (over 5,000)", "label": "SYSTEM", "reason": "describes the previous count of photos in the library, which is system state"}
+{"phrase": "approximate size of photo library", "label": "SYSTEM", "reason": "describes the size of the photo library, which is account/system state"}
+{"phrase": "approximate start date of issue", "label": "SYSTEM", "reason": "describes when an issue started, which is about system behavior/state"}
+{"phrase": "approximate time (Christmastime)", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "approximate time period (10+ years ago)", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "approximate time period (month/year) of a mass upload", "label": "SYSTEM", "reason": "describes when a mass upload occurred, which is a system action/history"}
+{"phrase": "approximate time period of older videos (2 years ago, 5 years ago)", "label": "CUE", "reason": "describes when the videos were taken"}
+{"phrase": "approximate time period of photo", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "approximate time period of photos (before 2019/2020)", "label": "CUE", "reason": "describes when the photos were taken"}
+{"phrase": "approximate time taken", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "approximate time taken (about an hour ago)", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "approximate time taken - 6 months ago", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "approximate time the picture was taken", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "approximate timeframe (2018/2019)", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "approximate timeframe (couple of weeks back)", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "approximate timeframe (recent months)", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "approximate timeframe of the photos", "label": "CUE", "reason": "describes when the photos were taken"}
+{"phrase": "approximate total count of photos of her", "label": "CUE", "reason": "describes the subject/count of photos of a person"}
+{"phrase": "approximate year/decade of oldest photos", "label": "CUE", "reason": "describes when the oldest photos were taken"}
+{"phrase": "assumed photos were backed up to Google Photos", "label": "SYSTEM", "reason": "describes backup status/behavior of the app"}
+{"phrase": "attempted search by face", "label": "SYSTEM", "reason": "describes an action/search method attempted in the app"}
+{"phrase": "attempted search by keyword", "label": "SYSTEM", "reason": "describes an action/search method attempted in the app"}
+{"phrase": "attempted search by person name", "label": "SYSTEM", "reason": "describes an action/search method attempted in the app"}
+{"phrase": "attempted to use face highlighting on a photo per instructions", "label": "SYSTEM", "reason": "describes an action taken in the app"}
+{"phrase": "aware of a new 'Save' button feature shown in app tutorial", "label": "SYSTEM", "reason": "describes awareness of a feature shown in app tutorial"}
+{"phrase": "aware of being added to a new shared group/album", "label": "SYSTEM", "reason": "describes app behavior/account change"}
+{"phrase": "aware the photos are grouped into a hidden folder", "label": "SYSTEM", "reason": "describes app organization/folder structure"}
+{"phrase": "aware there are more recent photos in album", "label": "CUE", "reason": "describes relative timing of photos in an album"}
+{"phrase": "baby's name (added as label to a photo)", "label": "CUE", "reason": "describes a label/name associated with photo content"}
+{"phrase": "backed up locked folder photos before switching phones", "label": "SYSTEM", "reason": "describes backup action taken"}
+{"phrase": "backup activated", "label": "SYSTEM", "reason": "describes backup setting/status"}
+{"phrase": "backup is turned on", "label": "SYSTEM", "reason": "describes backup setting status"}
+{"phrase": "beer name shown in the picture", "label": "CUE", "reason": "describes what is shown in the picture"}
+{"phrase": "best pen set", "label": "CUE", "reason": "describes the subject of the photo"}
+{"phrase": "black and white dog in Hawaii", "label": "CUE", "reason": "describes subject and location of the photo"}
+{"phrase": "brand name of the slicer", "label": "CUE", "reason": "describes what is shown in the picture"}
+{"phrase": "brand/label name on the clothing tag", "label": "CUE", "reason": "describes what is shown in the picture"}
+{"phrase": "bubble location marker with preview of latest photo", "label": "SYSTEM", "reason": "describes app interface element and its display"}
+{"phrase": "burst symbol appears in corner of each burst batch", "label": "SYSTEM", "reason": "describes app interface element for burst photos"}
+{"phrase": "camera brand/make (Sony)", "label": "CUE", "reason": "describes the camera/device used to take the photo"}
+{"phrase": "camera model name EOS 450D", "label": "CUE", "reason": "describes the camera model used to take the photo"}
+{"phrase": "camera model name EOS 90D", "label": "CUE", "reason": "describes the camera model used to take the photo"}
+{"phrase": "camera model name PENTAX K-S2", "label": "CUE", "reason": "describes the camera model used to take the photo"}
+{"phrase": "camera roll photos still visible", "label": "SYSTEM", "reason": "describes visibility of photos in app interface"}
+{"phrase": "camera/device name", "label": "CUE", "reason": "describes the device used to take the photo"}
+{"phrase": "cannot recall/search the saved location of the photo", "label": "SYSTEM", "reason": "describes user action/inability to search/recall location"}
+{"phrase": "car make and model", "label": "CUE", "reason": "describes the subject of the photo"}
+{"phrase": "car was rear-ended", "label": "CUE", "reason": "describes the subject/event of the photo"}
+{"phrase": "category labels available in search screen", "label": "SYSTEM", "reason": "describes feature/category labels available in app"}
+{"phrase": "category of photos - people and pets", "label": "SYSTEM", "reason": "describes category organization/grouping in the app"}
+{"phrase": "category/object type - tools", "label": "CUE", "reason": "describes the subject/object type in a photo"}
+{"phrase": "checked archive folder", "label": "SYSTEM", "reason": "describes an action taken to search the app"}
+{"phrase": "checked on both web and app", "label": "SYSTEM", "reason": "describes testing across different platforms/interfaces"}
+{"phrase": "checked recently added section", "label": "SYSTEM", "reason": "describes checking a specific app section"}
+{"phrase": "checked trash", "label": "SYSTEM", "reason": "describes checking a specific folder"}
+{"phrase": "checked trash is empty", "label": "SYSTEM", "reason": "describes the state of the trash folder"}
+{"phrase": "checked under different dates", "label": "SYSTEM", "reason": "describes an action taken to search by different dates"}
+{"phrase": "city/place name", "label": "CUE", "reason": "describes the place/location of a photo"}
+{"phrase": "clicking on a person's face used to pull up all their photos", "label": "SYSTEM", "reason": "describes a feature behavior change in the app"}
+{"phrase": "clothing description - orange multi colored full length dress", "label": "CUE", "reason": "describes clothing/appearance details in a photo"}
+{"phrase": "clothing detail - Papa John's uniform", "label": "CUE", "reason": "describes what someone is wearing in a photo"}
+{"phrase": "color of the car", "label": "CUE", "reason": "describes the color of an object in a photo"}
+{"phrase": "color of the trucks (banana yellow)", "label": "CUE", "reason": "describes the color of objects in a photo"}
+{"phrase": "company/brand name on document (Progressive)", "label": "CUE", "reason": "describes text/branding visible in a photo"}
+{"phrase": "confident more dog photos exist", "label": "SYSTEM", "reason": "describes user's expectation about photo existence in the system"}
+{"phrase": "configura\u00e7\u00e3o ativada para mostrar conte\u00fado de outros apps", "label": "SYSTEM", "reason": "describes an app setting configuration"}
+{"phrase": "content of the image - a condolence message", "label": "CUE", "reason": "describes the content/subject matter of a photo"}
+{"phrase": "content of the photos", "label": "CUE", "reason": "describes what is in the photos"}
+{"phrase": "context that lockdown period is wrong for this event", "label": "CUE", "reason": "describes contextual information about when a photo was taken"}
+{"phrase": "copied exact text from photo description to use as search query", "label": "SYSTEM", "reason": "describes an action the user took to search"}
+{"phrase": "correct recipient email addresses", "label": "SYSTEM", "reason": "describes a sharing/recipient system configuration"}
+{"phrase": "correct search words/keywords for the content", "label": "CUE", "reason": "describes search terms related to photo content"}
+{"phrase": "corrections included animal faces too", "label": "SYSTEM", "reason": "describes a correction action taken in the system"}
+{"phrase": "could find pics of family doing things together", "label": "SYSTEM", "reason": "describes a search capability/feature result"}
+{"phrase": "created a name/face group for daughter at birth", "label": "SYSTEM", "reason": "describes creating a face group in the app"}
+{"phrase": "created a profile and added photos for new cat", "label": "SYSTEM", "reason": "describes creating an album and adding photos in the app"}
+{"phrase": "created albums for each place visited on trip", "label": "SYSTEM", "reason": "describes creating albums in the app"}
+{"phrase": "created the shared album himself", "label": "SYSTEM", "reason": "describes an action the user took to create a shared album"}
+{"phrase": "custom description text added to the image", "label": "SYSTEM", "reason": "describes custom metadata added via the app"}
+{"phrase": "custom file name given to photo", "label": "SYSTEM", "reason": "describes custom file naming applied to a photo"}
+{"phrase": "custom keyword filename given to the video", "label": "SYSTEM", "reason": "describes custom file naming applied to a video"}
+{"phrase": "custom notes text added in the info/details section", "label": "SYSTEM", "reason": "describes custom notes added in the app's info section"}
+{"phrase": "custom/meticulously assigned file names", "label": "SYSTEM", "reason": "describes file naming system used"}
+{"phrase": "customer name tagged in the photo description", "label": "CUE", "reason": "describes a name tagged in photo metadata"}
+{"phrase": "date after which photos should exist", "label": "CUE", "reason": "describes a date boundary for when photos exist"}
+{"phrase": "date after which photos stopped appearing", "label": "SYSTEM", "reason": "describes when photos stopped appearing in the app"}
+{"phrase": "date and location metadata of the invisible photos", "label": "CUE", "reason": "describes metadata (date and location) of photos"}
+{"phrase": "date cutoff after which photos don't appear", "label": "SYSTEM", "reason": "describes a cutoff point in the app's display behavior"}
+{"phrase": "date of photo", "label": "CUE", "reason": "describes when a photo was taken"}
+{"phrase": "date of photos", "label": "CUE", "reason": "describes when photos were taken"}
+{"phrase": "date of the video (21 March 2024)", "label": "CUE", "reason": "Describes the date when a specific photo/video was taken"}
+{"phrase": "date photo was taken", "label": "CUE", "reason": "Describes when a photo was taken"}
+{"phrase": "date photos were taken (today's date)", "label": "CUE", "reason": "Describes when photos were taken"}
+{"phrase": "date range of photos (1st April 2026 to now)", "label": "CUE", "reason": "Describes the date range of photos being searched for"}
+{"phrase": "date range of the photos", "label": "CUE", "reason": "Describes the date range of photos"}
+{"phrase": "date range query format", "label": "SYSTEM", "reason": "Describes the format/syntax of a date range query in the app"}
+{"phrase": "date received", "label": "CUE", "reason": "Describes when a photo was received"}
+{"phrase": "date scroller location", "label": "SYSTEM", "reason": "Describes the position/state of a UI element in the app"}
+{"phrase": "date was changed to the update day", "label": "SYSTEM", "reason": "Describes when a system date was changed in relation to an update"}
+{"phrase": "date when assignment last worked", "label": "SYSTEM", "reason": "Describes when an app feature or function last operated"}
+{"phrase": "date/when the beer photo was taken", "label": "CUE", "reason": "Describes when a specific photo (beer photo) was taken"}
+{"phrase": "dates of photos", "label": "CUE", "reason": "Describes the dates of photos"}
+{"phrase": "dates of the photos", "label": "CUE", "reason": "Describes the dates of photos"}
+{"phrase": "daughter is one of the recognized face groups, with 3 photos showing", "label": "SYSTEM", "reason": "Describes face grouping feature status and photo count in a recognized person group"}
+{"phrase": "daughter was little in the photo", "label": "CUE", "reason": "Describes a person's appearance in a photo"}
+{"phrase": "daughter was previously a recognized person/face group", "label": "SYSTEM", "reason": "Describes the previous state of face recognition grouping for a person"}
+{"phrase": "daughter's name as label", "label": "SYSTEM", "reason": "Describes a saved label/identity in the People feature of the app"}
+{"phrase": "daughter's name/identity used to search", "label": "SYSTEM", "reason": "Describes using a saved person's name/identity as a search input"}
+{"phrase": "daughter's saved name/label in People", "label": "SYSTEM", "reason": "Describes a saved name/label in the app's People feature"}
+{"phrase": "deleted 500 MB of photos in Google Photos", "label": "SYSTEM", "reason": "Describes a deletion action the user performed in the app"}
+{"phrase": "deleted photos from phone days after upload", "label": "SYSTEM", "reason": "Describes a deletion action performed after upload was complete"}
+{"phrase": "descriptive word for item in photo (e.g. dress)", "label": "CUE", "reason": "Describes the content/subject matter in a photo"}
+{"phrase": "desired media format (videos)", "label": "CUE", "reason": "Describes the media type being searched for"}
+{"phrase": "device model used to take the photo", "label": "CUE", "reason": "Describes the device/camera used to take a photo"}
+{"phrase": "device the video was on", "label": "CUE", "reason": "Describes which device a video was on"}
+{"phrase": "device used to take photo", "label": "CUE", "reason": "Describes the device used to capture a photo"}
+{"phrase": "did not delete any photos", "label": "SYSTEM", "reason": "Describes an action (or lack thereof) the user performed in the app"}
+{"phrase": "did not delete anything", "label": "SYSTEM", "reason": "Describes an action the user did not perform in the app"}
+{"phrase": "did not delete or archive them", "label": "SYSTEM", "reason": "Describes actions the user did not perform in the app"}
+{"phrase": "did not delete the photos", "label": "SYSTEM", "reason": "Describes an action the user did not perform in the app"}
+{"phrase": "distinctive icon associated with compilation videos", "label": "CUE", "reason": "Describes a visual characteristic/icon associated with a type of media"}
+{"phrase": "doesn't remember how/when she was hidden", "label": "SYSTEM", "reason": "Describes the state or history of a hidden/visibility setting in the app"}
+{"phrase": "dog's name (Anubis)", "label": "CUE", "reason": "Describes the name of an animal in a photo"}
+{"phrase": "dog's name Roscoe", "label": "CUE", "reason": "Describes the name of an animal in a photo"}
+{"phrase": "edited with Magic Eraser", "label": "SYSTEM", "reason": "Describes an editing action performed on a photo using an app feature"}
+{"phrase": "enabled face/similar face grouping feature", "label": "SYSTEM", "reason": "Describes enabling a face grouping feature in the app"}
+{"phrase": "entered text in description/caption fields", "label": "SYSTEM", "reason": "Describes an action the user took in the app's caption/description fields"}
+{"phrase": "event was an award ceremony", "label": "CUE", "reason": "Describes what event was in the videos"}
+{"phrase": "event/date of videos", "label": "CUE", "reason": "Describes the event and date of videos"}
+{"phrase": "every photo and video was being backed up", "label": "SYSTEM", "reason": "Describes the backup behavior/status of the app"}
+{"phrase": "exact album title word", "label": "CUE", "reason": "describes the album name where the photo is located"}
+{"phrase": "exact caption text contained in the photo", "label": "CUE", "reason": "describes text content associated with the photo itself"}
+{"phrase": "exact date of the event", "label": "CUE", "reason": "describes when an event occurred, metadata about the photo"}
+{"phrase": "exact date of the photo", "label": "CUE", "reason": "describes when the photo was taken, photo metadata"}
+{"phrase": "exact date photo was taken", "label": "CUE", "reason": "describes when the photo was taken, photo metadata"}
+{"phrase": "exact description text added to photo", "label": "CUE", "reason": "describes user-added description text associated with the photo"}
+{"phrase": "exact descriptor/term added to the photo description", "label": "CUE", "reason": "describes descriptor added to the photo's metadata"}
+{"phrase": "exact file name of the photo", "label": "CUE", "reason": "describes the photo's filename"}
+{"phrase": "exact filename of the photo", "label": "CUE", "reason": "describes the photo's filename"}
+{"phrase": "exact filename of the video", "label": "CUE", "reason": "describes the video's filename"}
+{"phrase": "exact full filename", "label": "CUE", "reason": "describes the full filename of the photo/video"}
+{"phrase": "exact image filename", "label": "CUE", "reason": "describes the image's filename"}
+{"phrase": "exact photo comment/caption text", "label": "CUE", "reason": "describes caption or comment text associated with the photo"}
+{"phrase": "exact text appearing in the image", "label": "CUE", "reason": "describes text content visible within the photo"}
+{"phrase": "exact text shown in the screenshot (KeroKero)", "label": "CUE", "reason": "describes text visible in the screenshot photo"}
+{"phrase": "exact words/sentence written in the image", "label": "CUE", "reason": "describes text content visible within the photo"}
+{"phrase": "example search terms used previously", "label": "SYSTEM", "reason": "describes search terms the user previously entered into the system"}
+{"phrase": "exclude person Jane in second album", "label": "SYSTEM", "reason": "describes a filtering action taken in the system"}
+{"phrase": "existing label/name already created for the person", "label": "SYSTEM", "reason": "describes face grouping/recognition system state"}
+{"phrase": "expected date/time location next to original", "label": "CUE", "reason": "describes expected metadata location for the original photo"}
+{"phrase": "expected photos to appear at end of current library since older", "label": "SYSTEM", "reason": "describes expected app behavior and library sorting"}
+{"phrase": "face appears under edit faces with crossed-out eye icon", "label": "SYSTEM", "reason": "describes face recognition feature UI state"}
+{"phrase": "face group name 'Honey'", "label": "SYSTEM", "reason": "describes a face group created in the system"}
+{"phrase": "face group previously had only one person", "label": "SYSTEM", "reason": "describes previous state of face grouping system"}
+{"phrase": "face grouping setting existed and was found disabled", "label": "SYSTEM", "reason": "describes state of face grouping setting in app"}
+{"phrase": "face grouping setting is enabled", "label": "SYSTEM", "reason": "describes state of face grouping setting"}
+{"phrase": "face grouping setting is turned on", "label": "SYSTEM", "reason": "describes state of face grouping setting"}
+{"phrase": "face grouping/similar face feature", "label": "SYSTEM", "reason": "describes app feature for face grouping"}
+{"phrase": "face recognition setting not disabled", "label": "SYSTEM", "reason": "describes state of face recognition setting"}
+{"phrase": "face was hidden using hide face mode", "label": "SYSTEM", "reason": "describes action taken in hide face mode feature"}
+{"phrase": "faces appearing in the photos", "label": "CUE", "reason": "describes people/faces that appear in the photos"}
+{"phrase": "faces in the photos (children as babies)", "label": "CUE", "reason": "describes people/faces in the photos"}
+{"phrase": "faces were added/tagged for the person", "label": "SYSTEM", "reason": "describes tagging actions performed in the system"}
+{"phrase": "faces/people groups existed and were visible previously", "label": "SYSTEM", "reason": "describes previous state of face groups in the system"}
+{"phrase": "feature previously showed each person's face to click on", "label": "SYSTEM", "reason": "describes previous UI feature state in search tab"}
+{"phrase": "feature used to exist in the search tab", "label": "SYSTEM", "reason": "describes previous app feature availability"}
+{"phrase": "feature used to sync family photos to Google Home displays until October", "label": "SYSTEM", "reason": "describes app feature that existed until a specific date"}
+{"phrase": "feature was enabled in settings", "label": "SYSTEM", "reason": "describes state of a setting in the app"}
+{"phrase": "feature worked before a recent update", "label": "SYSTEM", "reason": "describes how app behavior changed after update"}
+{"phrase": "feed shows photos were added to the album", "label": "SYSTEM", "reason": "describes feed notification about album updates"}
+{"phrase": "file dates and exif dates were set correctly", "label": "SYSTEM", "reason": "describes metadata state and synchronization between file dates and EXIF data"}
+{"phrase": "file extension/type (.dng/RAW)", "label": "CUE", "reason": "file extension/type is a property of the photo itself"}
+{"phrase": "file name format of WhatsApp photos", "label": "CUE", "reason": "naming pattern is a characteristic of the photo's filename"}
+{"phrase": "file name of the photo", "label": "CUE", "reason": "filename is a direct identifier of the photo"}
+{"phrase": "file naming convention for recent screen recordings", "label": "CUE", "reason": "naming convention describes a characteristic of the photo files"}
+{"phrase": "file type is RAW format", "label": "CUE", "reason": "file type/format is a property of the photo"}
+{"phrase": "file type/duration of the videos", "label": "CUE", "reason": "file type and duration are properties of the video content"}
+{"phrase": "file type/format is RAW or RAF", "label": "CUE", "reason": "file format is a property of the photo"}
+{"phrase": "filename contains 'WA' from WhatsApp", "label": "CUE", "reason": "filename content is a characteristic of the photo"}
+{"phrase": "filename had a ~2 suffix", "label": "CUE", "reason": "filename suffix is part of the photo's identifier"}
+{"phrase": "filename with ABC_2022", "label": "CUE", "reason": "filename is a direct property of the photo"}
+{"phrase": "files were deleted from actual gallery", "label": "SYSTEM", "reason": "describes an action taken and storage state change in the system"}
+{"phrase": "files were originally in Camera folder/album", "label": "SYSTEM", "reason": "describes the album/folder organization state in the system"}
+{"phrase": "first names of people/pets used in search", "label": "CUE", "reason": "names of people/pets are content descriptors of what's in the photo"}
+{"phrase": "flower is vibrant blue", "label": "CUE", "reason": "visual characteristic describing the photo's content"}
+{"phrase": "folder location of the albums", "label": "SYSTEM", "reason": "describes folder/album organization structure in the system"}
+{"phrase": "folder name/purpose (recipes)", "label": "CUE", "reason": "folder name reflects the subject/purpose of photos in it"}
+{"phrase": "folder name/topic (canva images for advertising)", "label": "CUE", "reason": "folder name/topic describes the content theme of the photos"}
+{"phrase": "found them before via search", "label": "SYSTEM", "reason": "describes a past search action and history"}
+{"phrase": "found them in Google Files and shared to Google Photos", "label": "SYSTEM", "reason": "describes actions taken and where files were stored"}
+{"phrase": "frequency and duration - daily over 6 months", "label": "CUE", "reason": "frequency and duration describe temporal characteristics of the photo set"}
+{"phrase": "friend confirms photos uploaded and appearing on their end", "label": "SYSTEM", "reason": "describes upload status and sharing/sync behavior"}
+{"phrase": "friend linked to album", "label": "SYSTEM", "reason": "describes a sharing action and album relationship"}
+{"phrase": "friend's face group label", "label": "SYSTEM", "reason": "describes face grouping feature state"}
+{"phrase": "friends can see his photos fine", "label": "SYSTEM", "reason": "describes sharing/visibility behavior of the system"}
+{"phrase": "full search term 'kerokero' returns the image", "label": "CUE", "reason": "search term and successful retrieval of a photo"}
+{"phrase": "funciona corretamente no navegador", "label": "SYSTEM", "reason": "describes app behavior/functioning in a specific context"}
+{"phrase": "general area/location of photos", "label": "CUE", "reason": "geographic area is a location property of the photos"}
+{"phrase": "general location - New York City", "label": "CUE", "reason": "location is a geographic property of the photo"}
+{"phrase": "general location of the photo", "label": "CUE", "reason": "location is a geographic property of the photo"}
+{"phrase": "general product category (shampoo)", "label": "CUE", "reason": "product category describes the subject matter of photos"}
+{"phrase": "general subject keyword 'motorcycle'", "label": "CUE", "reason": "subject keyword describes what's depicted in the photo"}
+{"phrase": "general topic/theme like pink color", "label": "CUE", "reason": "color/theme is a visual characteristic of the photo"}
+{"phrase": "general type of device (e.g. iPhone)", "label": "CUE", "reason": "device type is a property of where/how the photo was taken"}
+{"phrase": "green pancakes in Japan", "label": "CUE", "reason": "describes the subject and location of what's in the photo"}
+{"phrase": "groundhog was in a bucket after being fished out of the pool", "label": "CUE", "reason": "describes the specific subject and context captured in the photo"}
+{"phrase": "group faces activated", "label": "SYSTEM", "reason": "describes the state of face grouping feature in the system"}
+{"phrase": "had an album with the same name", "label": "SYSTEM", "reason": "describes a prior album state/organization"}
+{"phrase": "had around 20-30 named people/pet labels previously", "label": "SYSTEM", "reason": "describes named labels/groupings previously configured in the system"}
+{"phrase": "had been using the name search feature for years", "label": "SYSTEM", "reason": "describes a feature used and its history of usage"}
+{"phrase": "had face grouping feature for years with family photos grouped together", "label": "SYSTEM", "reason": "describes a feature state (face grouping) and app behavior over time"}
+{"phrase": "had face/people tagging previously on old phone", "label": "SYSTEM", "reason": "describes a past tagging feature/action in the app"}
+{"phrase": "had linked/shared photos with husband's account previously", "label": "SYSTEM", "reason": "describes sharing settings and account linking configuration"}
+{"phrase": "had manually labeled the face", "label": "SYSTEM", "reason": "describes a manual labeling action taken in the app"}
+{"phrase": "had many albums previously", "label": "SYSTEM", "reason": "describes album count/organization state of the system"}
+{"phrase": "had old albums previously visible", "label": "SYSTEM", "reason": "describes past visibility state of albums in the app"}
+{"phrase": "had posted the photos on Facebook", "label": "CUE", "reason": "describes where/how the photo was shared, contextualizing its source"}
+{"phrase": "had previously saved/named people in Google Photos", "label": "SYSTEM", "reason": "describes people tagging/naming action taken in Google Photos"}
+{"phrase": "had seen the photo surface before without searching", "label": "SYSTEM", "reason": "describes app behavior of surfacing photos without explicit search"}
+{"phrase": "has a screenshot of the image", "label": "CUE", "reason": "describes a screenshot as reference material for the photo being searched"}
+{"phrase": "has a similar video of a classmate at the same event", "label": "CUE", "reason": "describes related video content at the same event"}
+{"phrase": "has a specific photo of the person", "label": "CUE", "reason": "describes the subject matter of a specific photo"}
+{"phrase": "has an autoupdating album based on face B", "label": "SYSTEM", "reason": "describes an auto-updating album feature configuration"}
+{"phrase": "has created a new face grouping for face B", "label": "SYSTEM", "reason": "describes a face grouping action taken in the app"}
+{"phrase": "has many backed up pictures that should contain the person", "label": "CUE", "reason": "describes photos that should contain a specific person"}
+{"phrase": "has many photos containing her", "label": "CUE", "reason": "describes the subject matter (person) in photos"}
+{"phrase": "has one reference photo of the subject", "label": "CUE", "reason": "describes reference photo content for identifying a subject"}
+{"phrase": "has the original sharing email in some cases", "label": "SYSTEM", "reason": "describes sharing history and email records in the app"}
+{"phrase": "hid a specific person (face group) before locked folder existed", "label": "SYSTEM", "reason": "describes hiding/grouping action taken and feature evolution"}
+{"phrase": "how to search for photos of a person, excluding another person, by year", "label": "SYSTEM", "reason": "describes search functionality and filtering options"}
+{"phrase": "husband is labeled as partner in the app", "label": "SYSTEM", "reason": "describes relationship labeling configuration in the app"}
+{"phrase": "husband took the photos", "label": "CUE", "reason": "describes who captured/took the photo"}
+{"phrase": "identifier text present in screenshot", "label": "CUE", "reason": "describes visible text content within the photo"}
+{"phrase": "identity as new grandchild born last month", "label": "CUE", "reason": "describes the identity and context (newborn) of a person in photos"}
+{"phrase": "identity of person searched for (wife)", "label": "CUE", "reason": "describes the identity of the person being searched for"}
+{"phrase": "identity of the contact (person known from phone contacts)", "label": "CUE", "reason": "describes the identity of a person from phone contacts"}
+{"phrase": "identity of the friend being searched for", "label": "CUE", "reason": "describes the identity of the person/friend being searched for"}
+{"phrase": "identity of the labeled person (a specific child)", "label": "CUE", "reason": "describes the identity of a labeled person in photos"}
+{"phrase": "identity of the people in the photos", "label": "CUE", "reason": "describes the identities of people depicted in photos"}
+{"phrase": "identity of the person", "label": "CUE", "reason": "describes the identity of a person in photos"}
+{"phrase": "identity of the person (best friend)", "label": "CUE", "reason": "describes the identity of a person being searched for"}
+{"phrase": "identity of the person (face) in the photos", "label": "CUE", "reason": "describes the identity of a person/face in photos"}
+{"phrase": "identity of the person (themselves)", "label": "CUE", "reason": "describes the identity of the person in the photo (themselves)"}
+{"phrase": "identity of the person whose face was added", "label": "CUE", "reason": "describes the identity of a person whose face was added"}
+{"phrase": "identity of the person/face added manually", "label": "CUE", "reason": "describes the identity of a manually added person/face"}
+{"phrase": "identity of the specific person being searched", "label": "CUE", "reason": "describes the identity of the person being searched for"}
+{"phrase": "identity of the specific person searched for", "label": "CUE", "reason": "describes the identity of the person being searched for"}
+{"phrase": "identity of the specific person whose face group is missing", "label": "CUE", "reason": "describes the identity of a person whose face group is missing"}
+{"phrase": "identity/face of person in photo", "label": "CUE", "reason": "describes the identity/face of a person depicted in photo"}
+{"phrase": "images contain only the truck", "label": "CUE", "reason": "describes the subject matter (truck) contained in images"}
+{"phrase": "includes both own and pet x-rays", "label": "CUE", "reason": "describes the subject matter of photos (x-rays of self and pet)"}
+{"phrase": "intent to select by date to build albums", "label": "SYSTEM", "reason": "describes an action/intent to use the app's date selection feature"}
+{"phrase": "intentional purpose of photos - tracking growth", "label": "CUE", "reason": "describes the purpose/context of the photos themselves (tracking growth)"}
+{"phrase": "interrupted by a phone call", "label": "SYSTEM", "reason": "describes an interruption to the user's action/workflow"}
+{"phrase": "issue persists across multiple devices and website", "label": "SYSTEM", "reason": "describes app behavior persistence across devices and platforms"}
+{"phrase": "it is a 2 frame motion photo", "label": "CUE", "reason": "describes the file format/type of the photo (2 frame motion photo)"}
+{"phrase": "it is a photo of the car fob code", "label": "CUE", "reason": "describes the subject of the photo (car fob code)"}
+{"phrase": "it was a collage or slideshow created by a notification", "label": "SYSTEM", "reason": "describes a feature action (collage/slideshow created by notification)"}
+{"phrase": "it was a movie created in Google Photos", "label": "SYSTEM", "reason": "describes a creation made within the app (movie created in Google Photos)"}
+{"phrase": "it was a screen recording", "label": "CUE", "reason": "describes the file type/format of the media (screen recording)"}
+{"phrase": "it was a screenshot of a costume", "label": "CUE", "reason": "describes the subject of the photo (screenshot of a costume)"}
+{"phrase": "it was a shared album with partner", "label": "SYSTEM", "reason": "describes an album's sharing configuration"}
+{"phrase": "it was a shared conversation with other people", "label": "SYSTEM", "reason": "describes a sharing feature used with other people"}
+{"phrase": "it was an animated/moving photo", "label": "CUE", "reason": "describes the file format/type (animated/moving photo)"}
+{"phrase": "it was an important document", "label": "CUE", "reason": "describes the purpose/subject of the photo (important document)"}
+{"phrase": "it was edited (rotated and cropped) and saved", "label": "SYSTEM", "reason": "describes an edit action taken on the photo via the app"}
+{"phrase": "it was located in a movie folder", "label": "SYSTEM", "reason": "describes the location/organization within the app (in a movie folder)"}
+{"phrase": "it was located next to the original photo", "label": "SYSTEM", "reason": "describes the photo's location relative to another item in the app"}
+{"phrase": "it was part of a series taken with stock Camera app", "label": "CUE", "reason": "describes how the photos were taken (series with stock Camera app)"}
+{"phrase": "it's a motion photo/sequence", "label": "CUE", "reason": "describes the file format/type (motion photo/sequence)"}
+{"phrase": "it's a shared album with a specific friend", "label": "SYSTEM", "reason": "describes an album's sharing configuration with a specific person"}
+{"phrase": "it's an old Polaroid of herself and siblings", "label": "CUE", "reason": "describes the type and subject of the photo (old Polaroid of family members)"}
+{"phrase": "keyword 'dog' for photos of their dog", "label": "SYSTEM", "reason": "describes a keyword search action the user performed"}
+{"phrase": "keyword 'fork' used previously", "label": "SYSTEM", "reason": "describes a keyword search action previously used"}
+{"phrase": "keyword 'museum' for photos of museums toured", "label": "SYSTEM", "reason": "describes a keyword search action for a category of photos"}
+{"phrase": "keyword 'yellow truck'", "label": "CUE", "reason": "describes the subject of the photo via search keyword (yellow truck)"}
+{"phrase": "keyword added to photo description", "label": "SYSTEM", "reason": "describes adding metadata via the app's description field"}
+{"phrase": "keywords added to description field", "label": "SYSTEM", "reason": "describes adding keywords/tags via the app's description feature"}
+{"phrase": "keywords/tags that previously worked", "label": "SYSTEM", "reason": "describes keywords that worked previously in the search system"}
+{"phrase": "knew they had a locked folder that should exist", "label": "SYSTEM", "reason": "describes knowledge of a system feature (locked folder)"}
+{"phrase": "knew to search for Screenshots category", "label": "SYSTEM", "reason": "describes knowledge of the app's category/search feature (Screenshots)"}
+{"phrase": "knows a 'save to device' option exists via sharing icon for others' photos", "label": "SYSTEM", "reason": "describes knowledge of an app feature (save to device via sharing icon)"}
+{"phrase": "knows a specific photo that belongs to the album", "label": "CUE", "reason": "describes knowing a specific photo that belongs to an album"}
+{"phrase": "knows approximate count and source app", "label": "SYSTEM", "reason": "describes knowledge of photo count and source app information"}
+{"phrase": "knows captions were manually added after taking photos", "label": "SYSTEM", "reason": "describes knowledge that captions were manually added within the app"}
+{"phrase": "knows category type (memes and screenshots)", "label": "CUE", "reason": "describes the category/type of photos (memes and screenshots)"}
+{"phrase": "knows file location on device (DCIM > Photoscan folder)", "label": "SYSTEM", "reason": "describes knowledge of file location on the device storage"}
+{"phrase": "knows friends uploaded photos 4 days ago", "label": "SYSTEM", "reason": "describes information about upload timing via sharing feature"}
+{"phrase": "knows individual photos can be fixed one by one via crossed-out eye icon", "label": "SYSTEM", "reason": "describes knowledge of an app feature (crossed-out eye icon to fix photos)"}
+{"phrase": "knows initial 48 pictures were added successfully", "label": "SYSTEM", "reason": "describes upload/sync status of photos within the app"}
+{"phrase": "knows it is their dad's face that was hidden", "label": "CUE", "reason": "describes a person/face in the photo"}
+{"phrase": "knows it's a person-category album (like Nova the cat or unnamed dog album)", "label": "CUE", "reason": "describes the album category/subject matter"}
+{"phrase": "knows last labeled photo was from 2022", "label": "SYSTEM", "reason": "describes when a photo was last labeled, a system action"}
+{"phrase": "knows method of upload was drag and drop via browser", "label": "SYSTEM", "reason": "describes the upload method used"}
+{"phrase": "knows other albums made before and after still show fine", "label": "SYSTEM", "reason": "describes album visibility behavior and app state"}
+{"phrase": "knows photos are misclassified under friend's name", "label": "SYSTEM", "reason": "describes face classification/grouping state"}
+{"phrase": "knows photos are visible on computer and other account", "label": "SYSTEM", "reason": "describes photo visibility across different platforms/accounts"}
+{"phrase": "knows photos are within a specific large album", "label": "CUE", "reason": "describes the album location of photos"}
+{"phrase": "knows photos exist and are backed up to account", "label": "SYSTEM", "reason": "describes backup status"}
+{"phrase": "knows screenshots are still in the device's screenshots folder", "label": "SYSTEM", "reason": "describes device storage state"}
+{"phrase": "knows the albums were shared with them previously", "label": "SYSTEM", "reason": "describes sharing/permission settings"}
+{"phrase": "knows the children don't look similar", "label": "CUE", "reason": "describes appearance of people in photos"}
+{"phrase": "knows the face group is labelled as her mother", "label": "SYSTEM", "reason": "describes face group labeling/classification state"}
+{"phrase": "knows the mistaken photo is of their grandson as a baby", "label": "CUE", "reason": "describes the subject and age of person in photo"}
+{"phrase": "knows the number of photos visible to him vs friends", "label": "SYSTEM", "reason": "describes visibility/access differences across accounts"}
+{"phrase": "knows the people whose faces should have photos grouped", "label": "CUE", "reason": "describes people the user expects to find grouped together"}
+{"phrase": "knows the person was accidentally hidden from People category", "label": "SYSTEM", "reason": "describes face hiding/visibility setting"}
+{"phrase": "knows the person's name/identity they are searching for", "label": "CUE", "reason": "describes the person/identity being searched for"}
+{"phrase": "knows the photos exist in main library/app", "label": "SYSTEM", "reason": "describes where photos are located in the app structure"}
+{"phrase": "knows the photos exist in the shared album", "label": "SYSTEM", "reason": "describes location of photos in shared album feature"}
+{"phrase": "knows the photos were hidden by themselves", "label": "SYSTEM", "reason": "describes an action taken to hide photos"}
+{"phrase": "knows the photos were uploaded to a specific shared collection", "label": "SYSTEM", "reason": "describes upload destination/shared collection setting"}
+{"phrase": "knows the specific video (crime video) that keeps appearing", "label": "CUE", "reason": "describes a specific video subject matter"}
+{"phrase": "knows the subject's eyes are open at a different point in the motion picture", "label": "CUE", "reason": "describes visual detail within a video"}
+{"phrase": "knows the two people are her children", "label": "CUE", "reason": "describes people/subjects in the photos"}
+{"phrase": "knows the two people's faces were merged into one group", "label": "SYSTEM", "reason": "describes face grouping/merging state"}
+{"phrase": "knows there are more/older photos existing beyond 2022", "label": "CUE", "reason": "describes the time period/age of photos"}
+{"phrase": "knows there were hundreds of captions", "label": "SYSTEM", "reason": "describes photo metadata/captions state"}
+{"phrase": "knows they have many photos of these people", "label": "CUE", "reason": "describes quantity of photos of specific people"}
+{"phrase": "knows they hid the photos", "label": "SYSTEM", "reason": "describes action taken to hide photos"}
+{"phrase": "knows which child is which in the photos", "label": "CUE", "reason": "describes identification of people in photos"}
+{"phrase": "knows which face/person collection it belongs to", "label": "SYSTEM", "reason": "describes face group/collection assignment"}
+{"phrase": "knows which friend's photos they want", "label": "CUE", "reason": "describes which person/photos they are searching for"}
+{"phrase": "knows which photos are their own uploads vs others' uploads", "label": "SYSTEM", "reason": "describes photo source/upload attribution in system"}
+{"phrase": "knows which photos contain face B", "label": "SYSTEM", "reason": "describes face classification/grouping state"}
+{"phrase": "knows which specific person they are looking for", "label": "CUE", "reason": "describes the person being searched for"}
+{"phrase": "large number of backed up photos that were tagged", "label": "SYSTEM", "reason": "describes backup and tagging status"}
+{"phrase": "large volume of photos taken during that walk", "label": "CUE", "reason": "describes quantity and context of photos"}
+{"phrase": "last known working date for face grouping", "label": "SYSTEM", "reason": "describes when face grouping feature last worked"}
+{"phrase": "last known working favorite date", "label": "SYSTEM", "reason": "describes when favorite feature last worked"}
+{"phrase": "last seen a couple of days ago", "label": "CUE", "reason": "temporal descriptor of when the photo was last viewed"}
+{"phrase": "less than a minute between the two pictures", "label": "CUE", "reason": "time interval between photos being searched for"}
+{"phrase": "local onde deveriam aparecer (atalhos na tela inicial)", "label": "SYSTEM", "reason": "describes app UI element (home screen shortcuts) and their visibility"}
+{"phrase": "location name - Havelock Island", "label": "CUE", "reason": "specific location name where photo was taken"}
+{"phrase": "location name - Pee Pee Township, Ohio", "label": "CUE", "reason": "specific location name where photo was taken"}
+{"phrase": "location name - Penn Station", "label": "CUE", "reason": "specific location name where photo was taken"}
+{"phrase": "location name in various formats", "label": "CUE", "reason": "location information in different formats describing photo subject"}
+{"phrase": "location near a pier", "label": "CUE", "reason": "geographic descriptor of photo location"}
+{"phrase": "location near home", "label": "CUE", "reason": "relative location descriptor for photo taken"}
+{"phrase": "location of mislabeled tag", "label": "SYSTEM", "reason": "refers to a mislabeled tag in the system"}
+{"phrase": "location of parents' house", "label": "CUE", "reason": "location where photo was taken"}
+{"phrase": "location of photos (Japan)", "label": "CUE", "reason": "geographic location of photos"}
+{"phrase": "location of the cabin on the map", "label": "CUE", "reason": "specific location of photo subject"}
+{"phrase": "location of trip (Thailand)", "label": "CUE", "reason": "geographic location of photos"}
+{"phrase": "location saved to (Google Photos folder in Drive)", "label": "SYSTEM", "reason": "describes where photos are stored (Google Drive folder)"}
+{"phrase": "location such as Utah", "label": "CUE", "reason": "geographic location of photos"}
+{"phrase": "location where photo was taken", "label": "CUE", "reason": "location descriptor of photo origin"}
+{"phrase": "location where photos were taken", "label": "CUE", "reason": "location descriptor of photos"}
+{"phrase": "location where the image was taken", "label": "CUE", "reason": "location where photo was taken"}
+{"phrase": "location where videos were taken (Delaware)", "label": "CUE", "reason": "geographic location of videos"}
+{"phrase": "location/place name", "label": "CUE", "reason": "place or location name of photos"}
+{"phrase": "locations of photos", "label": "CUE", "reason": "locations associated with photos"}
+{"phrase": "locations where photos were taken", "label": "CUE", "reason": "locations where photos were captured"}
+{"phrase": "locations where temple photos were taken", "label": "CUE", "reason": "location descriptor of temple photos"}
+{"phrase": "locked folder is visible on another account", "label": "SYSTEM", "reason": "describes visibility state of locked folder across accounts"}
+{"phrase": "locked folder previously existed with content moved into it", "label": "SYSTEM", "reason": "describes history of locked folder and content organization"}
+{"phrase": "logged into correct account", "label": "SYSTEM", "reason": "describes account login state"}
+{"phrase": "manually added captions or descriptive text", "label": "SYSTEM", "reason": "describes manual addition of metadata to photos"}
+{"phrase": "manually added place/location to the photos", "label": "SYSTEM", "reason": "describes manual action of adding location metadata to photos"}
+{"phrase": "manually added word 'tattoo' to photo descriptions", "label": "SYSTEM", "reason": "describes manual action of adding text to photo descriptions"}
+{"phrase": "manually entered description text", "label": "SYSTEM", "reason": "describes manual text entry action in the system"}
+{"phrase": "meeting Peavy Wagner photo", "label": "CUE", "reason": "describes specific photo subject (meeting with Peavy Wagner)"}
+{"phrase": "moments/events of kids and other relevant things", "label": "CUE", "reason": "describes events and subjects depicted in photos"}
+{"phrase": "month and year of photos", "label": "CUE", "reason": "temporal metadata of photos"}
+{"phrase": "month or year", "label": "CUE", "reason": "temporal descriptor of photos"}
+{"phrase": "month/date the photos were from", "label": "CUE", "reason": "temporal metadata of photos"}
+{"phrase": "more recent photos still found via face search", "label": "SYSTEM", "reason": "describes search behavior and results from face search feature"}
+{"phrase": "more than 2k photos taken in 2025", "label": "SYSTEM", "reason": "describes count of photos in the system for a time period"}
+{"phrase": "motion photos used to appear as a search category alongside screenshots, videos, documents", "label": "SYSTEM", "reason": "describes search category feature availability in the app"}
+{"phrase": "name appears in caption", "label": "CUE", "reason": "describes name appearing in photo caption metadata"}
+{"phrase": "name appears in filename", "label": "CUE", "reason": "describes content visible in the photo's filename"}
+{"phrase": "name associated with the face", "label": "SYSTEM", "reason": "describes face grouping and recognition system state"}
+{"phrase": "name of the 'Recently Added' category", "label": "SYSTEM", "reason": "describes a system category/feature name"}
+{"phrase": "name of the album", "label": "CUE", "reason": "describes which album a photo is in"}
+{"phrase": "name of the costume", "label": "CUE", "reason": "describes what the person in the photo was wearing"}
+{"phrase": "name of the duplicate folder created for same person", "label": "SYSTEM", "reason": "describes duplicate folder created by the system"}
+{"phrase": "name of the main folder/person", "label": "SYSTEM", "reason": "describes a system-created folder structure"}
+{"phrase": "name of the notification/slideshow", "label": "SYSTEM", "reason": "describes app features (notifications/slideshow)"}
+{"phrase": "name of the original image file (e.g. PXL_12345...)", "label": "CUE", "reason": "describes the filename of the photo"}
+{"phrase": "name of the person", "label": "CUE", "reason": "describes a person who appears in the photo"}
+{"phrase": "name of the person (Paul)", "label": "CUE", "reason": "describes a specific person in the photo"}
+{"phrase": "name of the person (daughter) to search for", "label": "CUE", "reason": "describes a person to search for in photos"}
+{"phrase": "name of the unnamed/unknown person", "label": "SYSTEM", "reason": "describes system's unrecognized face category"}
+{"phrase": "name typed in photo description", "label": "CUE", "reason": "describes text content added to a photo"}
+{"phrase": "name/identity of the album as something they searched for", "label": "CUE", "reason": "describes the album name/identity as a search term"}
+{"phrase": "name/label used for the person", "label": "SYSTEM", "reason": "describes labels assigned in the system's people/face database"}
+{"phrase": "named the person album with boyfriend's name", "label": "SYSTEM", "reason": "describes action of naming a system-created album"}
+{"phrase": "names are saved in people/pets section", "label": "SYSTEM", "reason": "describes where the system stores person/pet names"}
+{"phrase": "names given to the two people", "label": "SYSTEM", "reason": "describes names assigned in the system's recognition database"}
+{"phrase": "names of the tagged people", "label": "SYSTEM", "reason": "describes tagged people in the system"}
+{"phrase": "names of the two people in the photo", "label": "CUE", "reason": "describes who appears in the photo"}
+{"phrase": "names of the two people involved", "label": "CUE", "reason": "describes people depicted in the photo"}
+{"phrase": "names of two previously recognized people/faces", "label": "SYSTEM", "reason": "describes previously recognized faces in the system"}
+{"phrase": "negation query behavior", "label": "SYSTEM", "reason": "describes how the search system behaves"}
+{"phrase": "new cat's appearance (dark tortie)", "label": "CUE", "reason": "describes the appearance of a cat in the photo"}
+{"phrase": "new photos taken after SD card install do show up", "label": "SYSTEM", "reason": "describes backup/sync behavior after hardware change"}
+{"phrase": "no other details about the photo", "label": "CUE", "reason": "indicates lack of descriptive information about photo content"}
+{"phrase": "no other identifying details given (date, location, names)", "label": "CUE", "reason": "indicates absence of identifying details about the photo"}
+{"phrase": "no other information about the photo (e.g. date, location, content details)", "label": "CUE", "reason": "indicates lack of descriptive details about the photo"}
+{"phrase": "number is texted onto the image", "label": "CUE", "reason": "describes text/numbers visible in the photo"}
+{"phrase": "number of edited photos", "label": "SYSTEM", "reason": "describes count of edited photos in the system"}
+{"phrase": "number of people groups previously present", "label": "SYSTEM", "reason": "describes number of face groups in the system"}
+{"phrase": "number of people in photo", "label": "CUE", "reason": "describes how many people appear in the photo"}
+{"phrase": "number of photos saved", "label": "SYSTEM", "reason": "describes system action/backup status"}
+{"phrase": "number of photos uploaded", "label": "SYSTEM", "reason": "describes upload status/system action"}
+{"phrase": "object depicted - bowtie", "label": "CUE", "reason": "describes an object in the photo"}
+{"phrase": "object type - car", "label": "CUE", "reason": "describes an object type in the photo"}
+{"phrase": "object was a firepit", "label": "CUE", "reason": "describes an object in the photo"}
+{"phrase": "occasion/context (first moving to Seattle)", "label": "CUE", "reason": "describes the context/occasion depicted in the photo"}
+{"phrase": "occasion/context (vacation)", "label": "CUE", "reason": "describes the occasion/context of the photo"}
+{"phrase": "old Partner Sharing invitation email found in secondary Gmail", "label": "SYSTEM", "reason": "describes email communication and account state, not photo content"}
+{"phrase": "old cat's appearance (dark tabby)", "label": "CUE", "reason": "describes the visual appearance of a subject in the photo"}
+{"phrase": "older file naming convention for screen recordings", "label": "CUE", "reason": "describes the filename pattern which identifies a photo"}
+{"phrase": "organised face folders around June/July 2023", "label": "SYSTEM", "reason": "describes an action taken on the system (organizing face folders)"}
+{"phrase": "original filename format/pattern used by phone", "label": "CUE", "reason": "describes the filename format used to identify photos"}
+{"phrase": "original quality photos came from Pixel 2", "label": "CUE", "reason": "describes the device/camera that took the photos"}
+{"phrase": "other keywords that successfully find the same photos", "label": "CUE", "reason": "describes search terms used to find photos"}
+{"phrase": "other people in same photos still recognized", "label": "SYSTEM", "reason": "describes the system's face recognition state for other people"}
+{"phrase": "over 10 years of photos of them together", "label": "CUE", "reason": "describes the temporal span and subject matter of photos"}
+{"phrase": "own screenname as search term", "label": "CUE", "reason": "describes a search term used to find photos"}
+{"phrase": "painting of a woman in a blue dress", "label": "CUE", "reason": "describes the subject matter and visual content of a photo"}
+{"phrase": "part of the ID card number", "label": "CUE", "reason": "describes identifying information that appears in a photo"}
+{"phrase": "partial filename ABC", "label": "CUE", "reason": "describes part of a filename used to identify a photo"}
+{"phrase": "partial filename ending in 172629", "label": "CUE", "reason": "describes part of a filename used to identify a photo"}
+{"phrase": "partial word match attempt (Boyfriend for boyfriendtv)", "label": "CUE", "reason": "describes a search term strategy used to find photos"}
+{"phrase": "partner sharing feature was previously working", "label": "SYSTEM", "reason": "describes the state of a feature (partner sharing)"}
+{"phrase": "passport photo", "label": "CUE", "reason": "describes the type/subject of a photo"}
+{"phrase": "peace gesture/theme in photo", "label": "CUE", "reason": "describes a visual element or theme in the photo"}
+{"phrase": "people in photos: grandparents and children", "label": "CUE", "reason": "describes people/subjects in the photo"}
+{"phrase": "people in the video (tagged names)", "label": "CUE", "reason": "describes tagged people who appear in the video"}
+{"phrase": "people/pets already recognized in search", "label": "SYSTEM", "reason": "describes the system's recognition state, not the photo content itself"}
+{"phrase": "person appears in majority of photos", "label": "CUE", "reason": "describes frequency of a person's appearance in photos"}
+{"phrase": "person being searched for is 'Dad'", "label": "CUE", "reason": "describes a person being searched for in photos"}
+{"phrase": "person in photo", "label": "CUE", "reason": "describes a person in the photo"}
+{"phrase": "person of interest - Sue", "label": "CUE", "reason": "describes a specific person in photos"}
+{"phrase": "person was previously labelled in people grouping", "label": "SYSTEM", "reason": "describes system's face grouping/labeling state for a person"}
+{"phrase": "person was previously tagged in photos", "label": "SYSTEM", "reason": "describes a tagging action previously taken by the system or user"}
+{"phrase": "person was tagged in at least 500 photos", "label": "CUE", "reason": "describes frequency of a person's appearance across photos"}
+{"phrase": "person's name", "label": "CUE", "reason": "describes a person's name used to identify photos"}
+{"phrase": "person's name (Denise)", "label": "CUE", "reason": "describes a specific person's name used to find photos"}
+{"phrase": "person's name used as search term", "label": "CUE", "reason": "describes a search term for a person's name"}
+{"phrase": "person's name/identity tag", "label": "CUE", "reason": "describes a person's name or identity associated with a photo"}
+{"phrase": "personal face set configured", "label": "SYSTEM", "reason": "describes a system configuration for face recognition"}
+{"phrase": "pet's name", "label": "CUE", "reason": "describes a pet's name used to identify photos"}
+{"phrase": "pet's name recorded in the photo's Info field", "label": "CUE", "reason": "describes metadata within a photo that identifies a pet"}
+{"phrase": "pet's name/label used in search", "label": "CUE", "reason": "describes a pet's name used as a search term"}
+{"phrase": "pets like dog, cat", "label": "CUE", "reason": "describes types of animals/pets in photos"}
+{"phrase": "pets registered as faces with many photos", "label": "SYSTEM", "reason": "describes the system's face recognition state for pets"}
+{"phrase": "phone model and Android version", "label": "CUE", "reason": "describes the device and OS used to take photos"}
+{"phrase": "photo currently set as the heading/cover photo for a place", "label": "SYSTEM", "reason": "describes a configuration action taken on the system (setting cover photo)"}
+{"phrase": "photo details label indicating shared status", "label": "SYSTEM", "reason": "describes a UI label showing shared status, a system feature"}
+{"phrase": "photo is from 2019", "label": "CUE", "reason": "describes the date/time when the photo was taken"}
+{"phrase": "photo is of a specific person", "label": "CUE", "reason": "describes the subject/person in the photo"}
+{"phrase": "photo of self climbing a mountain", "label": "CUE", "reason": "describes the subject and content of the photo"}
+{"phrase": "photo of self holding a snake", "label": "CUE", "reason": "describes the subject and content of the photo"}
+{"phrase": "photo taken in 2023", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "photo type was 'Motion photos'", "label": "SYSTEM", "reason": "describes the file type/format which is a technical system property"}
+{"phrase": "photo was a group photo", "label": "CUE", "reason": "describes the content of the photo"}
+{"phrase": "photo was missed due to bad lighting", "label": "CUE", "reason": "describes a characteristic or issue with the photo itself"}
+{"phrase": "photo was shared by someone else", "label": "SYSTEM", "reason": "describes sharing action/status, a system behavior"}
+{"phrase": "photo was uploaded from Facebook", "label": "SYSTEM", "reason": "describes the source/upload action, a system operation"}
+{"phrase": "photos appear in Memories highlights", "label": "SYSTEM", "reason": "describes system feature behavior (Memories highlights)"}
+{"phrase": "photos appear in memories feature", "label": "SYSTEM", "reason": "describes system feature behavior (memories feature)"}
+{"phrase": "photos are HDR type/format", "label": "CUE", "reason": "describes the file format/type of the photo"}
+{"phrase": "photos are backed up to the cloud", "label": "SYSTEM", "reason": "describes backup status, a system state"}
+{"phrase": "photos are black and white", "label": "CUE", "reason": "describes a visual characteristic of the photo"}
+{"phrase": "photos are from before 2018 (date range)", "label": "CUE", "reason": "describes the date range of when photos were taken"}
+{"phrase": "photos are important", "label": "CUE", "reason": "describes a property or characteristic of the photo"}
+{"phrase": "photos are in a specific shared album", "label": "CUE", "reason": "describes the album location where the photo is stored"}
+{"phrase": "photos are in the same phone folder as the visible scans", "label": "SYSTEM", "reason": "describes folder location and storage organization"}
+{"phrase": "photos are located in a shared album", "label": "CUE", "reason": "describes the album location where the photo is stored"}
+{"phrase": "photos are of a specific friend", "label": "CUE", "reason": "describes the person/subject in the photo"}
+{"phrase": "photos are of panoramas or persons", "label": "CUE", "reason": "describes the subject/content type of the photo"}
+{"phrase": "photos are screenshots from internal storage or SD card", "label": "SYSTEM", "reason": "describes file location and storage source"}
+{"phrase": "photos are similar shots/poses shared between two daughters", "label": "CUE", "reason": "describes the content and relationship between photos"}
+{"phrase": "photos are sky photos", "label": "CUE", "reason": "describes the subject/content of the photo"}
+{"phrase": "photos are small thumbnail-sized images", "label": "CUE", "reason": "describes a visual characteristic of the photo"}
+{"phrase": "photos before and after the period are present", "label": "CUE", "reason": "describes the date range of photos"}
+{"phrase": "photos contain people/faces", "label": "CUE", "reason": "describes the content/subject of the photo"}
+{"phrase": "photos contain their pet", "label": "CUE", "reason": "describes the subject/content of the photo"}
+{"phrase": "photos containing only him and his wife", "label": "CUE", "reason": "describes who is in the photo"}
+{"phrase": "photos copied into Google Photos folder in Drive", "label": "SYSTEM", "reason": "describes a copy/import action and system location"}
+{"phrase": "photos date back to at least 2014", "label": "CUE", "reason": "describes the date range of the photos"}
+{"phrase": "photos exist in albums", "label": "SYSTEM", "reason": "describes album organization, a system structure"}
+{"phrase": "photos exist in folders and memories", "label": "SYSTEM", "reason": "describes system features and storage structures"}
+{"phrase": "photos exist on phone but not computer", "label": "SYSTEM", "reason": "describes sync state and device storage locations"}
+{"phrase": "photos exist on the locked iPhone", "label": "SYSTEM", "reason": "describes device storage location and state"}
+{"phrase": "photos exist up to 2007", "label": "CUE", "reason": "describes the date range of the photos"}
+{"phrase": "photos existed from before 2019", "label": "CUE", "reason": "describes the date range of the photos"}
+{"phrase": "photos had been downloaded previously", "label": "SYSTEM", "reason": "describes a download action the user took"}
+{"phrase": "photos have GPS location data embedded", "label": "CUE", "reason": "describes metadata embedded in the photo itself"}
+{"phrase": "photos likely uploaded on the day sync was turned on", "label": "SYSTEM", "reason": "describes when sync was turned on, a system state/action"}
+{"phrase": "photos represent important/precious events", "label": "CUE", "reason": "describes the subject matter/significance of photos"}
+{"phrase": "photos saved from the albums are still present", "label": "SYSTEM", "reason": "describes presence state after a save action the user took"}
+{"phrase": "photos still appear when searching by name", "label": "SYSTEM", "reason": "describes search behavior and app response"}
+{"phrase": "photos uploaded to shared collection", "label": "SYSTEM", "reason": "describes upload action and sharing feature state"}
+{"phrase": "photos visible on website", "label": "SYSTEM", "reason": "describes where photos appear in the app/website interface"}
+{"phrase": "photos were added 2 days ago", "label": "CUE", "reason": "describes when the photo was created/added"}
+{"phrase": "photos were backed up from old device", "label": "SYSTEM", "reason": "describes backup action and backup source"}
+{"phrase": "photos were backed up last year", "label": "CUE", "reason": "describes when the photo was backed up, a temporal cue"}
+{"phrase": "photos were created by Picasa", "label": "SYSTEM", "reason": "describes the app/software that created the photos"}
+{"phrase": "photos were downloaded a few months ago", "label": "SYSTEM", "reason": "describes a download action the user performed"}
+{"phrase": "photos were downloaded to phone's Google Photos", "label": "SYSTEM", "reason": "describes a download action to a specific device location"}
+{"phrase": "photos were duplicated via double backup from phone and PC", "label": "SYSTEM", "reason": "describes backup configuration and duplication behavior"}
+{"phrase": "photos were edited to change their date", "label": "SYSTEM", "reason": "describes metadata editing action the user took"}
+{"phrase": "photos were edited with Snapseed", "label": "CUE", "reason": "describes what tool/app was used to edit the photo"}
+{"phrase": "photos were from WhatsApp (images and videos sent to them)", "label": "CUE", "reason": "describes the source/origin of the photos"}
+{"phrase": "photos were hidden by the user", "label": "SYSTEM", "reason": "describes a user action to hide photos"}
+{"phrase": "photos were in the locked folder", "label": "SYSTEM", "reason": "describes location in locked folder feature"}
+{"phrase": "photos were initially all visible", "label": "SYSTEM", "reason": "describes visibility state of photos in the app"}
+{"phrase": "photos were labeled by user", "label": "SYSTEM", "reason": "describes labeling action the user performed"}
+{"phrase": "photos were marked as favorites", "label": "SYSTEM", "reason": "describes favorite marking action and feature"}
+{"phrase": "photos were memes", "label": "CUE", "reason": "describes the subject matter/content type of photos"}
+{"phrase": "photos were moved from internal memory to SD card via File Manager", "label": "SYSTEM", "reason": "describes file movement action via File Manager"}
+{"phrase": "photos were moved to albums before deletion", "label": "SYSTEM", "reason": "describes organizing action in albums before deletion"}
+{"phrase": "photos were moved to the locked folder", "label": "SYSTEM", "reason": "describes action to move photos to locked folder"}
+{"phrase": "photos were organized into photo albums", "label": "SYSTEM", "reason": "describes organizing action into albums"}
+{"phrase": "photos were originally in Downloads folder", "label": "SYSTEM", "reason": "describes file system location before import"}
+{"phrase": "photos were originally shared from account A to account B via partner sharing", "label": "SYSTEM", "reason": "describes sharing action between accounts"}
+{"phrase": "photos were placed in a locked folder", "label": "SYSTEM", "reason": "describes action to place in locked folder feature"}
+{"phrase": "photos were placed in locked folder", "label": "SYSTEM", "reason": "describes action to place in locked folder feature"}
+{"phrase": "photos were previously in People & Pets album", "label": "SYSTEM", "reason": "describes previous album location and app state"}
+{"phrase": "photos were previously saved to Google Photos", "label": "SYSTEM", "reason": "describes prior save/import action to Google Photos"}
+{"phrase": "photos were previously tagged/detected as her face", "label": "SYSTEM", "reason": "describes face detection and tagging feature state"}
+{"phrase": "photos were previously visible before an update", "label": "SYSTEM", "reason": "describes visibility state before an app update"}
+{"phrase": "photos were recently edited", "label": "SYSTEM", "reason": "describes when editing action was performed"}
+{"phrase": "photos were restored from trash", "label": "SYSTEM", "reason": "describes restore action from trash"}
+{"phrase": "photos were saved on account B and deleted on account A", "label": "SYSTEM", "reason": "describes account state and deletion action"}
+{"phrase": "photos were sent by a friend", "label": "CUE", "reason": "describes the source/origin of the photos"}
+{"phrase": "photos were sent via WhatsApp", "label": "CUE", "reason": "describes the source/origin of the photos"}
+{"phrase": "photos were shared by a specific group member", "label": "SYSTEM", "reason": "describes how photos were shared (via feature/action)"}
+{"phrase": "photos were shared by husband via partner sharing", "label": "SYSTEM", "reason": "describes sharing method and feature state"}
+{"phrase": "photos were shared via partner sharing", "label": "SYSTEM", "reason": "describes sharing feature/setting"}
+{"phrase": "photos were stored in the locked folder", "label": "SYSTEM", "reason": "describes app feature (locked folder)"}
+{"phrase": "photos were taken by husband", "label": "CUE", "reason": "describes who took the photo (device origin)"}
+{"phrase": "photos were taken by husband's device", "label": "CUE", "reason": "describes which device captured the photo"}
+{"phrase": "photos were taken on Snapchat", "label": "CUE", "reason": "describes the app/source the photo was taken on"}
+{"phrase": "photos were taken on current phone", "label": "CUE", "reason": "describes the device used to capture the photo"}
+{"phrase": "photos were taken with camera", "label": "CUE", "reason": "describes the camera used to take the photo"}
+{"phrase": "photos were uploaded by user", "label": "SYSTEM", "reason": "describes an action the user took (upload/backup)"}
+{"phrase": "photos were uploaded/backed up before clearing storage", "label": "SYSTEM", "reason": "describes backup/storage action taken"}
+{"phrase": "phrase associated with the moment", "label": "CUE", "reason": "describes metadata associated with the photo"}
+{"phrase": "pictures are positioned at top of album", "label": "SYSTEM", "reason": "describes position/ordering in app interface"}
+{"phrase": "portrait of a woman", "label": "CUE", "reason": "describes the subject/content of the photo"}
+{"phrase": "possible device name used for bluetooth/wifi", "label": "CUE", "reason": "describes device name (photo metadata/context)"}
+{"phrase": "possible filename substring 'slowmo'", "label": "CUE", "reason": "describes filename or file characteristic"}
+{"phrase": "pressed 'free up space' option", "label": "SYSTEM", "reason": "describes an action the user took in the app"}
+{"phrase": "previous location in app (Photos > Collections)", "label": "SYSTEM", "reason": "describes previous location/state in app navigation"}
+{"phrase": "previous total count was around 2000", "label": "SYSTEM", "reason": "describes photo count/storage state"}
+{"phrase": "previously added descriptions to partner's photos", "label": "SYSTEM", "reason": "describes a previous action/behavior in the app"}
+{"phrase": "previously had a map feature for photos", "label": "SYSTEM", "reason": "describes a previous app feature that existed"}
+{"phrase": "previously had this feature available", "label": "SYSTEM", "reason": "describes previous feature availability"}
+{"phrase": "previously known search URL trick", "label": "SYSTEM", "reason": "describes a known app feature/workaround"}
+{"phrase": "previously organized in a separate album", "label": "SYSTEM", "reason": "describes previous organization/storage method"}
+{"phrase": "previously saw them in Google Photos", "label": "SYSTEM", "reason": "describes where photos were previously located"}
+{"phrase": "product name/text written on the item", "label": "CUE", "reason": "describes text/content visible in the photo"}
+{"phrase": "purchased last year", "label": "CUE", "reason": "describes when the item in the photo was purchased"}
+{"phrase": "qual pasta foi selecionada para backup", "label": "SYSTEM", "reason": "describes which folder was selected for backup"}
+{"phrase": "reason for original move was storage space", "label": "SYSTEM", "reason": "describes reason for a storage-related action"}
+{"phrase": "reason for the misattribution - his face appeared in background of a related photo", "label": "SYSTEM", "reason": "describes face recognition system misattribution"}
+{"phrase": "recalls it used to work previously", "label": "SYSTEM", "reason": "describes previous app behavior/functionality"}
+{"phrase": "received a backup successful message", "label": "SYSTEM", "reason": "describes a system notification received"}
+{"phrase": "received confirmation email of successful transfer", "label": "SYSTEM", "reason": "describes confirmation of a system action"}
+{"phrase": "received email notification about shared photo", "label": "SYSTEM", "reason": "describes notification from sharing feature"}
+{"phrase": "received notification about new additions to shared album", "label": "SYSTEM", "reason": "describes notification about shared album activity"}
+{"phrase": "receives notifications about new posts in shared albums", "label": "SYSTEM", "reason": "describes notification settings/behavior"}
+{"phrase": "recency of the photo", "label": "CUE", "reason": "describes temporal characteristic of the photo"}
+{"phrase": "recent photos from yesterday", "label": "CUE", "reason": "describes when the photos were taken"}
+{"phrase": "recently added profile faces for the people", "label": "SYSTEM", "reason": "describes face recognition configuration/action"}
+{"phrase": "recently took a group photo with the friend", "label": "CUE", "reason": "describes the subject and people in the photo"}
+{"phrase": "related objects like bed, blankets, shower, horses, pineapple", "label": "CUE", "reason": "describes objects/subjects visible in the photo"}
+{"phrase": "remembered the comment/text they added to the photo", "label": "CUE", "reason": "describes metadata the user added to the photo"}
+{"phrase": "remembered the person's name/identity to search for", "label": "CUE", "reason": "describes a person's identity as search criteria for a photo"}
+{"phrase": "remembered which album was updated via browser", "label": "SYSTEM", "reason": "describes an album action and update via browser"}
+{"phrase": "remembers hiding a specific person's face", "label": "SYSTEM", "reason": "describes hiding a person's face, a face grouping system feature"}
+{"phrase": "remembers locking a photo", "label": "SYSTEM", "reason": "describes locking a photo, a system action on the app"}
+{"phrase": "roughly when it was created (recent edit)", "label": "CUE", "reason": "describes when the photo was created/edited"}
+{"phrase": "roughly when photos were taken", "label": "CUE", "reason": "describes when photos were taken"}
+{"phrase": "same account used on new device", "label": "SYSTEM", "reason": "describes account configuration across devices"}
+{"phrase": "saved as a copy after editing", "label": "SYSTEM", "reason": "describes a save action taken in the app"}
+{"phrase": "saved via Save a Copy", "label": "SYSTEM", "reason": "describes using the Save a Copy feature"}
+{"phrase": "scanner name for scanned film", "label": "CUE", "reason": "describes the device/source used to capture the photo"}
+{"phrase": "scrolling up on a photo used to show who was in it", "label": "SYSTEM", "reason": "describes app behavior when scrolling to reveal face information"}
+{"phrase": "search by device used to work before", "label": "SYSTEM", "reason": "describes whether search by device feature worked"}
+{"phrase": "search keyword 'knife'", "label": "CUE", "reason": "describes a search keyword typed to find a photo"}
+{"phrase": "search keyword/topic", "label": "CUE", "reason": "describes a search keyword or topic used to find photos"}
+{"phrase": "search term 'Cat'", "label": "CUE", "reason": "describes a search term typed to find a photo"}
+{"phrase": "search term 'Christmas tree 2019' with year", "label": "CUE", "reason": "describes a search term with year to find a photo"}
+{"phrase": "search term 'Christmas tree'", "label": "CUE", "reason": "describes a search term to find a photo"}
+{"phrase": "search term 'Lamborghini' works correctly", "label": "CUE", "reason": "describes a search term that returns correct results"}
+{"phrase": "search term 'blowtorch'", "label": "CUE", "reason": "describes a search term typed to find a photo"}
+{"phrase": "search term 'car'", "label": "CUE", "reason": "describes a search term to find a photo"}
+{"phrase": "search term 'cars'", "label": "CUE", "reason": "describes a search term to find a photo"}
+{"phrase": "search term 'dog'", "label": "CUE", "reason": "describes a search term to find a photo"}
+{"phrase": "search term 'ford'", "label": "CUE", "reason": "describes a search term to find a photo"}
+{"phrase": "search term 'golf'", "label": "CUE", "reason": "describes a search term to find a photo"}
+{"phrase": "search term 'map'", "label": "CUE", "reason": "describes a search term to find a photo"}
+{"phrase": "search term 'men' works", "label": "CUE", "reason": "describes a search term that works to find a photo"}
+{"phrase": "search term 'pen'", "label": "CUE", "reason": "describes a search term to find a photo"}
+{"phrase": "search term 'recipes'", "label": "CUE", "reason": "describes a search term to find a photo"}
+{"phrase": "search term 'shirt stripes'", "label": "CUE", "reason": "describes a search term for photo details"}
+{"phrase": "search term 'vicious'", "label": "CUE", "reason": "describes a search term to find a photo"}
+{"phrase": "search term 'wedding'", "label": "CUE", "reason": "describes a search term to find a photo"}
+{"phrase": "search term New England Patriots", "label": "CUE", "reason": "describes a search term to find a photo"}
+{"phrase": "search term used", "label": "SYSTEM", "reason": "describes that a search term was used, focusing on the action"}
+{"phrase": "search terms used to find matching photos", "label": "CUE", "reason": "describes search terms used as criteria to find photos"}
+{"phrase": "search worked previously on old account", "label": "SYSTEM", "reason": "describes search functionality status across accounts"}
+{"phrase": "searched a person's name", "label": "CUE", "reason": "describes searching by a person's name to find photos"}
+{"phrase": "searched by a specific person's name", "label": "CUE", "reason": "describes searching by a specific person's name to find photos"}
+{"phrase": "searched by year", "label": "CUE", "reason": "describes searching by year to find photos"}
+{"phrase": "searched keyword 'dog'", "label": "SYSTEM", "reason": "describes the action of searching, a user-initiated system interaction"}
+{"phrase": "searches own name to find their pictures/videos", "label": "SYSTEM", "reason": "describes the action of searching, a user-initiated system interaction"}
+{"phrase": "secondary account storage usage", "label": "SYSTEM", "reason": "describes account storage usage, a system metric"}
+{"phrase": "seen in the 'Remember this day' feature", "label": "SYSTEM", "reason": "describes a feature (Remember this day) and its behavior"}
+{"phrase": "selfie photo", "label": "CUE", "reason": "describes the content/type of the photo itself"}
+{"phrase": "set video to private", "label": "SYSTEM", "reason": "describes a sharing action/setting configured by the user"}
+{"phrase": "setting/location where photo was taken", "label": "CUE", "reason": "describes the location/setting where the photo was taken"}
+{"phrase": "shared about 3 years ago", "label": "SYSTEM", "reason": "describes when a sharing action occurred, a system event"}
+{"phrase": "shared in an album", "label": "SYSTEM", "reason": "describes where the photo was shared (album), a sharing configuration"}
+{"phrase": "shared today", "label": "SYSTEM", "reason": "describes when a sharing action occurred, a system event"}
+{"phrase": "shared via Google Talk", "label": "SYSTEM", "reason": "describes the sharing method used, a system action"}
+{"phrase": "sharing occurred while storage was full", "label": "SYSTEM", "reason": "describes system state (storage full) during a sharing action"}
+{"phrase": "sharing settings are correctly configured", "label": "SYSTEM", "reason": "describes sharing settings configuration status"}
+{"phrase": "sharing worked before location sharing was turned off", "label": "SYSTEM", "reason": "describes relationship between two system features/settings"}
+{"phrase": "she was singing", "label": "CUE", "reason": "describes the activity/action shown in the photo content"}
+{"phrase": "single account used", "label": "SYSTEM", "reason": "describes account configuration"}
+{"phrase": "some photos exist on Facebook", "label": "SYSTEM", "reason": "describes external system where photos also exist"}
+{"phrase": "some photos from Dec 10 are visible", "label": "CUE", "reason": "describes the date photos were taken"}
+{"phrase": "some words of the album title", "label": "CUE", "reason": "describes album title, identifying feature of where photos are organized"}
+{"phrase": "son born in 2013, expects photos of him", "label": "CUE", "reason": "describes the subject of the photos (child) and expected content"}
+{"phrase": "son's name", "label": "CUE", "reason": "describes the subject/person in the photo"}
+{"phrase": "source app (Xender)", "label": "SYSTEM", "reason": "describes the source application where photo originated"}
+{"phrase": "source app of photo (WhatsApp)", "label": "SYSTEM", "reason": "describes the source application where photo originated"}
+{"phrase": "source app of photos", "label": "SYSTEM", "reason": "describes the source application where photos originated"}
+{"phrase": "source app of the photos is WhatsApp", "label": "SYSTEM", "reason": "describes the source application where photos originated"}
+{"phrase": "source app the photo may have come through", "label": "SYSTEM", "reason": "describes the source application where photo may have originated"}
+{"phrase": "source device of transfer", "label": "SYSTEM", "reason": "describes the source device of photo transfer"}
+{"phrase": "source folder of photos", "label": "SYSTEM", "reason": "describes the source folder where photos came from"}
+{"phrase": "source of upload (Facebook transfer tool)", "label": "SYSTEM", "reason": "describes the system/tool used as source of upload"}
+{"phrase": "specific RAW extension .arw", "label": "CUE", "reason": "describes the file format (.arw) of the photo"}
+{"phrase": "specific cutoff date when grouping stopped", "label": "SYSTEM", "reason": "describes when a system grouping feature stopped working"}
+{"phrase": "specific date of photo (April 8 2011)", "label": "CUE", "reason": "describes the specific date the photo was taken"}
+{"phrase": "specific date of photo (Aug 11 2010)", "label": "CUE", "reason": "describes the specific date the photo was taken"}
+{"phrase": "specific date of photos", "label": "CUE", "reason": "describes the specific date photos were taken"}
+{"phrase": "specific date of the photos", "label": "CUE", "reason": "describes the specific date photos were taken"}
+{"phrase": "specific date photos were taken/added", "label": "CUE", "reason": "describes the specific date photos were taken or added"}
+{"phrase": "specific date range of photos", "label": "CUE", "reason": "describes the specific date range when photos were taken"}
+{"phrase": "specific date searched", "label": "SYSTEM", "reason": "describes the date a user performed a search action"}
+{"phrase": "specific date taken", "label": "CUE", "reason": "describes the specific date the photo was taken"}
+{"phrase": "specific dates of the photos", "label": "CUE", "reason": "describes the specific dates photos were taken"}
+{"phrase": "specific design number on the product photo", "label": "CUE", "reason": "describes visible content/detail within a photo"}
+{"phrase": "specific film title", "label": "CUE", "reason": "describes the subject matter of a photo"}
+{"phrase": "specific folder name (WhatsApp images)", "label": "CUE", "reason": "describes the album/folder name where photo is stored"}
+{"phrase": "specific keyword added to photo description", "label": "SYSTEM", "reason": "describes metadata added via app action, not the photo itself"}
+{"phrase": "specific landmark visited", "label": "CUE", "reason": "describes the location/place where photo was taken"}
+{"phrase": "specific locations searched for", "label": "SYSTEM", "reason": "describes search actions performed by the user"}
+{"phrase": "specific missing time period", "label": "SYSTEM", "reason": "describes time period being examined in search/retrieval"}
+{"phrase": "specific month and day", "label": "CUE", "reason": "describes the date when a photo was taken"}
+{"phrase": "specific month and day of photos", "label": "CUE", "reason": "describes the date when photos were taken"}
+{"phrase": "specific number/text in photo (e.g. 1234, 5678)", "label": "CUE", "reason": "describes visible text/numbers within the photo"}
+{"phrase": "specific orchid species/plant name", "label": "CUE", "reason": "describes the subject matter/species in a photo"}
+{"phrase": "specific pen brand", "label": "CUE", "reason": "describes visible product/brand in a photo"}
+{"phrase": "specific person - daughter", "label": "CUE", "reason": "describes a person in the photo"}
+{"phrase": "specific person's name (e.g. Abigail)", "label": "CUE", "reason": "describes a person in the photo"}
+{"phrase": "specific person's name added to search", "label": "SYSTEM", "reason": "describes a search query action performed by user"}
+{"phrase": "specific search query syntax tested, e.g. album:apple", "label": "SYSTEM", "reason": "describes search feature syntax being tested"}
+{"phrase": "specific search term used", "label": "SYSTEM", "reason": "describes search term entered as a system action"}
+{"phrase": "specific subject 'dog on the tuckerbox' photo", "label": "CUE", "reason": "describes the subject and composition of a photo"}
+{"phrase": "specific text string 'A71'", "label": "CUE", "reason": "describes visible text string within a photo"}
+{"phrase": "specific time window of photos (8:10AM-8:20AM)", "label": "CUE", "reason": "describes the time window when photo was taken"}
+{"phrase": "specific word or two from the caption they wrote", "label": "CUE", "reason": "describes text from user-written caption on photo"}
+{"phrase": "specific words contained in video file names", "label": "CUE", "reason": "describes content visible in video filenames as identifying info"}
+{"phrase": "specific words visible in the screenshot", "label": "CUE", "reason": "describes visible text/words appearing in a screenshot photo"}
+{"phrase": "specific words/strings contained in video filenames", "label": "CUE", "reason": "describes identifying information within video filenames"}
+{"phrase": "store name on receipt", "label": "CUE", "reason": "describes visible business name in a photo (e.g., receipt)"}
+{"phrase": "subject and framing of the photo", "label": "CUE", "reason": "describes what is shown in the photo and how it's framed"}
+{"phrase": "subject description: man with green hair", "label": "CUE", "reason": "describes the subject matter visible in a photo"}
+{"phrase": "subject is a QR code", "label": "CUE", "reason": "describes the subject of a photo"}
+{"phrase": "subject is a bee", "label": "CUE", "reason": "describes the subject of a photo"}
+{"phrase": "subject is a groundhog", "label": "CUE", "reason": "describes the subject of a photo"}
+{"phrase": "subject is a locker", "label": "CUE", "reason": "describes the subject of a photo"}
+{"phrase": "subject is a woman", "label": "CUE", "reason": "describes the subject of a photo"}
+{"phrase": "subject is car odometer", "label": "CUE", "reason": "describes the subject of a photo"}
+{"phrase": "subject is dogs", "label": "CUE", "reason": "describes the subject of a photo"}
+{"phrase": "subject is sunrises", "label": "CUE", "reason": "describes the subject matter of photos"}
+{"phrase": "subject is the back of their house", "label": "CUE", "reason": "describes the subject and location of a photo"}
+{"phrase": "subject is their children as babies", "label": "CUE", "reason": "describes the subject matter of photos"}
+{"phrase": "subject is themselves with arms crossed", "label": "CUE", "reason": "describes the subject and composition of a photo"}
+{"phrase": "subject matter (beach/shirtless)", "label": "CUE", "reason": "describes the subject matter of a photo"}
+{"phrase": "subject matter - blood pressure readings", "label": "CUE", "reason": "describes the subject matter visible in a photo"}
+{"phrase": "subject matter - cats", "label": "CUE", "reason": "describes what is depicted in the photo"}
+{"phrase": "subject matter - galaxy photos", "label": "CUE", "reason": "describes what is depicted in the photo"}
+{"phrase": "subject matter - mom and cats", "label": "CUE", "reason": "describes people and animals in the photo"}
+{"phrase": "subject matter - weddings", "label": "CUE", "reason": "describes the subject matter of photos"}
+{"phrase": "subject matter is tattoos (henna and permanent)", "label": "CUE", "reason": "describes what is depicted in the photo"}
+{"phrase": "subject matter is x-ray images", "label": "CUE", "reason": "describes what is depicted in the photo"}
+{"phrase": "subject matter of photos - cannabis/hemp", "label": "CUE", "reason": "describes the subject matter of photos"}
+{"phrase": "subject of photo (a monkey)", "label": "CUE", "reason": "describes what is depicted in the photo"}
+{"phrase": "subject of photo (basketball goal)", "label": "CUE", "reason": "describes what is depicted in the photo"}
+{"phrase": "subject of photo (dog)", "label": "CUE", "reason": "describes what is depicted in the photo"}
+{"phrase": "subject of photo - dog catching a frisbee", "label": "CUE", "reason": "describes what is depicted in the photo"}
+{"phrase": "subject of photo - mountain with a tree blocking the view", "label": "CUE", "reason": "describes what is depicted in the photo"}
+{"phrase": "subject of photo is girlfriend", "label": "CUE", "reason": "describes who is in the photo"}
+{"phrase": "subject of photo is late uncle", "label": "CUE", "reason": "describes who is in the photo"}
+{"phrase": "subject of photo is their car", "label": "CUE", "reason": "describes what is depicted in the photo"}
+{"phrase": "subject of photos is a dog", "label": "CUE", "reason": "describes what is depicted in the photo"}
+{"phrase": "subject of photos is daughter at school drop-off", "label": "CUE", "reason": "describes who is in the photo and context"}
+{"phrase": "subject of videos is kid growing up", "label": "CUE", "reason": "describes what is depicted in videos"}
+{"phrase": "subject text written in each quiz question", "label": "CUE", "reason": "describes text content visible in the photo"}
+{"phrase": "subject type - flowers, specifically sunflower", "label": "CUE", "reason": "describes what is depicted in the photo"}
+{"phrase": "subject was paint buckets with paint codes", "label": "CUE", "reason": "describes what is depicted in the photo"}
+{"phrase": "subject wearing pink dress", "label": "CUE", "reason": "describes what is visible in the photo"}
+{"phrase": "subject/breed of dog depicted (e.g., poodles, labs, Chihuahuas, German Shepherds)", "label": "CUE", "reason": "describes the type of animal depicted in the photo"}
+{"phrase": "subject/content of photo (cat)", "label": "CUE", "reason": "describes what is depicted in the photo"}
+{"phrase": "subject/location of photo (waterfall)", "label": "CUE", "reason": "describes the subject and location of the photo"}
+{"phrase": "subject/object depicted in photo", "label": "CUE", "reason": "describes what is depicted in the photo"}
+{"phrase": "subjects in photo (self and husband)", "label": "CUE", "reason": "describes who is in the photo"}
+{"phrase": "subjects in photo: elderly person holding baby", "label": "CUE", "reason": "describes who is in the photo"}
+{"phrase": "sync had finished", "label": "SYSTEM", "reason": "describes a system process or app behavior"}
+{"phrase": "system had mislabeled it as a dog", "label": "SYSTEM", "reason": "describes how the system mislabeled content"}
+{"phrase": "tag/cat's name used on photo", "label": "SYSTEM", "reason": "describes a tag or metadata assigned to the photo"}
+{"phrase": "taken before every gas fill-up", "label": "CUE", "reason": "describes the context/circumstance when the photo was taken"}
+{"phrase": "terms previously worked", "label": "SYSTEM", "reason": "describes what search terms worked previously"}
+{"phrase": "text appearing in the photo", "label": "CUE", "reason": "describes text visible in the photo"}
+{"phrase": "text they had typed into the photo's description", "label": "SYSTEM", "reason": "describes metadata the user entered into the system"}
+{"phrase": "text typed into the photo's description field", "label": "SYSTEM", "reason": "describes metadata the user entered into the system"}
+{"phrase": "text visible in the photo", "label": "CUE", "reason": "describes text visible in the photo"}
+{"phrase": "text within the image", "label": "CUE", "reason": "describes text visible in the photo"}
+{"phrase": "text/letters appearing in the photo", "label": "CUE", "reason": "describes text visible in the photo"}
+{"phrase": "that an album used to exist for him", "label": "SYSTEM", "reason": "describes the state of albums in the system"}
+{"phrase": "that face grouping used to work for the whole family", "label": "SYSTEM", "reason": "describes a feature state (face grouping functionality) that changed over time"}
+{"phrase": "that it appears in Recently Transferred", "label": "SYSTEM", "reason": "describes where a photo appears in the app's interface (Recently Transferred)"}
+{"phrase": "that it was a screenshot", "label": "CUE", "reason": "describes the type of content in the photo (screenshot)"}
+{"phrase": "that it was a video, not a photo, that was wrongly matched", "label": "CUE", "reason": "describes the media type of the photo (video vs photo)"}
+{"phrase": "that it was an edited version of an existing photo", "label": "CUE", "reason": "describes the photo's relationship to another photo (edited version)"}
+{"phrase": "that photos were recently added", "label": "SYSTEM", "reason": "describes a state change in the app (recent addition action)"}
+{"phrase": "that the people look similar and get mixed up", "label": "CUE", "reason": "describes people in the photo and their visual similarity"}
+{"phrase": "that the person had been previously tagged/recognized", "label": "SYSTEM", "reason": "describes a system action/state (tagging or recognition history)"}
+{"phrase": "that they had hidden the photos", "label": "SYSTEM", "reason": "describes an action taken on photos (hiding them)"}
+{"phrase": "that they saved an edit as a copy", "label": "SYSTEM", "reason": "describes an action the user took (saved edit as copy)"}
+{"phrase": "that they set it up with a pattern passcode", "label": "SYSTEM", "reason": "describes a security setting configuration (pattern passcode)"}
+{"phrase": "that they've had the locked folder for years", "label": "SYSTEM", "reason": "describes a feature's existence duration (locked folder history)"}
+{"phrase": "the album exists and appears in the album list", "label": "SYSTEM", "reason": "describes the album's appearance in the app's album list"}
+{"phrase": "the album is a shared/collaborative album from a recent big event", "label": "CUE", "reason": "describes the type and context of the album (shared/collaborative, recent event)"}
+{"phrase": "the album title", "label": "CUE", "reason": "describes the name/title of an album containing the photo"}
+{"phrase": "the caption assigned to the photo", "label": "CUE", "reason": "describes metadata attached to the photo (caption)"}
+{"phrase": "the caption text added to the photo", "label": "CUE", "reason": "describes text metadata added to the photo (caption text)"}
+{"phrase": "the car color (white)", "label": "CUE", "reason": "describes a visual attribute of an object in the photo (car color)"}
+{"phrase": "the car make/model (Camaro)", "label": "CUE", "reason": "describes a visual attribute of an object in the photo (car make/model)"}
+{"phrase": "the company name \u9999\u6e2f\u7d42\u7aef associated with the image", "label": "CUE", "reason": "describes text/company name visible in or associated with the photo"}
+{"phrase": "the correct date and time of the photo", "label": "CUE", "reason": "describes when the photo was taken (correct date and time)"}
+{"phrase": "the date of the photo", "label": "CUE", "reason": "describes when the photo was taken (date)"}
+{"phrase": "the date the photo was actually taken", "label": "CUE", "reason": "describes when the photo was taken (actual date and time)"}
+{"phrase": "the description text added to the photo", "label": "CUE", "reason": "describes metadata added to the photo (description text)"}
+{"phrase": "the descriptions/words added to the photos", "label": "CUE", "reason": "describes metadata added to photos (descriptions/words)"}
+{"phrase": "the distinct item/object shown in the recent photo", "label": "CUE", "reason": "describes a distinct object/item visible in the photo"}
+{"phrase": "the document type was a Global Entry Card", "label": "CUE", "reason": "describes the type of document shown in the photo (Global Entry Card)"}
+{"phrase": "the document type was a passport", "label": "CUE", "reason": "describes the type of document shown in the photo (passport)"}
+{"phrase": "the exact caption text they added to the photo", "label": "CUE", "reason": "describes exact caption text metadata on the photo"}
+{"phrase": "the exact number/digits they were searching for", "label": "CUE", "reason": "describes exact numbers/digits the user was searching for in a photo"}
+{"phrase": "the exact pattern/passcode for the locked folder", "label": "SYSTEM", "reason": "describes the security configuration (locked folder passcode)"}
+{"phrase": "the exact tag/wording they added to the video's info field", "label": "CUE", "reason": "describes exact metadata/tag added to the video's info field"}
+{"phrase": "the exact word typed into the photo description", "label": "CUE", "reason": "describes exact text metadata added to the photo description"}
+{"phrase": "the face had been wrongly grouped as a different person", "label": "SYSTEM", "reason": "describes a face grouping error in the system's recognition"}
+{"phrase": "the file name of the photo", "label": "CUE", "reason": "describes the file name of the photo"}
+{"phrase": "the file name of the photo(s)", "label": "CUE", "reason": "describes the file name of the photo(s)"}
+{"phrase": "the friend's identity/who the person is", "label": "CUE", "reason": "describes who a person in the photo is (identity)"}
+{"phrase": "the general area/location where photos were taken", "label": "CUE", "reason": "describes where the photo was taken (location)"}
+{"phrase": "the keyword 'insurance' appearing in the photo", "label": "CUE", "reason": "describes text visible or searchable in the photo (keyword 'insurance')"}
+{"phrase": "the keyword/word appearing in the photo's text", "label": "CUE", "reason": "describes text visible or searchable in the photo (keyword/word in photo text)"}
+{"phrase": "the label or name they gave the photo", "label": "CUE", "reason": "describes a label/name assigned to a specific photo"}
+{"phrase": "the label/keyword applied to the photo", "label": "CUE", "reason": "describes a keyword applied to a photo's content"}
+{"phrase": "the label/keyword used on the photo", "label": "CUE", "reason": "describes a keyword applied to a photo's content"}
+{"phrase": "the month and year of the photos", "label": "CUE", "reason": "describes the temporal metadata of when photos were taken"}
+{"phrase": "the month/year the photos were taken", "label": "CUE", "reason": "describes when the photos were taken"}
+{"phrase": "the name given to the person", "label": "CUE", "reason": "describes a person identified in a photo"}
+{"phrase": "the name previously given to the photos", "label": "CUE", "reason": "describes a name/label given to photos"}
+{"phrase": "the name/person they tagged", "label": "CUE", "reason": "describes a person tagged in a photo"}
+{"phrase": "the numeric filename/timestamp of the photo", "label": "CUE", "reason": "describes the filename or timestamp identifier of a photo"}
+{"phrase": "the people in the photos (mum, sister, children, disliked person)", "label": "CUE", "reason": "describes people visible in photos"}
+{"phrase": "the people/face grouping feature was previously enabled", "label": "SYSTEM", "reason": "describes whether a feature (face grouping) was enabled"}
+{"phrase": "the person is a friend", "label": "CUE", "reason": "describes a person in the photos"}
+{"phrase": "the person was hidden by the user", "label": "SYSTEM", "reason": "describes an action taken on a person in the system"}
+{"phrase": "the person whose photos they wanted to find", "label": "CUE", "reason": "describes which person the user is looking for in photos"}
+{"phrase": "the person's name", "label": "CUE", "reason": "describes a person's name in a photo"}
+{"phrase": "the person's name/identity", "label": "CUE", "reason": "describes a person's name or identity in a photo"}
+{"phrase": "the person's name/identity (Fred)", "label": "CUE", "reason": "describes a person's name in a photo"}
+{"phrase": "the photo containing the hidden face", "label": "CUE", "reason": "describes a photo containing a specific face"}
+{"phrase": "the photo/video had been saved and given a name", "label": "SYSTEM", "reason": "describes an action taken on a photo (saved and named)"}
+{"phrase": "the photos involve a specific person", "label": "CUE", "reason": "describes that photos contain a specific person"}
+{"phrase": "the photos were grouped under daughter's face/person icon", "label": "SYSTEM", "reason": "describes how photos were organized by the face grouping system"}
+{"phrase": "the photos were taken at a specific place", "label": "CUE", "reason": "describes the location where a photo was taken"}
+{"phrase": "the place/location where photo was taken", "label": "CUE", "reason": "describes the place/location of a photo"}
+{"phrase": "the search keyword/term used", "label": "CUE", "reason": "describes a search term used to find photos"}
+{"phrase": "the search term 'tropical'", "label": "CUE", "reason": "describes a search term used"}
+{"phrase": "the specific calendar date", "label": "CUE", "reason": "describes the specific calendar date of a photo"}
+{"phrase": "the specific date in question", "label": "CUE", "reason": "describes the specific date in question for photos"}
+{"phrase": "the specific date of the photos", "label": "CUE", "reason": "describes the date when photos were taken"}
+{"phrase": "the specific person's name/face category", "label": "CUE", "reason": "describes a person's name in the face category system"}
+{"phrase": "the specific person's name/file the video was mistakenly grouped under", "label": "SYSTEM", "reason": "describes how a video was mistakenly grouped by the system"}
+{"phrase": "the specific photo already found via search", "label": "CUE", "reason": "describes a specific photo found via search"}
+{"phrase": "the specific photo itself (opened it)", "label": "CUE", "reason": "describes a specific photo itself"}
+{"phrase": "the specific year", "label": "CUE", "reason": "describes the year when a photo was taken"}
+{"phrase": "the subject is a dog", "label": "CUE", "reason": "describes the subject of a photo"}
+{"phrase": "the term THC describing the products", "label": "CUE", "reason": "describes text/content visible in a photo"}
+{"phrase": "the text that appeared in the photo", "label": "CUE", "reason": "describes text that appeared in a photo"}
+{"phrase": "the time the photo was taken", "label": "CUE", "reason": "describes the time when a photo was taken"}
+{"phrase": "the title given to the Moment", "label": "CUE", "reason": "describes a title given to a Moment grouping"}
+{"phrase": "the two people in the photos (self and partner)", "label": "CUE", "reason": "describes the people visible in photos"}
+{"phrase": "the two specific people in the photo", "label": "CUE", "reason": "describes the people visible in a photo"}
+{"phrase": "the two specific people/names involved", "label": "CUE", "reason": "describes people/subjects in the photo"}
+{"phrase": "the word 'spec' used to work as a search term before", "label": "SYSTEM", "reason": "describes past search functionality behavior"}
+{"phrase": "the word Thunderbird associated with the wifi", "label": "CUE", "reason": "describes network/location context of photo"}
+{"phrase": "the year the picture was taken", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "their own face group label", "label": "SYSTEM", "reason": "describes face grouping feature configuration"}
+{"phrase": "theme of eye infested with parasites", "label": "CUE", "reason": "describes subject matter/content of the photo"}
+{"phrase": "there are two specific photo groups, one for each child", "label": "SYSTEM", "reason": "describes album organization structure"}
+{"phrase": "there used to be a dedicated WhatsApp photos folder/category", "label": "SYSTEM", "reason": "describes past app folder/category feature"}
+{"phrase": "they had hidden certain faces previously", "label": "SYSTEM", "reason": "describes past action taken on face visibility setting"}
+{"phrase": "they have the same type of phone", "label": "CUE", "reason": "describes device type used to take photo"}
+{"phrase": "thousands of photos of her exist", "label": "CUE", "reason": "describes quantity of photos of a subject"}
+{"phrase": "time period of missing photos", "label": "CUE", "reason": "describes date range of photos"}
+{"phrase": "time period of missing photos (2011-2016)", "label": "CUE", "reason": "describes specific date range of photos"}
+{"phrase": "time period of photos (before 2017)", "label": "CUE", "reason": "describes date range of photos"}
+{"phrase": "time period since July", "label": "CUE", "reason": "describes time period when photos were taken"}
+{"phrase": "time range of last 20 days", "label": "CUE", "reason": "describes recent time range of photos"}
+{"phrase": "time the filename was derived from (5:26:29 pm)", "label": "CUE", "reason": "describes timestamp metadata of the photo"}
+{"phrase": "took the picture just now", "label": "CUE", "reason": "describes when photo was taken"}
+{"phrase": "topic and year", "label": "CUE", "reason": "describes subject theme and date of photo"}
+{"phrase": "total number of items uploaded", "label": "SYSTEM", "reason": "describes upload completion status count"}
+{"phrase": "total photo count", "label": "SYSTEM", "reason": "describes total library count metric"}
+{"phrase": "transferred from Samsung during phone switch", "label": "CUE", "reason": "describes source device/origin of photo"}
+{"phrase": "transferred via data cable from Pixel 7", "label": "CUE", "reason": "describes source device of photo"}
+{"phrase": "tried the literal search term 'motion photos'", "label": "SYSTEM", "reason": "describes search term attempted in the system"}
+{"phrase": "tried to unhide the person", "label": "SYSTEM", "reason": "describes action taken on face visibility setting"}
+{"phrase": "trip/event when new photos were taken", "label": "CUE", "reason": "describes event/trip context when photo was taken"}
+{"phrase": "two different people look completely different", "label": "CUE", "reason": "describes people/subjects in the photo"}
+{"phrase": "two people, one female one male", "label": "CUE", "reason": "describes people/subjects in the photo"}
+{"phrase": "two women positioned to the left and behind, near driver area", "label": "CUE", "reason": "describes people positions and subjects in photo"}
+{"phrase": "type of document in photo (vehicle title, ID)", "label": "CUE", "reason": "describes document type content within photo"}
+{"phrase": "uniform date/time assigned per folder", "label": "SYSTEM", "reason": "describes metadata timestamp assignment by system"}
+{"phrase": "upload reported as completed", "label": "SYSTEM", "reason": "describes upload completion status"}
+{"phrase": "upload setting was High Quality", "label": "SYSTEM", "reason": "describes upload quality setting configuration"}
+{"phrase": "upload source distinction - pixel XL vs laptop", "label": "CUE", "reason": "describes source device distinction for photo origin"}
+{"phrase": "upload was completed per notification", "label": "SYSTEM", "reason": "describes upload completion notification"}
+{"phrase": "uploaded photos from Pixel 3", "label": "CUE", "reason": "describes source device of photo"}
+{"phrase": "used Your Map feature under Places section", "label": "SYSTEM", "reason": "describes feature/tool used in the app"}
+{"phrase": "used camera timer feature", "label": "SYSTEM", "reason": "describes camera feature setting used"}
+{"phrase": "used face search to locate photos of a person", "label": "SYSTEM", "reason": "describes search feature used in the app"}
+{"phrase": "used the 'me' search term", "label": "SYSTEM", "reason": "describes search term tried in the system"}
+{"phrase": "used the clear space feature", "label": "SYSTEM", "reason": "describes an action taken within the app's features"}
+{"phrase": "used the hide option on the person", "label": "SYSTEM", "reason": "describes using a hide function, an app feature/action"}
+{"phrase": "used to search simply with the term 'QR'", "label": "SYSTEM", "reason": "describes how the user performs searches in the system"}
+{"phrase": "user recalls they blocked certain photos", "label": "SYSTEM", "reason": "describes blocking action taken in the app"}
+{"phrase": "usually searches by month", "label": "SYSTEM", "reason": "describes the user's search behavior/habit within the system"}
+{"phrase": "video content - singing", "label": "CUE", "reason": "describes the content/subject matter of a video"}
+{"phrase": "video shown as saved in shared conversation", "label": "SYSTEM", "reason": "describes where/how a video appears in the system"}
+{"phrase": "video was previously stored in Photo Locker", "label": "SYSTEM", "reason": "describes where a video was stored, a system feature"}
+{"phrase": "videos were from 2024", "label": "CUE", "reason": "describes when the videos were taken, a photo attribute"}
+{"phrase": "visible on website but not app", "label": "SYSTEM", "reason": "describes where content is visible across different app interfaces"}
+{"phrase": "visible via shared albums", "label": "SYSTEM", "reason": "describes visibility via a system feature (shared albums)"}
+{"phrase": "visited Monkey Island", "label": "CUE", "reason": "describes the location/place where a photo was taken"}
+{"phrase": "visits the state regularly due to family", "label": "CUE", "reason": "describes where the user visits, contextual information about photos"}
+{"phrase": "was actively working on a photo book project", "label": "SYSTEM", "reason": "describes a feature/project the user was working on in the system"}
+{"phrase": "was editing and deleting photos/videos when issue occurred", "label": "SYSTEM", "reason": "describes actions the user was performing when an issue occurred"}
+{"phrase": "was on WiFi the whole time", "label": "SYSTEM", "reason": "describes the connection state/system condition at the time"}
+{"phrase": "what the object in the photo was (a driver's license)", "label": "CUE", "reason": "describes what object/subject is in the photo"}
+{"phrase": "when the older photo was taken", "label": "CUE", "reason": "describes when a photo was taken, a photo attribute"}
+{"phrase": "when the photo was taken", "label": "CUE", "reason": "describes when the photo was taken, a photo attribute"}
+{"phrase": "which album the photo is in", "label": "CUE", "reason": "describes which album the photo is in, a photo organization attribute"}
+{"phrase": "which album the photo was added to", "label": "SYSTEM", "reason": "describes an action of adding a photo to an album"}
+{"phrase": "which album the photos are in", "label": "CUE", "reason": "describes which album the photos are in, a photo organization attribute"}
+{"phrase": "which album the photos were moved to", "label": "SYSTEM", "reason": "describes an action of moving photos between albums"}
+{"phrase": "which app generated it", "label": "CUE", "reason": "describes which app/device created the photo"}
+{"phrase": "which child (person) to search for", "label": "CUE", "reason": "describes which person to search for in photos"}
+{"phrase": "which device/camera took the photos", "label": "CUE", "reason": "describes which device/camera took the photos"}
+{"phrase": "which dog/category the photos belong to", "label": "CUE", "reason": "describes which category/subject the photos belong to"}
+{"phrase": "which face/person group to add new photos to", "label": "SYSTEM", "reason": "describes adding photos to a face/person group, a system action"}
+{"phrase": "which face/person to search for", "label": "CUE", "reason": "describes which person to search for in photos"}
+{"phrase": "which family member's face to find", "label": "CUE", "reason": "describes which family member's face to find in photos"}
+{"phrase": "which family member/person the photo was of", "label": "CUE", "reason": "describes who is in the photo, a photo attribute"}
+{"phrase": "which feature/icon the photos should appear under", "label": "SYSTEM", "reason": "describes which feature/UI section photos should appear under"}
+{"phrase": "which of many Google Drives/videos it was saved in", "label": "SYSTEM", "reason": "describes where a photo was saved in the storage system"}
+{"phrase": "which people are tagged (Hans, Julia)", "label": "CUE", "reason": "describes which people are tagged in the photo"}
+{"phrase": "which person to search for", "label": "CUE", "reason": "describes which person to search for in photos"}
+{"phrase": "which person was in the photo", "label": "CUE", "reason": "describes who is in the photo, a photo attribute"}
+{"phrase": "which person/subject (daughter)", "label": "CUE", "reason": "describes the subject/person in the photo"}
+{"phrase": "which two albums are affected", "label": "SYSTEM", "reason": "describes which albums are affected by an issue"}
+{"phrase": "who gave the award (the principal)", "label": "CUE", "reason": "describes who gave the award, a detail about what's in the photo"}
+{"phrase": "who is in the photo (self and son)", "label": "CUE", "reason": "describes who is in the photo, a photo attribute"}
+{"phrase": "who the photo was of (brother)", "label": "CUE", "reason": "describes who is in the photo"}
+{"phrase": "wife sent a link to the shared collection", "label": "SYSTEM", "reason": "describes an action taken (receiving a shared link)"}
+{"phrase": "word 'devil' associated with the content", "label": "CUE", "reason": "describes subject/content associated with the photo"}
+{"phrase": "year 2021 for first album", "label": "CUE", "reason": "describes when photos in an album were taken"}
+{"phrase": "year 2022 for second album", "label": "CUE", "reason": "describes when photos in an album were taken"}
+{"phrase": "year of photos/videos", "label": "CUE", "reason": "describes the date/time of the photos"}
+{"phrase": "year of the photos", "label": "CUE", "reason": "describes the date/time of the photos"}
+{"phrase": "year shown as 2024 in lower right", "label": "SYSTEM", "reason": "describes how the app displayed the year"}
+{"phrase": "year taken", "label": "CUE", "reason": "describes when the photo was taken"}
+{"phrase": "year the photo was taken", "label": "CUE", "reason": "describes when the photo was taken"}

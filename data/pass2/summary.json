@@ -1,0 +1,18 @@
+{
+  "metrics": {
+    "remembered": {
+      "returned": 43,
+      "grounded": 42,
+      "dropped": 1,
+      "drop_rate": 2.3255813953488373
+    },
+    "forgotten": {
+      "returned": 1,
+      "grounded": 1,
+      "dropped": 0,
+      "drop_rate": 0.0
+    }
+  },
+  "cost": 0.34033199999999997,
+  "units": 30
+}

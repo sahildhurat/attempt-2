@@ -1,0 +1,31 @@
+n,phrase,your_label
+1,album still reports original count,system
+2,feature worked before a recent update,system
+3,upload source distinction - pixel XL vs laptop,system
+4,specific person's name (e.g. Abigail),cue
+5,aware of being added to a new shared group/album,system
+6,photos were taken by husband,cue
+7,moments/events of kids and other relevant things,cue
+8,pressed 'free up space' option,system
+9,photos were edited to change their date,system
+10,black and white dog in Hawaii,cue
+11,subject matter (beach/shirtless),cue
+12,pets registered as faces with many photos,system
+13,exact date of the photo,cue
+14,specific date taken,cue
+15,camera/device name,system
+16,subject matter - blood pressure readings,cue
+17,face group previously had only one person,system
+18,face recognition setting not disabled,system
+19,had face/people tagging previously on old phone,system
+20,album was dated in November,system
+21,sharing settings are correctly configured,system
+22,search term 'golf',cue
+23,filename with ABC_2022,cue
+24,search keyword 'knife',cue
+25,subject is sunrises,cue
+26,album/folder name,cue
+27,assumed photos were backed up to Google Photos,system
+28,corrections included animal faces too,system
+29,photos existed from before 2019,system
+30,albums are recent,system

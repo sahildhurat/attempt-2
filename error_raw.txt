@@ -1,0 +1,16 @@
+{
+  "categories": [
+    {
+      "name": "Camera Model Names",
+      "definition": "Phrases identifying the specific brand/model name of a camera used to take a photo.",
+      "examples": ["camera model name EOS 450D", "camera model name PENTAX K-S2", "camera model name EOS 90D"]
+    },
+    {
+      "name": "Named Locations",
+      "definition": "Phrases citing a specific, named place where photos or videos were taken.",
+      "examples": ["location name - Penn Station", "location name - Havelock Island", "location name - Pee Pee Township, Ohio"]
+    },
+    {
+      "name": "Car Details",
+      "definition": "Phrases describing identifying attributes of a car depicted in a photo.",
+      "examples": ["car make and model", "color of the car", "the car make/model (Camaro)

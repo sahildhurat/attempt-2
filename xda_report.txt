@@ -1,0 +1,7 @@
+Threads fetched: 0
+Units produced: 0
+Average units per thread: 0.00
+Total reply count: 0
+Character-length deciles: {}
+
+3 COMPLETE THREADS VERBATIM:

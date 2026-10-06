@@ -1,0 +1,598 @@
+{"field": "cues", "phrase": "locations of photos", "category": "location"}
+{"field": "cues", "phrase": "it's an old Polaroid of herself and siblings", "category": "capture source"}
+{"field": "cues", "phrase": "subject matter is tattoos (henna and permanent)", "category": "content description"}
+{"field": "cues", "phrase": "when the photo was taken", "category": "date and time"}
+{"field": "cues", "phrase": "search term 'dog'", "category": "search term used"}
+{"field": "cues", "phrase": "album was dated in November", "category": "UNASSIGNED", "reason": "Refers to when an album was dated/created, not when the photo was taken"}
+{"field": "cues", "phrase": "the word Thunderbird associated with the wifi", "category": "content description"}
+{"field": "cues", "phrase": "subject/object depicted in photo", "category": "content description"}
+{"field": "cues", "phrase": "remembered the person's name/identity to search for", "category": "person identity"}
+{"field": "cues", "phrase": "the specific photo itself (opened it)", "category": "UNASSIGNED", "reason": "References the physical/digital object itself without identifying any searchable attribute"}
+{"field": "cues", "phrase": "subject is a locker", "category": "content description"}
+{"field": "cues", "phrase": "month/date the photos were from", "category": "date and time"}
+{"field": "cues", "phrase": "older file naming convention for screen recordings", "category": "file identity"}
+{"field": "cues", "phrase": "the person whose photos they wanted to find", "category": "person identity"}
+{"field": "cues", "phrase": "videos were from 2024", "category": "date and time"}
+{"field": "cues", "phrase": "subject wearing pink dress", "category": "content description"}
+{"field": "cues", "phrase": "the keyword/word appearing in the photo's text", "category": "content description"}
+{"field": "cues", "phrase": "name appears in filename", "category": "file identity"}
+{"field": "cues", "phrase": "old cat's appearance (dark tabby)", "category": "content description"}
+{"field": "cues", "phrase": "which person/subject (daughter)", "category": "person identity"}
+{"field": "cues", "phrase": "photos were added 2 days ago", "category": "UNASSIGNED", "reason": "Refers to when the photo was added/uploaded to the app, not when it was taken"}
+{"field": "cues", "phrase": "search term 'ford'", "category": "search term used"}
+{"field": "cues", "phrase": "topic and year", "category": "date and time"}
+{"field": "cues", "phrase": "a specific word present in the photo", "category": "content description"}
+{"field": "cues", "phrase": "car was rear-ended", "category": "occasion or event"}
+{"field": "cues", "phrase": "the exact caption text they added to the photo", "category": "UNASSIGNED", "reason": "Refers to metadata the user added (caption), not an inherent attribute of the photo"}
+{"field": "cues", "phrase": "subject matter - galaxy photos", "category": "content description"}
+{"field": "cues", "phrase": "general location - New York City", "category": "location"}
+{"field": "cues", "phrase": "knows it is their dad's face that was hidden", "category": "person identity"}
+{"field": "cues", "phrase": "the name/person they tagged", "category": "person identity"}
+{"field": "cues", "phrase": "brand name of the slicer", "category": "content description"}
+{"field": "cues", "phrase": "flower is vibrant blue", "category": "content description"}
+{"field": "cues", "phrase": "has many backed up pictures that should contain the person", "category": "UNASSIGNED", "reason": "Describes a general statement about backup status, not a specific searchable cue"}
+{"field": "cues", "phrase": "dates of the photos", "category": "date and time"}
+{"field": "cues", "phrase": "company/brand name on document (Progressive)", "category": "content description"}
+{"field": "cues", "phrase": "object was a firepit", "category": "content description"}
+{"field": "cues", "phrase": "name of the person (Paul)", "category": "person identity"}
+{"field": "cues", "phrase": "photos contain their pet", "category": "person identity"}
+{"field": "cues", "phrase": "number is texted onto the image", "category": "content description"}
+{"field": "cues", "phrase": "subject text written in each quiz question", "category": "content description"}
+{"field": "cues", "phrase": "subject is dogs", "category": "content description"}
+{"field": "cues", "phrase": "the descriptions/words added to the photos", "category": "content description"}
+{"field": "cues", "phrase": "album name", "category": "album or folder name"}
+{"field": "cues", "phrase": "visited Monkey Island", "category": "occasion or event"}
+{"field": "cues", "phrase": "subject/breed of dog depicted (e.g., poodles, labs, Chihuahuas, German Shepherds)", "category": "content description"}
+{"field": "cues", "phrase": "albums were created and shared around specific events (weddings, vacations)", "category": "occasion or event"}
+{"field": "cues", "phrase": "search term 'shirt stripes'", "category": "search term used"}
+{"field": "cues", "phrase": "date after which photos should exist", "category": "date and time"}
+{"field": "cues", "phrase": "scanner name for scanned film", "category": "capture source"}
+{"field": "cues", "phrase": "names of the two people in the photo", "category": "person identity"}
+{"field": "cues", "phrase": "photos existed from before 2019", "category": "date and time"}
+{"field": "cues", "phrase": "expected date/time location next to original", "category": "date and time"}
+{"field": "cues", "phrase": "album/folder name", "category": "album or folder name"}
+{"field": "cues", "phrase": "full search term 'kerokero' returns the image", "category": "search term used"}
+{"field": "cues", "phrase": "subject of photo is girlfriend", "category": "person identity"}
+{"field": "cues", "phrase": "includes both own and pet x-rays", "category": "content description"}
+{"field": "cues", "phrase": "that it was a screenshot", "category": "content description"}
+{"field": "cues", "phrase": "month/date the photos were from", "category": "date and time"}
+{"field": "cues", "phrase": "it was a screenshot of a costume", "category": "content description"}
+{"field": "cues", "phrase": "the description text added to the photo", "category": "content description"}
+{"field": "cues", "phrase": "pet's name", "category": "person identity"}
+{"field": "cues", "phrase": "the date of the photo", "category": "date and time"}
+{"field": "cues", "phrase": "theme of eye infested with parasites", "category": "content description"}
+{"field": "cues", "phrase": "has a screenshot of the image", "category": "UNASSIGNED", "reason": "Refers to metadata or file state rather than a cue for finding photos; does not describe the photo's origin, content, or identifying attributes."}
+{"field": "cues", "phrase": "year 2021 for first album", "category": "date and time"}
+{"field": "cues", "phrase": "the specific person's name/face category", "category": "person identity"}
+{"field": "cues", "phrase": "knows it's a person-category album (like Nova the cat or unnamed dog album)", "category": "person identity"}
+{"field": "cues", "phrase": "the place/location where photo was taken", "category": "location"}
+{"field": "cues", "phrase": "descriptive word for item in photo (e.g. dress)", "category": "content description"}
+{"field": "cues", "phrase": "faces appearing in the photos", "category": "UNASSIGNED", "reason": "Refers to how the app groups or detects faces rather than a specific individual person or relationship."}
+{"field": "cues", "phrase": "search term 'golf'", "category": "search term used"}
+{"field": "cues", "phrase": "peace gesture/theme in photo", "category": "content description"}
+{"field": "cues", "phrase": "specific month and day of photos", "category": "date and time"}
+{"field": "cues", "phrase": "first names of people/pets used in search", "category": "search term used"}
+{"field": "cues", "phrase": "a specific search term that isolates the desired images", "category": "search term used"}
+{"field": "cues", "phrase": "the date of the photo", "category": "date and time"}
+{"field": "cues", "phrase": "approximate age of photos (3-4 years old)", "category": "date and time"}
+{"field": "cues", "phrase": "phrase associated with the moment", "category": "occasion or event"}
+{"field": "cues", "phrase": "two different people look completely different", "category": "UNASSIGNED", "reason": "Observation about visual distinctiveness rather than an identifying cue or attribute of the photo."}
+{"field": "cues", "phrase": "knows which child is which in the photos", "category": "person identity"}
+{"field": "cues", "phrase": "search term 'blowtorch'", "category": "search term used"}
+{"field": "cues", "phrase": "setting/location where photo was taken", "category": "location"}
+{"field": "cues", "phrase": "approximate timeframe (couple of weeks back)", "category": "date and time"}
+{"field": "cues", "phrase": "filename contains 'WA' from WhatsApp", "category": "file identity"}
+{"field": "cues", "phrase": "exact date of the photos", "category": "date and time"}
+{"field": "cues", "phrase": "specific words contained in video file names", "category": "file identity"}
+{"field": "cues", "phrase": "device the video was on", "category": "capture source"}
+{"field": "cues", "phrase": "year of the photos", "category": "date and time"}
+{"field": "cues", "phrase": "location of photos (Japan)", "category": "location"}
+{"field": "cues", "phrase": "the photos were taken at a specific place", "category": "location"}
+{"field": "cues", "phrase": "approximate date of photos - February 2020", "category": "date and time"}
+{"field": "cues", "phrase": "names of the two people involved", "category": "person identity"}
+{"field": "cues", "phrase": "the name given to the person", "category": "person identity"}
+{"field": "cues", "phrase": "the photos involve a specific person", "category": "person identity"}
+{"field": "cues", "phrase": "exact text shown in the screenshot (KeroKero)", "category": "content description"}
+{"field": "cues", "phrase": "dog's name (Anubis)", "category": "person identity"}
+{"field": "cues", "phrase": "knows a specific photo that belongs to the album", "category": "album or folder name"}
+{"field": "cues", "phrase": "the photo containing the hidden face", "category": "content description"}
+{"field": "cues", "phrase": "photos date back to at least 2014", "category": "date and time"}
+{"field": "cues", "phrase": "date range of the photos", "category": "date and time"}
+{"field": "cues", "phrase": "date of photo", "category": "date and time"}
+{"field": "cues", "phrase": "customer name tagged in the photo description", "category": "person identity"}
+{"field": "cues", "phrase": "exact album title word", "category": "album or folder name"}
+{"field": "cues", "phrase": "specific landmark visited", "category": "location"}
+{"field": "cues", "phrase": "search term 'car'", "category": "search term used"}
+{"field": "cues", "phrase": "uploaded photos from Pixel 3", "category": "capture source"}
+{"field": "cues", "phrase": "location where videos were taken (Delaware)", "category": "location"}
+{"field": "cues", "phrase": "general product category (shampoo)", "category": "UNASSIGNED", "reason": "Generic product category is neither visual content of a photo nor a retrievable metadata attribute; it describes a type of goods rather than a photo cue."}
+{"field": "cues", "phrase": "exact date photo was taken", "category": "date and time"}
+{"field": "cues", "phrase": "photos are from before 2018 (date range)", "category": "date and time"}
+{"field": "cues", "phrase": "pet's name/label used in search", "category": "person identity"}
+{"field": "cues", "phrase": "moments/events of kids and other relevant things", "category": "occasion or event"}
+{"field": "cues", "phrase": "context that lockdown period is wrong for this event", "category": "UNASSIGNED", "reason": "This is context reasoning about whether a date is plausible for an event, not a cue about the photo itself."}
+{"field": "cues", "phrase": "original website source", "category": "UNASSIGNED", "reason": "Original website source is not a photo cue; it describes where a file came from outside the photo domain."}
+{"field": "cues", "phrase": "approximate date range of old photos", "category": "date and time"}
+{"field": "cues", "phrase": "photos were from WhatsApp (images and videos sent to them)", "category": "capture source"}
+{"field": "cues", "phrase": "dates of photos", "category": "date and time"}
+{"field": "cues", "phrase": "photos were sent by a friend", "category": "capture source"}
+{"field": "cues", "phrase": "knows the mistaken photo is of their grandson as a baby", "category": "UNASSIGNED", "reason": "This is a misidentification or false belief about photo content (who is in it), not a retrievable cue to find the photo."}
+{"field": "cues", "phrase": "location near home", "category": "location"}
+{"field": "cues", "phrase": "approximate date taken (Monday, this week)", "category": "date and time"}
+{"field": "cues", "phrase": "which device/camera took the photos", "category": "capture source"}
+{"field": "cues", "phrase": "no other information about the photo (e.g. date, location, content details)", "category": "UNASSIGNED", "reason": "This phrase describes the absence of information rather than a cue itself"}
+{"field": "cues", "phrase": "location where the image was taken", "category": "location"}
+{"field": "cues", "phrase": "identity of the person (themselves)", "category": "person identity"}
+{"field": "cues", "phrase": "product name/text written on the item", "category": "content description"}
+{"field": "cues", "phrase": "approximate geographic location of the cabin", "category": "location"}
+{"field": "cues", "phrase": "large volume of photos taken during that walk", "category": "UNASSIGNED", "reason": "This describes quantity/volume of photos, not a cue to identify them"}
+{"field": "cues", "phrase": "painting of a woman in a blue dress", "category": "content description"}
+{"field": "cues", "phrase": "filename had a ~2 suffix", "category": "file identity"}
+{"field": "cues", "phrase": "date and location metadata of the invisible photos", "category": "UNASSIGNED", "reason": "Refers to metadata of photos not visible, which is about data structure rather than a cue"}
+{"field": "cues", "phrase": "the person's name/identity (Fred)", "category": "person identity"}
+{"field": "cues", "phrase": "which person was in the photo", "category": "person identity"}
+{"field": "cues", "phrase": "specific words/strings contained in video filenames", "category": "file identity"}
+{"field": "cues", "phrase": "year the photo was taken", "category": "date and time"}
+{"field": "cues", "phrase": "which album the photo belongs to", "category": "album or folder name"}
+{"field": "cues", "phrase": "locations where photos were taken", "category": "location"}
+{"field": "cues", "phrase": "search term New England Patriots", "category": "search term used"}
+{"field": "cues", "phrase": "photo of self holding a snake", "category": "content description"}
+{"field": "cues", "phrase": "photos are located in a shared album", "category": "UNASSIGNED", "reason": "Describes where a file sits (shared album location), not a cue about the photo itself"}
+{"field": "cues", "phrase": "the album is a shared/collaborative album from a recent big event", "category": "album or folder name"}
+{"field": "cues", "phrase": "identity as new grandchild born last month", "category": "person identity"}
+{"field": "cues", "phrase": "who the photo was of (brother)", "category": "person identity"}
+{"field": "cues", "phrase": "the caption assigned to the photo", "category": "UNASSIGNED", "reason": "A caption is metadata assigned to the photo, not a cue for identifying it"}
+{"field": "cues", "phrase": "specific subject 'dog on the tuckerbox' photo", "category": "content description"}
+{"field": "cues", "phrase": "specific date of photo (April 8 2011)", "category": "date and time"}
+{"field": "cues", "phrase": "knows which specific person they are looking for", "category": "person identity"}
+{"field": "cues", "phrase": "specific month and day", "category": "date and time"}
+{"field": "cues", "phrase": "subject type - flowers, specifically sunflower", "category": "content description"}
+{"field": "cues", "phrase": "the car make/model (Camaro)", "category": "content description"}
+{"field": "cues", "phrase": "daughter was little in the photo", "category": "person identity"}
+{"field": "cues", "phrase": "recent photos from yesterday", "category": "date and time"}
+{"field": "cues", "phrase": "keyword 'yellow truck'", "category": "search term used"}
+{"field": "cues", "phrase": "approximate date/time of the video", "category": "date and time"}
+{"field": "cues", "phrase": "general topic/theme like pink color", "category": "content description"}
+{"field": "cues", "phrase": "has a similar video of a classmate at the same event", "category": "occasion or event"}
+{"field": "cues", "phrase": "knows the person's name/identity they are searching for", "category": "person identity"}
+{"field": "cues", "phrase": "clothing detail - Papa John's uniform", "category": "content description"}
+{"field": "cues", "phrase": "photos were sent via WhatsApp", "category": "capture source"}
+{"field": "cues", "phrase": "search term 'recipes'", "category": "search term used"}
+{"field": "cues", "phrase": "the year the picture was taken", "category": "date and time"}
+{"field": "cues", "phrase": "general area/location of photos", "category": "location"}
+{"field": "cues", "phrase": "subject is the back of their house", "category": "content description"}
+{"field": "cues", "phrase": "filename with ABC_2022", "category": "file identity"}
+{"field": "cues", "phrase": "month or year", "category": "date and time"}
+{"field": "cues", "phrase": "who gave the award (the principal)", "category": "person identity"}
+{"field": "cues", "phrase": "app used to capture/store photo", "category": "capture source"}
+{"field": "cues", "phrase": "identity of the person (face) in the photos", "category": "person identity"}
+{"field": "cues", "phrase": "specific film title", "category": "content description"}
+{"field": "cues", "phrase": "video content - singing", "category": "content description"}
+{"field": "cues", "phrase": "the numeric filename/timestamp of the photo", "category": "file identity"}
+{"field": "cues", "phrase": "identity of the specific person searched for", "category": "person identity"}
+{"field": "cues", "phrase": "knows the specific video (crime video) that keeps appearing", "category": "content description"}
+{"field": "cues", "phrase": "the friend's identity/who the person is", "category": "person identity"}
+{"field": "cues", "phrase": "camera/device name", "category": "capture source"}
+{"field": "cues", "phrase": "photos are small thumbnail-sized images", "category": "file identity"}
+{"field": "cues", "phrase": "descriptive word for item in photo (e.g. dress)", "category": "content description"}
+{"field": "cues", "phrase": "subject matter (beach/shirtless)", "category": "content description"}
+{"field": "cues", "phrase": "roughly when it was created (recent edit)", "category": "date and time", "reason": "refers to when the photo/edit was created, a temporal marker"}
+{"field": "cues", "phrase": "camera model name EOS 90D", "category": "capture source"}
+{"field": "cues", "phrase": "the person's name", "category": "person identity"}
+{"field": "cues", "phrase": "locations where temple photos were taken", "category": "location"}
+{"field": "cues", "phrase": "search term 'vicious'", "category": "search term used"}
+{"field": "cues", "phrase": "specific folder name (WhatsApp images)", "category": "album or folder name"}
+{"field": "cues", "phrase": "it was an important document", "category": "content description"}
+{"field": "cues", "phrase": "the distinct item/object shown in the recent photo", "category": "content description"}
+{"field": "cues", "phrase": "partial word match attempt (Boyfriend for boyfriendtv)", "category": "search term used"}
+{"field": "cues", "phrase": "location name in various formats", "category": "location"}
+{"field": "cues", "phrase": "images contain only the truck", "category": "content description"}
+{"field": "cues", "phrase": "subject was paint buckets with paint codes", "category": "content description"}
+{"field": "cues", "phrase": "time period since July", "category": "date and time"}
+{"field": "cues", "phrase": "knows photos are within a specific large album", "category": "album or folder name"}
+{"field": "cues", "phrase": "knows the two people are her children", "category": "person identity"}
+{"field": "cues", "phrase": "a specific word present in the photo", "category": "content description"}
+{"field": "cues", "phrase": "exact date or year of the photo", "category": "date and time"}
+{"field": "cues", "phrase": "approximate total count of photos of her", "category": "UNASSIGNED", "reason": "refers to a count/metric about photos rather than a cue to identify or retrieve a specific photo"}
+{"field": "cues", "phrase": "name of the unnamed/unknown person", "category": "person identity"}
+{"field": "cues", "phrase": "cannot recall/search the saved location of the photo", "category": "UNASSIGNED", "reason": "describes inability to locate rather than providing a cue for retrieval"}
+{"field": "cues", "phrase": "approximate time taken - 6 months ago", "category": "date and time"}
+{"field": "cues", "phrase": "time the filename was derived from (5:26:29 pm)", "category": "date and time"}
+{"field": "cues", "phrase": "identity of the friend being searched for", "category": "person identity", "reason": "identity of the friend being searched for"}
+{"field": "cues", "phrase": "photos were taken on Snapchat", "category": "capture source"}
+{"field": "cues", "phrase": "occasion/context (vacation)", "category": "occasion or event"}
+{"field": "cues", "phrase": "search term 'Cat'", "category": "search term used"}
+{"field": "cues", "phrase": "desired media format (videos)", "category": "UNASSIGNED", "reason": "desired media format is a filter/preference, not a cue about the photo itself"}
+{"field": "cues", "phrase": "approximate date/month and year", "category": "date and time"}
+{"field": "cues", "phrase": "identity/face of person in photo", "category": "person identity"}
+{"field": "cues", "phrase": "category/object type - tools", "category": "content description"}
+{"field": "cues", "phrase": "it is a 2 frame motion photo", "category": "file identity"}
+{"field": "cues", "phrase": "subject matter - cats", "category": "content description"}
+{"field": "cues", "phrase": "the specific date in question", "category": "date and time"}
+{"field": "cues", "phrase": "location such as Utah", "category": "location"}
+{"field": "cues", "phrase": "less than a minute between the two pictures", "category": "UNASSIGNED", "reason": "temporal relationship between frames, not a cue about when the photo was taken"}
+{"field": "cues", "phrase": "subject/content of photo (cat)", "category": "content description"}
+{"field": "cues", "phrase": "the text that appeared in the photo", "category": "content description"}
+{"field": "cues", "phrase": "subject of photo (dog)", "category": "content description"}
+{"field": "cues", "phrase": "the file name of the photo", "category": "file identity"}
+{"field": "cues", "phrase": "exact filename of the photo", "category": "file identity"}
+{"field": "cues", "phrase": "subject of photo (a monkey)", "category": "content description"}
+{"field": "cues", "phrase": "photo is from 2019", "category": "date and time"}
+{"field": "cues", "phrase": "has a specific photo of the person", "category": "person identity"}
+{"field": "cues", "phrase": "location/place name", "category": "location"}
+{"field": "cues", "phrase": "location of the photo", "category": "location"}
+{"field": "cues", "phrase": "the general area/location where photos were taken", "category": "location"}
+{"field": "cues", "phrase": "own screenname as search term", "category": "search term used"}
+{"field": "cues", "phrase": "searched by a specific person's name", "category": "search term used"}
+{"field": "cues", "phrase": "it was a screen recording", "category": "capture source"}
+{"field": "cues", "phrase": "searched a person's name", "category": "search term used"}
+{"field": "cues", "phrase": "approximate age/event of child in photo", "category": "date and time"}
+{"field": "cues", "phrase": "approximate date/time period", "category": "date and time"}
+{"field": "cues", "phrase": "a face in the photo", "category": "person identity"}
+{"field": "cues", "phrase": "general type of device (e.g. iPhone)", "category": "capture source"}
+{"field": "cues", "phrase": "search terms used to find matching photos", "category": "search term used"}
+{"field": "cues", "phrase": "it was part of a series taken with stock Camera app", "category": "capture source"}
+{"field": "cues", "phrase": "two women positioned to the left and behind, near driver area", "category": "content description"}
+{"field": "cues", "phrase": "exact image filename", "category": "file identity"}
+{"field": "cues", "phrase": "the term THC describing the products", "category": "content description"}
+{"field": "cues", "phrase": "photos before and after the period are present", "category": "UNASSIGNED", "reason": "refers to absence/presence pattern in album, not a cue about a specific photo"}
+{"field": "cues", "phrase": "person's name used as search term", "category": "search term used"}
+{"field": "cues", "phrase": "took the picture just now", "category": "date and time"}
+{"field": "cues", "phrase": "approximate time period (10+ years ago)", "category": "date and time"}
+{"field": "cues", "phrase": "knows they have many photos of these people", "category": "person identity"}
+{"field": "cues", "phrase": "search term 'map'", "category": "search term used"}
+{"field": "cues", "phrase": "time period of missing photos (2011-2016)", "category": "date and time"}
+{"field": "cues", "phrase": "thousands of photos of her exist", "category": "person identity"}
+{"field": "cues", "phrase": "content of the image - a condolence message", "category": "content description"}
+{"field": "cues", "phrase": "location of the cabin on the map", "category": "location"}
+{"field": "cues", "phrase": "text appearing in the photo", "category": "content description"}
+{"field": "cues", "phrase": "identity of the person (best friend)", "category": "person identity"}
+{"field": "cues", "phrase": "approximate date range of photo", "category": "date and time"}
+{"field": "cues", "phrase": "album was named Hangouts", "category": "album or folder name"}
+{"field": "cues", "phrase": "the company name \u9999\u6e2f\u7d42\u7aef associated with the image", "category": "content description"}
+{"field": "cues", "phrase": "search keyword 'knife'", "category": "search term used"}
+{"field": "cues", "phrase": "subject of photos is a dog", "category": "content description"}
+{"field": "cues", "phrase": "the caption text added to the photo", "category": "UNASSIGNED", "reason": "Caption text added to a photo is metadata added after capture, not a cue for retrieving the photo itself"}
+{"field": "cues", "phrase": "the keyword 'insurance' appearing in the photo", "category": "content description"}
+{"field": "cues", "phrase": "partial filename ending in 172629", "category": "file identity"}
+{"field": "cues", "phrase": "the label or name they gave the photo", "category": "UNASSIGNED", "reason": "A label or name given by the user is custom metadata, not a standard cue attribute"}
+{"field": "cues", "phrase": "word 'devil' associated with the content", "category": "content description"}
+{"field": "cues", "phrase": "exact description text added to photo", "category": "UNASSIGNED", "reason": "Description text added to a photo is metadata added after capture, not a cue for retrieval"}
+{"field": "cues", "phrase": "green pancakes in Japan", "category": "content description"}
+{"field": "cues", "phrase": "general location of the photo", "category": "location"}
+{"field": "cues", "phrase": "specific device model/name", "category": "capture source"}
+{"field": "cues", "phrase": "the specific photo already found via search", "category": "UNASSIGNED", "reason": "A photo already found is a result, not a cue for finding it"}
+{"field": "cues", "phrase": "cannot recall exact position/date order placement of each poodle photo among 500 scattered pics", "category": "UNASSIGNED", "reason": "This describes uncertainty about ordering/placement rather than a retrievable cue"}
+{"field": "cues", "phrase": "person's name/identity tag", "category": "person identity"}
+{"field": "cues", "phrase": "color of the trucks (banana yellow)", "category": "content description"}
+{"field": "cues", "phrase": "brand/label name on the clothing tag", "category": "content description"}
+{"field": "cues", "phrase": "approximate date taken/created/modified", "category": "date and time"}
+{"field": "cues", "phrase": "photo is of a specific person", "category": "person identity"}
+{"field": "cues", "phrase": "identifier text present in screenshot", "category": "content description"}
+{"field": "cues", "phrase": "subject of videos is kid growing up", "category": "content description"}
+{"field": "cues", "phrase": "photos were taken by husband", "category": "capture source"}
+{"field": "cues", "phrase": "groundhog was in a bucket after being fished out of the pool", "category": "content description"}
+{"field": "cues", "phrase": "knows the children don't look similar", "category": "UNASSIGNED", "reason": "Observational comparison of appearance is not a cue for finding photos"}
+{"field": "cues", "phrase": "file type is RAW format", "category": "file identity"}
+{"field": "cues", "phrase": "photos were edited with Snapseed", "category": "capture source"}
+{"field": "cues", "phrase": "it was an animated/moving photo", "category": "content description"}
+{"field": "cues", "phrase": "photos exist up to 2007", "category": "date and time"}
+{"field": "cues", "phrase": "photos are black and white", "category": "content description"}
+{"field": "cues", "phrase": "the person's name/identity", "category": "person identity"}
+{"field": "cues", "phrase": "search term 'cars'", "category": "search term used"}
+{"field": "cues", "phrase": "person was tagged in at least 500 photos", "category": "UNASSIGNED", "reason": "describes a metric or count of photos, not a cue to find them"}
+{"field": "cues", "phrase": "photo of self climbing a mountain", "category": "content description"}
+{"field": "cues", "phrase": "black and white dog in Hawaii", "category": "content description"}
+{"field": "cues", "phrase": "the two specific people/names involved", "category": "person identity"}
+{"field": "cues", "phrase": "a second specific person to add to the search", "category": "person identity"}
+{"field": "cues", "phrase": "approximate time taken", "category": "date and time"}
+{"field": "cues", "phrase": "subject matter is x-ray images", "category": "content description"}
+{"field": "cues", "phrase": "which family member's face to find", "category": "person identity"}
+{"field": "cues", "phrase": "husband took the photos", "category": "capture source"}
+{"field": "cues", "phrase": "subject description: man with green hair", "category": "content description"}
+{"field": "cues", "phrase": "last seen a couple of days ago", "category": "UNASSIGNED", "reason": "temporal reference to when a person was seen, not when photo was taken"}
+{"field": "cues", "phrase": "search keyword/topic", "category": "search term used"}
+{"field": "cues", "phrase": "the exact pattern/passcode for the locked folder", "category": "UNASSIGNED", "reason": "describes a security feature/setting, not a photo cue"}
+{"field": "cues", "phrase": "possible device name used for bluetooth/wifi", "category": "UNASSIGNED", "reason": "describes device connectivity settings, not a photo cue"}
+{"field": "cues", "phrase": "search term 'Lamborghini' works correctly", "category": "search term used"}
+{"field": "cues", "phrase": "folder name/purpose (recipes)", "category": "album or folder name"}
+{"field": "cues", "phrase": "which account or collection the photo is in", "category": "UNASSIGNED", "reason": "refers to account/collection organization, not a cue to find the photo"}
+{"field": "cues", "phrase": "passport photo", "category": "content description"}
+{"field": "cues", "phrase": "photo taken in 2023", "category": "date and time"}
+{"field": "cues", "phrase": "photos are of a specific friend", "category": "person identity"}
+{"field": "cues", "phrase": "year of photos/videos", "category": "date and time"}
+{"field": "cues", "phrase": "photos were memes", "category": "content description"}
+{"field": "cues", "phrase": "approximate date of photo", "category": "date and time"}
+{"field": "cues", "phrase": "photos were backed up last year", "category": "UNASSIGNED", "reason": "refers to when file was backed up, not when photo was taken"}
+{"field": "cues", "phrase": "purchased last year", "category": "UNASSIGNED", "reason": "refers to when item was purchased, not when photo was taken"}
+{"field": "cues", "phrase": "subject of photo is late uncle", "category": "person identity"}
+{"field": "cues", "phrase": "photo was missed due to bad lighting", "category": "UNASSIGNED", "reason": "describes a technical issue with photo quality, not a search cue"}
+{"field": "cues", "phrase": "subject of photo is their car", "category": "content description"}
+{"field": "cues", "phrase": "specific date range of photos", "category": "date and time"}
+{"field": "cues", "phrase": "faces in the photos (children as babies)", "category": "content description"}
+{"field": "cues", "phrase": "subject is themselves with arms crossed", "category": "content description"}
+{"field": "cues", "phrase": "photos contain people/faces", "category": "content description"}
+{"field": "cues", "phrase": "the correct date and time of the photo", "category": "date and time"}
+{"field": "cues", "phrase": "doesn't remember how/when she was hidden", "category": "UNASSIGNED", "reason": "refers to memory of an action taken, not a photo attribute"}
+{"field": "cues", "phrase": "approximate timeframe (2018/2019)", "category": "date and time"}
+{"field": "cues", "phrase": "over 10 years of photos of them together", "category": "UNASSIGNED", "reason": "describes duration/history of relationship, not a specific photo cue"}
+{"field": "cues", "phrase": "portrait of a woman", "category": "content description"}
+{"field": "cues", "phrase": "they have the same type of phone", "category": "UNASSIGNED", "reason": "describes device type ownership, not a photo cue"}
+{"field": "cues", "phrase": "the month and year of the photos", "category": "date and time"}
+{"field": "cues", "phrase": "time period of missing photos", "category": "date and time"}
+{"field": "cues", "phrase": "no other identifying details given (date, location, names)", "category": "UNASSIGNED", "reason": "This phrase describes what identifying details were NOT given, not a cue itself"}
+{"field": "cues", "phrase": "photos are of panoramas or persons", "category": "content description"}
+{"field": "cues", "phrase": "search term 'wedding'", "category": "search term used"}
+{"field": "cues", "phrase": "year taken", "category": "date and time"}
+{"field": "cues", "phrase": "identity of the people in the photos", "category": "person identity"}
+{"field": "cues", "phrase": "specific date taken", "category": "date and time"}
+{"field": "cues", "phrase": "person's name (Denise)", "category": "person identity"}
+{"field": "cues", "phrase": "which person was in the photo", "category": "person identity"}
+{"field": "cues", "phrase": "the search term 'tropical'", "category": "search term used"}
+{"field": "cues", "phrase": "exact filename of the video", "category": "file identity"}
+{"field": "cues", "phrase": "has many photos containing her", "category": "UNASSIGNED", "reason": "This describes quantity/prevalence in an album, not a specific identifying cue"}
+{"field": "cues", "phrase": "subject and framing of the photo", "category": "content description"}
+{"field": "cues", "phrase": "date of the video (21 March 2024)", "category": "date and time"}
+{"field": "cues", "phrase": "object depicted - bowtie", "category": "content description"}
+{"field": "cues", "phrase": "pet's name recorded in the photo's Info field", "category": "person identity"}
+{"field": "cues", "phrase": "some photos from Dec 10 are visible", "category": "date and time"}
+{"field": "cues", "phrase": "when the older photo was taken", "category": "date and time"}
+{"field": "cues", "phrase": "the title given to the Moment", "category": "UNASSIGNED", "reason": "A title given to a Moment is metadata about grouping, not a cue identifying the photo"}
+{"field": "cues", "phrase": "the subject is a dog", "category": "content description"}
+{"field": "cues", "phrase": "knows which friend's photos they want", "category": "UNASSIGNED", "reason": "This describes the person's knowledge or intention, not a specific identifying cue"}
+{"field": "cues", "phrase": "the time the photo was taken", "category": "date and time"}
+{"field": "cues", "phrase": "knows the subject's eyes are open at a different point in the motion picture", "category": "content description"}
+{"field": "cues", "phrase": "the document type was a passport", "category": "content description"}
+{"field": "cues", "phrase": "the label/keyword used on the photo", "category": "UNASSIGNED", "reason": "A label/keyword refers to how the app tags content, not a cue identifying the photo itself"}
+{"field": "cues", "phrase": "location name - Pee Pee Township, Ohio", "category": "location"}
+{"field": "cues", "phrase": "subject is a bee", "category": "content description"}
+{"field": "cues", "phrase": "no specific date or timeframe mentioned", "category": "UNASSIGNED", "reason": "This describes the absence of a date cue, not a cue itself"}
+{"field": "cues", "phrase": "subject is a groundhog", "category": "content description"}
+{"field": "cues", "phrase": "specific time window of photos (8:10AM-8:20AM)", "category": "date and time"}
+{"field": "cues", "phrase": "date/when the beer photo was taken", "category": "date and time"}
+{"field": "cues", "phrase": "subject is car odometer", "category": "content description"}
+{"field": "cues", "phrase": "aware there are more recent photos in album", "category": "UNASSIGNED", "reason": "This describes the person's awareness of album contents over time, not a specific photo cue"}
+{"field": "cues", "phrase": "a specific word present in the screenshot text", "category": "content description"}
+{"field": "cues", "phrase": "subject is a QR code", "category": "content description"}
+{"field": "cues", "phrase": "related objects like bed, blankets, shower, horses, pineapple", "category": "content description"}
+{"field": "cues", "phrase": "approximate date taken/created/modified", "category": "date and time"}
+{"field": "cues", "phrase": "specific dates of the photos", "category": "date and time"}
+{"field": "cues", "phrase": "that the people look similar and get mixed up", "category": "UNASSIGNED", "reason": "This describes a similarity observation about people, not an identifying cue for a specific photo"}
+{"field": "cues", "phrase": "month and year of photos", "category": "date and time"}
+{"field": "cues", "phrase": "approximate time taken (about an hour ago)", "category": "date and time"}
+{"field": "cues", "phrase": "specific date photos were taken/added", "category": "date and time"}
+{"field": "cues", "phrase": "name of the person (daughter) to search for", "category": "person identity"}
+{"field": "cues", "phrase": "where they left off fixing locations", "category": "UNASSIGNED", "reason": "Refers to progress on a task (fixing locations) rather than a photo cue"}
+{"field": "cues", "phrase": "trip/event when new photos were taken", "category": "occasion or event"}
+{"field": "cues", "phrase": "subjects in photo: elderly person holding baby", "category": "content description"}
+{"field": "cues", "phrase": "approximate time (Christmastime)", "category": "date and time"}
+{"field": "cues", "phrase": "name appears in caption", "category": "content description"}
+{"field": "cues", "phrase": "subject of photos is a dog", "category": "content description"}
+{"field": "cues", "phrase": "the car color (white)", "category": "content description"}
+{"field": "cues", "phrase": "event was an award ceremony", "category": "occasion or event"}
+{"field": "cues", "phrase": "less than a minute between the two pictures", "category": "date and time"}
+{"field": "cues", "phrase": "camera model name EOS 450D", "category": "capture source"}
+{"field": "cues", "phrase": "subject of photo - dog catching a frisbee", "category": "content description"}
+{"field": "cues", "phrase": "specific date of photo (Aug 11 2010)", "category": "date and time"}
+{"field": "cues", "phrase": "location name - Penn Station", "category": "location"}
+{"field": "cues", "phrase": "approximate month of photos", "category": "date and time"}
+{"field": "cues", "phrase": "best pen set", "category": "UNASSIGNED", "reason": "Generic subject matter not tied to a specific photo's visual content"}
+{"field": "cues", "phrase": "recency of the photo", "category": "UNASSIGNED", "reason": "Refers to a relative quality judgment rather than a specific photo attribute"}
+{"field": "cues", "phrase": "remembered the comment/text they added to the photo", "category": "content description"}
+{"field": "cues", "phrase": "search term 'Lamborghini' works correctly", "category": "search term used"}
+{"field": "cues", "phrase": "approximate date/time of the video", "category": "date and time"}
+{"field": "cues", "phrase": "subjects in photo (self and husband)", "category": "person identity"}
+{"field": "cues", "phrase": "name/identity of the album as something they searched for", "category": "UNASSIGNED", "reason": "Refers to album name as a search query target rather than the album name itself"}
+{"field": "cues", "phrase": "location of parents' house", "category": "location"}
+{"field": "cues", "phrase": "text visible in the photo", "category": "content description"}
+{"field": "cues", "phrase": "it's a motion photo/sequence", "category": "file identity"}
+{"field": "cues", "phrase": "location/place name", "category": "location"}
+{"field": "cues", "phrase": "the album title", "category": "album or folder name"}
+{"field": "cues", "phrase": "beer name shown in the picture", "category": "content description"}
+{"field": "cues", "phrase": "transferred via data cable from Pixel 7", "category": "capture source"}
+{"field": "cues", "phrase": "dog's name Roscoe", "category": "person identity"}
+{"field": "cues", "phrase": "location near a pier", "category": "location"}
+{"field": "cues", "phrase": "specific words visible in the screenshot", "category": "content description"}
+{"field": "cues", "phrase": "file naming convention for recent screen recordings", "category": "file identity"}
+{"field": "cues", "phrase": "new cat's appearance (dark tortie)", "category": "content description"}
+{"field": "cues", "phrase": "photos are important", "category": "UNASSIGNED", "reason": "A subjective value judgment rather than a photo cue"}
+{"field": "cues", "phrase": "photos are HDR type/format", "category": "file identity"}
+{"field": "cues", "phrase": "upload source distinction - pixel XL vs laptop", "category": "capture source"}
+{"field": "cues", "phrase": "which app generated it", "category": "capture source"}
+{"field": "cues", "phrase": "taken before every gas fill-up", "category": "occasion or event"}
+{"field": "cues", "phrase": "exact file name of the photo", "category": "file identity"}
+{"field": "cues", "phrase": "the date the photo was actually taken", "category": "date and time"}
+{"field": "cues", "phrase": "search term 'Christmas tree 2019' with year", "category": "search term used"}
+{"field": "cues", "phrase": "visits the state regularly due to family", "category": "location"}
+{"field": "cues", "phrase": "file extension/type (.dng/RAW)", "category": "file identity"}
+{"field": "cues", "phrase": "part of the ID card number", "category": "UNASSIGNED", "reason": "part of an ID card number is metadata about a document's contents, not a photo cue"}
+{"field": "cues", "phrase": "subject matter - mom and cats", "category": "content description"}
+{"field": "cues", "phrase": "identity of the specific person whose face group is missing", "category": "person identity"}
+{"field": "cues", "phrase": "alternate keyword 'pickup truck'", "category": "search term used"}
+{"field": "cues", "phrase": "approximate time period of older videos (2 years ago, 5 years ago)", "category": "date and time"}
+{"field": "cues", "phrase": "subject matter of photos - cannabis/hemp", "category": "content description"}
+{"field": "cues", "phrase": "approximate geographic location of the cabin", "category": "location"}
+{"field": "cues", "phrase": "which dog/category the photos belong to", "category": "person identity"}
+{"field": "cues", "phrase": "searched by year", "category": "search term used"}
+{"field": "cues", "phrase": "approximate time period of photos (before 2019/2020)", "category": "date and time"}
+{"field": "cues", "phrase": "a keyword related to the photo", "category": "search term used"}
+{"field": "cues", "phrase": "transferred from Samsung during phone switch", "category": "capture source"}
+{"field": "cues", "phrase": "subject of photo (basketball goal)", "category": "content description"}
+{"field": "cues", "phrase": "they have the same type of phone", "category": "UNASSIGNED", "reason": "describes a shared attribute between people, not a cue about a specific photo"}
+{"field": "cues", "phrase": "pets like dog, cat", "category": "content description"}
+{"field": "cues", "phrase": "photos are sky photos", "category": "content description"}
+{"field": "cues", "phrase": "album name/number", "category": "album or folder name"}
+{"field": "cues", "phrase": "intentional purpose of photos - tracking growth", "category": "occasion or event"}
+{"field": "cues", "phrase": "which face/person to search for", "category": "person identity"}
+{"field": "cues", "phrase": "exact text appearing in the image", "category": "content description"}
+{"field": "cues", "phrase": "file type/duration of the videos", "category": "file identity"}
+{"field": "cues", "phrase": "car make and model", "category": "content description"}
+{"field": "cues", "phrase": "name of the album", "category": "album or folder name"}
+{"field": "cues", "phrase": "partial filename ABC", "category": "file identity"}
+{"field": "cues", "phrase": "type of document in photo (vehicle title, ID)", "category": "content description"}
+{"field": "cues", "phrase": "the people in the photos (mum, sister, children, disliked person)", "category": "person identity"}
+{"field": "cues", "phrase": "which of many Google Drives/videos it was saved in", "category": "UNASSIGNED", "reason": "refers to where a file is stored in cloud infrastructure, not a photo cue"}
+{"field": "cues", "phrase": "search term 'Christmas tree'", "category": "search term used"}
+{"field": "cues", "phrase": "location name - Havelock Island", "category": "location"}
+{"field": "cues", "phrase": "identity of the labeled person (a specific child)", "category": "person identity"}
+{"field": "cues", "phrase": "she was singing", "category": "content description"}
+{"field": "cues", "phrase": "exact date of the event", "category": "date and time"}
+{"field": "cues", "phrase": "search term 'pen'", "category": "search term used"}
+{"field": "cues", "phrase": "exact photo comment/caption text", "category": "content description", "reason": "Photo comments/captions describe what is associated with the image content"}
+{"field": "cues", "phrase": "specific number/text in photo (e.g. 1234, 5678)", "category": "content description", "reason": "Specific numbers or text visible within the photo are part of what the photo shows"}
+{"field": "cues", "phrase": "the name previously given to the photos", "category": "file identity", "reason": "The name given to photos refers to the filename or file designation"}
+{"field": "cues", "phrase": "exact descriptor/term added to the photo description", "category": "content description", "reason": "Descriptor/term added to photo description characterizes what the photo contains"}
+{"field": "cues", "phrase": "which album the photos are in", "category": "album or folder name", "reason": "Direct statement about which album photos are in"}
+{"field": "cues", "phrase": "photos have GPS location data embedded", "category": "location", "reason": "GPS location data embedded in the photo identifies where it was taken"}
+{"field": "cues", "phrase": "text/letters appearing in the photo", "category": "content description", "reason": "Text/letters appearing in the photo are visible content within the image"}
+{"field": "cues", "phrase": "phone model and Android version", "category": "capture source", "reason": "Phone model and Android version describe the device that produced the photo"}
+{"field": "cues", "phrase": "frequency and duration - daily over 6 months", "category": "UNASSIGNED", "reason": "Frequency and duration pattern describes a temporal pattern of capture behavior, not a specific cue about an individual photo"}
+{"field": "cues", "phrase": "date received", "category": "UNASSIGNED", "reason": "Date received refers to when a photo was uploaded or transferred, not when it was taken"}
+{"field": "cues", "phrase": "pet's name recorded in the photo's Info field", "category": "person identity", "reason": "Pet's name recorded in Info field identifies a specific individual (named animal) connected to the photo"}
+{"field": "cues", "phrase": "no other details about the photo", "category": "UNASSIGNED", "reason": "Statement that no details exist provides no assignable information"}
+{"field": "cues", "phrase": "roughly when photos were taken", "category": "date and time", "reason": "Roughly when photos were taken is an approximate date/time cue"}
+{"field": "cues", "phrase": "time range of last 20 days", "category": "date and time", "reason": "Time range of last 20 days specifies when the photo was taken"}
+{"field": "cues", "phrase": "city/place name", "category": "location", "reason": "City/place name is a location identifier"}
+{"field": "cues", "phrase": "specific text string 'A71'", "category": "file identity", "reason": "Specific text string in a filename identifies the file"}
+{"field": "cues", "phrase": "person being searched for is 'Dad'", "category": "search term used", "reason": "This reports the literal search query typed ('Dad'), not an actual person identity"}
+{"field": "cues", "phrase": "object type - car", "category": "content description", "reason": "Object type (car) describes what the photo shows"}
+{"field": "cues", "phrase": "approximate time period of photo", "category": "date and time", "reason": "Approximate time period of photo is a temporal cue for when it was taken"}
+{"field": "cues", "phrase": "subject matter - weddings", "category": "occasion or event", "reason": "Weddings as subject matter indicates the event/occasion the photos belong to"}
+{"field": "cues", "phrase": "number of people in photo", "category": "content description", "reason": "Number of people in photo describes what is shown in the image"}
+{"field": "cues", "phrase": "specific date of the photos", "category": "date and time", "reason": "Specific date of the photos is an exact date when they were taken"}
+{"field": "cues", "phrase": "approximate timeframe (recent months)", "category": "date and time", "reason": "Approximate timeframe (recent months) is when the photo was taken"}
+{"field": "cues", "phrase": "approximate time the picture was taken", "category": "date and time", "reason": "Approximate time the picture was taken is a temporal cue"}
+{"field": "cues", "phrase": "photo was a group photo", "category": "content description", "reason": "That it was a group photo describes the composition/content of the image"}
+{"field": "cues", "phrase": "the month/year the photos were taken", "category": "date and time", "reason": "Month/year the photos were taken is a date cue"}
+{"field": "cues", "phrase": "file name of the photo", "category": "file identity", "reason": "File name of the photo is a file attribute"}
+{"field": "cues", "phrase": "approximate dates of the photos", "category": "date and time", "reason": "Approximate dates of the photos is when they were taken"}
+{"field": "cues", "phrase": "file name format of WhatsApp photos", "category": "file identity", "reason": "File name format of WhatsApp photos describes a filename pattern"}
+{"field": "cues", "phrase": "identity of the contact (person known from phone contacts)", "category": "person identity", "reason": "Identity of contact/person known from phone contacts identifies a specific individual"}
+{"field": "cues", "phrase": "subject matter - blood pressure readings", "category": "content description", "reason": "Subject matter (blood pressure readings) describes what the photo shows"}
+{"field": "cues", "phrase": "subject of photo - mountain with a tree blocking the view", "category": "content description", "reason": "Mountain with tree blocking view describes the visual content/scene of the photo"}
+{"field": "cues", "phrase": "that it was an edited version of an existing photo", "category": "UNASSIGNED", "reason": "Whether a photo is an edited version describes its derivation/state, not a cue identifying or retrieving it"}
+{"field": "cues", "phrase": "knows category type (memes and screenshots)", "category": "content description", "reason": "Category type (memes and screenshots) describes the nature/kind of content shown"}
+{"field": "cues", "phrase": "which family member/person the photo was of", "category": "person identity", "reason": "Which family member/person the photo was of identifies a specific individual"}
+{"field": "cues", "phrase": "album name 'England'", "category": "album or folder name", "reason": "Album name 'England' is the name of an album the photo sits in"}
+{"field": "cues", "phrase": "who is in the photo (self and son)", "category": "person identity", "reason": "Who is in the photo (self and son) identifies specific individuals in the image"}
+{"field": "cues", "phrase": "identity of the person whose face was added", "category": "person identity", "reason": "Identity of the person whose face was added identifies a specific individual connected to the photo"}
+{"field": "cues", "phrase": "photos containing only him and his wife", "category": "person identity", "reason": "Photos containing him and his wife identifies the specific people in the photo"}
+{"field": "cues", "phrase": "3 people inside a car", "category": "content description", "reason": "3 people inside a car describes the content and composition of what the photo shows"}
+{"field": "cues", "phrase": "moments/events of kids and other relevant things", "category": "occasion or event"}
+{"field": "cues", "phrase": "what the object in the photo was (a driver's license)", "category": "content description"}
+{"field": "cues", "phrase": "the file name of the photo(s)", "category": "file identity"}
+{"field": "cues", "phrase": "store name on receipt", "category": "content description"}
+{"field": "cues", "phrase": "which person to search for", "category": "person identity"}
+{"field": "cues", "phrase": "date range of photos (1st April 2026 to now)", "category": "date and time"}
+{"field": "cues", "phrase": "the specific date of the photos", "category": "date and time"}
+{"field": "cues", "phrase": "knows the people whose faces should have photos grouped", "category": "person identity"}
+{"field": "cues", "phrase": "date of photos", "category": "date and time"}
+{"field": "cues", "phrase": "exact caption text contained in the photo", "category": "content description"}
+{"field": "cues", "phrase": "photos represent important/precious events", "category": "occasion or event"}
+{"field": "cues", "phrase": "the specific calendar date", "category": "date and time"}
+{"field": "cues", "phrase": "possible filename substring 'slowmo'", "category": "file identity"}
+{"field": "cues", "phrase": "subject of photos is daughter at school drop-off", "category": "content description"}
+{"field": "cues", "phrase": "has one reference photo of the subject", "category": "UNASSIGNED", "reason": "Refers to the existence or availability of a reference photo, not a cue attribute"}
+{"field": "cues", "phrase": "photos were taken by husband's device", "category": "capture source"}
+{"field": "cues", "phrase": "the two specific people in the photo", "category": "person identity"}
+{"field": "cues", "phrase": "camera brand/make (Sony)", "category": "capture source"}
+{"field": "cues", "phrase": "the exact number/digits they were searching for", "category": "search term used"}
+{"field": "cues", "phrase": "other keywords that successfully find the same photos", "category": "search term used"}
+{"field": "cues", "phrase": "device model used to take the photo", "category": "capture source"}
+{"field": "cues", "phrase": "two people, one female one male", "category": "UNASSIGNED", "reason": "Generic descriptor of people without specific identity or relationship"}
+{"field": "cues", "phrase": "original filename format/pattern used by phone", "category": "file identity"}
+{"field": "cues", "phrase": "the search keyword/term used", "category": "search term used"}
+{"field": "cues", "phrase": "folder name/topic (canva images for advertising)", "category": "album or folder name"}
+{"field": "cues", "phrase": "son born in 2013, expects photos of him", "category": "person identity"}
+{"field": "cues", "phrase": "that it was a video, not a photo, that was wrongly matched", "category": "UNASSIGNED", "reason": "Describes a matching error in the system, not a photo cue"}
+{"field": "cues", "phrase": "son's name", "category": "person identity"}
+{"field": "cues", "phrase": "the person is a friend", "category": "person identity"}
+{"field": "cues", "phrase": "a basic/simple descriptive term for the photo", "category": "UNASSIGNED", "reason": "Too vague without specific descriptive content"}
+{"field": "cues", "phrase": "name of the costume", "category": "content description"}
+{"field": "cues", "phrase": "identity of the person", "category": "person identity"}
+{"field": "cues", "phrase": "text within the image", "category": "content description"}
+{"field": "cues", "phrase": "locations where temple photos were taken", "category": "location"}
+{"field": "cues", "phrase": "exact photo comment/caption text", "category": "content description"}
+{"field": "cues", "phrase": "search term 'dog'", "category": "search term used"}
+{"field": "cues", "phrase": "name typed in photo description", "category": "UNASSIGNED", "reason": "A name in a description field is metadata about the photo, not a cue for retrieval"}
+{"field": "cues", "phrase": "exact words/sentence written in the image", "category": "content description"}
+{"field": "cues", "phrase": "album title/name", "category": "album or folder name"}
+{"field": "cues", "phrase": "original quality photos came from Pixel 2", "category": "capture source"}
+{"field": "cues", "phrase": "the label/keyword applied to the photo", "category": "album or folder name", "reason": "Labels applied to photos are typically organizational tags within the app's tagging/labeling system"}
+{"field": "cues", "phrase": "specific person's name (e.g. Abigail)", "category": "person identity"}
+{"field": "cues", "phrase": "specific word or two from the caption they wrote", "category": "content description"}
+{"field": "cues", "phrase": "clothing description - orange multi colored full length dress", "category": "content description"}
+{"field": "cues", "phrase": "subject text written in each quiz question", "category": "content description"}
+{"field": "cues", "phrase": "identity of the person (face) in the photos", "category": "person identity"}
+{"field": "cues", "phrase": "identity of person searched for (wife)", "category": "person identity"}
+{"field": "cues", "phrase": "exact full filename", "category": "file identity"}
+{"field": "cues", "phrase": "baby's name (added as label to a photo)", "category": "person identity"}
+{"field": "cues", "phrase": "device used to take photo", "category": "capture source"}
+{"field": "cues", "phrase": "the specific year", "category": "date and time"}
+{"field": "cues", "phrase": "time period of photos (before 2017)", "category": "date and time"}
+{"field": "cues", "phrase": "general subject keyword 'motorcycle'", "category": "search term used"}
+{"field": "cues", "phrase": "which people are tagged (Hans, Julia)", "category": "person identity"}
+{"field": "cues", "phrase": "doesn't remember how/when she was hidden", "category": "UNASSIGNED", "reason": "This refers to a mysterious event or state change in the app, not a cue for finding photos"}
+{"field": "cues", "phrase": "subject is sunrises", "category": "content description"}
+{"field": "cues", "phrase": "subject/location of photo (waterfall)", "category": "location"}
+{"field": "cues", "phrase": "people in photos: grandparents and children", "category": "person identity"}
+{"field": "cues", "phrase": "occasion/context (first moving to Seattle)", "category": "occasion or event"}
+{"field": "cues", "phrase": "general topic/theme like pink color", "category": "content description"}
+{"field": "cues", "phrase": "person appears in majority of photos", "category": "person identity"}
+{"field": "cues", "phrase": "had posted the photos on Facebook", "category": "UNASSIGNED", "reason": "This describes where the photo was uploaded/shared after capture, not a photo cue"}
+{"field": "cues", "phrase": "the exact tag/wording they added to the video's info field", "category": "file identity"}
+{"field": "cues", "phrase": "subject is a woman", "category": "content description"}
+{"field": "cues", "phrase": "the two people in the photos (self and partner)", "category": "person identity"}
+{"field": "cues", "phrase": "location where photos were taken", "category": "location"}
+{"field": "cues", "phrase": "photos were taken on current phone", "category": "UNASSIGNED", "reason": "This describes the current device, not the capture source or device that took the photo"}
+{"field": "cues", "phrase": "location where photo was taken", "category": "location"}
+{"field": "cues", "phrase": "color of the car", "category": "content description"}
+{"field": "cues", "phrase": "person of interest - Sue", "category": "person identity"}
+{"field": "cues", "phrase": "subject is their children as babies", "category": "content description"}
+{"field": "cues", "phrase": "photos were taken with camera", "category": "capture source"}
+{"field": "cues", "phrase": "approximate time (Christmastime)", "category": "date and time"}
+{"field": "cues", "phrase": "name of the person", "category": "person identity"}
+{"field": "cues", "phrase": "camera model name PENTAX K-S2", "category": "capture source"}
+{"field": "cues", "phrase": "recently took a group photo with the friend", "category": "occasion or event"}
+{"field": "cues", "phrase": "meeting Peavy Wagner photo", "category": "occasion or event"}
+{"field": "cues", "phrase": "person's name", "category": "person identity"}
+{"field": "cues", "phrase": "specific pen brand", "category": "content description"}
+{"field": "cues", "phrase": "the filename of the recording", "category": "file identity"}
+{"field": "cues", "phrase": "identity of the specific person being searched", "category": "person identity"}
+{"field": "cues", "phrase": "object type - car", "category": "content description"}
+{"field": "cues", "phrase": "which album the photo is in", "category": "album or folder name"}
+{"field": "cues", "phrase": "it is a photo of the car fob code", "category": "content description"}
+{"field": "cues", "phrase": "correct search words/keywords for the content", "category": "search term used"}
+{"field": "cues", "phrase": "person in photo", "category": "person identity"}
+{"field": "cues", "phrase": "location of trip (Thailand)", "category": "location"}
+{"field": "cues", "phrase": "selfie photo", "category": "content description"}
+{"field": "cues", "phrase": "specific design number on the product photo", "category": "content description"}
+{"field": "cues", "phrase": "identity of the person/face added manually", "category": "person identity"}
+{"field": "cues", "phrase": "specific date of photos", "category": "date and time"}
+{"field": "cues", "phrase": "the document type was a Global Entry Card", "category": "content description"}
+{"field": "cues", "phrase": "phone model and Android version", "category": "capture source"}
+{"field": "cues", "phrase": "identity of the labeled person (a specific child)", "category": "person identity"}
+{"field": "cues", "phrase": "exact date of the photo", "category": "date and time"}
+{"field": "cues", "phrase": "name typed in photo description", "category": "UNASSIGNED", "reason": "A name in a photo description is content metadata, not a standard cue category for retrieval"}
+{"field": "cues", "phrase": "date photos were taken (today's date)", "category": "date and time"}
+{"field": "cues", "phrase": "photos are in a specific shared album", "category": "album or folder name"}
+{"field": "cues", "phrase": "name of the original image file (e.g. PXL_12345...)", "category": "file identity"}
+{"field": "cues", "phrase": "approximate year/decade of oldest photos", "category": "date and time"}
+{"field": "cues", "phrase": "content of the photos", "category": "content description"}
+{"field": "cues", "phrase": "knows there are more/older photos existing beyond 2022", "category": "UNASSIGNED", "reason": "This is metadata about photo archive completeness, not a retrieval cue"}
+{"field": "cues", "phrase": "specific RAW extension .arw", "category": "file identity"}
+{"field": "cues", "phrase": "photos are similar shots/poses shared between two daughters", "category": "content description"}
+{"field": "cues", "phrase": "year 2022 for second album", "category": "date and time"}
+{"field": "cues", "phrase": "date photo was taken", "category": "date and time"}
+{"field": "cues", "phrase": "specific orchid species/plant name", "category": "content description"}
+{"field": "cues", "phrase": "file type/format is RAW or RAF", "category": "file identity"}
+{"field": "cues", "phrase": "which child (person) to search for", "category": "person identity"}
+{"field": "cues", "phrase": "the exact word typed into the photo description", "category": "search term used"}
+{"field": "cues", "phrase": "approximate timeframe of the photos", "category": "date and time"}
+{"field": "cues", "phrase": "people in the video (tagged names)", "category": "person identity"}
+{"field": "cues", "phrase": "search term 'men' works", "category": "search term used"}
+{"field": "cues", "phrase": "some words of the album title", "category": "album or folder name"}
+{"field": "cues", "phrase": "event/date of videos", "category": "occasion or event"}
+{"field": "cues", "phrase": "specific person - daughter", "category": "person identity"}
+{"field": "cues", "phrase": "distinctive icon associated with compilation videos", "category": "content description"}
+{"field": "cues", "phrase": "exact date of the photos", "category": "date and time"}

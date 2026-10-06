@@ -1,0 +1,148 @@
+--- SHORT TEXT (<20 chars) in gate_results.jsonl ---
+appstore: 1
+help_community: 7
+reddit_assisted: 88
+playstore: 23
+
+Overall Agreement: 38/59 (64.4%)
+Confusion Matrix (Row=MyLabel, Col=GateLabel):
+my\gt	yes	partial	no
+yes	14	2	1	
+partial	2	3	1	
+no	9	6	21	
+Yes -> Precision: 56.0%, Recall: 82.4%
+Partial -> Precision: 27.3%, Recall: 50.0%
+
+Agreement by Source:
+reddit_assisted: 7/17 (41.2%)
+help_community: 28/38 (73.7%)
+hn: 1/1 (100.0%)
+stackexchange: 2/3 (66.7%)
+
+DISAGREEMENTS:
+
+--- Disagreement 1 ---
+ID: cd6443b4c375ecfcb93ef926a9276f5b6dcb987074db251af46f2653040a06bf
+My Label: no | Gate Label: yes
+Text: hey, thanks for replying, but i guess i didn't phrase my question well enough so here's what i was really looking for "i wanna list all the photos that i added a custom description for, does anyone have an idea?"
+Gate Reason: User is trying to find a specific target: photos they added custom descriptions to in their library.
+
+--- Disagreement 2 ---
+ID: 99ac86accc16902f9dfc592e337d11e6e0f35e95a7f78203ad8954dac80b75c2
+My Label: no | Gate Label: yes
+Text: My files' name are starting with either IMG_xxxx.jpg or MOV_xxxxx.mov. I just used the last underscore in the file name together with the rest of the name of the file.
+Gate Reason: Reply describes a search method using file naming patterns to find specific photos/videos.
+
+--- Disagreement 3 ---
+ID: 52bee283b0d93afeb7b5f0467f91b0536a38bc3cde11da726eed8b8f0b5e72e3
+My Label: partial | Gate Label: yes
+Text: i have about 130 photos of my rabbit but only 6 appear So I went to search menu (website my other family members are also there and pebby (my rabbit) but when i click on it it only shows 6 photos out of 128 bunny photos. When i go to Google files all the 128 photos are shown there
+Gate Reason: User is trying to find 128 rabbit photos they believe exist in Google Photos but can only see 6. Specific target named.
+
+--- Disagreement 4 ---
+ID: 07424998b468b05c21b86d0672346cc00a0d7f2e0ffeb57890231e739ef79b3c
+My Label: no | Gate Label: yes
+Text: Go into photo settings, preferences, Gemini features in photos, and turn off the first option.
+Gate Reason: Reply describes a method/workaround to find or access something in Google Photos, qualifying under the special rule for replies.
+
+--- Disagreement 5 ---
+ID: 4a113fae07ff0027de24ad47335a12ea979a1f3a596bf5d6a216e021b925b98e
+My Label: no | Gate Label: yes
+Text: Oh, and alternatively you can download an album at a time from the web. Not ideal, but the next best way.
+Gate Reason: Reply describes a method to find/access something (downloading albums). Applies special rule for replies suggesting workarounds.
+
+--- Disagreement 6 ---
+ID: 5cc0172d1a4562a4620dd10751a44c2f111582e7d86841d6775298f3b9935292
+My Label: no | Gate Label: partial
+Text: Faces not showing all people Pls show
+Gate Reason: User reports faces not displaying in Google Photos but does not name a specific target photo or person to find.
+
+--- Disagreement 7 ---
+ID: 2e67a08802ee01b9488af99650ec2818f5a465f37203754f70f4b937fbfec8fd
+My Label: no | Gate Label: partial
+Text: How I can see my photos on this app as they are taken by time? It shows photos randomly, there is no way to see photos by time sorted. Apparently this app is showing, faces, places and a lot of other unwanted preferences (that are not precise) but this simple and necessary function is missing.
+Gate Reason: User wants to view photos sorted by time but cannot find this feature. No specific target photo named, only a browsing mode requested.
+
+--- Disagreement 8 ---
+ID: cfbeb1bc3a6122b3e00bf9263807d14960f8c6353096a72895367dc9821c54c3
+My Label: no | Gate Label: partial
+Text: Whatsapp photos 2022 my past photos
+Gate Reason: User describes attempting to find photos from WhatsApp and 2022, but names only a browsing mode/time period, not a specific target photo or content.
+
+--- Disagreement 9 ---
+ID: 6176a53472cf9aec40fc9f676a360e7071f30b11d6961791a0b9213f4bbbac83
+My Label: no | Gate Label: yes
+Text: My point was if you uploaded them (and didn't delete them from your device) they are still there. Downloading them would just replace the device copies with a compressed version of the photo.
+Gate Reason: Reply describes a method to find/locate photos (uploaded photos that weren't deleted from device). Applies special rule for replies suggesting how to find something.
+
+--- Disagreement 10 ---
+ID: f6511326b6fbf88ada4c7303d323ed39530ce6920371bcc6adad9b3cccfa41e7
+My Label: no | Gate Label: yes
+Text: Pixel 6a here... Under utilities, I need to scroll all the way down to the very bottom of the page. I assume you've already tried that, but...
+Gate Reason: Reply describes a method/workaround to find something, suggesting where to look. Qualifies under special rule for replies.
+
+--- Disagreement 11 ---
+ID: 6be7a52dac91f7ab874fae617a3e51e15b06a3c2b2bf91ae38e400df3beb4224
+My Label: yes | Gate Label: no
+Text: browse via heat map removed? I used to able able to search/browse the photos by map view. Where i can see locations on a map where pictures were taken. This has gone missing.is this by design? or is there a setting that i am missing?very frustrating to have this useful feature removed.
+Gate Reason: User is asking about a missing feature (map/heat map view) itself, not trying to find a specific photo or video.
+
+--- Disagreement 12 ---
+ID: ede1710815b0e03e6d91fa71b7590f3d5f04f400aace81c2456f8bd56145bba7
+My Label: partial | Gate Label: no
+Text: Face grouping not available in my region Apparently the ability to tag and group faces automatically is not enabled in all regions. Where can i find the supported regions list? I am in a european country but travel often
+Gate Reason: User is asking about feature availability and supported regions, not trying to find a specific photo or video in their library.
+
+--- Disagreement 13 ---
+ID: 366d3c350698e9f469c3680bd7df5a33cd56d474b571caa709ce7a431aa4e136
+My Label: no | Gate Label: yes
+Text: The last thing I want to do is defend them, but I would suggest trying it periodically over the course of a few weeks to see if/how it improves. I don't know if what to attribute any bad results or improvement to, as their functions are a black box, but I got notice of the search change/"improvement" weeks ago. Initial results were as frustrating as some report here. But now, it's as good as ever. Hence my suggestion. I'll say this about the the change: there do seem to be more junk results after a correct one than maybe in the past (can't confirm; it's just a feeling) but at the same time, what do I care? I don't need to look past the "right one," which admittedly was in the top 5.
+Gate Reason: Reply describes a search method/workaround (trying periodically) for finding photos. Applies special rule for replies.
+
+--- Disagreement 14 ---
+ID: b13c695b08d7025937cfbed3002bc9ebde75107fe4e7f6b91517e80c127fbd61
+My Label: partial | Gate Label: yes
+Text: Smart location services no longer working Hello, in the early days of Google Photos, the app was able to make approximate location guesses based on the content of older (non geo tagged) photos. This was frankly a godsend for organizing older vacation photos. Now, these tags seem to have disappeared from my library, and I can no longer search old photos by location (Even searching “Peru” for Machupichu no longer works.)Can anyone offer assistance? Thank you.Dan
+Gate Reason: User is trying to find specific photos (vacation photos from Peru/Machu Picchu) that they believe exist in their library but can no longer locate via location search.
+
+--- Disagreement 15 ---
+ID: 7266dc9a8daac6c5e1b1a5070e6dca3153247f792035abdd91fb8f61ed2a49f6
+My Label: no | Gate Label: partial
+Text: i can’t see people group by their face why is it not working
+Gate Reason: User describes attempting to access a feature (face grouping) but doesn't name a specific photo or target they're trying to find.
+
+--- Disagreement 16 ---
+ID: ced3b15f8d217eaa251b0bb7c4ac3598caf1e028cb4370ce0a028d98d6692a0a
+My Label: no | Gate Label: partial
+Text: Where to find videos moved to private Videos from file manager moved to private videos where to find
+Gate Reason: The person is trying to reach videos they believe exist in their Google Photos library (videos moved to private), which passes step 1. However, they have not named a specific target video—they're asking about a browsing mode or location ("private videos") rather than identifying a particular video by content, subject, event, date, place, or a concrete query they ran. This is a request for an inventory or category of items, which fails step 2, making it "partial".
+
+--- Disagreement 17 ---
+ID: bc173103d37099f221714bf53f43035b75f9545831d7503b182cad3c3638d2d4
+My Label: yes | Gate Label: partial
+Text: Any way to find photos NOT in albums? (https://www.reddit.com/r/googlephotos/comments/1urhq80/any_way_to_find_photos_not_in_albums/) Published: 2 months ago; I have 64.5G worth of photos in my Google Photos / Google One account. ... Is there a way to show the ones that aren't in an album so that I can categorize them appropriately? ... I always go back and tag photos I upload so I can search for them later if I don't put them in albums. [Thursday July 09 2026] [+0 votes] I have 64.5G worth of photos in my Google Photos / Google One account. I have no idea how many there actually are. Most are in albums, but there's still a lot that aren't. Is there a way to show the ones that aren't in an album so that I can categorize them appropriately? [Thursday July 09 2026] [+1 votes] Google Photos Toolkit https://github.com/xob0t/Google-Photos-Toolkit. Or in the Archive you can search for each album and then select and archive the contents leaving only non album items on the main view. [Thursday July 09 2026] [+1 votes] I always go back and tag photos I upload so I can search for them later if I don't put them in albums.
+Gate Reason: User seeks to find photos not in albums—an inventory request. Passes step 1 but fails step 2 as no specific target photo is named.
+
+--- Disagreement 18 ---
+ID: 358a88ba0633adf4329b4ce21b45c506bfd623da738099fb034ad62d3b54ddfb
+My Label: no | Gate Label: partial
+Text: Is there a way to see all of the Google Photos Creations? The Google Photos Creations used to be grouped under Auto Awesome. Since the re-branding, Auto Awesome doesn't exist anymore. Is there way to see these things without manually going through all of the photos or albums?
+Gate Reason: User is asking about finding Creations as a category/collection, an inventory request. Fails step 2 as no specific target photo is named.
+
+--- Disagreement 19 ---
+ID: 67cc696db48f192136dc685e9a063d16f65827bd055ca9a8dbb825635474b5ff
+My Label: no | Gate Label: yes
+Text: One of my sons is not recognized, photos lumped into other son Google photos does not distinguish between my two youngest sons. I'm trying to get it to recognize my you gest son as separate so I can search for him. I have tried removing him from photos marked as my other son but it still is not recognizing him as a person.
+Gate Reason: User is trying to find and retrieve photos of their youngest son by name/person, but Google Photos is lumping them with another son. Specific target named.
+
+--- Disagreement 20 ---
+ID: 96c5d5c25b1a26056e6326c5054c82fb00ed7586bd23f5197b99caa18761cfe9
+My Label: yes | Gate Label: partial
+Text: Question 🤔 I'm getting a "no results" message. Even for basic searches like "door", my own name, etc. Anyone else having trouble with the app? Thanks. # Comments Section
+Gate Reason: User describes attempting searches and getting no results, but names no specific target photo—only generic search terms as examples of a broader problem.
+
+--- Disagreement 21 ---
+ID: 147b610a7c4ca05c2e433e4609f9f9b2064b045b373c0994749c680d29aa6141
+My Label: no | Gate Label: yes
+Text: Tapping Ask twice still works for me.
+Gate Reason: Reply describes a method/workaround ("tapping Ask twice") for finding something. Special rule for replies applies.

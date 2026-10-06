@@ -1,0 +1,8 @@
+
+--- Grounding Check 4 Report ---
+Remembered: 0 cues total. Grounded: 0 (0.0%). Dropped: 0 (0.0%).
+Forgotten: 0 cues total. Grounded: 0 (0.0%). Dropped: 0 (0.0%).
+
+--- Grounding Check 4 Report ---
+Remembered: 989 cues total. Grounded: 985 (99.6%). Dropped: 4 (0.4%).
+Forgotten: 61 cues total. Grounded: 59 (96.7%). Dropped: 2 (3.3%).

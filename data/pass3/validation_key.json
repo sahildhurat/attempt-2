@@ -1,0 +1,152 @@
+[
+  {
+    "n": 1,
+    "phrase": "album still reports original count",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 2,
+    "phrase": "feature worked before a recent update",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 3,
+    "phrase": "upload source distinction - pixel XL vs laptop",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 4,
+    "phrase": "specific person's name (e.g. Abigail)",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 5,
+    "phrase": "aware of being added to a new shared group/album",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 6,
+    "phrase": "photos were taken by husband",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 7,
+    "phrase": "moments/events of kids and other relevant things",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 8,
+    "phrase": "pressed 'free up space' option",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 9,
+    "phrase": "photos were edited to change their date",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 10,
+    "phrase": "black and white dog in Hawaii",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 11,
+    "phrase": "subject matter (beach/shirtless)",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 12,
+    "phrase": "pets registered as faces with many photos",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 13,
+    "phrase": "exact date of the photo",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 14,
+    "phrase": "specific date taken",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 15,
+    "phrase": "camera/device name",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 16,
+    "phrase": "subject matter - blood pressure readings",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 17,
+    "phrase": "face group previously had only one person",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 18,
+    "phrase": "face recognition setting not disabled",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 19,
+    "phrase": "had face/people tagging previously on old phone",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 20,
+    "phrase": "album was dated in November",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 21,
+    "phrase": "sharing settings are correctly configured",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 22,
+    "phrase": "search term 'golf'",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 23,
+    "phrase": "filename with ABC_2022",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 24,
+    "phrase": "search keyword 'knife'",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 25,
+    "phrase": "subject is sunrises",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 26,
+    "phrase": "album/folder name",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 27,
+    "phrase": "assumed photos were backed up to Google Photos",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 28,
+    "phrase": "corrections included animal faces too",
+    "classifier_label": "SYSTEM"
+  },
+  {
+    "n": 29,
+    "phrase": "photos existed from before 2019",
+    "classifier_label": "CUE"
+  },
+  {
+    "n": 30,
+    "phrase": "albums are recent",
+    "classifier_label": "SYSTEM"
+  }
+]

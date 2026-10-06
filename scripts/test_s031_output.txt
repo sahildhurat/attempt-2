@@ -1,0 +1,88 @@
+OP UNIT:
+Question 🤔
+So me and my brother share a google account definitely not after today I know he has deleted my photos in the past but he told me he will only delete some so apparently a month or two ago he decided to delete everything every photo and memory I have ever taken. Looking at previous post on here I kinda get the fact that there's nothing I can do but I'm posting this hoping I missed something some way to bring back years worth of memories
+
+========================================
+COMMENT 1 (gary2reddit, 7d ago):
+did you check the trash can? Deleted photo stay in Trash for 30 days prior to be permanently deleted
+
+----------------------------------------
+COMMENT 2 (Correct-Cockroach-56, 7d ago):
+Yeah I found some not a whole lot but it's better than nothing
+
+----------------------------------------
+COMMENT 3 (Correct-Cockroach-56, 7d ago):
+All of the most important ones aren't there probably over 30 days ago is there anything I can do to get them back would Google service help are they somehow on my phone still or is it just over
+
+----------------------------------------
+COMMENT 4 (PS3ForTheLoss, 7d ago):
+If you shot the photos with your phone, there is a chance that they may be in its storage.
+
+Try checking the Files app. Go to /storage/emulated/0/Pictures.
+Or if you are an iPhone user, they should be apparent but if not you can try accessing the local Photos app to see if any remains are present.
+
+Given what you've said, I don't think the images are going to be found here (Android/iOS).
+
+You CAN try to contact Google about recovering photos. They'll probably give you what this sub generally does that you seem to know of as far as the comments/post herein.
+Other question: did you have a Family Group set up before the photos deleted? If so, there is a slim chance that any "family" who may have been added onto your Family Group could have devices who had access to your past images.
+For example, if your family member added to the account (Jim, Jack, Jessica ...) was logged into Google Photos and had your images pulled up at the time -- and the noted device has been offline since the specified time -- they would technically be able to see any and all pictures you had on Google Photos to download et al. as they (or you, if you had access to the noted device) please.
+I take it you did not make a takeout file that happened to have every photo on it before this (possible) loss?
+
+----------------------------------------
+COMMENT 5 (Correct-Cockroach-56, 7d ago):
+Thank you and my dad was part of the family group I'll see if he has them and I didn't make a takeout file and the files didn't work thank you so much though
+
+----------------------------------------
+COMMENT 6 (h_grytpype_thynne, 7d ago):
+I'm sorry that all you can get here is lessons for the future.
+Never ever ever share accounts or login credentials with anyone, ever.
+
+Always keep backups of anything you don't want to lose. A good backup plan is to always have at least three copies of the data on at least two different kinds of storage (like local and cloud) with at least one in a separate location (cloud again). For photos, you can use Takeout, or just download them in batches.
+
+----------------------------------------
+COMMENT 7 (Correct-Cockroach-56, 6d ago):
+I definitely have learned my lesson now and from now on will do all that thank you
+
+----------------------------------------
+COMMENT 8 (Correct-Cockroach-56, 7d ago):
+I get the story is kinda unbelievable like how can I not check my photos the things I cherish so much for 2 whole months but it's honestly true for two months I just went along with my life not really checking and now countless memories went down the drain
+
+----------------------------------------
+COMMENT 9 (yottabit42, 7d ago):
+Never share accounts.
+
+Check the trash to see if they are still there and can be restored.
+
+You should've been downloading backups regularly from the Google Takeout website. If all of your data is in one place/service, you have no backups! and sharing the account makes it even more risky than it would be otherwise.
+
+----------------------------------------
+COMMENT 10 (Aussie6019, 6d ago):
+You're learning the hard way to (A) not share your Google account with anyone, and (B) not taking better care of your memories like photos and videos. It's just asking for problems having years worth of memories but having no backup 'just in case'.
+
+----------------------------------------
+COMMENT 11 (Correct-Cockroach-56, 6d ago):
+Yeah I'll make sure any future memories will be backed up thank you
+
+----------------------------------------
+COMMENT 12 (TheManWithSaltHair, 7d ago):
+You can’t lose anything by trying the recovery process, but it’s probably too late: https://support.google.com/photos/answer/9343482#zippy=%2Creview-photo-recovery-requirements (need to be signed into the affected account).
+
+----------------------------------------
+COMMENT 13 (Existing-Issue3088, 7d ago):
+Account are free, and if you paid just set up a family account to share the benefits.
+
+----------------------------------------
+COMMENT 14 (roirraWedorehT, 7d ago):
+https://support.google.com/photos/answer/9343482#:~:text=Recover%20permanently%20deleted%20photos%20with%20our%20recovery%20process
+
+----------------------------------------
+COMMENT 15 (lkojio, 3d ago):
+I'm so sorry that happened. I once had to take a laptop to a computer store to have some files restored. If the files ever lived locally you might give that a try.
+
+----------------------------------------
+COMMENT 16 (GypsyDanger45, 1d ago):
+I doubt this will help the current situation but to anyone else, run several cloud accounts at the same time. Amazon prime gives unlimited photo storage.
+It saved my ass when I mistakenly erased a ton of pictures
+
+----------------------------------------
+Total units: 17

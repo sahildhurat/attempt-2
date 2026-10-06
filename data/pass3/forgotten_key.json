@@ -1,0 +1,368 @@
+[
+  {
+    "n": 1,
+    "phrase": "specific keywords/words needed to find individual photos",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 2,
+    "phrase": "which app generated it",
+    "original_gap_type": "memory_gap",
+    "source": "user"
+  },
+  {
+    "n": 3,
+    "phrase": "exact estimated vs camera-added location distinction",
+    "original_gap_type": "not_user_cue",
+    "source": "helper"
+  },
+  {
+    "n": 4,
+    "phrase": "exact boundary between photos of one day and the next in the photo roll view",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 5,
+    "phrase": "original website source",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 6,
+    "phrase": "cannot recall/search the saved location of the photo",
+    "original_gap_type": "memory_gap",
+    "source": "user"
+  },
+  {
+    "n": 7,
+    "phrase": "cannot find where the blocked photos folder is located",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 8,
+    "phrase": "location of the bin on the phone",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 9,
+    "phrase": "people face groupings and associated names no longer available",
+    "original_gap_type": "system_failure",
+    "source": "user"
+  },
+  {
+    "n": 10,
+    "phrase": "cannot find where the locked folder is located",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 11,
+    "phrase": "how to locate/access the hidden photos section",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 12,
+    "phrase": "where they left off fixing locations",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 13,
+    "phrase": "no distinguishing numbering scheme for burst photos",
+    "original_gap_type": "product_gap",
+    "source": "user"
+  },
+  {
+    "n": 14,
+    "phrase": "no other information about the photo (e.g. date, location, content details)",
+    "original_gap_type": "memory_gap",
+    "source": "user"
+  },
+  {
+    "n": 15,
+    "phrase": "date/when the beer photo was taken",
+    "original_gap_type": "memory_gap",
+    "source": "user"
+  },
+  {
+    "n": 16,
+    "phrase": "cannot find where sharing is currently enabled/managed in main account",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 17,
+    "phrase": "no other identifying details given (date, location, names)",
+    "original_gap_type": "memory_gap",
+    "source": "user"
+  },
+  {
+    "n": 18,
+    "phrase": "did not realize they had enabled backup",
+    "original_gap_type": "account_event",
+    "source": "user"
+  },
+  {
+    "n": 19,
+    "phrase": "how to search by who took the photo",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 20,
+    "phrase": "exact date sync was turned on / uploaded",
+    "original_gap_type": "account_event",
+    "source": "user"
+  },
+  {
+    "n": 21,
+    "phrase": "names attached to faces",
+    "original_gap_type": "system_failure",
+    "source": "user"
+  },
+  {
+    "n": 22,
+    "phrase": "which of many Google Drives/videos it was saved in",
+    "original_gap_type": "memory_gap",
+    "source": "user"
+  },
+  {
+    "n": 23,
+    "phrase": "location of the locked folder",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 24,
+    "phrase": "the filename of the recording",
+    "original_gap_type": "not_user_cue",
+    "source": "user"
+  },
+  {
+    "n": 25,
+    "phrase": "cannot find where the shared pictures are now",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 26,
+    "phrase": "the exact pattern/passcode for the locked folder",
+    "original_gap_type": "memory_gap",
+    "source": "user"
+  },
+  {
+    "n": 27,
+    "phrase": "location of the photo",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 28,
+    "phrase": "cannot locate the photos after clearing space",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 29,
+    "phrase": "specific device model/name",
+    "original_gap_type": "not_user_cue",
+    "source": "helper"
+  },
+  {
+    "n": 30,
+    "phrase": "no specific numbers to use as search terms",
+    "original_gap_type": "product_gap",
+    "source": "user"
+  },
+  {
+    "n": 31,
+    "phrase": "cannot find the setting/method to unhide the faces",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 32,
+    "phrase": "when the photo was taken",
+    "original_gap_type": "memory_gap",
+    "source": "user"
+  },
+  {
+    "n": 33,
+    "phrase": "which app created the recycling bin",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 34,
+    "phrase": "exact date or year of the photo",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 35,
+    "phrase": "no place name for the cabin location",
+    "original_gap_type": "product_gap",
+    "source": "user"
+  },
+  {
+    "n": 36,
+    "phrase": "how to access hidden photos again",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 37,
+    "phrase": "original metadata (date/time/location) of the recovered images",
+    "original_gap_type": "system_failure",
+    "source": "user"
+  },
+  {
+    "n": 38,
+    "phrase": "whether photo is local-only/on-device",
+    "original_gap_type": "not_user_cue",
+    "source": "user"
+  },
+  {
+    "n": 39,
+    "phrase": "correct original date/time photos were taken",
+    "original_gap_type": "system_failure",
+    "source": "user"
+  },
+  {
+    "n": 40,
+    "phrase": "name of the costume",
+    "original_gap_type": "memory_gap",
+    "source": "user"
+  },
+  {
+    "n": 41,
+    "phrase": "cannot find how to access the locked folder",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 42,
+    "phrase": "does not know how to unhide/reverse the action",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 43,
+    "phrase": "backup status of the photo",
+    "original_gap_type": "not_user_cue",
+    "source": "user"
+  },
+  {
+    "n": 44,
+    "phrase": "name of the unnamed/unknown person",
+    "original_gap_type": "memory_gap",
+    "source": "user"
+  },
+  {
+    "n": 45,
+    "phrase": "no way to filter/search specifically for these auto-generated compilation videos",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 46,
+    "phrase": "no specific location name available for search",
+    "original_gap_type": "product_gap",
+    "source": "user"
+  },
+  {
+    "n": 47,
+    "phrase": "the time the photo was taken",
+    "original_gap_type": "memory_gap",
+    "source": "user"
+  },
+  {
+    "n": 48,
+    "phrase": "cannot recall exact position/date order placement of each poodle photo among 500 scattered pics",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 49,
+    "phrase": "which account or collection the photo is in",
+    "original_gap_type": "not_user_cue",
+    "source": "user"
+  },
+  {
+    "n": 50,
+    "phrase": "no specific date or timeframe mentioned",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 51,
+    "phrase": "no other details about the photo",
+    "original_gap_type": "memory_gap",
+    "source": "user"
+  },
+  {
+    "n": 52,
+    "phrase": "location/folder of the locker photos",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 53,
+    "phrase": "doesn't remember how/when she was hidden",
+    "original_gap_type": "memory_gap",
+    "source": "user"
+  },
+  {
+    "n": 54,
+    "phrase": "cannot locate the earliest-first sort option",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 55,
+    "phrase": "when the older photo was taken",
+    "original_gap_type": "memory_gap",
+    "source": "user"
+  },
+  {
+    "n": 56,
+    "phrase": "which album the photo belongs to",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 57,
+    "phrase": "did not undo the hide action",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 58,
+    "phrase": "could not locate the face in the hidden/shown face list",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 59,
+    "phrase": "exact date of the photos",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 60,
+    "phrase": "does not know how to locate the album without the email",
+    "original_gap_type": "navigation_gap",
+    "source": "user"
+  },
+  {
+    "n": 61,
+    "phrase": "the year the picture was taken",
+    "original_gap_type": "memory_gap",
+    "source": "user"
+  }
+]

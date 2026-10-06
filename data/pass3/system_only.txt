@@ -1,0 +1,416 @@
+French search term 'thermique' previously worked	describes a previous search behavior/feature state
+a keyword that used to work for finding the photo	describes how search functionality worked previously
+a popup appeared to toggle group photos on/off	describes a UI popup and feature toggle
+ability to combine two specified people	describes a search/filtering capability of the app
+able to add photos to the conversation	describes an action/feature of the app
+able to search and find the photos	describes search functionality behavior
+action taken - saved as copy	describes an action taken within the app
+action taken - starred recent photos	describes an action taken within the app
+action taken of moving video to secure folder	describes an action taken within the app
+action that caused the photos to be saved	describes an action/behavior of the app
+added a description containing the word 'wedding'	describes an action taken and data added within the app
+added the person's name and a reference picture for them	describes an action taken within the app's face recognition system
+album URL structure still visible via picture link	describes technical behavior/structure of the system
+album created yesterday	describes album metadata/creation state
+album still reports original count	describes album state and system behavior
+album was marked/moved to hidden	describes album status/setting change
+albums are present on device and visible via WhatsApp share	describes how albums are accessible via integrations
+albums are recent	describes album characteristic/state
+albums are shared type	describes album type/setting
+albums exist and are accessible via timeline	describes album accessibility and state
+albums exist and show up when adding a photo	describes album visibility and system behavior
+albums existed and are visible on the website	describes album accessibility across platforms
+albums were created by the user	describes who created the albums
+albums were stored on Picasa	describes the previous storage system/platform
+all of the person's photos were archived	describes an action taken on photos (archiving) and the state of the app
+all photos now dated Wednesday	describes how the app changed the metadata of photos (date assignment)
+already able to make album of all 2021 photos	describes the capability/feature of creating albums by date filter
+already able to make album of all Sue photos	describes the capability/feature of creating albums by person filter
+already created album of photos created by Sue	describes an album that was already created and album management state
+already has a separate group for mother in law	describes face grouping/recognition state in the app
+amount of space being used	describes storage/account state, not the photo itself
+app indicated it saved a copy of the edited photo	describes what the app did with an edited photo (saving action)
+approximate count of affected baby photos	describes a count of affected photos, which is system state/observation
+approximate date of backup/upload (e.g. yesterday)	describes when backup/upload occurred, which is a system action/history
+approximate date photos were shared	describes when photos were shared, a system action/history
+approximate date range (searchable by date)	describes a searchable feature/capability of the app
+approximate end date of issue	describes when an issue occurred, which is about system behavior/state
+approximate number of photos uploaded	describes upload activity/history of the app
+approximate previous count of photos (over 5,000)	describes the previous count of photos in the library, which is system state
+approximate size of photo library	describes the size of the photo library, which is account/system state
+approximate start date of issue	describes when an issue started, which is about system behavior/state
+approximate time period (month/year) of a mass upload	describes when a mass upload occurred, which is a system action/history
+assumed photos were backed up to Google Photos	describes backup status/behavior of the app
+attempted search by face	describes an action/search method attempted in the app
+attempted search by keyword	describes an action/search method attempted in the app
+attempted search by person name	describes an action/search method attempted in the app
+attempted to use face highlighting on a photo per instructions	describes an action taken in the app
+aware of a new 'Save' button feature shown in app tutorial	describes awareness of a feature shown in app tutorial
+aware of being added to a new shared group/album	describes app behavior/account change
+aware the photos are grouped into a hidden folder	describes app organization/folder structure
+backed up locked folder photos before switching phones	describes backup action taken
+backup activated	describes backup setting/status
+backup is turned on	describes backup setting status
+bubble location marker with preview of latest photo	describes app interface element and its display
+burst symbol appears in corner of each burst batch	describes app interface element for burst photos
+camera roll photos still visible	describes visibility of photos in app interface
+cannot recall/search the saved location of the photo	describes user action/inability to search/recall location
+category labels available in search screen	describes feature/category labels available in app
+category of photos - people and pets	describes category organization/grouping in the app
+checked archive folder	describes an action taken to search the app
+checked on both web and app	describes testing across different platforms/interfaces
+checked recently added section	describes checking a specific app section
+checked trash	describes checking a specific folder
+checked trash is empty	describes the state of the trash folder
+checked under different dates	describes an action taken to search by different dates
+clicking on a person's face used to pull up all their photos	describes a feature behavior change in the app
+confident more dog photos exist	describes user's expectation about photo existence in the system
+configuração ativada para mostrar conteúdo de outros apps	describes an app setting configuration
+copied exact text from photo description to use as search query	describes an action the user took to search
+correct recipient email addresses	describes a sharing/recipient system configuration
+corrections included animal faces too	describes a correction action taken in the system
+could find pics of family doing things together	describes a search capability/feature result
+created a name/face group for daughter at birth	describes creating a face group in the app
+created a profile and added photos for new cat	describes creating an album and adding photos in the app
+created albums for each place visited on trip	describes creating albums in the app
+created the shared album himself	describes an action the user took to create a shared album
+custom description text added to the image	describes custom metadata added via the app
+custom file name given to photo	describes custom file naming applied to a photo
+custom keyword filename given to the video	describes custom file naming applied to a video
+custom notes text added in the info/details section	describes custom notes added in the app's info section
+custom/meticulously assigned file names	describes file naming system used
+date after which photos stopped appearing	describes when photos stopped appearing in the app
+date cutoff after which photos don't appear	describes a cutoff point in the app's display behavior
+date range query format	Describes the format/syntax of a date range query in the app
+date scroller location	Describes the position/state of a UI element in the app
+date was changed to the update day	Describes when a system date was changed in relation to an update
+date when assignment last worked	Describes when an app feature or function last operated
+daughter is one of the recognized face groups, with 3 photos showing	Describes face grouping feature status and photo count in a recognized person group
+daughter was previously a recognized person/face group	Describes the previous state of face recognition grouping for a person
+daughter's name as label	Describes a saved label/identity in the People feature of the app
+daughter's name/identity used to search	Describes using a saved person's name/identity as a search input
+daughter's saved name/label in People	Describes a saved name/label in the app's People feature
+deleted 500 MB of photos in Google Photos	Describes a deletion action the user performed in the app
+deleted photos from phone days after upload	Describes a deletion action performed after upload was complete
+did not delete any photos	Describes an action (or lack thereof) the user performed in the app
+did not delete anything	Describes an action the user did not perform in the app
+did not delete or archive them	Describes actions the user did not perform in the app
+did not delete the photos	Describes an action the user did not perform in the app
+doesn't remember how/when she was hidden	Describes the state or history of a hidden/visibility setting in the app
+edited with Magic Eraser	Describes an editing action performed on a photo using an app feature
+enabled face/similar face grouping feature	Describes enabling a face grouping feature in the app
+entered text in description/caption fields	Describes an action the user took in the app's caption/description fields
+every photo and video was being backed up	Describes the backup behavior/status of the app
+example search terms used previously	describes search terms the user previously entered into the system
+exclude person Jane in second album	describes a filtering action taken in the system
+existing label/name already created for the person	describes face grouping/recognition system state
+expected photos to appear at end of current library since older	describes expected app behavior and library sorting
+face appears under edit faces with crossed-out eye icon	describes face recognition feature UI state
+face group name 'Honey'	describes a face group created in the system
+face group previously had only one person	describes previous state of face grouping system
+face grouping setting existed and was found disabled	describes state of face grouping setting in app
+face grouping setting is enabled	describes state of face grouping setting
+face grouping setting is turned on	describes state of face grouping setting
+face grouping/similar face feature	describes app feature for face grouping
+face recognition setting not disabled	describes state of face recognition setting
+face was hidden using hide face mode	describes action taken in hide face mode feature
+faces were added/tagged for the person	describes tagging actions performed in the system
+faces/people groups existed and were visible previously	describes previous state of face groups in the system
+feature previously showed each person's face to click on	describes previous UI feature state in search tab
+feature used to exist in the search tab	describes previous app feature availability
+feature used to sync family photos to Google Home displays until October	describes app feature that existed until a specific date
+feature was enabled in settings	describes state of a setting in the app
+feature worked before a recent update	describes how app behavior changed after update
+feed shows photos were added to the album	describes feed notification about album updates
+file dates and exif dates were set correctly	describes metadata state and synchronization between file dates and EXIF data
+files were deleted from actual gallery	describes an action taken and storage state change in the system
+files were originally in Camera folder/album	describes the album/folder organization state in the system
+folder location of the albums	describes folder/album organization structure in the system
+found them before via search	describes a past search action and history
+found them in Google Files and shared to Google Photos	describes actions taken and where files were stored
+friend confirms photos uploaded and appearing on their end	describes upload status and sharing/sync behavior
+friend linked to album	describes a sharing action and album relationship
+friend's face group label	describes face grouping feature state
+friends can see his photos fine	describes sharing/visibility behavior of the system
+funciona corretamente no navegador	describes app behavior/functioning in a specific context
+group faces activated	describes the state of face grouping feature in the system
+had an album with the same name	describes a prior album state/organization
+had around 20-30 named people/pet labels previously	describes named labels/groupings previously configured in the system
+had been using the name search feature for years	describes a feature used and its history of usage
+had face grouping feature for years with family photos grouped together	describes a feature state (face grouping) and app behavior over time
+had face/people tagging previously on old phone	describes a past tagging feature/action in the app
+had linked/shared photos with husband's account previously	describes sharing settings and account linking configuration
+had manually labeled the face	describes a manual labeling action taken in the app
+had many albums previously	describes album count/organization state of the system
+had old albums previously visible	describes past visibility state of albums in the app
+had previously saved/named people in Google Photos	describes people tagging/naming action taken in Google Photos
+had seen the photo surface before without searching	describes app behavior of surfacing photos without explicit search
+has an autoupdating album based on face B	describes an auto-updating album feature configuration
+has created a new face grouping for face B	describes a face grouping action taken in the app
+has the original sharing email in some cases	describes sharing history and email records in the app
+hid a specific person (face group) before locked folder existed	describes hiding/grouping action taken and feature evolution
+how to search for photos of a person, excluding another person, by year	describes search functionality and filtering options
+husband is labeled as partner in the app	describes relationship labeling configuration in the app
+intent to select by date to build albums	describes an action/intent to use the app's date selection feature
+interrupted by a phone call	describes an interruption to the user's action/workflow
+issue persists across multiple devices and website	describes app behavior persistence across devices and platforms
+it was a collage or slideshow created by a notification	describes a feature action (collage/slideshow created by notification)
+it was a movie created in Google Photos	describes a creation made within the app (movie created in Google Photos)
+it was a shared album with partner	describes an album's sharing configuration
+it was a shared conversation with other people	describes a sharing feature used with other people
+it was edited (rotated and cropped) and saved	describes an edit action taken on the photo via the app
+it was located in a movie folder	describes the location/organization within the app (in a movie folder)
+it was located next to the original photo	describes the photo's location relative to another item in the app
+it's a shared album with a specific friend	describes an album's sharing configuration with a specific person
+keyword 'dog' for photos of their dog	describes a keyword search action the user performed
+keyword 'fork' used previously	describes a keyword search action previously used
+keyword 'museum' for photos of museums toured	describes a keyword search action for a category of photos
+keyword added to photo description	describes adding metadata via the app's description field
+keywords added to description field	describes adding keywords/tags via the app's description feature
+keywords/tags that previously worked	describes keywords that worked previously in the search system
+knew they had a locked folder that should exist	describes knowledge of a system feature (locked folder)
+knew to search for Screenshots category	describes knowledge of the app's category/search feature (Screenshots)
+knows a 'save to device' option exists via sharing icon for others' photos	describes knowledge of an app feature (save to device via sharing icon)
+knows approximate count and source app	describes knowledge of photo count and source app information
+knows captions were manually added after taking photos	describes knowledge that captions were manually added within the app
+knows file location on device (DCIM > Photoscan folder)	describes knowledge of file location on the device storage
+knows friends uploaded photos 4 days ago	describes information about upload timing via sharing feature
+knows individual photos can be fixed one by one via crossed-out eye icon	describes knowledge of an app feature (crossed-out eye icon to fix photos)
+knows initial 48 pictures were added successfully	describes upload/sync status of photos within the app
+knows last labeled photo was from 2022	describes when a photo was last labeled, a system action
+knows method of upload was drag and drop via browser	describes the upload method used
+knows other albums made before and after still show fine	describes album visibility behavior and app state
+knows photos are misclassified under friend's name	describes face classification/grouping state
+knows photos are visible on computer and other account	describes photo visibility across different platforms/accounts
+knows photos exist and are backed up to account	describes backup status
+knows screenshots are still in the device's screenshots folder	describes device storage state
+knows the albums were shared with them previously	describes sharing/permission settings
+knows the face group is labelled as her mother	describes face group labeling/classification state
+knows the number of photos visible to him vs friends	describes visibility/access differences across accounts
+knows the person was accidentally hidden from People category	describes face hiding/visibility setting
+knows the photos exist in main library/app	describes where photos are located in the app structure
+knows the photos exist in the shared album	describes location of photos in shared album feature
+knows the photos were hidden by themselves	describes an action taken to hide photos
+knows the photos were uploaded to a specific shared collection	describes upload destination/shared collection setting
+knows the two people's faces were merged into one group	describes face grouping/merging state
+knows there were hundreds of captions	describes photo metadata/captions state
+knows they hid the photos	describes action taken to hide photos
+knows which face/person collection it belongs to	describes face group/collection assignment
+knows which photos are their own uploads vs others' uploads	describes photo source/upload attribution in system
+knows which photos contain face B	describes face classification/grouping state
+large number of backed up photos that were tagged	describes backup and tagging status
+last known working date for face grouping	describes when face grouping feature last worked
+last known working favorite date	describes when favorite feature last worked
+local onde deveriam aparecer (atalhos na tela inicial)	describes app UI element (home screen shortcuts) and their visibility
+location of mislabeled tag	refers to a mislabeled tag in the system
+location saved to (Google Photos folder in Drive)	describes where photos are stored (Google Drive folder)
+locked folder is visible on another account	describes visibility state of locked folder across accounts
+locked folder previously existed with content moved into it	describes history of locked folder and content organization
+logged into correct account	describes account login state
+manually added captions or descriptive text	describes manual addition of metadata to photos
+manually added place/location to the photos	describes manual action of adding location metadata to photos
+manually added word 'tattoo' to photo descriptions	describes manual action of adding text to photo descriptions
+manually entered description text	describes manual text entry action in the system
+more recent photos still found via face search	describes search behavior and results from face search feature
+more than 2k photos taken in 2025	describes count of photos in the system for a time period
+motion photos used to appear as a search category alongside screenshots, videos, documents	describes search category feature availability in the app
+name associated with the face	describes face grouping and recognition system state
+name of the 'Recently Added' category	describes a system category/feature name
+name of the duplicate folder created for same person	describes duplicate folder created by the system
+name of the main folder/person	describes a system-created folder structure
+name of the notification/slideshow	describes app features (notifications/slideshow)
+name of the unnamed/unknown person	describes system's unrecognized face category
+name/label used for the person	describes labels assigned in the system's people/face database
+named the person album with boyfriend's name	describes action of naming a system-created album
+names are saved in people/pets section	describes where the system stores person/pet names
+names given to the two people	describes names assigned in the system's recognition database
+names of the tagged people	describes tagged people in the system
+names of two previously recognized people/faces	describes previously recognized faces in the system
+negation query behavior	describes how the search system behaves
+new photos taken after SD card install do show up	describes backup/sync behavior after hardware change
+number of edited photos	describes count of edited photos in the system
+number of people groups previously present	describes number of face groups in the system
+number of photos saved	describes system action/backup status
+number of photos uploaded	describes upload status/system action
+old Partner Sharing invitation email found in secondary Gmail	describes email communication and account state, not photo content
+organised face folders around June/July 2023	describes an action taken on the system (organizing face folders)
+other people in same photos still recognized	describes the system's face recognition state for other people
+partner sharing feature was previously working	describes the state of a feature (partner sharing)
+people/pets already recognized in search	describes the system's recognition state, not the photo content itself
+person was previously labelled in people grouping	describes system's face grouping/labeling state for a person
+person was previously tagged in photos	describes a tagging action previously taken by the system or user
+personal face set configured	describes a system configuration for face recognition
+pets registered as faces with many photos	describes the system's face recognition state for pets
+photo currently set as the heading/cover photo for a place	describes a configuration action taken on the system (setting cover photo)
+photo details label indicating shared status	describes a UI label showing shared status, a system feature
+photo type was 'Motion photos'	describes the file type/format which is a technical system property
+photo was shared by someone else	describes sharing action/status, a system behavior
+photo was uploaded from Facebook	describes the source/upload action, a system operation
+photos appear in Memories highlights	describes system feature behavior (Memories highlights)
+photos appear in memories feature	describes system feature behavior (memories feature)
+photos are backed up to the cloud	describes backup status, a system state
+photos are in the same phone folder as the visible scans	describes folder location and storage organization
+photos are screenshots from internal storage or SD card	describes file location and storage source
+photos copied into Google Photos folder in Drive	describes a copy/import action and system location
+photos exist in albums	describes album organization, a system structure
+photos exist in folders and memories	describes system features and storage structures
+photos exist on phone but not computer	describes sync state and device storage locations
+photos exist on the locked iPhone	describes device storage location and state
+photos had been downloaded previously	describes a download action the user took
+photos likely uploaded on the day sync was turned on	describes when sync was turned on, a system state/action
+photos saved from the albums are still present	describes presence state after a save action the user took
+photos still appear when searching by name	describes search behavior and app response
+photos uploaded to shared collection	describes upload action and sharing feature state
+photos visible on website	describes where photos appear in the app/website interface
+photos were backed up from old device	describes backup action and backup source
+photos were created by Picasa	describes the app/software that created the photos
+photos were downloaded a few months ago	describes a download action the user performed
+photos were downloaded to phone's Google Photos	describes a download action to a specific device location
+photos were duplicated via double backup from phone and PC	describes backup configuration and duplication behavior
+photos were edited to change their date	describes metadata editing action the user took
+photos were hidden by the user	describes a user action to hide photos
+photos were in the locked folder	describes location in locked folder feature
+photos were initially all visible	describes visibility state of photos in the app
+photos were labeled by user	describes labeling action the user performed
+photos were marked as favorites	describes favorite marking action and feature
+photos were moved from internal memory to SD card via File Manager	describes file movement action via File Manager
+photos were moved to albums before deletion	describes organizing action in albums before deletion
+photos were moved to the locked folder	describes action to move photos to locked folder
+photos were organized into photo albums	describes organizing action into albums
+photos were originally in Downloads folder	describes file system location before import
+photos were originally shared from account A to account B via partner sharing	describes sharing action between accounts
+photos were placed in a locked folder	describes action to place in locked folder feature
+photos were placed in locked folder	describes action to place in locked folder feature
+photos were previously in People & Pets album	describes previous album location and app state
+photos were previously saved to Google Photos	describes prior save/import action to Google Photos
+photos were previously tagged/detected as her face	describes face detection and tagging feature state
+photos were previously visible before an update	describes visibility state before an app update
+photos were recently edited	describes when editing action was performed
+photos were restored from trash	describes restore action from trash
+photos were saved on account B and deleted on account A	describes account state and deletion action
+photos were shared by a specific group member	describes how photos were shared (via feature/action)
+photos were shared by husband via partner sharing	describes sharing method and feature state
+photos were shared via partner sharing	describes sharing feature/setting
+photos were stored in the locked folder	describes app feature (locked folder)
+photos were uploaded by user	describes an action the user took (upload/backup)
+photos were uploaded/backed up before clearing storage	describes backup/storage action taken
+pictures are positioned at top of album	describes position/ordering in app interface
+pressed 'free up space' option	describes an action the user took in the app
+previous location in app (Photos > Collections)	describes previous location/state in app navigation
+previous total count was around 2000	describes photo count/storage state
+previously added descriptions to partner's photos	describes a previous action/behavior in the app
+previously had a map feature for photos	describes a previous app feature that existed
+previously had this feature available	describes previous feature availability
+previously known search URL trick	describes a known app feature/workaround
+previously organized in a separate album	describes previous organization/storage method
+previously saw them in Google Photos	describes where photos were previously located
+qual pasta foi selecionada para backup	describes which folder was selected for backup
+reason for original move was storage space	describes reason for a storage-related action
+reason for the misattribution - his face appeared in background of a related photo	describes face recognition system misattribution
+recalls it used to work previously	describes previous app behavior/functionality
+received a backup successful message	describes a system notification received
+received confirmation email of successful transfer	describes confirmation of a system action
+received email notification about shared photo	describes notification from sharing feature
+received notification about new additions to shared album	describes notification about shared album activity
+receives notifications about new posts in shared albums	describes notification settings/behavior
+recently added profile faces for the people	describes face recognition configuration/action
+remembered which album was updated via browser	describes an album action and update via browser
+remembers hiding a specific person's face	describes hiding a person's face, a face grouping system feature
+remembers locking a photo	describes locking a photo, a system action on the app
+same account used on new device	describes account configuration across devices
+saved as a copy after editing	describes a save action taken in the app
+saved via Save a Copy	describes using the Save a Copy feature
+scrolling up on a photo used to show who was in it	describes app behavior when scrolling to reveal face information
+search by device used to work before	describes whether search by device feature worked
+search term used	describes that a search term was used, focusing on the action
+search worked previously on old account	describes search functionality status across accounts
+searched keyword 'dog'	describes the action of searching, a user-initiated system interaction
+searches own name to find their pictures/videos	describes the action of searching, a user-initiated system interaction
+secondary account storage usage	describes account storage usage, a system metric
+seen in the 'Remember this day' feature	describes a feature (Remember this day) and its behavior
+set video to private	describes a sharing action/setting configured by the user
+shared about 3 years ago	describes when a sharing action occurred, a system event
+shared in an album	describes where the photo was shared (album), a sharing configuration
+shared today	describes when a sharing action occurred, a system event
+shared via Google Talk	describes the sharing method used, a system action
+sharing occurred while storage was full	describes system state (storage full) during a sharing action
+sharing settings are correctly configured	describes sharing settings configuration status
+sharing worked before location sharing was turned off	describes relationship between two system features/settings
+single account used	describes account configuration
+some photos exist on Facebook	describes external system where photos also exist
+source app (Xender)	describes the source application where photo originated
+source app of photo (WhatsApp)	describes the source application where photo originated
+source app of photos	describes the source application where photos originated
+source app of the photos is WhatsApp	describes the source application where photos originated
+source app the photo may have come through	describes the source application where photo may have originated
+source device of transfer	describes the source device of photo transfer
+source folder of photos	describes the source folder where photos came from
+source of upload (Facebook transfer tool)	describes the system/tool used as source of upload
+specific cutoff date when grouping stopped	describes when a system grouping feature stopped working
+specific date searched	describes the date a user performed a search action
+specific keyword added to photo description	describes metadata added via app action, not the photo itself
+specific locations searched for	describes search actions performed by the user
+specific missing time period	describes time period being examined in search/retrieval
+specific person's name added to search	describes a search query action performed by user
+specific search query syntax tested, e.g. album:apple	describes search feature syntax being tested
+specific search term used	describes search term entered as a system action
+sync had finished	describes a system process or app behavior
+system had mislabeled it as a dog	describes how the system mislabeled content
+tag/cat's name used on photo	describes a tag or metadata assigned to the photo
+terms previously worked	describes what search terms worked previously
+text they had typed into the photo's description	describes metadata the user entered into the system
+text typed into the photo's description field	describes metadata the user entered into the system
+that an album used to exist for him	describes the state of albums in the system
+that face grouping used to work for the whole family	describes a feature state (face grouping functionality) that changed over time
+that it appears in Recently Transferred	describes where a photo appears in the app's interface (Recently Transferred)
+that photos were recently added	describes a state change in the app (recent addition action)
+that the person had been previously tagged/recognized	describes a system action/state (tagging or recognition history)
+that they had hidden the photos	describes an action taken on photos (hiding them)
+that they saved an edit as a copy	describes an action the user took (saved edit as copy)
+that they set it up with a pattern passcode	describes a security setting configuration (pattern passcode)
+that they've had the locked folder for years	describes a feature's existence duration (locked folder history)
+the album exists and appears in the album list	describes the album's appearance in the app's album list
+the exact pattern/passcode for the locked folder	describes the security configuration (locked folder passcode)
+the face had been wrongly grouped as a different person	describes a face grouping error in the system's recognition
+the people/face grouping feature was previously enabled	describes whether a feature (face grouping) was enabled
+the person was hidden by the user	describes an action taken on a person in the system
+the photo/video had been saved and given a name	describes an action taken on a photo (saved and named)
+the photos were grouped under daughter's face/person icon	describes how photos were organized by the face grouping system
+the specific person's name/file the video was mistakenly grouped under	describes how a video was mistakenly grouped by the system
+the word 'spec' used to work as a search term before	describes past search functionality behavior
+their own face group label	describes face grouping feature configuration
+there are two specific photo groups, one for each child	describes album organization structure
+there used to be a dedicated WhatsApp photos folder/category	describes past app folder/category feature
+they had hidden certain faces previously	describes past action taken on face visibility setting
+total number of items uploaded	describes upload completion status count
+total photo count	describes total library count metric
+tried the literal search term 'motion photos'	describes search term attempted in the system
+tried to unhide the person	describes action taken on face visibility setting
+uniform date/time assigned per folder	describes metadata timestamp assignment by system
+upload reported as completed	describes upload completion status
+upload setting was High Quality	describes upload quality setting configuration
+upload was completed per notification	describes upload completion notification
+used Your Map feature under Places section	describes feature/tool used in the app
+used camera timer feature	describes camera feature setting used
+used face search to locate photos of a person	describes search feature used in the app
+used the 'me' search term	describes search term tried in the system
+used the clear space feature	describes an action taken within the app's features
+used the hide option on the person	describes using a hide function, an app feature/action
+used to search simply with the term 'QR'	describes how the user performs searches in the system
+user recalls they blocked certain photos	describes blocking action taken in the app
+usually searches by month	describes the user's search behavior/habit within the system
+video shown as saved in shared conversation	describes where/how a video appears in the system
+video was previously stored in Photo Locker	describes where a video was stored, a system feature
+visible on website but not app	describes where content is visible across different app interfaces
+visible via shared albums	describes visibility via a system feature (shared albums)
+was actively working on a photo book project	describes a feature/project the user was working on in the system
+was editing and deleting photos/videos when issue occurred	describes actions the user was performing when an issue occurred
+was on WiFi the whole time	describes the connection state/system condition at the time
+which album the photo was added to	describes an action of adding a photo to an album
+which album the photos were moved to	describes an action of moving photos between albums
+which face/person group to add new photos to	describes adding photos to a face/person group, a system action
+which feature/icon the photos should appear under	describes which feature/UI section photos should appear under
+which of many Google Drives/videos it was saved in	describes where a photo was saved in the storage system
+which two albums are affected	describes which albums are affected by an issue
+wife sent a link to the shared collection	describes an action taken (receiving a shared link)
+year shown as 2024 in lower right	describes how the app displayed the year

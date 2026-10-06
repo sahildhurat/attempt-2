@@ -1,0 +1,138 @@
+=== 1. FORGOTTEN ASYMMETRY ===
+
+--- 10 UNITS > 500 CHARACTERS WITH ZERO FORGOTTEN CUES ---
+
+[UNIT 026d295ee2aa65d951b8f8300b3149806acbf4a790e4c9d8c21f50261337a214 - SOURCE: reddit_assisted - LEN: 609]
+TEXT:
+Bug 🐞 In my Google Photos app (on Android), I used to be able to search my photos by date by typing in a month and day in quotations (formatted like so: "Dec 23" or "Feb 12", etc.) and the app would show me the photos I had taken on that day in each year. Now, when I do a search like that, it just gives me seemingly random results, with an option for "Most recent" or "Best match" (neither which work to show photos taken on the month and day I searched for). I'm assuming an update introduced this bug, but is there any way to get the app to show me the photos I took on a particular month and day anymore?
+
+[UNIT 0206a07992a76bf55d21828ef0c2726038bb70c520f031b59cb9e63a83ec96c3 - SOURCE: reddit_assisted - LEN: 628]
+TEXT:
+Question 🤔 So how is everyone enjoying Google Photos being completely unable to identify the most basic photos that it could 6 months ago? I've had a dog for 10 years. Now when I search for "dog" I get a tiny subset of the photos I used to. Unrelated I use blowtorches for my day job. I search for blowtorch. I get eight results none of which contains a blowtorch. Google Photo search is now so bad I'm longing for the days 20 years ago when we manually entered metadata and tags to photos so we could find them later. What are people doing now that Google Photos is now incapable of showing us our photos based on search terms?
+
+[UNIT 05b2020c288d7924e3bdac57546dd5a18e106ad8e558f79e1a3c17adb025f19f - SOURCE: help_community - LEN: 530]
+TEXT:
+Photos on a map using Chrome  <svg class="thread-list-thread__title-icon" viewbox="0 0 24 24"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"></path></svg>
+I’ve used the description field on Google Photos for years to add keywords and have been able to search using those words in that field. Now it does not work. Is there anything I can do?
+
+[UNIT 032a082ea74551798d6c84f469b8a5d98870fe652ef6633d5e1e8e34dc52700c - SOURCE: help_community - LEN: 523]
+TEXT:
+Search in photos is no longer bringing any results  <svg class="thread-list-thread__title-icon" viewbox="0 0 24 24"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"></path></svg>
+I searched 'cars' and a number of other terms that have previously worked but now the search option in photos is not returning any results at all. Any ideas?
+
+[UNIT 05e762157bc78b59d6b39feae356b19a504442be5634cc95a333335603e2d79f - SOURCE: help_community - LEN: 677]
+TEXT:
+Google won't recognize certain people  <svg class="thread-list-thread__title-icon" viewbox="0 0 24 24"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"></path></svg>
+Hi, I have loads of pictures of one of my friends and his birthday is coming up so I want his photos all in one place, however Google wont allow me to use his face to name as a contact, I've even tried cropping everyone else in a photo out. My only thought is maybe because it was taken on Snapchat and not on Google camera?
+
+[UNIT 040a9a2789a5cda5ae8d824425345da705b85204957a7c6bcc0ca4df43aa7f7e - SOURCE: reddit_assisted - LEN: 2183]
+TEXT:
+[PARENT POST]
+
+
+[REPLY]
+Here's a straight copy of a Google Admin's reply: "My response is composed of information found in various Google Product Help Centers and is, to the best of my knowledge, accurate as of July 17, 2023. There is, to the best of my knowledge, no such option available in Google Photos, but... these suggestions may be of help. 1. Use the "Search" bar The most straightforward way to find duplicate photos is to use the "Search" bar at the top of the Google Photos interface. Simply type in a keyword or phrase that is likely to be found in one of the duplicate photos, such as the name of a person or place. Google Photos will then return a list of all the photos that match your search criteria 2. Use the "Filters" feature The "Filters" feature in Google Photos can also be used to find duplicate photos. To use this feature, click on the three dots in the top right corner of the Google Photos interface and select "Filters". From here, you can select a variety of criteria to filter your photos, such as date, location, and file size. This can help you to narrow down the list of photos that you need to check for duplicates. 3. Use a third-party app There are also a number of third-party apps that can be used to find duplicate photos in Google Photos. These apps typically work by comparing the metadata of your photos, such as the file size, date, and location. This can help them to identify duplicate photos that might not be obvious to the naked eye. Here some of the third-party apps that you can use to find duplicate photos in Google Photos: * DupliSafe: This app is available for both Android and iOS devices. It can scan your Google Photos library for duplicate photos and then help you to delete them. * Google Photos Duplicate Finder: This app is also available for both Android and iOS devices. It uses a variety of criteria to find duplicate photos, including file size, date, and location. * PhotoSweeper: This app is only available for Windows and macOS devices. It can scan your Google Photos library for duplicate photos and then help you to delete them." ______ Hope this helps! Will report back once I've used the above mentioned apps!
+
+[UNIT 0608cf4220d193cd5225c4a5f88b81a74d8052276487ede7ec4e2776c55ac84d - SOURCE: help_community - LEN: 569]
+TEXT:
+Not all photos show  <svg class="thread-list-thread__title-icon" viewbox="0 0 24 24"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"></path></svg>
+If I go to Google photos I can see apparently all my pictures. But if I try to upload pictures to X prom photos there are more pictures. I select Google photos to upload and many more appear than directly on Google photos. Any ideas ?
+
+[UNIT 06831ebda498e7f829fc29e42c43b0ba0ab1f899f482bbb4d0618cf2be99b4e0 - SOURCE: help_community - LEN: 544]
+TEXT:
+No photo is visible. Although they exist in folders and memories.  <svg class="thread-list-thread__title-icon" viewbox="0 0 24 24"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"></path></svg>
+All the photos that appear as soon as you open Google photos is not showing up. Although if I click on shared albums or memories icon then these are visible there.
+
+[UNIT 06d1650feca2c24f6a8e6458a84c3c07274b863bd1081a2f64b35fa7e3f6f106 - SOURCE: help_community - LEN: 993]
+TEXT:
+When searching Google Photos by the description or caption I don't get any of the photos I populated  <svg class="thread-list-thread__title-icon" viewbox="0 0 24 24"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"></path></svg>
+When searching Google Photos by the description or caption I don't get any of the photos I populatedI tried sharing my primary account in photos with my other secondary account. I entered text in the description and or caption feature boxes similar. It seems all of my photos screenshots on internal or SD card from this year 2024 just don't get placed in any of the searches I enter into Google photos search box feature. What can 8 do I have a midterm due and am relying on the use of the screenshots with caption and or description I used to create a number of photo albums.
+
+[UNIT 0bba40d4f4ac35549d436866eb8ca736576c02cd3c91071d9a8b616699731cb5 - SOURCE: help_community - LEN: 508]
+TEXT:
+Wife changed name; uploaded all photos to new account, but search and faces don't work  <svg class="thread-list-thread__title-icon" viewbox="0 0 24 24"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"></path></svg>
+I searched for a text which is present clearly in a photo but the search option is not showing that photo.
+
+--- ALL 60 FORGOTTEN CUES ---
+ID: 02b29acd61c623537f2ef225ab20022d81403ae18c1bca7a4ba29ce06c500407 | CUE: cannot locate the earliest-first sort option | SPAN: I do not appear to have the 3 dots to click on to see ‘earliest first’
+ID: 0082cfb06e92bd068415017a5f66ae761131e961b11fd70dfe492cec5e3eccb1 | CUE: no place name for the cabin location | SPAN: with no name to show for it in the pre-listed locations
+ID: 06ea2561df91bb66f94c6661cf5f08fe71dea7377ac78f816f232a3fc4da9408 | CUE: could not locate the face in the hidden/shown face list | SPAN: that is not in the hidden and show face list
+ID: 269c584635dd7833bf7c78efa7815b785000b03968274273531fd1bb59b162e9 | CUE: cannot find the setting/method to unhide the faces | SPAN: I can't find how to do it
+ID: 278634eb11ed370ff6d3c1595ad204b2b2d57102e9d5f77566f979f9debc082f | CUE: which of many Google Drives/videos it was saved in | SPAN: I have a lot of google drives with a lot of videos
+ID: 29dbad8e250449b2d0ca9df82e37a5ccdfbae7c565877b33e11b64c109513f64 | CUE: cannot recall/search the saved location of the photo | SPAN: Cannot search for saved location
+ID: 2fe76eef4a54d28724385f67ee0d59f4e3c16c5c7baa746738d80aaf60ecedd8 | CUE: how to locate/access the hidden photos section | SPAN: now I can't find them
+ID: 3a8c7c61a9740df9e5b782fa53b6a50d9b7f1e4b4a3b0e7c4446307d11fb6cef | CUE: exact date sync was turned on / uploaded | SPAN: how would i find out that date?
+ID: 4685ab686595e58175e0762e7299e64ccc789e3f6f2fbfc32f72d718f13a8afe | CUE: when the photo was taken | SPAN: I couldn't remember when I took the photo
+ID: 566c14ee85c89f24b9ea2f5a3b2e7dbfc1e21b2d988f285b530fab0b42252e57 | CUE: no other details about the photo | SPAN: when I can't remember anything else about the photo I'm looking for
+ID: 5b3fb8eef14ac51f82d41343579096b7c9ee64dff6864f54ede41dec753ffafc | CUE: which app generated it | SPAN: Am I right in assuming it's the Google Photos app creating these things? For all I know maybe it's the Google Assistant app or just an in-phone thing for Pixels
+ID: 5e0dedd38762eb787a7631972fd427d9477197dece66a4966dea5973733c3909 | CUE: correct original date/time photos were taken | SPAN: their meta data is not correct
+ID: 690ef51824c7e4aec308614f4c4186a3203068c0e481aab6a5af60a280238fb4 | CUE: the exact pattern/passcode for the locked folder | SPAN: had forgotten the exact pattern and kept getting denied
+ID: 724e652674d3791d20bb856e1ed7a82f30da3cf9e8bc32e226ba069dded921e6 | CUE: how to access hidden photos again | SPAN: not able ro see it again how to see it
+ID: 747e917fe1a244b96fc72d5934cc6180d2c385f58605b36034f38c5aabdbafe5 | CUE: names attached to faces | SPAN: it deleted all the names for those faces in my photos
+ID: 76d68fbf85e952b1ccccc7d6611b14bf1ef9d024be02123d5c32ff5bc9a67d49 | CUE: cannot find where sharing is currently enabled/managed in main account | SPAN: But I cannot find anywhere in my main Gmail where these photos are being shared
+ID: 7bf82830945e619eee19431b8ce24c7fc6171b12b579373f8b41b04bc9ba3823 | CUE: the filename of the recording | SPAN: download it to the computer and see what the filename is, if necessary
+ID: 7ee4880d81c57d201fc05b406b7b981270f0237bbc1677abe77b4240c7ed876d | CUE: exact estimated vs camera-added location distinction | SPAN: You can only change or remove estimated locations and locations that you've manually added to your photos.
+ID: 82375c718b8214ddc92f701b80689222c7528c4456e07c8d319dcad7b1daa5bc | CUE: no distinguishing numbering scheme for burst photos | SPAN: the iphone doesn't give the photos in a burst any particular numbering scheme (like _01, _02, etc as some other phones apparently do)
+ID: 82375c718b8214ddc92f701b80689222c7528c4456e07c8d319dcad7b1daa5bc | CUE: no specific numbers to use as search terms | SPAN: So I can't use any particular numbers as a search term
+ID: 859e4fd5efd43ea02d0f5cb41d93e585a94f20cf5b9acf68c138373de5be9135 | CUE: people face groupings and associated names no longer available | SPAN: people faces and their names are removed from my account
+ID: 896755e5a4c57329e8b614ce8e3a016bccc29faf3c3107d5faaf166a8fd2e8ee | CUE: no other identifying details given (date, location, names) | SPAN: I'm looking for a picture in which two people appear
+ID: 8e2128a8f8b40f9fafbb80d9da208974dc49cbb62470d5d836052ae8d3128530 | CUE: when the older photo was taken | SPAN: I don't remember when I took the photo
+ID: 8f5f321c0d576b47f029dcae74a8007870d161174162a1caefb855fe4b0879dc | CUE: does not know how to locate the album without the email | SPAN: How do I see albums that have been shared with me that I have not yet set to show up in my library if I don't have the email from inside the app?
+ID: 8ffc490e2c2e69be253348e928a5316719e1180e583cef4c2ae4985085e68234 | CUE: location of the locked folder | SPAN: I don't know where to find the folder of my locked up photos
+ID: 909a724b750f2c9b82778600e1d712750b2ef468b622c9298459ab40df6e344f | CUE: no specific date or timeframe mentioned | SPAN: Cannot find photos of x rays, tried x-rays, bones, skeleton, medical images with 0 hits, on phone.
+ID: 91528af478b8c72531465892b71a23cc7505bcfc84a2999b1549d189815a7cc8 | CUE: specific device model/name | SPAN: You'd need to do iPhone 14 Pro Max or something similar.
+ID: 9135c651770532944f6ff085afef7f63a7943f8fc95603452246f71167ed3288 | CUE: no other information about the photo (e.g. date, location, content details) | SPAN: it didn't have any information on the photo
+ID: 967dfd80febbf70a3d2dc631c0cf9a86ed95f6d8e66640797444a992f2c14c0c | CUE: location of the photo | SPAN: I need to find the location of the picture
+ID: 9983ef2a811bb3a73f51a756cdafc5adf403d62a5a8c10b2111d145aed16b23e | CUE: the time the photo was taken | SPAN: I remember places but not the time when I have taken a photo
+ID: 9beffbb5336d9db6db0a1e79b604a1f4924df437215aa03c269b07e3ce652f3d | CUE: the year the picture was taken | SPAN: I can’t remember the year of a certain picture that I have
+ID: ab9a9e6ade1dc2ea274d42cd0f7582977796e4695d7c77887c7c4d9f523a2e06 | CUE: which album the photo belongs to | SPAN: Check which album contains it &lt;-- Unable to do it
+ID: b128e7edaaa822d5774c87931dbdb759290f2a5f351207807cebd128698b41b7 | CUE: cannot find where the shared pictures are now | SPAN: now I can't find them
+ID: b013ace293315cd350a150a26ac0757030118111cf05ae5e22f0a3c02ab309d6 | CUE: specific keywords/words needed to find individual photos | SPAN: I can't just search random words every time I want to locate a picture especially by date
+ID: b30043f2b8b9968278624acd2f664f830c02554cde026aabd66f1c3cc2533fc7 | CUE: date/when the beer photo was taken | SPAN: Now I want to find out when it was
+ID: b4a4a4b07a2ef2a2f25e04604bd8247b189099f0f44e4bb500405394551fab78 | CUE: exact boundary between photos of one day and the next in the photo roll view | SPAN: it's very hard to determine where the boundary is between one day and the next
+ID: b0c26113305f12b9e2ad8bf91bfefa34338587f54712458ff784c0a118aaf578 | CUE: cannot find where the locked folder is located | SPAN: Now i can't find the lock folder
+ID: b57c177513a841109ff05953446312770c66be1be980a92b5ab2844ce0bd40bc | CUE: no way to filter/search specifically for these auto-generated compilation videos | SPAN: Is there a way to search for all the compilation videos Google has put together?
+ID: b9ff5e494a5922e2613dce64d9f36d8992348bf67022ea57096f26bde2be0276 | CUE: name of the costume | SPAN: forgot the name of the costume
+ID: b9ff5e494a5922e2613dce64d9f36d8992348bf67022ea57096f26bde2be0276 | CUE: original website source | SPAN: find a photos original website
+ID: ba9345eb036d682bffd2bb1f44ab1e343d88be5db80fa92694353d69838cf0b0 | CUE: original metadata (date/time/location) of the recovered images | SPAN: the images I've recovered from the failing disk don't have the same metadata as the ones on my drive
+ID: b63814a5a3a56ebecd595513e53276ff30818bd001027d37dfb4079bf6d29870 | CUE: cannot find how to access the locked folder | SPAN: i can't find and wtach
+ID: c1fbb4601032712ad32298a01bc0c5d1c752afa0b569987d6eca88af93a1a686 | CUE: cannot locate the photos after clearing space | SPAN: I can't seem to find those photos anymore
+ID: c330c4db697b95c052e6a1b1a2e7c644932875133f171508e0c08781646963e5 | CUE: which app created the recycling bin | SPAN: How do I find which app on my phone is putting photos deleted by Google photos in a Recycling Bin?
+ID: cb28a60c341ed6eb7be522567d8aab1f83ec8aab745cab2abccb98ee201fab22 | CUE: doesn't remember how/when she was hidden | SPAN: I think somehow I hid my daughter's face a long time ago
+ID: c91df4eb9cd472766e9133f1e0aa9a96277b5c80f5c05d9adda7b0f084d8a739 | CUE: name of the unnamed/unknown person | SPAN: sometimes she's working with people that aren't &quot;named&quot; yet in her photos or doesn't know their name
+ID: cff1e136fad2b1c0d3926e07317e99653d20faefb332e2ae64ef6754072565fa | CUE: exact date of the photos | SPAN: so I can go to the exact date
+ID: d4709d228f84150cb3f6e4ffde2a81a9112c51836ccd66c1680bcc2a6b2f3ed7 | CUE: where they left off fixing locations | SPAN: I need to write down where I left so I don’t need to check again
+ID: d91690a826d6e0210d988295f49b80ba8304ccd553da7fdcb33a88c6b55174ff | CUE: location/folder of the locker photos | SPAN: I can't find locker folder
+ID: d87a65f6c5a9de22cffeebd2b4f5322f71599e40e36e897f866eb958e7da27b0 | CUE: does not know how to unhide/reverse the action | SPAN: I don't know how to unhide it
+ID: e2c523d3e640e40570580cdaa5f5a841362dd757ddd3b371461c81ee0b5a6e85 | CUE: cannot recall exact position/date order placement of each poodle photo among 500 scattered pics | SPAN: scattered all over the album, in dated order of when they were taken
+ID: e4feb32ac4c3e6520769100d38f120bef1693cf9fb5a9e23b84002943a4ba76a | CUE: cannot find where the blocked photos folder is located | SPAN: Where is blocked photos folder
+ID: e7c1871c621d0391afb6f2b4b499ee586489d50d0c350baeebd54105b248c85e | CUE: no specific location name available for search | SPAN: Google doesn't automatically create a location name for it in the location list
+ID: e540a94c0399d4bcc7f19fe95bf745cc6d4f2e0f8f09ef18468d8909f5027f79 | CUE: did not realize they had enabled backup | SPAN: you probably hit yes without realizing
+ID: f594fa6f31a6d0ad9cd54077bfd30fa8b5d92231cc69ab04aabd73c93456e5cc | CUE: exact date or year of the photo | SPAN: google photos won't let me go past 2019
+ID: f70f52e7040febd82eba40a58106e6d27d091221eec1db76915632b97718d602 | CUE: did not undo the hide action | SPAN: didn't undo it
+ID: fff84489416d17d908a89718da5b33a93e4cc9d6c71c2b357c7dae3e150ba11e | CUE: how to search by who took the photo | SPAN: I can't figure out anyway to search for photos taken by a certain person
+ID: ff301ebc5ed4dbeec8f3a66e0bd551879d539a8e30c26c630518376c4339c901 | CUE: backup status of the photo | SPAN: “visible in Photos” doesn’t always mean “backed up and searchable.”
+ID: ff301ebc5ed4dbeec8f3a66e0bd551879d539a8e30c26c630518376c4339c901 | CUE: whether photo is local-only/on-device | SPAN: Local-only or on-device folders can remain visible while keyword search skips them until they’re backed up
+ID: ff301ebc5ed4dbeec8f3a66e0bd551879d539a8e30c26c630518376c4339c901 | CUE: which account or collection the photo is in | SPAN: I’d also verify the same Google account in the app and web, and check Archive, Locked Folder, or other relevant collections
+Total forgotten cues printed: 60
+
+=== 2. GROUND breakdown AND workaround ===
+
+--- FULL UNITS ---
+breakdown: Total 182 | Grounded 164 (90.1%) | Unverifiable 1 | Failed 17
+workaround: Total 178 | Grounded 159 (89.3%) | Unverifiable 8 | Failed 11
+
+--- SNIPPET UNITS ---
+breakdown: Total 485 | Grounded 0 (0.0%) | Unverifiable 485 | Failed 0
+workaround: Total 293 | Grounded 0 (0.0%) | Unverifiable 293 | Failed 0
+
+=== 3. FIX THE NORMALISATION ===
+
+Sources still containing raw HTML entities:
+  help_community: 39 units
+  hn: 4 units
+  stackexchange: 7 units
+
+Re-run over normalised text:
+Recovered REMEMBERED drops: 16 (out of 25)
+Recovered FORGOTTEN drops: 1 (out of 1)

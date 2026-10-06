@@ -1,0 +1,918 @@
+{
+  "run_1": {
+    "categories": [
+      {
+        "name": "specific_person",
+        "definition": "Photos of a particular named individual or family member, searchable by face recognition, name, or face grouping",
+        "examples": [
+          "Photos of the user's daughter",
+          "Pictures of wife/family members grouped by face recognition",
+          "Photos of a specific friend named Don Noo",
+          "All photos of a person named Chantelle Alice Trancoso"
+        ]
+      },
+      {
+        "name": "multiple_people_together",
+        "definition": "Photos containing two or more specific named people together in the same image",
+        "examples": [
+          "Photos containing multiple specific people together (including unnamed people)",
+          "A photo of the user and his son with the son wearing a Papa John's uniform",
+          "Photos showing both the user and their partner together"
+        ]
+      },
+      {
+        "name": "specific_pet",
+        "definition": "Photos of a particular named pet or animal, searchable by pet name or pet face recognition",
+        "examples": [
+          "Photos of a specific dog named Roscoe",
+          "All photos of a specific person/pet named Honey",
+          "Photos of the user's pet rabbit (Pebby)"
+        ]
+      },
+      {
+        "name": "specific_date_or_time",
+        "definition": "Photos from a particular date, date range, time of day, or recurring date across multiple years",
+        "examples": [
+          "Photos from December 2023 folder",
+          "Photos taken on August 26, 2024",
+          "Photos taken between 8:10AM and 8:20AM over a 2-year period",
+          "Photos from a specific date (e.g., March 3rd 2025)"
+        ]
+      },
+      {
+        "name": "specific_location",
+        "definition": "Photos taken at a particular geographic location, place, or address, including map-based searches",
+        "examples": [
+          "Photos taken at a specific remembered place, to be located via a map view",
+          "Photos taken at the user's cabin",
+          "Photos taken at Havelock Island",
+          "Videos taken in the state of Delaware"
+        ]
+      },
+      {
+        "name": "specific_event",
+        "definition": "Photos from a particular event or occasion (vacation, wedding, birthday, etc.)",
+        "examples": [
+          "Photos/videos from a big event shared in a collaborative album",
+          "Photos from a walk around Seattle taken 10+ years ago",
+          "Photos and videos from a specific event the user attended on 28th August 2021"
+        ]
+      },
+      {
+        "name": "object_or_subject_content",
+        "definition": "Photos containing a specific object, animal, scene, or visual content searchable by keyword or visual recognition",
+        "examples": [
+          "Photos showing red cars",
+          "Photos of yellow trucks",
+          "Photos of dogs",
+          "Photos containing specific objects like elephants or butterflies"
+        ]
+      },
+      {
+        "name": "text_or_document",
+        "definition": "Photos containing specific visible text, numbers, or document content searchable via OCR or manual description",
+        "examples": [
+          "A photo of a piece of paper showing a WiFi password labeled 'Thunderbird private WIFI password'",
+          "Images containing specific text/numbers (e.g., ID card numbers)",
+          "Screenshots containing a specific screenname or specific word/text visible in the image"
+        ]
+      },
+      {
+        "name": "file_identifier",
+        "definition": "Photos located by their specific filename, file extension, or filename pattern",
+        "examples": [
+          "A specific picture the user was trying to locate by searching its file name",
+          "A specific photo file with filename '20211204_172629'",
+          "Photos being searched for by their file name"
+        ]
+      },
+      {
+        "name": "specific_device_or_camera",
+        "definition": "Photos taken with or by a particular camera, phone, or device, searchable by device metadata",
+        "examples": [
+          "Photos taken by a particular device (filtering/searching by device/camera used)",
+          "Photos taken by a specific person's device",
+          "Photos taken with specific camera models (e.g., EOS 90D, Sony camera)"
+        ]
+      },
+      {
+        "name": "album_or_collection",
+        "definition": "Photos organized within a specific named album, folder, or collection created by the user or shared",
+        "examples": [
+          "User's old albums and the photos contained in them",
+          "A specific album titled 'Home Delivery nov 24'",
+          "Previously created albums in Google Photos and the gallery app"
+        ]
+      },
+      {
+        "name": "locked_or_hidden",
+        "definition": "Photos that have been placed in the Locked Folder or hidden via face hiding feature",
+        "examples": [
+          "Photos that were placed in the Locked Folder in Google Photos",
+          "Photos/people that the user previously hid",
+          "A hidden album in Google Photos that the user can no longer find"
+        ]
+      },
+      {
+        "name": "backup_or_synced",
+        "definition": "Photos that were backed up, synced, or transferred from one device, account, or storage location to another",
+        "examples": [
+          "Photos previously backed up and then removed from device storage via Google Photos' free up space feature",
+          "Old photos saved on old devices the user can no longer access",
+          "Photos that were moved from Account A to Account B via partner sharing"
+        ]
+      },
+      {
+        "name": "edited_or_modified",
+        "definition": "Photos that have been edited, annotated, or saved as copies with modifications",
+        "examples": [
+          "Edited photos saved as a copy that the user cannot locate afterward",
+          "An edited photo (edited version of an original image file)",
+          "Edited copies of photos (edited with Magic Eraser and saved via 'Save a Copy')"
+        ]
+      },
+      {
+        "name": "motion_or_video",
+        "definition": "Motion photos, live photos, videos, or specific frames/stills extracted from motion sequences",
+        "examples": [
+          "Motion photos (a category/search filter to find and cull motion photos)",
+          "A specific still frame/shot from a motion photo",
+          "Videos and screen recordings stored in Google Photos"
+        ]
+      },
+      {
+        "name": "face_grouping_or_people",
+        "definition": "Photos grouped or recognized by face recognition, people grouping, or face group management features",
+        "examples": [
+          "Photos categorized/grouped by pets and people recognition groups in Google Photos",
+          "Previously identified face groups/people in Google Photos People search",
+          "Correctly separated face groups for two distinct people who have become merged"
+        ]
+      },
+      {
+        "name": "shared_or_received",
+        "definition": "Photos shared with the user by others, received via messaging apps, or uploaded by others to shared albums",
+        "examples": [
+          "Photos shared by a friend in a shared album",
+          "Pictures her husband took that were downloaded to her phone",
+          "Photos downloaded from WhatsApp that should appear in the phone's gallery"
+        ]
+      },
+      {
+        "name": "missing_or_inaccessible",
+        "definition": "Photos that are known to exist but cannot be located, are not syncing, or have disappeared from view",
+        "examples": [
+          "A missing/specific photo that the user could not locate in Google Photos",
+          "Missing items from a Google Photos album that disappeared from view",
+          "Photos from February 2020 that are missing from the main Photos tab but exist when searched by date"
+        ]
+      },
+      {
+        "name": "metadata_or_property",
+        "definition": "Photos searchable or filterable by specific metadata properties like creation date, location data, image format, or manually added descriptions",
+        "examples": [
+          "All RAW photo files with .dng extension",
+          "Photos with manually added location/place information",
+          "Photos organized by folder with uniform timestamps"
+        ]
+      },
+      {
+        "name": "feature_or_functionality",
+        "definition": "Issues related to Google Photos search features, filters, or functionality rather than specific photo content",
+        "examples": [
+          "The old/classic Google Photos search feature which seems to have been replaced or broken",
+          "Motion photos category/search filter",
+          "Face grouping (people/face groups) feature in Google Photos"
+        ]
+      },
+      {
+        "name": "auto_generated_content",
+        "definition": "Photos within automatically generated collections, memories, highlights, or algorithmically created albums",
+        "examples": [
+          "Old photos and videos saved on old devices that appear in Google Photos memories",
+          "Specific photos that the user could not locate in Google Photos but appear in Memories highlights",
+          "Auto-generated compilation/highlight videos that Google Photos created"
+        ]
+      },
+      {
+        "name": "unknown",
+        "definition": "Cases where the specific photo target is not clearly described or is discussed tangentially",
+        "examples": [
+          "Unknown - the reply discusses removing highlights tile from an album rather than searching for specific photos",
+          "UNKNOWN - the reply is a general informational post about how to use Google Photos search"
+        ]
+      }
+    ]
+  },
+  "run_2": {
+    "categories": [
+      {
+        "name": "specific_person_face_group",
+        "definition": "Photos of a specific person grouped by face recognition or manual tagging in Google Photos' People & Pets feature",
+        "examples": [
+          "Photos of the user's daughter grouped under her face/name in Google Photos",
+          "All photos of Dad, including older ones from before 2022",
+          "Photos of a specific friend via face grouping feature"
+        ]
+      },
+      {
+        "name": "multiple_people_together",
+        "definition": "Photos containing two or more specific named people appearing together in the same image",
+        "examples": [
+          "A picture in which two specific people appear together",
+          "Photos containing both the user and their husband together",
+          "Photos of Jack and Jill with no one else present"
+        ]
+      },
+      {
+        "name": "self_portraits",
+        "definition": "Photos of the user themselves, searchable via 'Me' or self-recognition features",
+        "examples": [
+          "Photos of the user (self-photos) when searching 'Me' in Google Photos",
+          "The user's own pictures/self-portraits",
+          "Photos of the user themselves (correctly identified as the user)"
+        ]
+      },
+      {
+        "name": "pet_photos",
+        "definition": "Photos of specific pets grouped by face recognition or manually tagged by pet name",
+        "examples": [
+          "Photos of a specific dog sorted into separate categories per dog",
+          "Photos of a specific dog named 'Roscoe'",
+          "Photos of their pet rabbit (Pebby) - all ~128/130 photos"
+        ]
+      },
+      {
+        "name": "specific_date",
+        "definition": "Photos taken on or from a specific date, date range, or recurring date across multiple years",
+        "examples": [
+          "Photos from a specific date (e.g., March 15) across all years",
+          "Photos taken on 23 April 2023",
+          "Photos from February 2020"
+        ]
+      },
+      {
+        "name": "specific_year",
+        "definition": "Photos from a specific year or year range",
+        "examples": [
+          "All photos from the years 2011 through 2016",
+          "Photos older than 2020, going back to at least 2014",
+          "Photos from the year 2023"
+        ]
+      },
+      {
+        "name": "specific_location",
+        "definition": "Photos taken at a specific geographic location, place, or landmark",
+        "examples": [
+          "Photos taken in Pee Pee Township, Ohio",
+          "Photos of the back of the user's house stored in Google Photos",
+          "Photos from a trip to Thailand"
+        ]
+      },
+      {
+        "name": "shared_album_photos",
+        "definition": "Photos shared with or by the user via shared albums, partner sharing, or collaborative collections",
+        "examples": [
+          "Photos uploaded by a friend to a shared/linked album",
+          "Photos shared by a friend in a shared album",
+          "Shared photos from spouse's Google Photos account"
+        ]
+      },
+      {
+        "name": "file_name_search",
+        "definition": "Photos located by searching for their specific file name or filename pattern",
+        "examples": [
+          "Images the user had specifically renamed with custom file names",
+          "A specific photo file with filename '20211204_172629'",
+          "WhatsApp images with a specific file name format"
+        ]
+      },
+      {
+        "name": "text_in_image_search",
+        "definition": "Photos located by searching for text or OCR content visible within the image itself",
+        "examples": [
+          "Photos containing specific text that the user wants to find via search",
+          "Screenshots containing a specific word the user remembered seeing",
+          "Photos containing the word 'insurance' written/visible in them"
+        ]
+      },
+      {
+        "name": "photo_description_caption_search",
+        "definition": "Photos located by searching for manually added captions, descriptions, or custom tags in the photo's metadata",
+        "examples": [
+          "A photo the user had added a specific caption to",
+          "Photos that the user had added captions to",
+          "Photos the user had previously tagged with custom keywords/descriptions"
+        ]
+      },
+      {
+        "name": "object_category_search",
+        "definition": "Photos of specific objects or visual categories found via keyword search",
+        "examples": [
+          "Photos of Christmas trees",
+          "Photos of the user's shirt/clothing with stripes",
+          "General object/category photos (e.g., 'dog', 'shoes')"
+        ]
+      },
+      {
+        "name": "album_or_collection",
+        "definition": "User-created or system-generated albums, collections, or photo groupings by name or content",
+        "examples": [
+          "Albums (and their photos) that the user previously created/had in Google Photos",
+          "A specific 'People' album (grouping photos by a particular person)",
+          "Photos organized into saved folders/albums after backup"
+        ]
+      },
+      {
+        "name": "device_or_camera_source",
+        "definition": "Photos identified or filtered by the device, camera, or app they were taken or received from",
+        "examples": [
+          "Photos taken by a particular device (filtering/searching by device/camera used)",
+          "Photos transferred from old Pixel 7 to new Pixel 9a",
+          "WhatsApp images (photos received/stored via WhatsApp)"
+        ]
+      },
+      {
+        "name": "motion_photo_frame",
+        "definition": "Specific frames or still images within Motion Photos or Live Photos",
+        "examples": [
+          "A specific frame/moment within a Motion Photo where the subject's eyes are open",
+          "A specific still frame/shot from a motion photo that the user previously could select"
+        ]
+      },
+      {
+        "name": "raw_or_format_specific",
+        "definition": "Photos of specific file formats or types (RAW, HDR, motion photos, video, etc.)",
+        "examples": [
+          "All RAW (RAF) image files stored in Google Photos",
+          "All RAW photo files with .dng extension",
+          "All of the user's HDR (High Dynamic Range) photos"
+        ]
+      },
+      {
+        "name": "hidden_or_locked_content",
+        "definition": "Photos that were hidden, archived, or moved to Locked Folder and are now missing or inaccessible",
+        "examples": [
+          "Hidden pictures/photos that the user previously hid in Google Photos",
+          "A person (face group/person label) that the user had hidden",
+          "Photos stored in Google Photos 'Locked Folder'"
+        ]
+      },
+      {
+        "name": "backed_up_or_synced_photos",
+        "definition": "Photos that should have been backed up or synced to Google Photos but are missing or not appearing",
+        "examples": [
+          "Photos transferred from old phone, now jumbled instead of organized by original date",
+          "Old photos that were moved from internal phone memory to SD card",
+          "Screenshots that are saved in device's screenshots folder but missing from Google Photos"
+        ]
+      },
+      {
+        "name": "recently_added_or_uploaded",
+        "definition": "Photos recently taken, uploaded, edited, or added to Google Photos",
+        "examples": [
+          "Recent photos (e.g. photos taken in recent months) backed up to Google Photos",
+          "Photos taken and uploaded today",
+          "New photos taken/added after April 24"
+        ]
+      },
+      {
+        "name": "face_grouping_issue",
+        "definition": "Photos affected by face recognition errors, including merged, split, or misidentified face groups",
+        "examples": [
+          "Photos of the user's youngest son merged with photos of his other son",
+          "Photos of a specific person split into two separate person-groups after a trip",
+          "Two photos of distinct people whose face groups were accidentally merged"
+        ]
+      },
+      {
+        "name": "reverse_image_search",
+        "definition": "A specific photo located via reverse image search or visual search within Google Photos",
+        "examples": [
+          "A specific photo (selected by the user) attempted to reverse-image-search within Google Photos"
+        ]
+      },
+      {
+        "name": "event_or_occasion",
+        "definition": "Photos from a specific event, party, trip, or occasion",
+        "examples": [
+          "A video recorded of a girl's birthday party",
+          "Photos and videos from a specific event the user attended on 28th August 2021",
+          "Photos from a trip to Thailand"
+        ]
+      },
+      {
+        "name": "edited_or_modified_copy",
+        "definition": "Edited versions of photos saved as copies after applying filters, edits, or annotations",
+        "examples": [
+          "An edited photo (edited version of an original image file) that wasn't showing up",
+          "An edited copy of a photo (edited with Magic Eraser and saved via 'Save a Copy')",
+          "Edited photos saved as a copy ('Save as copy' edits)"
+        ]
+      },
+      {
+        "name": "document_or_important_item",
+        "definition": "Photos of documents, receipts, IDs, credentials, or other important items photographed for reference",
+        "examples": [
+          "A photo of a piece of paper/text showing a private WiFi password at a bar",
+          "Specific document-type photos such as vehicle title or ID",
+          "Photos of paint buckets with their paint codes"
+        ]
+      },
+      {
+        "name": "memory_feature_content",
+        "definition": "Photos or content appearing in Google Photos' Memories, highlights, or automated compilations",
+        "examples": [
+          "Photos visible in Google Photos 'Memories' feature",
+          "A specific photo seen in a 'Happy Holidays' automated slideshow notification/memory",
+          "Auto-generated compilation/highlight videos Google Photos created"
+        ]
+      },
+      {
+        "name": "unspecified_or_unknown",
+        "definition": "Search requests with insufficient information to categorize or cases marked as unknown",
+        "examples": [
+          "UNKNOWN",
+          "A specific photo (unspecified) that the user was trying to locate",
+          "Unspecified photos; user describes general search experience"
+        ]
+      }
+    ]
+  },
+  "run_3": {
+    "categories": [
+      {
+        "name": "specific_person",
+        "definition": "Photos of a particular named individual, identified by face recognition, name search, or manual tagging",
+        "examples": [
+          "Photos of the user's wife",
+          "Photos of a specific person named Paul",
+          "Photos of the user's daughter grouped under her face/name in Google Photos"
+        ]
+      },
+      {
+        "name": "multiple_specific_people",
+        "definition": "Photos containing two or more specific named people together",
+        "examples": [
+          "Photos containing both Jack and Jill with no one else present",
+          "Photos showing both the user and their partner together",
+          "A picture in which two specific people appear together"
+        ]
+      },
+      {
+        "name": "pet_or_animal",
+        "definition": "Photos of a specific named pet or animal",
+        "examples": [
+          "Photos of a dog catching a frisbee taken about 6 months earlier",
+          "Photos of a specific dog named Anubis",
+          "Photos of the user's cat tagged with the cat's name"
+        ]
+      },
+      {
+        "name": "specific_date",
+        "definition": "Photos taken on a specific date, date range, or recurring date across multiple years",
+        "examples": [
+          "Photos taken on September 15 across multiple past years",
+          "Photos from a specific date range (8/20/25 to 10/1/25)",
+          "Photos taken on December 23 across different years"
+        ]
+      },
+      {
+        "name": "specific_location",
+        "definition": "Photos taken at a particular geographic location or place",
+        "examples": [
+          "Photos of a saved/specific location to identify the place where it was taken",
+          "Previous photos taken at the same waterfall location",
+          "Photos taken at the user's cabin"
+        ]
+      },
+      {
+        "name": "shared_or_collaborative_album",
+        "definition": "Photos within shared albums or collaborative photo collections with other users",
+        "examples": [
+          "Photos that friends uploaded to a shared/collaborative Google Photos album",
+          "Photos shared by a friend in a shared album",
+          "Photos that other members added to a shared album"
+        ]
+      },
+      {
+        "name": "content_based_search",
+        "definition": "Photos found by searching for objects, subjects, or content visible in images",
+        "examples": [
+          "Photos of food/recipes and cooking-related content",
+          "Photos of Christmas trees",
+          "Photos containing specific objects like elephants or butterflies"
+        ]
+      },
+      {
+        "name": "text_or_caption_based",
+        "definition": "Photos found by searching for text descriptions, captions, or keywords the user added or that appear within images",
+        "examples": [
+          "Photos tagged with a specific description field text",
+          "Photos found via custom text descriptions the user manually added",
+          "Photos containing specific text visible in screenshots or documents"
+        ]
+      },
+      {
+        "name": "filename_or_identifier",
+        "definition": "Photos identified by their filename, timestamp, or other technical identifier",
+        "examples": [
+          "A specific photo identified by its filename ending in '172629'",
+          "A specific photo identified by its filename-style timestamp (e.g., 20211204_172629)",
+          "Photos found via searching the filename 'IMG_4254.jpg'"
+        ]
+      },
+      {
+        "name": "device_or_camera_source",
+        "definition": "Photos filtered by the device, camera model, or source from which they were taken",
+        "examples": [
+          "Photos taken from a specific/unique device, which the user wanted to find",
+          "Photos taken with specific camera models (e.g., EOS 90D, PENTAX K-S2)",
+          "Photos taken by a specific person's device"
+        ]
+      },
+      {
+        "name": "edited_or_modified",
+        "definition": "Photos that have been edited, annotated, or modified, or copies created from original images",
+        "examples": [
+          "Photos that were marked-up/edited in Google Photos, which the app said it saved as a copy",
+          "An edited (rotated and cropped) photo from a series taken in the stock Camera app",
+          "Edited photos saved as a copy (Save as copy edits)"
+        ]
+      },
+      {
+        "name": "album_or_collection",
+        "definition": "A specific album, folder, or collection created or used to organize photos",
+        "examples": [
+          "An album that contains a specific photo found by searching for a face in the library",
+          "A specific album named 'England' created the previous day",
+          "An album the user created with 'Mayatan' in the title"
+        ]
+      },
+      {
+        "name": "locked_or_archived_folder",
+        "definition": "Photos stored in the Locked Folder or Archive section of Google Photos",
+        "examples": [
+          "Photos stored in the Locked Folder in Google Photos",
+          "Photos that were moved to the Locked Folder in Google Photos",
+          "A video that was moved to the Secure Folder in Google Photos"
+        ]
+      },
+      {
+        "name": "synced_or_backup_status",
+        "definition": "Photos based on their backup, sync, or storage status across devices or accounts",
+        "examples": [
+          "Scanned photos taken with the PhotoScan app that should sync/appear in Google Photos",
+          "Recent photos (e.g. photos of cats taken in recent months on current phone) that have been backed up to Google Photos",
+          "Older photos (downloaded from Google Photos a few months ago) that the user needed to find again"
+        ]
+      },
+      {
+        "name": "missing_or_lost",
+        "definition": "Photos that previously existed but are no longer visible or accessible in Google Photos",
+        "examples": [
+          "Photos previously saved/uploaded to Google Photos that are no longer visible in the account",
+          "Old photos from before 2019 that are missing from Google Photos",
+          "1000 missing photos from the user's Google Photos account"
+        ]
+      },
+      {
+        "name": "memory_or_auto_generated",
+        "definition": "Auto-generated memories, compilations, slideshows, or highlight videos created by Google Photos",
+        "examples": [
+          "A machine-created 'memory' (collage or slideshow) that appeared in a 'we created a thing for you' notification",
+          "Auto-generated compilation/highlight videos that Google Photos created of the user's kid growing up",
+          "2025 Year-in-review 'recap' feature/album in Google Photos"
+        ]
+      },
+      {
+        "name": "document_or_receipt",
+        "definition": "Photos of documents, receipts, IDs, or other text-based physical items",
+        "examples": [
+          "A photo that shows a saved/specific location (to identify the place where it was taken, in order to find a receipt from that place)",
+          "Two photos of a V-Blade Mandoline slicer, findable by searching the brand name",
+          "A photo of a driver's license, taken about a year earlier"
+        ]
+      },
+      {
+        "name": "face_grouping_or_people_feature",
+        "definition": "Photos organized by the People & Pets face grouping feature, including merged, hidden, or mislabeled faces",
+        "examples": [
+          "Face grouping (people/face groups) feature in Google Photos that previously displayed grouped faces",
+          "Previously identified face groups/people in Google Photos People search",
+          "Their own photos and videos (pictures of themselves) that were mistakenly tagged/grouped under a friend's name"
+        ]
+      },
+      {
+        "name": "video_specific",
+        "definition": "Videos or video-specific content distinct from still photos",
+        "examples": [
+          "Videos of the user's wife",
+          "Videos uploaded to Google Photos, searchable by specific words contained in the video file names",
+          "A video that was moved to the Secure Folder in Google Photos"
+        ]
+      },
+      {
+        "name": "motion_photo_or_live_photo",
+        "definition": "Motion Photos or Live Photos (2-second video sequences captured with still images)",
+        "examples": [
+          "Motion photos (photos taken in Motion Photo mode)",
+          "Burst photos taken on an iPhone and stored in Google Photos on the Web",
+          "A specific 2-frame motion photo, specifically wanting to access/keep the 2nd frame of it"
+        ]
+      },
+      {
+        "name": "screenshot_or_system_file",
+        "definition": "Screenshots, screen recordings, or files stored in system folders like Screenshots or WhatsApp",
+        "examples": [
+          "Screenshots that are saved in the device's screenshots folder but are missing from Google Photos",
+          "A screenshot containing a specific word the user remembered seeing written in the image",
+          "Screenshots to select and delete them in bulk"
+        ]
+      },
+      {
+        "name": "whatsapp_or_messaging",
+        "definition": "Photos or videos received via or stored in WhatsApp or other messaging apps",
+        "examples": [
+          "Photos from phone WhatsApp folder that were uploaded to Google Photos but are missing from the online library",
+          "WhatsApp images folder/album in Google Photos (and phone gallery)",
+          "WhatsApp photos with a specific file name format (e.g., IMG-20241118-WA0010.jpg)"
+        ]
+      },
+      {
+        "name": "raw_or_special_format",
+        "definition": "Photos in specific file formats such as RAW, DNG, or other specialized formats",
+        "examples": [
+          "All RAW (RAF) image files stored in Google Photos",
+          "All RAW photo files with .dng extension",
+          "All of their HDR (High Dynamic Range) photos"
+        ]
+      },
+      {
+        "name": "partner_sharing",
+        "definition": "Photos shared between accounts via Google Photos' Partner Sharing feature",
+        "examples": [
+          "Shared/partner photos beyond camera roll (downloaded photos, photos shared with them, and screenshots)",
+          "Shared photos (photos shared with the user, likely via a shared album or partner sharing)",
+          "Pictures her husband took that were downloaded to her phone's Google Photos"
+        ]
+      },
+      {
+        "name": "duplicate_or_redundant",
+        "definition": "Duplicate, near-duplicate, or redundant photos within the library",
+        "examples": [
+          "Duplicate photos within their Google Photos library",
+          "Edited copies of original photos with special filename patterns",
+          "Thumbnail photos created by the retired Picasa app"
+        ]
+      },
+      {
+        "name": "search_or_sorting_issue",
+        "definition": "Issues with search results, sorting, or display of photos rather than finding specific photos",
+        "examples": [
+          "Photos sorted/returned properly in Google Photos search results",
+          "Photos that fail to appear in keyword search results",
+          "The old/classic Google Photos search feature (functionality)"
+        ]
+      },
+      {
+        "name": "unknown_or_unspecified",
+        "definition": "Feedback that does not describe a specific photo search target or is too vague to categorize",
+        "examples": [
+          "UNKNOWN - no specific user search target described in this text",
+          "Unspecified photo(s); user describes general search experience",
+          "Unknown - the reply discusses viewing/sorting photo metadata rather than describing a specific photo search"
+        ]
+      }
+    ]
+  },
+  "run_4": {
+    "categories": [
+      {
+        "name": "specific_person",
+        "definition": "Photos of a particular named individual or the user themselves, searchable by face recognition, name, or person tags",
+        "examples": [
+          "Photos of Paul",
+          "Photos of the user's daughter",
+          "Pictures of the user's wife",
+          "Photos of a friend named Suzie"
+        ]
+      },
+      {
+        "name": "multiple_people_together",
+        "definition": "Photos containing two or more specific named people or the user with another person in the same image",
+        "examples": [
+          "Photos containing both Bob and Sue together",
+          "Photos of the user and their girlfriend",
+          "A photo of the user and his son"
+        ]
+      },
+      {
+        "name": "pet_or_animal",
+        "definition": "Photos of pets (dogs, cats, etc.) or animals, identified by pet name or animal type",
+        "examples": [
+          "Photos of the user's dog",
+          "Photos of the user's new cat (a dark tortie)",
+          "Photos of a specific dog named Anubis",
+          "Photos containing monkeys"
+        ]
+      },
+      {
+        "name": "specific_date",
+        "definition": "Photos taken on a particular date, or recurring dates across multiple years",
+        "examples": [
+          "Photos taken on September 15 across multiple years",
+          "Photos from December 23rd across different years",
+          "All photos from a specific date (not just highlights)"
+        ]
+      },
+      {
+        "name": "date_range_or_period",
+        "definition": "Photos from a specific month, year, or time period",
+        "examples": [
+          "Photos from February 2020",
+          "Photos from 2023",
+          "Photos taken in June 2024",
+          "All photos from a specific year"
+        ]
+      },
+      {
+        "name": "location_or_place",
+        "definition": "Photos taken at a specific geographic location or place, including geotagged photos",
+        "examples": [
+          "Photos from a trip to Thailand",
+          "Photos taken at NY Penn Station",
+          "Photos from the user's cabin",
+          "Photos taken in Japan"
+        ]
+      },
+      {
+        "name": "event",
+        "definition": "Photos from a specific event or occasion that occurred on a particular date or time period",
+        "examples": [
+          "Photos from a wedding on 28th August 2021",
+          "Photos from a 10K-photo wedding album",
+          "Photos from a friend's birthday party"
+        ]
+      },
+      {
+        "name": "object_or_category",
+        "definition": "Photos containing a specific object, animal type, or general category searchable by keyword or visual content",
+        "examples": [
+          "Photos of food/recipes and cooking-related content",
+          "Photos of red cars",
+          "General dog or cat photos",
+          "Screenshots",
+          "Photos of a bee on a vibrant blue flower"
+        ]
+      },
+      {
+        "name": "document_or_text_content",
+        "definition": "Photos of documents, receipts, text, or images with specific visible text or numbers that the user can search for",
+        "examples": [
+          "A photo of a flight itinerary (in Chinese)",
+          "Photos of a passport or ID",
+          "A screenshot containing specific text",
+          "Photos of receipts or insurance bills"
+        ]
+      },
+      {
+        "name": "file_or_media_type",
+        "definition": "Photos filtered by technical file type, format, or media characteristics",
+        "examples": [
+          "All RAW image files (.ARW or .dng)",
+          "Motion photos or Live Photos",
+          "Slow-motion videos",
+          "Screen recordings",
+          "WhatsApp media (photos/videos)"
+        ]
+      },
+      {
+        "name": "device_or_camera",
+        "definition": "Photos taken with or synced from a specific camera, phone, or device",
+        "examples": [
+          "Photos taken by a Sony camera",
+          "Photos from a specific person's device",
+          "Burst photos taken on an iPhone",
+          "Photos taken with EOS 90D"
+        ]
+      },
+      {
+        "name": "upload_or_backup_time",
+        "definition": "Photos identified by when they were uploaded, backed up, or synced to Google Photos, rather than when they were taken",
+        "examples": [
+          "Photos backed up on a particular day (e.g. yesterday)",
+          "Recently uploaded photos",
+          "Photos uploaded via Facebook's transfer tool for specific dates"
+        ]
+      },
+      {
+        "name": "custom_description_or_tag",
+        "definition": "Photos that the user manually tagged, labeled, captioned, or added custom text descriptions to",
+        "examples": [
+          "Photos tagged with keywords in photo descriptions",
+          "A photo of a V-Blade Mandoline slicer findable by brand name in the Info field",
+          "Photos with user-inserted captions",
+          "Photos found by caption text or Moment title"
+        ]
+      },
+      {
+        "name": "album_or_collection",
+        "definition": "A named photo album, collection, or organized grouping created by the user or shared with them",
+        "examples": [
+          "An album created by the user or shared with them",
+          "A shared album from a wedding",
+          "Previously created albums in Google Photos"
+        ]
+      },
+      {
+        "name": "face_group_or_people_feature",
+        "definition": "Photos organized through Google Photos' People & Pets face recognition and grouping feature",
+        "examples": [
+          "The user's People/Face groups",
+          "Photos organized by People & Pets names",
+          "Face grouping (people/face groups) feature in Google Photos"
+        ]
+      },
+      {
+        "name": "hidden_or_locked_content",
+        "definition": "Photos that were hidden, archived, placed in Locked Folder, or otherwise marked as private in Google Photos",
+        "examples": [
+          "Photos stored in the Locked Folder in Google Photos",
+          "Photos from a locker (locker folder/contents)",
+          "Previously hidden photos the user wants to unhide"
+        ]
+      },
+      {
+        "name": "shared_content",
+        "definition": "Photos shared by others with the user, or photos the user shared, including partner sharing and shared albums",
+        "examples": [
+          "Shared videos/photos from spouse's Google Photos account",
+          "Photos shared by a friend in a shared album",
+          "Shared albums the user wants to save/retain access to"
+        ]
+      },
+      {
+        "name": "edited_or_modified_photo",
+        "definition": "Photos that were edited (e.g., with filters or tools), or copies saved after editing",
+        "examples": [
+          "Photos backed up from device that were edited (e.g., with Snapseed)",
+          "Edited photos saved as copies",
+          "A photo edited with Magic Eraser"
+        ]
+      },
+      {
+        "name": "quality_or_storage_attribute",
+        "definition": "Photos identified by storage quality, compression status, or storage quota impact",
+        "examples": [
+          "All photos stored in 'original quality'",
+          "Photos that need compression via 'recover space'"
+        ]
+      },
+      {
+        "name": "missing_or_lost_content",
+        "definition": "Photos or albums that the user expected to find but are missing, deleted, or not displaying in Google Photos",
+        "examples": [
+          "Two recently uploaded photos not appearing in Google Photos",
+          "Missing photos from September 2020",
+          "Photos that disappeared from the account"
+        ]
+      },
+      {
+        "name": "metadata_or_technical_issue",
+        "definition": "Photos with incorrect, mismatched, or corrupted metadata, date information, or sorting problems",
+        "examples": [
+          "Pictures with older dates that keep staying at the top instead of being sorted below recent photos",
+          "Photos with incorrect EXIF/metadata capture dates",
+          "Photos whose date metadata was manually edited"
+        ]
+      },
+      {
+        "name": "face_recognition_error",
+        "definition": "Photos that were incorrectly grouped, mislabeled, or merged under the wrong person's face group in Google Photos",
+        "examples": [
+          "Photos of new cat misidentified/grouped with old deceased cat",
+          "Photos of user's daughter hidden/unassociated from her face group",
+          "Two different people whose face groups were accidentally merged"
+        ]
+      },
+      {
+        "name": "feature_or_view_content",
+        "definition": "Photos appearing in specific Google Photos features like Memories, Year-in-review, Moments, or auto-created compilations",
+        "examples": [
+          "Specific photos in Google Photos 'Memories' feature",
+          "2025 Year-in-review 'recap' feature/album",
+          "Auto-generated compilation/highlight videos"
+        ]
+      },
+      {
+        "name": "unspecified_search",
+        "definition": "User was searching for photos but the target photo or search criteria was not clearly specified",
+        "examples": [
+          "Unspecified photos the user was trying to search for",
+          "Unknown - user testing search functionality"
+        ]
+      }
+    ]
+  }
+}

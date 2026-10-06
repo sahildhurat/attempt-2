@@ -1,0 +1,193 @@
+=== CUES STATS ===
+USER: 983
+HELPER: 6
+
+=== HELPER CUES EXHAUSTIVE LIST ===
+CUE: object in photo (bike)
+SPAN: You could search "bike" and any photo, screenshot, etc with a bike in it would show up
+
+CUE: heat map with hotspots showing most-photographed areas
+SPAN: you'd see a heat map with hotspots showing where you've taken the most photos
+
+CUE: general location/place association
+SPAN: You can use your photos' locations to organise, search and explore your photos based on where they were taken.
+
+CUE: activity/content keywords like cars, skiing, biking
+SPAN: You can use search word like cars, skiing, biking
+
+CUE: specific date in various formats
+SPAN: You could search by date using any format (e.g. DD/MM/YYYY, MM/DD/YYYY, DD/MM/YY, MMMMMM YYYY, etc)
+
+CUE: general category/synonym of subject
+SPAN: Try a broad synonym or category (“dog” instead of a specific breed, or “food”/“beach”)
+
+
+=== 50 RANDOM USER CUES ===
+CUE: knows photos are visible on computer and other account
+SPAN: I can see all the photos on my computer or with my other google account
+
+CUE: knows friends uploaded photos 4 days ago
+SPAN: They uploaded the photos 4 days ago, there are quite a few pictures.
+
+CUE: photos were organized into photo albums
+SPAN: I used to create a number of photo albums
+
+CUE: face grouping setting is turned on
+SPAN: I have face grouping turned on
+
+CUE: son born in 2013, expects photos of him
+SPAN: I haven't got any photos of my son who is born in 2013
+
+CUE: exact date of the photo
+SPAN: search aug 11 2010 it does come up
+
+CUE: face group name 'Honey'
+SPAN: photos in Honey Face group
+
+CUE: the album title
+SPAN: search for an album title
+
+CUE: subject of photos is daughter at school drop-off
+SPAN: I dropped off my daughters at school everyday for 2 years
+
+CUE: album name
+SPAN: find an album (created by me or shared with me), based on the name
+
+CUE: that the people look similar and get mixed up
+SPAN: that are all getting muddled with someone I am not fond of. (They all look similar)
+
+CUE: had face/people tagging previously on old phone
+SPAN: This existed on my Pixel 5
+
+CUE: search term 'map'
+SPAN: I can't seem to findy photos "map"
+
+CUE: date photo was taken
+SPAN: photos of 26/12/2023
+
+CUE: custom file name given to photo
+SPAN: I have renamed all my photos in a particular album
+
+CUE: son's name
+SPAN: when I search for Samuel
+
+CUE: search term 'recipes'
+SPAN: I used to be able to look up “recipes”
+
+CUE: source app of the photos is WhatsApp
+SPAN: Not able to find whatsapp images in Google photos
+
+CUE: remembered the comment/text they added to the photo
+SPAN: write a comment for photos
+
+CUE: exclude person Jane in second album
+SPAN: Without "Jane"
+
+CUE: approximate time taken (about an hour ago)
+SPAN: about an hour ago
+
+CUE: subject matter is tattoos (henna and permanent)
+SPAN: I have a bunch of tattoo photos (henna and permanent ones) in my collection
+
+CUE: number of edited photos
+SPAN: I edited 9 pictures from Google photos
+
+CUE: approximate date/time of the video
+SPAN: A video around January 2023
+
+CUE: peace gesture/theme in photo
+SPAN: Da peace photo
+
+CUE: photos were from WhatsApp (images and videos sent to them)
+SPAN: whatsApp images and videos that have been sent to me
+
+CUE: exact filename of the photo
+SPAN: search for IMG_4254.jpg or whatever
+
+CUE: keyword 'museum' for photos of museums toured
+SPAN: Typing "museum" suggests the many museums I've toured
+
+CUE: enabled face/similar face grouping feature
+SPAN: turn on the similer face option
+
+CUE: last known working date for face grouping
+SPAN: the last photos that 'worked' are from August 2022
+
+CUE: knows the photos were hidden by themselves
+SPAN: I wrongly hide my photo
+
+CUE: specific number/text in photo (e.g. 1234, 5678)
+SPAN: my credit card last 4 digit(e.g. 1234)
+
+CUE: setting/location where photo was taken
+SPAN: bedroom bathroom mirror bed shower indoors night
+
+CUE: approximate time the picture was taken
+SPAN: scroll down to approximately when I know the picture was taken and find it
+
+CUE: file name of the photo
+SPAN: by its file name
+
+CUE: photos are black and white
+SPAN: Very small portion of my photos are in B&W
+
+CUE: photos were restored from trash
+SPAN: I restored from the trash and they showed up partly in the main catalog and partly in albums.
+
+CUE: visited Monkey Island
+SPAN: I have visited Monkey Island for crying out loud
+
+CUE: which feature/icon the photos should appear under
+SPAN: weren’t any pictures under people icon
+
+CUE: keyword 'yellow truck'
+SPAN: I ask for "yellow truck"
+
+CUE: knows initial 48 pictures were added successfully
+SPAN: After adding the initial 48 pictures it won't let me move any more.
+
+CUE: photos were previously tagged/detected as her face
+SPAN: They used to be detected as her and suddenly that has stopped
+
+CUE: daughter's name/identity used to search
+SPAN: She is searchable, and then comes up
+
+CUE: year taken
+SPAN: year 2023 photos
+
+CUE: object depicted - bowtie
+SPAN: search for a bowtie
+
+CUE: how to search for photos of a person, excluding another person, by year
+SPAN: "Sue" -"Jane" from 2019
+
+CUE: used face search to locate photos of a person
+SPAN: from the face search
+
+CUE: the document type was a Global Entry Card
+SPAN: Search "Global Entry Card"
+
+CUE: year 2022 for second album
+SPAN: Taken in 2022
+
+CUE: exact filename of the video
+SPAN: I know the filename of the video I'm looking for
+
+
+=== TARGET STATS ===
+{
+  "USER": 709,
+  "HELPER": 11
+}
+
+=== BREAKDOWN STATS ===
+{
+  "USER": 161,
+  "HELPER": 3
+}
+
+=== WORKAROUND STATS ===
+{
+  "USER": 139,
+  "HELPER": 20
+}

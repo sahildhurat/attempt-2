@@ -1,0 +1,520 @@
+[
+ {
+  "id": "384ea9177899",
+  "source": "stackexchange",
+  "source_type": "discussion",
+  "url": "https://android.stackexchange.com/questions/216357/how-to-find-screenshots-from-pc",
+  "text": "How to find screenshots from PC? I'm looking for a screenshot, which I can see in Google Photos under Device folders -> Screeshots. But when I browse it from my PC (Windows 10), in DCIM folder I can only see Camera one (I read it should be Screenshots next to it). Why is that? Is it possible that I don't have permissions to see it?",
+  "why": "a cue was discarded for having no verbatim span",
+  "gate": {
+   "decision": "yes",
+   "reason": "User is trying to find specific screenshots they believe exist in their Google Photos library, naming a specific target collection.",
+   "language": "en"
+  },
+  "target": "A screenshot visible in Google Photos under Device folders -> Screenshots, which the user wants to locate/access via their PC's file system",
+  "evidence_quote": "I'm looking for a screenshot, which I can see in Google Photos under Device folders -> Screeshots.",
+  "remembered": [],
+  "forgotten": [],
+  "dropped": [
+   {
+    "cue": "seen in Google Photos Device folders Screenshots",
+    "span": "I can see in Google Photos under Device folders -&gt; Screeshots",
+    "from": "remembered"
+   }
+  ],
+  "breakdown": null,
+  "model": "claude-sonnet-5"
+ },
+ {
+  "id": "514a7d6a11bb",
+  "source": "help_community",
+  "source_type": "discussion",
+  "url": "https://support.google.com/photos/thread/462034322?hl=en",
+  "text": "i can't find some photos and videos i have an issue where im not able to find a particular video that i recorded of a girls' birthday party",
+  "why": "a cue was discarded for having no verbatim span",
+  "gate": {
+   "decision": "yes",
+   "reason": "User is trying to find a specific video they recorded of a girls' birthday party that they believe exists in their library.",
+   "language": "en"
+  },
+  "target": "A video recorded of a girl's birthday party",
+  "evidence_quote": "im not able to find a particular video that i recorded of a girls' birthday party",
+  "remembered": [],
+  "forgotten": [],
+  "dropped": [
+   {
+    "cue": "event type - birthday party",
+    "span": "a video that i recorded of a girls' birthday party",
+    "from": "remembered"
+   }
+  ],
+  "breakdown": null,
+  "model": "claude-sonnet-5"
+ },
+ {
+  "id": "02b29acd61c6",
+  "source": "help_community",
+  "source_type": "discussion",
+  "url": "https://support.google.com/photos/thread/255930106?hl=en",
+  "text": "I want to look at pictures older than 2020 which I know I have I do not appear to have the 3 dots to click on to see ‘earliest first’. I know the pictures go back to at least 2014 because I stumbled upon them in my search but I can’t get back now. I’d appreciate any advice",
+  "why": "the user names what they could NOT remember",
+  "gate": {
+   "decision": "yes",
+   "reason": "User is trying to reach specific photos older than 2020 they know exist. They name a concrete target: photos from 2014 onwards.",
+   "language": "en"
+  },
+  "target": "Photos older than 2020, going back to at least 2014",
+  "evidence_quote": "I want to look at pictures older than 2020 which I know I have ... I know the pictures go back to at least 2014 because I stumbled upon them in my search but I can’t get back now.",
+  "remembered": [
+   {
+    "cue": "photos date back to at least 2014",
+    "span": "I know the pictures go back to at least 2014",
+    "grounded": true,
+    "label": "CUE",
+    "label_reason": "describes the date range of the photos",
+    "category": "date and time"
+   },
+   {
+    "cue": "found them before via search",
+    "span": "I stumbled upon them in my search",
+    "grounded": true,
+    "label": "SYSTEM",
+    "label_reason": "describes a past search action and history",
+    "category": null
+   }
+  ],
+  "forgotten": [
+   {
+    "cue": "cannot locate the earliest-first sort option",
+    "span": "I do not appear to have the 3 dots to click on to see ‘earliest first’",
+    "grounded": true,
+    "label": null,
+    "label_reason": null,
+    "category": null
+   }
+  ],
+  "dropped": [],
+  "breakdown": null,
+  "model": "claude-sonnet-5"
+ },
+ {
+  "id": "0082cfb06e92",
+  "source": "stackexchange",
+  "source_type": "discussion",
+  "url": "https://superuser.com/questions/1823307/showing-pictures-on-a-map-in-the-web-version-of-google-photos",
+  "text": "Showing pictures on a map in the web version of Google Photos On my phone, the Google Photos app can show my pictures as a heatmap on an overlay of a Google Maps map. I have yet to find something similar on the web version. Is this possible? I frequently find that I want to find some picture taken on my cabin, which is in the middle of nowhere (with no name to show for it in the pre-listed locations). If I could just zoom in on the map, I would have no trouble filtering it down, but this only seems possible on my phone.",
+  "why": "the user names what they could NOT remember",
+  "gate": {
+   "decision": "yes",
+   "reason": "User is trying to find specific pictures taken at their cabin using map view, a retrieval method available on phone but not web.",
+   "language": "en"
+  },
+  "target": "Photos taken at the user's cabin, a location in the middle of nowhere with no official place name, which they want to find by zooming into a map view",
+  "evidence_quote": "I frequently find that I want to find some picture taken on my cabin, which is in the middle of nowhere (with no name to show for it in the pre-listed locations).",
+  "remembered": [
+   {
+    "cue": "location of the cabin on the map",
+    "span": "If I could just zoom in on the map, I would have no trouble filtering it down",
+    "grounded": true,
+    "label": "CUE",
+    "label_reason": "specific location of photo subject",
+    "category": "location"
+   }
+  ],
+  "forgotten": [
+   {
+    "cue": "no place name for the cabin location",
+    "span": "with no name to show for it in the pre-listed locations",
+    "grounded": true,
+    "label": null,
+    "label_reason": null,
+    "category": null
+   }
+  ],
+  "dropped": [],
+  "breakdown": "The map/heatmap view with zoom functionality available on the mobile app does not seem to exist on the web version of Google Photos, so the location cannot be pinpointed without a named place.",
+  "model": "claude-sonnet-5"
+ },
+ {
+  "id": "06ea2561df91",
+  "source": "help_community",
+  "source_type": "discussion",
+  "url": "https://support.google.com/photos/thread/276400635?hl=en",
+  "text": "Hidden face There is a face hidden in when I search for it that is not in the hidden and show face list. I am only able to find it when selecting that photo and going to face I see that has a little eye on it.",
+  "why": "the user names what they could NOT remember",
+  "gate": {
+   "decision": "yes",
+   "reason": "User is trying to find a specific face in their library that appears hidden. They describe attempting retrieval and naming a specific target (a hidden face).",
+   "language": "en"
+  },
+  "target": "A specific hidden/removed face belonging to a person that the user was trying to find again via Google Photos' face search",
+  "evidence_quote": "There is a face hidden in when I search for it that is not in the hidden and show face list. I am only able to find it when selecting that photo and going to face I see that has a little eye on it.",
+  "remembered": [
+   {
+    "cue": "the photo containing the hidden face",
+    "span": "I am only able to find it when selecting that photo",
+    "grounded": true,
+    "label": "CUE",
+    "label_reason": "describes a photo containing a specific face",
+    "category": "content description"
+   }
+  ],
+  "forgotten": [
+   {
+    "cue": "could not locate the face in the hidden/shown face list",
+    "span": "that is not in the hidden and show face list",
+    "grounded": true,
+    "label": null,
+    "label_reason": null,
+    "category": null
+   }
+  ],
+  "dropped": [],
+  "breakdown": null,
+  "model": "claude-sonnet-5"
+ },
+ {
+  "id": "00d1e0d922be",
+  "source": "reddit_assisted",
+  "source_type": "discussion",
+  "url": "https://www.reddit.com/r/googlephotos/comments/1fvq7hr/why_did_they_ruin_google_photos_search/",
+  "text": "I get the opposite. I type a word I get no results. Even if I have an album with the same name. I used to be able to type “me climbing a mountain” and it would find it. It couldn’t even find “me holding a snake” So it can no longer do specific searches OR general searches! I searched for monkey. No results. I have visited Monkey Island for crying out loud!",
+  "why": "many cues from one report",
+  "gate": {
+   "decision": "yes",
+   "reason": "User describes multiple specific search attempts for photos they believe exist: \"me climbing a mountain,\" \"me holding a snake,\" and photos from \"Monkey Island.\" They're trying to retrieve specific photos by content/event.",
+   "language": "en"
+  },
+  "target": "Specific photos of the user doing activities (e.g., climbing a mountain, holding a snake) and photos of monkeys/Monkey Island",
+  "evidence_quote": "I used to be able to type “me climbing a mountain” and it would find it. It couldn’t even find “me holding a snake”",
+  "remembered": [
+   {
+    "cue": "photo of self climbing a mountain",
+    "span": "me climbing a mountain",
+    "grounded": true,
+    "label": "CUE",
+    "label_reason": "describes the subject and content of the photo",
+    "category": "content description"
+   },
+   {
+    "cue": "photo of self holding a snake",
+    "span": "me holding a snake",
+    "grounded": true,
+    "label": "CUE",
+    "label_reason": "describes the subject and content of the photo",
+    "category": "content description"
+   },
+   {
+    "cue": "had an album with the same name",
+    "span": "Even if I have an album with the same name",
+    "grounded": true,
+    "label": "SYSTEM",
+    "label_reason": "describes a prior album state/organization",
+    "category": null
+   },
+   {
+    "cue": "visited Monkey Island",
+    "span": "I have visited Monkey Island for crying out loud",
+    "grounded": true,
+    "label": "CUE",
+    "label_reason": "describes the location/place where a photo was taken",
+    "category": "location"
+   }
+  ],
+  "forgotten": [],
+  "dropped": [],
+  "breakdown": "Search returns no results even for words matching existing album names or clear content like monkeys",
+  "model": "claude-sonnet-5"
+ },
+ {
+  "id": "16b8033d38c9",
+  "source": "reddit_assisted",
+  "source_type": "discussion",
+  "url": "https://www.reddit.com/r/googlephotos/comments/rxthdo/advanced_google_photos_search_syntax/",
+  "text": "This is my first time posting on Reddit. I think that this is the answer to my question, but I am not computer literate enough to truly understand what I am reading. Is it possible for you to break this down once more so that I could have a map to follow? Here is the question I was going to pose: \"I want to create a photo album gift of all the pictures I have: 1. Of \"Sue\", or 2. By \"Sue\", and 3. Taken in 2021. I am able to create an album of all pictures taken in 2021. I am able to create an album of all pictures of \"Sue\". I cannot figure out how to combine these two (or more) search terms. How can I make a gift book for \"Sue\" celebrating 2021 when I have thousands and thousands of photos? Because I am always willing to press my luck, after I make this first Album, I would like to make a second album. This would be every picture: 1. Of \"Sue\", or 2. By \"Sue\", and 3. Taken in 2022, and 4. Without \"Jane\". I have been trying to figure this out (without asking for help) for a while. I have created an album with all the photos \"Created by Sue\".",
+  "why": "many cues from one report",
+  "gate": {
+   "decision": "yes",
+   "reason": "Reply describes how to combine search terms to find specific photos. Addresses parent's retrieval problem with concrete targets.",
+   "language": "en"
+  },
+  "target": "Photos of or by a specific person (\"Sue\") taken in a specific year (2021), to compile into a gift photo album; a follow-up album for 2022 excluding another person (\"Jane\")",
+  "evidence_quote": "I want to create a photo album gift of all the pictures I have: 1. Of \"Sue\", or 2. By \"Sue\", and 3. Taken in 2021.",
+  "remembered": [
+   {
+    "cue": "person of interest - Sue",
+    "span": "Of \"Sue\", or 2. By \"Sue\"",
+    "grounded": true,
+    "label": "CUE",
+    "label_reason": "describes a specific person in photos",
+    "category": "person identity"
+   },
+   {
+    "cue": "year 2021 for first album",
+    "span": "Taken in 2021",
+    "grounded": true,
+    "label": "CUE",
+    "label_reason": "describes when photos in an album were taken",
+    "category": "date and time"
+   },
+   {
+    "cue": "year 2022 for second album",
+    "span": "Taken in 2022",
+    "grounded": true,
+    "label": "CUE",
+    "label_reason": "describes when photos in an album were taken",
+    "category": "date and time"
+   },
+   {
+    "cue": "exclude person Jane in second album",
+    "span": "Without \"Jane\"",
+    "grounded": true,
+    "label": "SYSTEM",
+    "label_reason": "describes a filtering action taken in the system",
+    "category": null
+   },
+   {
+    "cue": "already able to make album of all 2021 photos",
+    "span": "I am able to create an album of all pictures taken in 2021.",
+    "grounded": true,
+    "label": "SYSTEM",
+    "label_reason": "describes the capability/feature of creating albums by date filter",
+    "category": null
+   },
+   {
+    "cue": "already able to make album of all Sue photos",
+    "span": "I am able to create an album of all pictures of \"Sue\".",
+    "grounded": true,
+    "label": "SYSTEM",
+    "label_reason": "describes the capability/feature of creating albums by person filter",
+    "category": null
+   },
+   {
+    "cue": "already created album of photos created by Sue",
+    "span": "I have created an album with all the photos \"Created by Sue\".",
+    "grounded": true,
+    "label": "SYSTEM",
+    "label_reason": "describes an album that was already created and album management state",
+    "category": null
+   }
+  ],
+  "forgotten": [],
+  "dropped": [],
+  "breakdown": "Unable to combine multiple search criteria (person + date + exclusion) into one search/album in Google Photos",
+  "model": "claude-sonnet-5"
+ },
+ {
+  "id": "0206a07992a7",
+  "source": "reddit_assisted",
+  "source_type": "discussion",
+  "url": "https://www.reddit.com/r/googlephotos/comments/1ov9y8d/google_photos_search_results/",
+  "text": "Question 🤔 So how is everyone enjoying Google Photos being completely unable to identify the most basic photos that it could 6 months ago? I've had a dog for 10 years. Now when I search for \"dog\" I get a tiny subset of the photos I used to. Unrelated I use blowtorches for my day job. I search for blowtorch. I get eight results none of which contains a blowtorch. Google Photo search is now so bad I'm longing for the days 20 years ago when we manually entered metadata and tags to photos so we could find them later. What are people doing now that Google Photos is now incapable of showing us our photos based on search terms?",
+  "why": "the user states why the search failed",
+  "gate": {
+   "decision": "yes",
+   "reason": "User describes specific failed searches for \"dog\" and \"blowtorch\" expecting particular photos. They're trying to find existing photos via search.",
+   "language": "en"
+  },
+  "target": "Photos of the user's dog (10 years' worth) and separately, photos of blowtorches from their day job",
+  "evidence_quote": "I've had a dog for 10 years. Now when I search for \"dog\" I get a tiny subset of the photos I used to. Unrelated I use blowtorches for my day job. I search for blowtorch. I get eight results none of which contains a blowtorch.",
+  "remembered": [
+   {
+    "cue": "search term 'dog'",
+    "span": "Now when I search for \"dog\" I get a tiny subset of the photos I used to.",
+    "grounded": true,
+    "label": "CUE",
+    "label_reason": "describes a search term to find a photo",
+    "category": "search term used"
+   },
+   {
+    "cue": "search term 'blowtorch'",
+    "span": "I search for blowtorch.",
+    "grounded": true,
+    "label": "CUE",
+    "label_reason": "describes a search term typed to find a photo",
+    "category": "search term used"
+   }
+  ],
+  "forgotten": [],
+  "dropped": [],
+  "breakdown": "Google Photos' object/content recognition search feature degraded over time, returning far fewer or irrelevant results compared to before",
+  "model": "claude-sonnet-5"
+ },
+ {
+  "id": "1006a139e55a",
+  "source": "reddit_assisted",
+  "source_type": "discussion",
+  "url": "https://www.reddit.com/r/googlephotos/comments/17xzq0g/in_search_bar_i_search_my_albums_but_some_of_them/",
+  "text": "Troubleshooting ⚠️ In \"Archive\" page, in search bar I search my albums, but I can't find them all, help! For example, I have a album called \"England\", that I created yesterday, but when I search it, I don't find it. However, if I search a album that is created few years ago, I can find it, so strange. Please help! > ChatGPT says: The issue you're experiencing with Google Photos, where newly created albums like \"England\" are not appearing in search results, could be due to several factors: 1. Indexing Delay: Google Photos may take some time to index newly created albums. This delay means that recent albums might not immediately appear in search results. 2. Sync Issues: If you created the album on one device and are searching on another, ensure that your Google Photos app is fully synced across devices. 3. Search Criteria: Double-check the spelling and naming convention. Sometimes, small differences in spelling or format can affect search results. 4. App or Browser Cache: Sometimes, the cache on the app or browser you're using to access Google Photos can cause display issues. Clearing the cache might help. 5. Account Issues: Ensure you're logged into the correct Google account associated with the album. 6. Updates Needed: Ensure your Google Photos app is updated to the latest version. To address these issues: * Wait for Indexing: Give it some time, especially if the album was created very recently. * Sync Devices: Manually sync your Google Photos on all devices. * Clear Cache: Clear the cache of your browser or app. * Check Account and Updates: Verify you're on the correct account and your app is up to date. If these steps don't resolve the issue, consider reaching out to Google's support for more personalized assistance.",
+  "why": "the user states why the search failed",
+  "gate": {
+   "decision": "yes",
+   "reason": "User is trying to find a specific album (\"England\") they believe exists in their Google Photos library but cannot locate it via search.",
+   "language": "en"
+  },
+  "target": "A specific album named \"England\" created the previous day, within the Archive page",
+  "evidence_quote": "I have a album called \"England\", that I created yesterday, but when I search it, I don't find it.",
+  "remembered": [
+   {
+    "cue": "album name 'England'",
+    "span": "a album called \"England\"",
+    "grounded": true,
+    "label": "CUE",
+    "label_reason": "describes the specific album name containing photos",
+    "category": "album or folder name"
+   },
+   {
+    "cue": "album created yesterday",
+    "span": "that I created yesterday",
+    "grounded": true,
+    "label": "SYSTEM",
+    "label_reason": "describes album metadata/creation state",
+    "category": null
+   }
+  ],
+  "forgotten": [],
+  "dropped": [],
+  "breakdown": "Newly created albums do not appear in search results, possibly due to indexing delay, while older albums are searchable",
+  "model": "claude-sonnet-5"
+ },
+ {
+  "id": "06d1650feca2",
+  "source": "help_community",
+  "source_type": "discussion",
+  "url": "https://support.google.com/photos/thread/271795275?hl=en",
+  "text": "When searching Google Photos by the description or caption I don't get any of the photos I populated When searching Google Photos by the description or caption I don't get any of the photos I populatedI tried sharing my primary account in photos with my other secondary account. I entered text in the description and or caption feature boxes similar. It seems all of my photos screenshots on internal or SD card from this year 2024 just don't get placed in any of the searches I enter into Google photos search box feature. What can 8 do I have a midterm due and am relying on the use of the screenshots with caption and or description I used to create a number of photo albums.",
+  "why": "the target is not a photograph",
+  "gate": {
+   "decision": "yes",
+   "reason": "User is trying to find specific photos (2024 screenshots with captions/descriptions) using search but cannot retrieve them despite populating descriptions.",
+   "language": "en"
+  },
+  "target": "Photos/screenshots (from 2024, on internal storage or SD card) that the user had added descriptions/captions to, organized into photo albums",
+  "evidence_quote": "It seems all of my photos screenshots on internal or SD card from this year 2024 just don't get placed in any of the searches I enter into Google photos search box feature.",
+  "remembered": [
+   {
+    "cue": "entered text in description/caption fields",
+    "span": "I entered text in the description and or caption feature boxes similar",
+    "grounded": true,
+    "label": "SYSTEM",
+    "label_reason": "Describes an action the user took in the app's caption/description fields",
+    "category": null
+   },
+   {
+    "cue": "photos are screenshots from internal storage or SD card",
+    "span": "all of my photos screenshots on internal or SD card from this year 2024",
+    "grounded": true,
+    "label": "SYSTEM",
+    "label_reason": "describes file location and storage source",
+    "category": null
+   },
+   {
+    "cue": "photos were organized into photo albums",
+    "span": "I used to create a number of photo albums",
+    "grounded": true,
+    "label": "SYSTEM",
+    "label_reason": "describes organizing action into albums",
+    "category": null
+   }
+  ],
+  "forgotten": [],
+  "dropped": [],
+  "breakdown": null,
+  "model": "claude-sonnet-5"
+ },
+ {
+  "id": "1045fff720e1",
+  "source": "reddit_assisted",
+  "source_type": "discussion",
+  "url": "https://www.reddit.com/r/googlephotos/comments/1bgypnl/search_text_in_picture_ocr_not_always_working/",
+  "text": "Troubleshooting ⚠️ Hello One of the most common search that I do on Google photos is text that I remember is on the picture. I took a screenshot couple of weeks back, and I type a word I knew was there and google photos couldn't find it. I went back to find that screenshot and the word was clearly written. This is just an example but I notice I have more and more fails from Google photo search, why isn't it consistent? How to improve it",
+  "why": "the target is not a photograph",
+  "gate": {
+   "decision": "yes",
+   "reason": "User tried to find a specific screenshot by searching for text they remembered was on it. Search failed despite the text being present. Specific target named.",
+   "language": "en"
+  },
+  "target": "A screenshot taken a couple of weeks prior that contained a specific word the user remembered seeing written in the image",
+  "evidence_quote": "I took a screenshot couple of weeks back, and I type a word I knew was there and google photos couldn't find it.",
+  "remembered": [
+   {
+    "cue": "a specific word present in the screenshot text",
+    "span": "I type a word I knew was there",
+    "grounded": true,
+    "label": "CUE",
+    "label_reason": "describes text content visible in the photo",
+    "category": "content description"
+   },
+   {
+    "cue": "approximate timeframe (couple of weeks back)",
+    "span": "I took a screenshot couple of weeks back",
+    "grounded": true,
+    "label": "CUE",
+    "label_reason": "describes when the photo was taken",
+    "category": "date and time"
+   }
+  ],
+  "forgotten": [],
+  "dropped": [],
+  "breakdown": "Google Photos' text search (OCR-based) failed to match a word that was clearly visible in the image, suggesting inconsistent indexing or OCR performance",
+  "model": "claude-sonnet-5"
+ },
+ {
+  "id": "02be001c0ccb",
+  "source": "help_community",
+  "source_type": "discussion",
+  "url": "https://support.google.com/photos/thread/277603431?hl=en",
+  "text": "Wrong person showed as me When I am searching 'me' in Google photos, instead of me my girlfriend photos are shown. My Google doesn't identify me",
+  "why": "a single-cue report",
+  "gate": {
+   "decision": "yes",
+   "reason": "User is trying to find photos of themselves using search but getting wrong results. Specific target named: photos of \"me\".",
+   "language": "en"
+  },
+  "target": "Photos of the user themselves (searching using the 'me' face/label category)",
+  "evidence_quote": "When I am searching 'me' in Google photos, instead of me my girlfriend photos are shown. My Google doesn't identify me",
+  "remembered": [
+   {
+    "cue": "used the 'me' search term",
+    "span": "When I am searching 'me' in Google photos",
+    "grounded": true,
+    "label": "SYSTEM",
+    "label_reason": "describes search term tried in the system",
+    "category": null
+   }
+  ],
+  "forgotten": [],
+  "dropped": [],
+  "breakdown": null,
+  "model": "claude-sonnet-5"
+ },
+ {
+  "id": "026d295ee2aa",
+  "source": "reddit_assisted",
+  "source_type": "discussion",
+  "url": "https://www.reddit.com/r/googlephotos/comments/1hr8x1a/cant_search_by_day_anymore/",
+  "text": "Bug 🐞 In my Google Photos app (on Android), I used to be able to search my photos by date by typing in a month and day in quotations (formatted like so: \"Dec 23\" or \"Feb 12\", etc.) and the app would show me the photos I had taken on that day in each year. Now, when I do a search like that, it just gives me seemingly random results, with an option for \"Most recent\" or \"Best match\" (neither which work to show photos taken on the month and day I searched for). I'm assuming an update introduced this bug, but is there any way to get the app to show me the photos I took on a particular month and day anymore?",
+  "why": "a single-cue report",
+  "gate": {
+   "decision": "yes",
+   "reason": "User is trying to find specific photos by date (month and day) they believe exist in their library. They name a specific target: photos taken on particular dates like Dec 23 or Feb 12.",
+   "language": "en"
+  },
+  "target": "Photos taken on a specific month and day (e.g., \"Dec 23\" or \"Feb 12\") across different years",
+  "evidence_quote": "I used to be able to search my photos by date by typing in a month and day in quotations (formatted like so: \"Dec 23\" or \"Feb 12\", etc.) and the app would show me the photos I had taken on that day in each year.",
+  "remembered": [
+   {
+    "cue": "specific month and day of photos",
+    "span": "typing in a month and day in quotations (formatted like so: \"Dec 23\" or \"Feb 12\"",
+    "grounded": true,
+    "label": "CUE",
+    "label_reason": "describes the date when photos were taken",
+    "category": "date and time"
+   }
+  ],
+  "forgotten": [],
+  "dropped": [],
+  "breakdown": "An app update appears to have broken the date-search feature, causing it to return random/irrelevant results instead of filtering by the specific month and day, with sort options that don't resolve the issue.",
+  "model": "claude-sonnet-5"
+ }
+]

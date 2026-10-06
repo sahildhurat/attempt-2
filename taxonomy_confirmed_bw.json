@@ -1,0 +1,94 @@
+{
+  "confirmed_by": "AI-consolidated (Claude)",
+  "confirmed_at": "2026-10-03",
+  "fields": {
+    "breakdown": [
+      {
+        "name": "date and time search fails",
+        "definition": "Searching, filtering or sorting by date returns nothing, returns unrelated results, returns everything from a day instead of the target, or cannot be combined with another term. NOT photos sorted wrongly because their stored date is incorrect, which is metadata; NOT a date filter the product never offered."
+      },
+      {
+        "name": "text and keyword search fails",
+        "definition": "Words that are in, on or attached to the photo are not matched: object and scene keywords, text visible inside the image (OCR), filenames, and semantic or descriptive queries. Includes over-matching on partial tokens and short queries that stopped working after the AI search change. NOT text the user typed in themselves, which is its own category."
+      },
+      {
+        "name": "user-supplied metadata is ignored",
+        "definition": "Descriptions, captions, tags, filenames or timestamps the user added or edited are not matched by search, or revert. The user did the indexing work and the product did not use it. NOT metadata the camera or app wrote, which is the metadata category."
+      },
+      {
+        "name": "face and people search fails",
+        "definition": "Face detection, grouping or search by person does not work: new faces undetected, faces merged or split wrongly, named people not retrievable, groups lost. NOT a general content-recognition failure on objects or scenes."
+      },
+      {
+        "name": "location search fails or is unavailable",
+        "definition": "Search or filter by place returns incomplete results, has no name to match against, or the map view is unavailable on that platform. NOT a location the camera recorded incorrectly, which is metadata."
+      },
+      {
+        "name": "search returns an incomplete subset",
+        "definition": "Search finds some matching photos but visibly misses most of them, caps the result set, or cannot be expanded. The query is understood; the recall is wrong. NOT a search that returns nothing, and NOT one that returns the wrong photos entirely."
+      },
+      {
+        "name": "the capability does not exist",
+        "definition": "The product offers no mechanism for what the user wants: no tag support, no multi-criteria or exclusion operators, no duplicate detection, no reverse image search, no filtering to one media type. A missing feature. NOT a feature that exists but malfunctions, and NOT one the user simply could not find."
+      },
+      {
+        "name": "search terms are blocked or filtered",
+        "definition": "Specific query terms are censored or suppressed, returning zero results for ordinary content. NOT a term that simply fails to match anything in the library."
+      },
+      {
+        "name": "content not yet indexed or synced",
+        "definition": "Photos are absent from search because upload, backup or indexing has not completed, or backup is misconfigured. Transient or fixable by configuration. NOT photos that have been deleted or corrupted."
+      },
+      {
+        "name": "data lost or deleted",
+        "definition": "Photos are gone, corrupted, or unrecoverable, or deletion behaved unexpectedly across linked services. Permanent loss. NOT a sync or indexing delay that would resolve itself."
+      },
+      {
+        "name": "display and platform inconsistency",
+        "definition": "The data exists but the interface does not show it, shows it differently across web, Android and iOS, fails to display edited versions, or glitches while scrolling. A presentation failure. NOT a search that cannot find the photo, and NOT content that is genuinely absent."
+      },
+      {
+        "name": "user misunderstanding",
+        "definition": "The user misread a feature, setting or result and the product behaved as designed. Kept as a category so these cases can be excluded from product-gap counts rather than silently inflating them. NOT a confusing design that genuinely misleads, which belongs with the capability or display categories."
+      }
+    ],
+    "workaround": [
+      {
+        "name": "scroll manually",
+        "definition": "Browsing the timeline, an album or search results by hand instead of searching, including bulk multi-select to act on what is found. The brute-force fallback. NOT using a filter or category to narrow the set first."
+      },
+      {
+        "name": "reformulate the query",
+        "definition": "Changing the search text itself: different wording, spelling variants, quotation marks, operators, or a much longer and more specific query. The route stays the same and only the words change. NOT switching to a filter, a category or another navigation route, and NOT editing the photo's own metadata."
+      },
+      {
+        "name": "try a different search route",
+        "definition": "Reaching the photo through another mechanism inside the app: category or attribute filters, date and Recently Added navigation, the location map, face groups, OCR text, visual or Lens search, or changing the result sort order. NOT changing the query text, and NOT leaving the app."
+      },
+      {
+        "name": "switch interface or device",
+        "definition": "Performing the same search somewhere else: the web client instead of the mobile app, Classic Search instead of the AI search, another phone or computer, or a different photo app on the same library. NOT exporting the files out."
+      },
+      {
+        "name": "build your own index",
+        "definition": "Making the photo findable by hand: adding descriptions, captions or tags, renaming files, correcting timestamps, creating albums or naming conventions, re-uploading to force reindexing, or keeping a record outside the app. The user doing the product's job. NOT adjusting app settings."
+      },
+      {
+        "name": "troubleshoot the app",
+        "definition": "Treating it as a technical fault: toggling settings or features off and on, reinstalling, forcing a re-sync, or waiting for background indexing to finish. NOT changing how the photo is searched for."
+      },
+      {
+        "name": "leave the app",
+        "definition": "Getting the photos out: Takeout, direct download, or migrating the library to another service. Abandoning retrieval inside Google Photos. NOT opening the same library in a different client, which is switching interface."
+      },
+      {
+        "name": "ask someone else",
+        "definition": "Turning to a person: contacting the original uploader, Google support, or a community forum to locate the photo. NOT keeping one's own external notes, which is building an index."
+      },
+      {
+        "name": "no workaround found",
+        "definition": "The account records no successful workaround: nothing was tried that worked, or the user is explicitly asking for a solution. The absence is the finding. NOT a workaround that was tried and failed, which is recorded under whichever tactic was attempted."
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "confirmed_by": "Sahil",
+  "confirmed_at": "2026-10-03",
+  "fields": {
+    "cues": [
+      {
+        "name": "date and time",
+        "definition": "When the photo was taken: a date, month, year, season, or a life period. Examples: 'exact date of the photo', 'specific date taken'. NOT when it was uploaded, backed up or synced; NOT when a feature changed or stopped working."
+      },
+      {
+        "name": "location",
+        "definition": "Where the photo was taken: a place name, city, region, or a described place. Examples: 'location name - Pee Pee Township, Ohio', 'general location - New York City', 'location near a pier'. NOT where a file, folder or album sits inside the app; NOT the location of a setting or feature."
+      },
+      {
+        "name": "person identity",
+        "definition": "A specific individual in or connected to the photo, by name or relationship, including named pets. Examples: \"specific person's name (e.g. Abigail)\", 'which people are tagged (Hans, Julia)', 'photos were taken by husband', \"dog's name (Anubis)\". NOT how the app groups or tags faces; NOT a person described only as the photo's subject matter."
+      },
+      {
+        "name": "content description",
+        "definition": "What the photo shows: objects, animals, scenes, activities, or text visible inside the image. Examples: 'subject is sunrises', 'black and white dog in Hawaii', 'subject of photo (basketball goal)', 'exact text shown in the screenshot (KeroKero)'. NOT the named people in it; NOT where it was taken; NOT the occasion it belongs to."
+      },
+      {
+        "name": "occasion or event",
+        "definition": "The event or occasion the photo belongs to: a trip, wedding, birthday, festival, or a described happening. Examples: 'moments/events of kids and other relevant things'. NOT the generic subject matter of the image; NOT a bare date."
+      },
+      {
+        "name": "search term used",
+        "definition": "The literal word or phrase the person typed into search. Examples: \"search keyword 'knife'\", \"search term 'golf'\", \"general subject keyword 'motorcycle'\", \"search term 'blowtorch'\". This category is about the QUERY STRING ITSELF, not the attribute it refers to. A phrase belongs here only if it reports what was typed."
+      },
+      {
+        "name": "album or folder name",
+        "definition": "The name of an album or folder the photo sits in, as the person recalls it. Examples: 'album/folder name', 'which album the photo belongs to'. NOT whether albums exist, how many there are, how recent they are, or whether their contents changed."
+      },
+      {
+        "name": "file identity",
+        "definition": "Attributes of the file itself: its filename, extension, format, or size. Examples: 'filename with ABC_2022', \"filename contains 'WA' from WhatsApp\", 'specific words/strings contained in video filenames'. NOT the device that took it; NOT where it was uploaded from; NOT the photo's visual content."
+      },
+      {
+        "name": "capture source",
+        "definition": "The device, camera or app that produced the photo, or where it was uploaded from. Examples: 'camera/device name', 'which app generated it', 'upload source distinction - pixel XL vs laptop'. NOT the filename; NOT the account, album or folder it ended up in."
+      }
+    ]
+  }
+}

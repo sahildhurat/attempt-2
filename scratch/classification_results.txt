@@ -1,0 +1,171 @@
+=== CUES STATS ===
+USER: 553
+ADVICE: 27
+UNCLEAR: 409
+
+=== 15 EXAMPLES EACH ===
+
+[USER EXAMPLES]
+CUE: used the 'me' search term
+SPAN: When I am searching 'me' in Google photos
+
+CUE: photos date back to at least 2014
+SPAN: I know the pictures go back to at least 2014
+
+CUE: found them before via search
+SPAN: I stumbled upon them in my search
+
+CUE: photo of self climbing a mountain
+SPAN: me climbing a mountain
+
+CUE: photo of self holding a snake
+SPAN: me holding a snake
+
+CUE: had an album with the same name
+SPAN: Even if I have an album with the same name
+
+CUE: visited Monkey Island
+SPAN: I have visited Monkey Island for crying out loud
+
+CUE: location of the cabin on the map
+SPAN: If I could just zoom in on the map, I would have no trouble filtering it down
+
+CUE: search term 'dog'
+SPAN: Now when I search for "dog" I get a tiny subset of the photos I used to.
+
+CUE: search term 'blowtorch'
+SPAN: I search for blowtorch.
+
+CUE: photos were recently edited
+SPAN: photss i just edited
+
+CUE: keywords added to description field
+SPAN: I’ve used the description field on Google Photos for years to add keywords
+
+CUE: search term 'cars'
+SPAN: I searched 'cars'
+
+CUE: partial filename ending in 172629
+SPAN: the specific photo I was looking for with the filename ending as '172629'
+
+CUE: knows which friend's photos they want
+SPAN: I have loads of pictures of one of my friends
+
+
+[ADVICE EXAMPLES]
+CUE: visible via shared albums
+SPAN: if I click on shared albums or memories icon then these are visible there
+
+CUE: the specific year
+SPAN: I click on the year I wish to view
+
+CUE: subject type - flowers, specifically sunflower
+SPAN: whenever i try to find to find photos of only sunflower
+
+CUE: knows the subject's eyes are open at a different point in the motion picture
+SPAN: while they are open at another point in the motion picture
+
+CUE: knows individual photos can be fixed one by one via crossed-out eye icon
+SPAN: If I go to any of those photos, her face has a crossed out eye on it
+
+CUE: the photos were grouped under daughter's face/person icon
+SPAN: click on my daughter's icon so it pulls up pictures of her
+
+CUE: object in photo (bike)
+SPAN: You could search "bike" and any photo, screenshot, etc with a bike in it would show up
+
+CUE: feature previously showed each person's face to click on
+SPAN: it used to be able to show each person‘s face and I could click on that
+
+CUE: person's name
+SPAN: If I open search bar and type a person name
+
+CUE: the specific person's name/face category
+SPAN: I go to search for a specific person's name in my photos
+
+CUE: general location/place association
+SPAN: You can use your photos' locations to organise, search and explore your photos based on where they were taken.
+
+CUE: roughly when it was created (recent edit)
+SPAN: if you go to the "Recently added" view it will be the first photo
+
+CUE: albums are present on device and visible via WhatsApp share
+SPAN: when I go to send a photo on Whatsapp the albums are there so they are definitely on the phone somewhere
+
+CUE: the specific photo itself (opened it)
+SPAN: Open a photo
+
+CUE: knows the photos exist in main library/app
+SPAN: When I open the app they are all there, non are achieved or deleted
+
+
+[UNCLEAR EXAMPLES]
+CUE: specific month and day of photos
+SPAN: typing in a month and day in quotations (formatted like so: "Dec 23" or "Feb 12"
+
+CUE: saved as a copy after editing
+SPAN: saves a copy
+
+CUE: terms previously worked
+SPAN: a number of other terms that have previously worked
+
+CUE: time the filename was derived from (5:26:29 pm)
+SPAN: which has been formed from 5:26 pm and 29 seconds
+
+CUE: photos were taken on Snapchat
+SPAN: maybe because it was taken on Snapchat and not on Google camera
+
+CUE: photos exist in folders and memories
+SPAN: they exist in folders and memories
+
+CUE: subject wearing pink dress
+SPAN: pink dress
+
+CUE: peace gesture/theme in photo
+SPAN: Da peace photo
+
+CUE: photo taken in 2023
+SPAN: Photo were taken in 2023
+
+CUE: remembered the comment/text they added to the photo
+SPAN: write a comment for photos
+
+CUE: source app of the photos is WhatsApp
+SPAN: Not able to find whatsapp images in Google photos
+
+CUE: photos were previously visible before an update
+SPAN: It was initially there and the problem arised after the update
+
+CUE: the photo/video had been saved and given a name
+SPAN: images or videos, that were saved, named and previously findable
+
+CUE: aware the photos are grouped into a hidden folder
+SPAN: a significant number have been grouped into a hidden folder
+
+CUE: the search term 'tropical'
+SPAN: tropical would show an island and products or things with the word tropical
+
+
+=== UNCLEAR EXHAUSTIVE LIST (if <= 30) ===
+More than 30 (409), skipping exhaustive list.
+
+=== TARGET STATS ===
+{
+  "USER": 542,
+  "ADVICE": 85,
+  "UNCLEAR": 93
+}
+
+=== BREAKDOWN STATS ===
+{
+  "USER": 77,
+  "ADVICE": 13,
+  "UNCLEAR": 74
+}
+
+=== WORKAROUND STATS ===
+{
+  "USER": 74,
+  "ADVICE": 44,
+  "UNCLEAR": 41
+}

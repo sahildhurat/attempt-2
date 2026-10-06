@@ -1,0 +1,6 @@
+{
+  "name": "discovery-engine-site",
+  "private": true,
+  "type": "module",
+  "dependencies": { "@google/genai": "2.27.0" }
+}

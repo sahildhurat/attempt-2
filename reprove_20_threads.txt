@@ -1,0 +1,178 @@
+--- THREAD 285673206 ---
+Title: Google Photos heat map missing
+[OP | Author: Unknown | Badge: None]
+I don't see an option for accessing photos from a map anymore. Version 6.89.0.645917732
+
+[REPLY 1 | Author: Tenley H | Badge: 4 | Flags: EXPERT | Parent: 285871985]
+My view has not changed yet, but I just saw another post where someone said it has moved for them. They say go to "Collections", then scroll down all the way past "People & pets", "On this device", "Albums" and "Documents" and select "Places" -> "Your Map".
+
+[REPLY 2 | Author: Tenley H | Badge: 4 | Flags: EXPERT | Parent: 285673206]
+Do you still have a Search tab? For me, I go to Search then I see Places and the first box is Your map. If I tap "View all" on places I do not have a map there. Do you still have a map if you swipe up on a photo that has a location?
+
+[REPLY 3 | Author: janvb | Badge: 5 | Flags: EXPERT | Parent: 285673206]
+See https://support.google.com/photos/thread/281953417/they-are-removing-the-heatmap-feature
+
+--- THREAD 461215497 ---
+Title: I am not able to play my backup videos
+[OP | Author: Unknown | Badge: None]
+I am not able to play my backup videos they are just loading The videos I backup from my older phones are playing But videos i backup from my realme phone is not loading I am able to download them and then play
+
+[REPLY 1 | Author: चंद्रशेखर | Badge: 5 | Flags: EXPERT | Parent: 461215497]
+Hi, Manish Bhagat 611 Welcome to the Google Photos Community Support Forum. Thanks for your post. The codec encoded in the video may not be compatible with Google Photos. Nevertheless, can you install a different video player app, such as VLC Media Player, and see whether it plays the video?
+
+--- THREAD 324296056 ---
+Title: How to disable Google Photo app to show my device pictures
+[OP | Author: Unknown | Badge: None]
+How to disable Google Photo app to show my device pictures
+
+[REPLY 1 | Author: Massimo Mellano | Badge: 3 | Flags: EXPERT | Parent: 324296056]
+Ciao Google Photos is also a gallery if you have disabled the backup it lets you see the photos but they are no longer saved in the cloud, it depends on the model of your phone you can uninstall the app if you really don't need it ciao Massimo
+
+--- THREAD 467767648 ---
+Title: Corrupt images
+[OP | Author: Unknown | Badge: None]
+So I got an SD card and I tried to move my images onto the card but when I did most of my images could load, i think they got corrupted since it says file cannot load, I tried clearing cache and rebooting my tablet but it doesn't work
+
+[REPLY 1 | Author: LeadMc Music Artist | Badge: 0 | Parent: 467767648]
+Hi, If the photos stopped loading after you moved them to the SD card, the first thing I would check is whether the originals were already backed up to Google Photos. Open Google Photos and check the same photos at photos.google.com . If they display correctly there, your backed-up copies should be safe and you can download them again. If they are not backed up, avoid moving, deleting, formatting, or adding anything else to the SD card for now. Try inserting the card into another device or computer and see if the image files can be opened or copied from there. Clearing the Google Photos cache will not repair a corrupted file. If the actual files on the SD card were damaged during the transfer, recovery may need to be attempted from the card itself. Also check a few affected files in another gallery or file manager app. That will help determine whether the files themselves are damaged or Google Photos is simply having trouble accessing them. Kind regards, Kevin
+
+--- THREAD 408707907 ---
+Title: Setting please to only show camera photos on startup of photos app.
+[OP | Author: Unknown | Badge: None]
+I only want camera photos to appear on app activation.
+
+[REPLY 1 | Author: चंद्रशेखर | Badge: 5 | Flags: EXPERT | Parent: 408707907]
+Hi, User 8410696098379819222 Thanks for your reply. The app displays camera photos by default unless we turn on backing up other folders on the phone.
+
+--- THREAD 283412148 ---
+Title: Facial Recognition no longer working?
+[OP | Author: Unknown | Badge: None]
+I've not had a picture of mine (or any family) show up on the facial regeneration since December 2023. I've also noticed that newly taken photos don't recognise any faces either. Is this known?
+
+--- THREAD 372193553 ---
+Title: Instructions search being changed
+[OP | Author: Unknown | Badge: None]
+The instructions have been changed on my device to where they're misleading or they're not pertaining to my search
+
+[REPLY 1 | Author: चंद्रशेखर | Badge: 5 | Flags: EXPERT | Parent: 372193553]
+Hi, A Willis, Welcome to the Google Photos Community Support Forum. Thank you for your post. Can you provide more specific details?
+
+--- THREAD 260003026 ---
+Title: Face Grouping not working.
+[OP | Author: Unknown | Badge: None]
+I created new account, Google disabled my account, then after appeal, it is reactivated. now i bought 2tb space for photos. but Face grouping is not working. tried everything. even uninstall and reinstall app. but it is not working. what should i do? in same mobile it is working for other accounts. but in this account it is not working.
+
+[REPLY 1 | Author: User 13187415545360828809 | Badge: 0 | Parent: 260003026]
+Contect the Google helps support team
+
+[REPLY 2 | Author: ItsProdigy | Badge: 4 | Flags: EXPERT | Parent: 260003026]
+Hello Ankoor Bhatt Welcome to google photos community support forum The Google Photos team advises that they have made some improvements to Face Groups and we request you to update the app to see if it improves. If after this doesn’t improve anything so Please help to raise the priority by sending feedback via the help function. Issues are prioritised by the numbers affected and feedback is the best way to let Google know. Write your problem by making the headline of the “face group issue” We appreciate the feedback on the feature Here is a link explaining how to do so. "Send feedback to the Google Photos team." And Google One subscribers pay for support, to share your thoughts directly with Google, Google, contact the 24/7 Google One Support Team Hope that helps
+
+[REPLY 3 | Author: Ankoor Bhatt | Badge: 0 | Parent: 260052563]
+Ok i am sending feedback feels like i lost money by buying 2tb space. i uploaded 100GB of photos and none of the use bcoz face grouping is not working. anyways sending feedback. FYI it is not working in Laptop as well android. my all other accounts it is working fine. but in this new account it is not working in which i purchases 2tb space.
+
+--- THREAD 455781046 ---
+Title: preparing zip
+[OP | Author: Unknown | Badge: None]
+Anyone having issues downloading more than one photo/video from the photos app? I can download individually but even if I select only 2 items, it gets stuck "Preparing to download 2 items..." and never moves from it.
+
+[REPLY 1 | Author: janvb | Badge: 5 | Flags: EXPERT | Parent: 455781046]
+Many signaled the same issue. Google is informed.
+
+--- THREAD 422962501 ---
+Title: My Google photo has duplicates many thousands of my photos. How can I remove these and prevent it
+[OP | Author: Unknown | Badge: None]
+See above.
+
+[REPLY 1 | Author: चंद्रशेखर | Badge: 5 | Flags: EXPERT | Parent: 422962501]
+Hi, Ursula Dempsey Welcome to the Google Photos Community Support Forum. Thanks for your post. Google Photos never uploads the same picture multiple times. What we see as duplicates have some differences in file format or metadata. Additionally, if you have activated Raw + JPEG capture or bracketing in your phone app, that would create duplicates. However, can you activate the "Stack similar photos" option? Tap -Profile icon -Settings - Preferences & look for the option Then, the app will group the similar-looking pictures. Nevertheless, you will find some tips in this article . Experts with comprehensive experience have compiled the article.
+
+--- THREAD 431327942 ---
+Title: Cannot View photos from friends in shared folder
+[OP | Author: Unknown | Badge: None]
+I am having issues viewing uploaded photos to a shared album from another family member. I am able to view others uploads but not hers. Ive cleared cache ive forced stop the app. I am unsure what to do. I am also the owner of the album. Need help thanks.
+
+--- THREAD 358027849 ---
+Title: not able to see my albums on my android phone. Samsung s10+
+[OP | Author: Unknown | Badge: None]
+not able to see my albums on my android phone. Samsung s10+
+
+[REPLY 1 | Author: ShrutNM | Badge: 3 | Flags: EXPERT | Parent: 358027849]
+Namaskar, Welcome to the Google Photos Help Community.. Please make sure you're signed in with the correct Google Account that holds the albums. Open the Google Photos app, go to the Library tab, and check under Albums. Also, ensure that your internet connection is active and the app is updated to the latest version. You can also try viewing your albums from a computer by visiting photos.google.com and checking if they appear there. Hope it helps, Let me know if you wants more details..
+
+--- THREAD 369974043 ---
+Title: Deleting photos in secondary account without Backup & Sync removes device storage photos
+[OP | Author: Unknown | Badge: None]
+I encountered unexpected behavior with Google Photos on my OnePlus 9: I shared an album from Account A (with Backup & Sync ON) to Account B (Backup & Sync OFF). I downloaded the photos on Account B, then removed the sharing. When I deleted the photos from Account B’s Google Photos app (Backup & Sync OFF), the same photos were also deleted from my device’s internal storage, even though they belonged to Account A. This behavior is confusing and risky. Deleting from another account should not remove the original owner’s local photos. Please consider treating shared/deleted photos more safely, or at least show a warning.
+
+[REPLY 1 | Author: janvb | Badge: 5 | Flags: EXPERT | Parent: 369974043]
+I tried to replicate: I took a new photo with my Android device. The photo is stored on the device and backed up to account A (Back-up ON). The info says "On device", and "Backed-up". I added the photo to an new album and shared the album with account B (not synced). I saved the photo to account B. In the Google Photos app the info says "On device". It does not say "Backed up" in the Google Photos app, although the photo is (manually) backed-up. On the web however, it says "Backed up". I deleted the photo in the Google Photos app when being in account B. It deleted both the device copy and the cloud copy of account B, in spite of Backup being turned OFF, because the Photos team obviously assumed that you only delete photos/videos that are garbage: you want them gone from everywhere. See How to delete photos from Google Photos: delete from cloud, phone, or both When signed it to account B, it's not possible to delete photos from any other account. Therefore (luckily) the cloud copy of account A is not deleted. What is the reason why you first "saved" a photo to account B, and then wanted to delete it? I am also not sure what you did exactly when you say: "I downloaded the photos on Account B, then removed the sharing". But I can agree that it is confusing.
+
+--- THREAD 467933552 ---
+Title: Permanently deleted photos recovery
+[OP | Author: Unknown | Badge: None]
+Permanently deleted photos recovery
+
+[REPLY 1 | Author: Sajol Kumar Das | Badge: 2 | Flags: EXPERT | Parent: 467933552]
+Hi there!! Glad to have you here in the Google Photos Support Forum If you have deleted your photos from the Trash (Bin), try this one: Restore recently deleted photos and videos Please see this article for more information: Delete or restore your photos & videos **If you found my answer helpful, please click 👍🏻 and hit Recommend.** Best Regards and All the Best SAJOL KUMAR DAS
+
+[REPLY 2 | Author: User 2622105721322696330 | Badge: 0 | Parent: 467933552]
+there!! Glad to have you here in the Google Photos Support Forum If you have deleted your photos from the Trash (Bin), try this one: Restore recently deleted photos and videos Please see this article for more information: Delete or restore your photos & videos
+
+[REPLY 3 | Author: dhanraj choudhary | Badge: 0 | Parent: 467933552]
+Permanently deleted photos recovery
+
+[REPLY 4 | Author: User 13318772455901635687 | Badge: 0 | Parent: 468083172]
+After 2 years video recover
+
+[REPLY 5 | Author: S S 6227 | Badge: 0 | Parent: 467933552]
+आज का परमानेंट डिलीट फोटो
+
+[REPLY 6 | Author: Md Shabaintijar | Badge: 0 | Parent: 468090988]
+Delete photo
+
+--- THREAD 457132294 ---
+Title: photos i back up from other devices dont show up in my google photos app
+[OP | Author: Unknown | Badge: None]
+my phone's app only shows images from this device, and when i back up photos from my ipad they dont apear on it. When i go to the browser i can see the images i backed up from my other devices, but i cant in my app The same problem does not occur on my ipad's app
+
+[REPLY 1 | Author: Parayil | Badge: 3 | Flags: EXPERT | Parent: 457132294]
+Thanks for posting in Google help forums, Make sure your Device is connected to internet with Mobile Data or WiFi, Power saving mode keep off, https://photos.app.goo.gl/NL3VgDabk6SNtSy39 When your photos are Backed up in cloud, You can find backed up photos in https://photos.google.com/ The Link Open in Google photos folder, Next Select 3 lines menus at top left and Select Account or Change Account, Check in All folders to Find photos you have saved including Locked folder and Trash/Bin, https://photos.app.goo.gl/pqkxHU7yzo4HyDH16 You can see Photos In Google photos app in recently added location, https://photos.app.goo.gl/sahH7w2Ejmunf6Ut8 You can Find Number of Backed up in Google photos app, https://photos.app.goo.gl/UcAvZ8FvpT5qk7dX7 Turn on Backup, https://photos.app.goo.gl/2g5XxnemmACMDgWT8 For more information, https://support.google.com/photos/answer/6306652?hl=en&co=GENIE.Platform%3DAndroid#zippy=%2Creview-p If you are not seeing Backed up photos in Google photos app main view but visible in other Locations, this is due to a Synchronisation issue and Google is aware of this and hope it will resolve soon.
+
+--- THREAD 405121345 ---
+Title: my friend uploaded all photo but not showing on my side on google photo
+[OP | Author: Unknown | Badge: None]
+I created a Google Photos shared album and shared it with my friend so he could upload photos. From his account , everything looks normal: All photos show as uploaded successfully He can see them inside the shared album However, from my side (the album owner) : The album shows zero photos This happens on all devices Even when I log into his phone using my Google account , the photos still don’t appear for me But the same photos immediately reappear when he switches back to his account So: Upload appears successful for the contributor Album owner sees nothing Issue persists across devices and browsers
+
+[REPLY 1 | Author: User 16250466849483841375 | Badge: 0 | Parent: 405121345]
+17January ashikbay pare5@gmail
+
+--- THREAD 316252888 ---
+Title: How to delete search history of google photos
+[OP | Author: Unknown | Badge: None]
+Unable to delete search history of google photos
+
+[REPLY 1 | Author: Parayil | Badge: 3 | Flags: EXPERT | Parent: 316252888]
+Thanks for posting in Google help forums, You can Clear search history in Google photos by clearing app Data, Important Note:- The following action will remove all customized Settings/Permissions and user Data/search history from Google photos app, Items moved to Locked folder without Backup will be deleted Permanently, Google photos App Settings revert to Default,All Data BACKED up to Google photos cloud storage will be kept including BACKED up photos in Locked folder,(if you want you can Backup Locked folder before clearing Data) Next, Touch and hold on the Google photos app icon, Select app information, next Window Select Force stop,Clear data and wait a moment and check and grant Permissions and remove Battery Optimization, grant Mobile Data and WiFi////, https://photos.app.goo.gl/KNiTakaSSc7RZc9G8 Next,Update Google photos from Play Store, https://play.google.com/store/apps/details?id=com.google.android.apps.photos After finishing, Open Google photos and wait to get your photos. https://photos.app.goo.gl/KsU6q68mSEaMokzG7 Restart Device, (Pictures, directions, settings, and paths might differ from Android phone / versions/ models/ manufacturers)
+
+--- THREAD 406555719 ---
+Title: Remove duplicate photos from albums without having to do it manually.
+[OP | Author: Unknown | Badge: None]
+I don't want to go through the 6000 ++ photos on my phone manually. I have attempted it but it sucks. Any good advice would be greatly appreciated
+
+[REPLY 1 | Author: चंद्रशेखर | Badge: 5 | Flags: EXPERT | Parent: 406555719]
+Hi, Edward Megariz Welcome to the Google Photos Community Support Forum. Thanks for your post. Google Photos never uploads the same picture multiple times. What we see as duplicates have some differences in file format or metadata. Additionally, if you have activated Raw + JPEG capture or bracketing in your phone app, that would create duplicates.
+
+--- THREAD 459507738 ---
+Title: I’m having a problem with Google Photos on my Android phone. When I try to use the AI editing featu
+[OP | Author: Unknown | Badge: None]
+I’m having a problem with Google Photos on my Android phone. When I try to use the AI editing features such as Enhance, Dynamic, or Boost, Google Photos shows this error: “Check your internet connection and try again.” However, my internet connection is working normally. I am able to browse websites, use YouTube, and use other online apps without any problem. I have already checked Google Photos’ network permissions: - Background data: ON - Unrestricted data usage: ON - Mobile data is working normally - Google Photos cache is only around 2 MB - Google Photos version: 7.87.0.957333026 Please help me identify the actual cause of this problem. I want to know whether this is caused by: 1. A Google Photos server-side issue 2. An AI editing service availability problem 3. A Google account/region restriction 4. An app bug 5. A network or DNS issue 6. Any device compatibility limitation Please give me step-by-step troubleshooting instructions specifically for this issue. Also tell me whether clearing Google Photos storage/data could delete or affect my photos before I do it.
+
+--- THREAD 418836744 ---
+Title: Cannot see uploaded pics
+[OP | Author: Unknown | Badge: None]
+Hi all, For some reasons I cannot see the pics that my team uploaded in the shared album. Does anyone have the same issue? Thanks! Adhi
+
+[REPLY 1 | Author: चंद्रशेखर | Badge: 5 | Flags: EXPERT | Parent: 418836744]
+Hi, adhi ardianto, Welcome to the Google Photos Community Support Forum. Thank you for your post. The Google Photos program had a glitch in the sync mechanism. The team confirms they have fixed the issue. However, it may take several weeks for the update to reach every user.
+

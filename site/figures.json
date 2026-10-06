@@ -1,0 +1,114 @@
+{
+  "corpus_raw": {
+    "value": 41038,
+    "source": "data/unified/*.jsonl"
+  },
+  "corpus_post_dedup": {
+    "value": 41006,
+    "source": "data/archive/all_units_unfiltered.jsonl"
+  },
+  "gate_processed": {
+    "value": 7840,
+    "source": "data/gate_results.jsonl"
+  },
+  "gate_yes": {
+    "value": 1015,
+    "source": "data/gate_results.jsonl"
+  },
+  "gate_partial": {
+    "value": 945,
+    "source": "data/gate_results.jsonl"
+  },
+  "gate_validation_n": {
+    "value": 59,
+    "source": "docs/method_notes.md"
+  },
+  "gate_agreement": {
+    "value": 0.644,
+    "source": "docs/method_notes.md"
+  },
+  "gate_recall": {
+    "value": 0.824,
+    "source": "docs/method_notes.md"
+  },
+  "gate_precision": {
+    "value": 0.56,
+    "source": "docs/method_notes.md"
+  },
+  "units_extracted": {
+    "value": 720,
+    "source": "data/pass2/extracted_units.jsonl"
+  },
+  "remembered_cues_extracted": {
+    "value": 998,
+    "source": "data/pass2/extracted_units.jsonl"
+  },
+  "remembered_cues_grounded": {
+    "value": 989,
+    "source": "data/pass2/extracted_units.jsonl"
+  },
+  "forgotten_cues_extracted": {
+    "value": 61,
+    "source": "data/pass2/extracted_units.jsonl"
+  },
+  "forgotten_cues_grounded": {
+    "value": 61,
+    "source": "data/pass2/extracted_units.jsonl"
+  },
+  "unique_phrases": {
+    "value": 970,
+    "source": "data/pass3/cue_classification.jsonl"
+  },
+  "cue_phrases": {
+    "value": 554,
+    "source": "data/pass3/cue_classification.jsonl"
+  },
+  "system_phrases": {
+    "value": 416,
+    "source": "data/pass3/cue_classification.jsonl"
+  },
+  "cue_val_agreement": {
+    "value": 0.833,
+    "source": "docs/method_notes.md"
+  },
+  "cue_val_precision": {
+    "value": 0.789,
+    "source": "docs/method_notes.md"
+  },
+  "cue_val_recall": {
+    "value": 0.938,
+    "source": "docs/method_notes.md"
+  },
+  "cue_assignment_consistency": {
+    "value": 0.964,
+    "source": "data/pass3/taxonomy_assignments.jsonl"
+  },
+  "cue_unassigned_rate": {
+    "value": 0.098,
+    "source": "data/pass3/taxonomy_assignments_clean.jsonl"
+  },
+  "target_v1_consistency": {
+    "value": 0.629,
+    "source": "docs/method_notes.md"
+  },
+  "target_v2_consistency": {
+    "value": 0.859,
+    "source": "data/pass3/target_assignments_v2.jsonl"
+  },
+  "target_age_older": {
+    "value": 106,
+    "source": "data/pass3/age_assignments.jsonl"
+  },
+  "target_age_recent": {
+    "value": 47,
+    "source": "data/pass3/age_assignments.jsonl"
+  },
+  "target_age_unstated": {
+    "value": 562,
+    "source": "data/pass3/age_assignments.jsonl"
+  },
+  "pipeline_cost": {
+    "value": 15,
+    "source": "docs/analysis_summary.md"
+  }
+}

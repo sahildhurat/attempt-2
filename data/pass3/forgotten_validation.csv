@@ -1,0 +1,62 @@
+n,phrase,gap_type
+1,specific keywords/words needed to find individual photos,PRODUCT
+2,which app generated it,MEMORY
+3,exact estimated vs camera-added location distinction,PRODUCT
+4,exact boundary between photos of one day and the next in the photo roll view,PRODUCT
+5,original website source,MEMORY
+6,cannot recall/search the saved location of the photo,MEMORY
+7,cannot find where the blocked photos folder is located,NAVIGATION
+8,location of the bin on the phone,NAVIGATION
+9,people face groupings and associated names no longer available,SYSTEM
+10,cannot find where the locked folder is located,NAVIGATION
+11,how to locate/access the hidden photos section,NAVIGATION
+12,where they left off fixing locations,MEMORY
+13,no distinguishing numbering scheme for burst photos,PRODUCT
+14,"no other information about the photo (e.g. date, location, content details)",MEMORY
+15,date/when the beer photo was taken,MEMORY
+16,cannot find where sharing is currently enabled/managed in main account,NAVIGATION
+17,"no other identifying details given (date, location, names)",MEMORY
+18,did not realize they had enabled backup,NOT_CUE
+19,how to search by who took the photo,PRODUCT
+20,exact date sync was turned on / uploaded,NOT_CUE
+21,names attached to faces,SYSTEM
+22,which of many Google Drives/videos it was saved in,MEMORY
+23,location of the locked folder,NAVIGATION
+24,the filename of the recording,MEMORY
+25,cannot find where the shared pictures are now,NAVIGATION
+26,the exact pattern/passcode for the locked folder,MEMORY
+27,location of the photo,MEMORY
+28,cannot locate the photos after clearing space,NAVIGATION
+29,specific device model/name,MEMORY
+30,no specific numbers to use as search terms,PRODUCT
+31,cannot find the setting/method to unhide the faces,NAVIGATION
+32,when the photo was taken,MEMORY
+33,which app created the recycling bin,NAVIGATION
+34,exact date or year of the photo,MEMORY
+35,no place name for the cabin location,PRODUCT
+36,how to access hidden photos again,NAVIGATION
+37,original metadata (date/time/location) of the recovered images,SYSTEM
+38,whether photo is local-only/on-device,NOT_CUE
+39,correct original date/time photos were taken,SYSTEM
+40,name of the costume,MEMORY
+41,cannot find how to access the locked folder,NAVIGATION
+42,does not know how to unhide/reverse the action,NAVIGATION
+43,backup status of the photo,NOT_CUE
+44,name of the unnamed/unknown person,MEMORY
+45,no way to filter/search specifically for these auto-generated compilation videos,PRODUCT
+46,no specific location name available for search,PRODUCT
+47,the time the photo was taken,MEMORY
+48,cannot recall exact position/date order placement of each poodle photo among 500 scattered pics,MEMORY
+49,which account or collection the photo is in,MEMORY
+50,no specific date or timeframe mentioned,MEMORY
+51,no other details about the photo,MEMORY
+52,location/folder of the locker photos,NAVIGATION
+53,doesn't remember how/when she was hidden,MEMORY
+54,cannot locate the earliest-first sort option,NAVIGATION
+55,when the older photo was taken,MEMORY
+56,which album the photo belongs to,MEMORY
+57,did not undo the hide action,NOT_CUE
+58,could not locate the face in the hidden/shown face list,NAVIGATION
+59,exact date of the photos,MEMORY
+60,does not know how to locate the album without the email,NAVIGATION
+61,the year the picture was taken,MEMORY

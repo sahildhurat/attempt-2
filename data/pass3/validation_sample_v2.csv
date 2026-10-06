@@ -1,0 +1,31 @@
+n,phrase,your_label
+1,created a profile and added photos for new cat,system
+2,attempted to use face highlighting on a photo per instructions,system
+3,aware there are more recent photos in album,system
+4,"location name - Pee Pee Township, Ohio",cue
+5,subject of photos is a dog,cue
+6,previously organized in a separate album,system
+7,the specific photo itself (opened it),cue
+8,same account used on new device,system
+9,received notification about new additions to shared album,system
+10,faces/people groups existed and were visible previously,system
+11,photos likely uploaded on the day sync was turned on,system
+12,that the person had been previously tagged/recognized,system
+13,the label or name they gave the photo,cue
+14,manually added place/location to the photos,system
+15,"which people are tagged (Hans, Julia)",cue
+16,name of the notification/slideshow,system
+17,specific words/strings contained in video filenames,cue
+18,phone model and Android version,system
+19,photos were backed up last year,system
+20,exact text shown in the screenshot (KeroKero),cue
+21,general subject keyword 'motorcycle',cue
+22,search term 'blowtorch',cue
+23,filename contains 'WA' from WhatsApp,cue
+24,large volume of photos taken during that walk,system
+25,specific locations searched for,cue
+26,dog's name (Anubis),cue
+27,general location - New York City,cue
+28,subject of photo (basketball goal),cue
+29,the friend's identity/who the person is,cue
+30,location near a pier,cue

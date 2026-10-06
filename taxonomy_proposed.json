@@ -1,0 +1,330 @@
+{
+  "generated_date": "2026-10-01",
+  "model": "claude-3-5-sonnet",
+  "fields": {
+    "cues": {
+      "run_1": {
+        "categories": [
+          {
+            "name": "Camera Models",
+            "definition": "Phrases identifying a specific camera model used to take a photo.",
+            "examples": [
+              "camera model name EOS 90D",
+              "camera model name EOS 450D",
+              "camera model name PENTAX K-S2"
+            ]
+          },
+          {
+            "name": "Tested Search Terms",
+            "definition": "Specific single-word search queries mentioned as having been tried in the photo app.",
+            "examples": [
+              "search term 'golf'",
+              "search term 'car'",
+              "search term 'dog'"
+            ]
+          },
+          {
+            "name": "Pet Names",
+            "definition": "Phrases referring to the name or label given to a pet, used for identification or search.",
+            "examples": [
+              "dog's name Roscoe",
+              "dog's name (Anubis)",
+              "pet's name recorded in the photo's Info field"
+            ]
+          },
+          {
+            "name": "Named Locations",
+            "definition": "Phrases giving a specific proper-noun place name associated with a photo.",
+            "examples": [
+              "location name - Penn Station",
+              "location name - Havelock Island",
+              "location name - Pee Pee Township, Ohio"
+            ]
+          },
+          {
+            "name": "RAW File Formats",
+            "definition": "Phrases describing the RAW image file type or extension of a photo.",
+            "examples": [
+              "file type/format is RAW or RAF",
+              "specific RAW extension .arw",
+              "file type is RAW format"
+            ]
+          },
+          {
+            "name": "Editing Actions/Apps",
+            "definition": "Phrases referencing specific apps or actions used to edit and save a photo.",
+            "examples": [
+              "photos were edited with Snapseed",
+              "edited with Magic Eraser",
+              "saved via Save a Copy"
+            ]
+          },
+          {
+            "name": "Source Device of Transfer",
+            "definition": "Phrases indicating which prior device the photos were taken on or transferred from.",
+            "examples": [
+              "transferred via data cable from Pixel 7",
+              "uploaded photos from Pixel 3",
+              "original quality photos came from Pixel 2"
+            ]
+          },
+          {
+            "name": "Locked Folder Details",
+            "definition": "Phrases concerning the setup, access, or security of a locked photo folder.",
+            "examples": [
+              "the exact pattern/passcode for the locked folder",
+              "locked folder is visible on another account",
+              "that they set it up with a pattern passcode"
+            ]
+          }
+        ]
+      },
+      "run_2": {
+        "categories": [
+          {
+            "name": "Camera Model Names",
+            "definition": "Phrases identifying the specific camera model used to take a photo.",
+            "examples": [
+              "camera model name EOS 90D",
+              "camera model name PENTAX K-S2",
+              "camera model name EOS 450D"
+            ]
+          },
+          {
+            "name": "Specific Location Names",
+            "definition": "Phrases naming a specific, identifiable place where photos were taken.",
+            "examples": [
+              "location name - Penn Station",
+              "location name - Pee Pee Township, Ohio",
+              "location name - Havelock Island"
+            ]
+          },
+          {
+            "name": "Quoted Search Terms",
+            "definition": "Phrases referencing a specific quoted keyword used to search for photos.",
+            "examples": [
+              "search term 'map'",
+              "search term 'cars'",
+              "search term 'Christmas tree'"
+            ]
+          },
+          {
+            "name": "Pet Names",
+            "definition": "Phrases referring to the name or label of a pet used for identification or search.",
+            "examples": [
+              "dog's name Roscoe",
+              "dog's name (Anubis)",
+              "pet's name/label used in search"
+            ]
+          },
+          {
+            "name": "Face Grouping Feature Status",
+            "definition": "Phrases describing whether the face/people grouping feature was enabled, disabled, or found in a certain state.",
+            "examples": [
+              "face grouping setting existed and was found disabled",
+              "face grouping setting is enabled",
+              "face grouping setting is turned on"
+            ]
+          },
+          {
+            "name": "Photo Description Text",
+            "definition": "Phrases about text manually added as a description or caption to a photo.",
+            "examples": [
+              "the description text added to the photo",
+              "custom description text added to the image",
+              "exact description text added to photo"
+            ]
+          },
+          {
+            "name": "Source App of Photos",
+            "definition": "Phrases identifying the application through which a photo originated or was received.",
+            "examples": [
+              "source app of photo (WhatsApp)",
+              "source app of the photos is WhatsApp",
+              "source app (Xender)"
+            ]
+          },
+          {
+            "name": "Animal Subjects",
+            "definition": "Phrases describing the type of animal depicted as the subject of a photo.",
+            "examples": [
+              "subject is a dog",
+              "subject is a bee",
+              "subject is a groundhog"
+            ]
+          }
+        ]
+      },
+      "run_3": {
+        "categories": [
+          {
+            "name": "Search Keywords Used",
+            "definition": "Specific search terms or keywords that were used to locate photos.",
+            "examples": [
+              "search term 'golf'",
+              "search term 'dog'",
+              "keyword 'yellow truck'"
+            ]
+          },
+          {
+            "name": "Camera/Device Model",
+            "definition": "Information identifying the specific camera or device model used to capture a photo.",
+            "examples": [
+              "device model used to take the photo",
+              "camera model name PENTAX K-S2",
+              "camera model name EOS 90D"
+            ]
+          },
+          {
+            "name": "Face Grouping Feature Status",
+            "definition": "References to the on/off status or activation of the face/person grouping feature.",
+            "examples": [
+              "face grouping setting is enabled",
+              "face grouping setting is turned on",
+              "enabled face/similar face grouping feature"
+            ]
+          },
+          {
+            "name": "Photo Date Metadata",
+            "definition": "Information about the date or time a photo was taken.",
+            "examples": [
+              "date of photo",
+              "specific date taken",
+              "the time the photo was taken"
+            ]
+          },
+          {
+            "name": "Location Metadata",
+            "definition": "Information describing where a photo was taken.",
+            "examples": [
+              "location where photo was taken",
+              "general location of the photo",
+              "the place/location where photo was taken"
+            ]
+          },
+          {
+            "name": "Photo Captions and Descriptions",
+            "definition": "Text, labels, or descriptions manually added to a photo.",
+            "examples": [
+              "the caption assigned to the photo",
+              "the label or name they gave the photo",
+              "manually entered description text"
+            ]
+          },
+          {
+            "name": "File Naming Conventions",
+            "definition": "Details about the naming pattern or exact filename of photos/videos.",
+            "examples": [
+              "original filename format/pattern used by phone",
+              "file naming convention for recent screen recordings",
+              "exact filename of the photo"
+            ]
+          },
+          {
+            "name": "Person Identity",
+            "definition": "The name or identity label assigned to a specific person in photos.",
+            "examples": [
+              "the person's name",
+              "person's name/identity tag",
+              "name/label used for the person"
+            ]
+          },
+          {
+            "name": "Car Details",
+            "definition": "Descriptive details about a car shown in a photo, such as make, model, or color.",
+            "examples": [
+              "car make and model",
+              "the car make/model (Camaro)",
+              "color of the car"
+            ]
+          },
+          {
+            "name": "Album Naming",
+            "definition": "The name or title given to a photo album or folder.",
+            "examples": [
+              "album/folder name",
+              "the album title",
+              "name of the album"
+            ]
+          }
+        ]
+      },
+      "run_4": {
+        "categories": [
+          {
+            "name": "Camera Models",
+            "definition": "Phrases naming a specific camera model used to take a photo.",
+            "examples": [
+              "camera model name EOS 90D",
+              "camera model name PENTAX K-S2",
+              "camera model name EOS 450D"
+            ]
+          },
+          {
+            "name": "File Formats",
+            "definition": "Phrases referencing the specific file format or extension of an image.",
+            "examples": [
+              "specific RAW extension .arw",
+              "file type/format is RAW or RAF",
+              "file extension/type (.dng/RAW)"
+            ]
+          },
+          {
+            "name": "Named Locations",
+            "definition": "Phrases identifying a specific named place where a photo was taken.",
+            "examples": [
+              "location name - Pee Pee Township, Ohio",
+              "location name - Havelock Island",
+              "location name - Penn Station"
+            ]
+          },
+          {
+            "name": "Search Terms Used",
+            "definition": "Phrases describing a specific keyword or phrase used to search for photos.",
+            "examples": [
+              "search term 'dog'",
+              "search term 'map'",
+              "search term 'Christmas tree'"
+            ]
+          },
+          {
+            "name": "Document Types",
+            "definition": "Phrases identifying the type of official document depicted in a photo.",
+            "examples": [
+              "passport photo",
+              "the document type was a Global Entry Card",
+              "the document type was a passport"
+            ]
+          },
+          {
+            "name": "Backup Confirmations",
+            "definition": "Phrases indicating confirmation that a backup or transfer process completed successfully.",
+            "examples": [
+              "received confirmation email of successful transfer",
+              "backup activated",
+              "received a backup successful message"
+            ]
+          },
+          {
+            "name": "Trash/Archive Checks",
+            "definition": "Phrases describing user actions of checking trash or archive folders for missing photos.",
+            "examples": [
+              "checked trash is empty",
+              "checked trash",
+              "checked archive folder"
+            ]
+          },
+          {
+            "name": "Album Naming",
+            "definition": "Phrases referring to the name or title assigned to a photo album.",
+            "examples": [
+              "album name 'England'",
+              "album was named Hangouts",
+              "name of the album"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

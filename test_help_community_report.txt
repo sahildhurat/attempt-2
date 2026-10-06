@@ -1,0 +1,213 @@
+Threads attempted: 20
+Threads parsed: 5
+Parse failures: {'279126945': 'No messages returned', '335183130': 'No messages returned', '469087972': 'No messages returned', '386734173': 'No messages returned', '331073108': 'No messages returned', '386355759': 'No messages returned', '428893341': 'No messages returned', '281161401': 'No messages returned', '255377380': 'No messages returned', '399196085': 'No messages returned', '396422199': 'No messages returned', '454282999': 'No messages returned', '463161725': 'No messages returned', '456548820': 'No messages returned', '271175463': 'No messages returned'}
+Units produced: 112
+Average units per thread: 22.40
+Total reply count: 107
+Character-length deciles: {'10%': 35, '20%': 35, '30%': 37, '40%': 37, '50%': 39, '60%': 48, '70%': 58, '80%': 75, '90%': 117}
+
+3 COMPLETE THREADS VERBATIM:
+--- THREAD 261327223 ---
+Title: Automatic album doesn't work properly
+[OP]
+Want to become a Product Expert?
+
+[REPLY 1]
+Vous voulez devenir un Expert Produit ?
+
+[REPLY 2]
+MÃ¶chten Sie Produktexperte werden?
+
+[REPLY 3]
+Bagaimana cara mem-backup foto saya?\
+
+[REPLY 4]
+Come faccio a effettuare il backup delle mie foto?\
+
+[REPLY 5]
+Vuoi diventare un Esperto di prodotto?
+
+[REPLY 6]
+è³ªåã®ã¿ã¤ãã«ãå ¥åï¼è³ªåã®æ¬æã¯æé ï¼ãèª¬æãã¦æç¨¿ãããã«ãå ¥åãã ããï¼
+
+[REPLY 7]
+Chcesz zostaÄ Ekspertem Produktowym?
+
+[REPLY 8]
+Como faço backup das minhas fotos?\
+
+[REPLY 9]
+Quer se tornar um Expert em Produtos?
+
+[REPLY 10]
+Укажите здесь тему вопроса (детальное описание Вашего вопроса можно добавить в шаге 3 \
+
+[REPLY 11]
+Ð¥Ð¾ÑÐ¸ÑÐµ ÑÑÐ°ÑÑ Ð­ÐºÑÐ¿ÐµÑÑÐ¾Ð¼ Ð¿Ð¾ Ð¿ÑÐ¾Ð´ÑÐºÑÐ°Ð¼?
+
+[REPLY 12]
+¿Cómo hago una copia de seguridad de mis fotos?\
+
+[REPLY 13]
+Â¿Quieres convertirte en un Experto de Producto?
+
+[REPLY 14]
+à¸«à¸²à¸à¸à¹à¸­à¸à¸à¸²à¸£à¹à¸à¹à¸ Product Experts
+
+[REPLY 15]
+Fotoğraflarımı nasıl yedeklerim?\
+
+[REPLY 16]
+ÃrÃ¼n UzmanÄ± olmak ister misiniz?
+
+[REPLY 17]
+Làm thế nào để sao lưu ảnh của tôi?\
+
+[REPLY 18]
+Báº¡n muá»n trá» thÃ nh má»t ChuyÃªn gia sáº£n pháº©m?
+
+[REPLY 19]
+Automatic album doesn't work properly
+
+[REPLY 20]
+setting to the Storage Saver setting.\u003c/div\u003e\ \u003cdiv\u003eThe \
+
+[REPLY 21]
+folder in Google Drive starts using storage when the corresponding photos in Google Photos are deleted.\u003c/div\u003e\ \u003cdiv\u003eSo, when deleting from Photos, you may also need to delete the Google Photos folder in this location, if you have one.\u003c/div\u003e\ \u003cdiv\u003ePlease note that this is a legacy folder from the past and is no longer updated.\u003c/div\u003e\ \u003cdiv\u003eDelete incompatible videos at this link (or via \
+
+[REPLY 22]
+). You can also check here (on this Archived Albums page). There may be photos using storage that don't appear in Google Photos, for example Hangouts product photos. To reclaim storage used by Drive or Gmail, you must delete the items. Please note that the Google Photos folder in Drive may start using storage when the corresponding photos are deleted from Google Photos. Photos sent using Backup and Sync on a computer may use storage in the computer section of Drive when they don't make it to Google Photos - for example, unsupported RAW files. &nbsp; Google Photos Product Experts. &nbsp; I hope I got it resolved! _______________________________________________________________________________________________ Did you receive a helpful response? Check the âYESâ and âokâ buttons and help our Google photos community.
+
+--- THREAD 454057897 ---
+Title: How delete photos from google photos , where it doesn’t contain photo that are tagged
+[OP]
+Want to become a Product Expert?
+
+[REPLY 1]
+Vous voulez devenir un Expert Produit ?
+
+[REPLY 2]
+MÃ¶chten Sie Produktexperte werden?
+
+[REPLY 3]
+Bagaimana cara mem-backup foto saya?\
+
+[REPLY 4]
+Come faccio a effettuare il backup delle mie foto?\
+
+[REPLY 5]
+Vuoi diventare un Esperto di prodotto?
+
+[REPLY 6]
+è³ªåã®ã¿ã¤ãã«ãå ¥åï¼è³ªåã®æ¬æã¯æé ï¼ãèª¬æãã¦æç¨¿ãããã«ãå ¥åãã ããï¼
+
+[REPLY 7]
+Chcesz zostaÄ Ekspertem Produktowym?
+
+[REPLY 8]
+Como faço backup das minhas fotos?\
+
+[REPLY 9]
+Quer se tornar um Expert em Produtos?
+
+[REPLY 10]
+Укажите здесь тему вопроса (детальное описание Вашего вопроса можно добавить в шаге 3 \
+
+[REPLY 11]
+Ð¥Ð¾ÑÐ¸ÑÐµ ÑÑÐ°ÑÑ Ð­ÐºÑÐ¿ÐµÑÑÐ¾Ð¼ Ð¿Ð¾ Ð¿ÑÐ¾Ð´ÑÐºÑÐ°Ð¼?
+
+[REPLY 12]
+¿Cómo hago una copia de seguridad de mis fotos?\
+
+[REPLY 13]
+Â¿Quieres convertirte en un Experto de Producto?
+
+[REPLY 14]
+à¸«à¸²à¸à¸à¹à¸­à¸à¸à¸²à¸£à¹à¸à¹à¸ Product Experts
+
+[REPLY 15]
+Fotoğraflarımı nasıl yedeklerim?\
+
+[REPLY 16]
+ÃrÃ¼n UzmanÄ± olmak ister misiniz?
+
+[REPLY 17]
+Làm thế nào để sao lưu ảnh của tôi?\
+
+[REPLY 18]
+Báº¡n muá»n trá» thÃ nh má»t ChuyÃªn gia sáº£n pháº©m?
+
+[REPLY 19]
+I am not able to filter photos those are not useful for me. Basically I want only those photos which I tagged with name and relationship&nbsp;
+
+--- THREAD 279449991 ---
+Title: Google photos is not tagging my baby's photo
+[OP]
+Want to become a Product Expert?
+
+[REPLY 1]
+Vous voulez devenir un Expert Produit ?
+
+[REPLY 2]
+MÃ¶chten Sie Produktexperte werden?
+
+[REPLY 3]
+Bagaimana cara mem-backup foto saya?\
+
+[REPLY 4]
+Come faccio a effettuare il backup delle mie foto?\
+
+[REPLY 5]
+Vuoi diventare un Esperto di prodotto?
+
+[REPLY 6]
+è³ªåã®ã¿ã¤ãã«ãå ¥åï¼è³ªåã®æ¬æã¯æé ï¼ãèª¬æãã¦æç¨¿ãããã«ãå ¥åãã ããï¼
+
+[REPLY 7]
+Chcesz zostaÄ Ekspertem Produktowym?
+
+[REPLY 8]
+Como faço backup das minhas fotos?\
+
+[REPLY 9]
+Quer se tornar um Expert em Produtos?
+
+[REPLY 10]
+Укажите здесь тему вопроса (детальное описание Вашего вопроса можно добавить в шаге 3 \
+
+[REPLY 11]
+Ð¥Ð¾ÑÐ¸ÑÐµ ÑÑÐ°ÑÑ Ð­ÐºÑÐ¿ÐµÑÑÐ¾Ð¼ Ð¿Ð¾ Ð¿ÑÐ¾Ð´ÑÐºÑÐ°Ð¼?
+
+[REPLY 12]
+¿Cómo hago una copia de seguridad de mis fotos?\
+
+[REPLY 13]
+Â¿Quieres convertirte en un Experto de Producto?
+
+[REPLY 14]
+à¸«à¸²à¸à¸à¹à¸­à¸à¸à¸²à¸£à¹à¸à¹à¸ Product Experts
+
+[REPLY 15]
+Fotoğraflarımı nasıl yedeklerim?\
+
+[REPLY 16]
+ÃrÃ¼n UzmanÄ± olmak ister misiniz?
+
+[REPLY 17]
+Làm thế nào để sao lưu ảnh của tôi?\
+
+[REPLY 18]
+Báº¡n muá»n trá» thÃ nh má»t ChuyÃªn gia sáº£n pháº©m?
+
+[REPLY 19]
+My Google photos have created face based folders for everyone in my gallery but it's not creating any folder for my new born baby girl since she was born more than two months ago. I tried creating it manually but that also did not work.
+
+[REPLY 20]
+>Troubleshooting Guide for Face Groups
+
+[REPLY 21]
+Volunteer Contributor in Google Product Forums
+
+[REPLY 22]
+Diamond Product Expert - Google One, Google Drive ðPlatinum Product Expert - Files by Google, Google Photos ð Gold Product Expert - Android ð¥ Google Local Guide Level 10 ðTop Contributor in Crowdsource by Google ðï¸Engineer and Tech Evangelist ð¨âð»
+

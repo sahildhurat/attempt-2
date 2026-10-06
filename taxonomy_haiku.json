@@ -1,0 +1,1352 @@
+{
+  "breakdown": {
+    "run_1": {
+      "categories": [
+        {
+          "name": "Indexing Delays",
+          "definition": "Photos exist but are temporarily unavailable in search results due to processing or indexing not yet being completed.",
+          "examples": [
+            "Newly created albums do not appear in search results, possibly due to indexing delay, while older albums are searchable",
+            "Delayed indexing - the photo had not yet been processed/indexed by Google Photos search",
+            "Search performed too soon after backup, before the new description/keyword had time to be indexed (\"settle\"), so the photo did not appear in results."
+          ]
+        },
+        {
+          "name": "Sync/Upload Failures",
+          "definition": "Photos fail to appear in Google Photos because they were not properly uploaded, synced, or backed up to the cloud service.",
+          "examples": [
+            "The photo was not uploading/syncing and there was no error or progress indicator shown, so the user could not tell why it wasn't appearing on the PC",
+            "Photos copied into the Drive-linked Google Photos folder did not appear in Google Photos despite finished syncing and correct dates.",
+            "Photo appears missing from Google Photos, implied to be due to failed or incomplete upload/sync"
+          ]
+        },
+        {
+          "name": "Edited/Modified Content",
+          "definition": "Edited versions of photos or modified metadata do not appear in search or display results correctly.",
+          "examples": [
+            "The edited file was not being displayed/surfaced in search even though it existed",
+            "The saved copy of the edited photo does not appear in Recently Added or anywhere else, and the app seems to revert to showing the original image instead of the edited copy",
+            "Google Photos could not distinguish edited photos within a bulk upload, so keyword searches like \"edited\" don't work natively"
+          ]
+        },
+        {
+          "name": "Facial Recognition Issues",
+          "definition": "Face detection, face grouping, or face-based search is not working correctly or is missing faces.",
+          "examples": [
+            "The \"(Me)\" identifier is incorrectly assigned to the friend's face group (James) instead of the user's own face group (Gideon), causing \"Me\" searches to return the friend's photos.",
+            "Google Photos is no longer recognizing new faces, so face search fails to retrieve photos of the new grandchild even after her name was added",
+            "Face detection is inconsistent/incomplete - after uploading a large batch of photos, only a small fraction of faces get detected and the process stalls after the first week with no documented way to restart it"
+          ]
+        },
+        {
+          "name": "Low Precision Search Results",
+          "definition": "Search returns many irrelevant or incorrect results that do not match the query, or includes too many false positives.",
+          "examples": [
+            "Search returned irrelevant green-colored objects (peppers, bushes, stoplights, bottles) instead of the actual green car, even with Gemini enabled, and Gemini falsely claimed to have found images while withholding others it had.",
+            "The search returned many irrelevant results unrelated to the search term (e.g., trains, lakes, restaurants, menus, scooter shops) while missing a large portion of the actual relevant photos, resulting in low precision and recall for most keyword searches except a few like 'fence', 'reflection', and 'waterfall'.",
+            "The search returned mostly irrelevant results (191 photos unrelated to the intended concept) and only a few of the many relevant concert photos, suggesting poor semantic matching for the search term."
+          ]
+        },
+        {
+          "name": "Low Recall Search Results",
+          "definition": "Search returns very few results or incomplete subsets when many matching photos should be found.",
+          "examples": [
+            "The AI-based search now fails to retrieve most matching images, finding only a recent cluster plus a couple old ones, missing the majority of relevant photos and including irrelevant results, whereas the older keyword search used to find nearly all matches.",
+            "Search now returns only a small subset of \"Best Matches\" instead of all photos matching the location, after a long load time",
+            "Search function only returns a tiny subset of matching photos (6 results) instead of the full set, across all devices, for an extended period of time."
+          ]
+        },
+        {
+          "name": "Search Feature Removal",
+          "definition": "A search capability that previously existed or was expected is no longer available or supported.",
+          "examples": [
+            "No search function for album titles; only manual browsing is available",
+            "Google Photos lacks reverse image/drag-and-drop search within one's own library, face recognition fails on old Polaroids, and text search isn't sufficient to find a specific photo among tens of thousands.",
+            "Google Photos does not support advanced/empty filter searches with multiple attributes or exclusion operators, and support staff could not explain how to achieve this"
+          ]
+        },
+        {
+          "name": "Keyword Indexing Degradation",
+          "definition": "Search functionality for specific keywords or text has degraded, stopped working, or changed behavior over time.",
+          "examples": [
+            "Search functionality stopped recognizing common keyword searches, returning zero or very few irrelevant results instead of the expected photos",
+            "Google Photos' object/content recognition search feature degraded over time, returning far fewer or irrelevant results compared to before",
+            "Search terms that previously worked (paintbucket, bucket, paint) returned no results, indicating the search function's indexing/recognition had degraded or changed."
+          ]
+        },
+        {
+          "name": "Content Filtering/Censorship",
+          "definition": "Search terms or content are blocked, censored, or filtered by Google Photos, preventing access to matching photos.",
+          "examples": [
+            "The search term \"tattoo\" appears to be blocked or filtered by Google Photos, similar to banned NSFW terms, even though the content is not NSFW, so it returns zero results including for photos with \"tattoo\" explicitly in the description.",
+            "Google Photos blocked/censored the search term \"THC\", preventing normal search results",
+            "Gemini search fails to understand natural language queries and censors results containing certain flagged words (e.g., pornhub), refusing to help even when content isn't NSFW"
+          ]
+        },
+        {
+          "name": "Metadata Mismatch",
+          "definition": "Photos are not searchable or displayable because their metadata (date, location, description) is incorrect, misaligned, or not respected.",
+          "examples": [
+            "Google Photos did not respect the edited EXIF date metadata and instead sorted the photo by its upload date, so it did not appear in chronological order by date taken.",
+            "The photos found by search may have incorrect or mismatched date metadata, so they don't appear when browsing the Feb 2020 date range in the main Google Photos view.",
+            "Search no longer matches the tagged keywords/descriptions and instead returns irrelevant results"
+          ]
+        },
+        {
+          "name": "OCR/Text Recognition Failure",
+          "definition": "Text-in-image search or optical character recognition is not working correctly, failing to match visible text in photos.",
+          "examples": [
+            "Search returned far fewer results than expected and failed to match photos of tags that actually contained the visible text \"Trina Turk\", indicating broken text/OCR recognition in photo search",
+            "Text-in-image search functionality appears degraded or broken, possibly due to a disabled setting",
+            "Google Photos' text search (OCR-based) failed to match a word that was clearly visible in the image, suggesting inconsistent indexing or OCR performance"
+          ]
+        },
+        {
+          "name": "Date Search Issues",
+          "definition": "Searching or filtering by date taken, upload date, or date range is not working correctly.",
+          "examples": [
+            "The search engine returns recent photos sorted by storage order instead of matching the typed keyword/year, ignoring the actual search query",
+            "Date search no longer returns results regardless of input format, possibly a bug",
+            "An app update appears to have broken the date-search feature, causing it to return random/irrelevant results instead of filtering by the specific month and day, with sort options that don't resolve the issue."
+          ]
+        },
+        {
+          "name": "Display/UI Issues",
+          "definition": "Photos or features are not visible in the user interface even though the data exists or the feature should be available.",
+          "examples": [
+            "No UI selection/filter existed for 'recently added' in the Android app",
+            "The main Photos tab fails to display photos from Feb 2020, even though they still exist and have correct metadata, indicating a display/indexing bug rather than missing data",
+            "The 'Recently Added' option was not visible/available in the normal UI, requiring a workaround"
+          ]
+        },
+        {
+          "name": "Cross-Platform Inconsistency",
+          "definition": "Search or display behavior differs between different versions or platforms (mobile app vs. web, Android vs. iOS).",
+          "examples": [
+            "Searching for the pet's name in the Google Photos mobile app on the Pixel returns no results, even though the same search on the Windows PC browser version finds the pictures, suggesting a discrepancy in how the app indexes or searches the Info/description field compared to the web version.",
+            "Inconsistent search results between phone app and laptop browser versions of Google Photos",
+            "The map/heatmap view with zoom functionality available on the mobile app does not seem to exist on the web version of Google Photos, so the location cannot be pinpointed without a named place."
+          ]
+        },
+        {
+          "name": "Filename Search Limitations",
+          "definition": "Search by filename is not working, not supported, or does not match filenames as expected.",
+          "examples": [
+            "Search by filename is not supported; instead the search engine matches the date portion of the filename and returns all photos taken on that date rather than the exact file",
+            "Search by file name stopped working, returning no results and prompting to try a synonym or more general keyword instead",
+            "The search engine ignores everything after the underscore in the filename, treating it as a prefix match on the date portion only, rather than matching the exact full filename."
+          ]
+        },
+        {
+          "name": "Gemini AI Integration Issues",
+          "definition": "Problems introduced or caused by the integration of Gemini AI-based search into Google Photos.",
+          "examples": [
+            "The user implies the search feature stopped working properly after Gemini was integrated into Google Photos",
+            "Classic keyword-based search was replaced by Gemini AI search, which no longer supports searching by the renamed keyword filenames the user relied on.",
+            "Gemini sorts results by relevance rather than reverse chronological order like normal search, so simple keyword searches don't behave as expected"
+          ]
+        },
+        {
+          "name": "Location Search Issues",
+          "definition": "Searching or filtering by location, place, or geographic information is not working correctly or not available.",
+          "examples": [
+            "The location is remote/in the middle of nowhere, so Google Photos does not generate a named location that can be searched for text-based location search.",
+            "The album name coincided with a location name (e.g., \"England\"), causing confusion or failure in search since it matched a place rather than a distinct album title.",
+            "Text-based location searches do not return all photos geotagged in that area"
+          ]
+        },
+        {
+          "name": "Backup/Account Issues",
+          "definition": "Photos are not appearing in Google Photos due to backup failures, account configuration problems, or device-specific backup settings.",
+          "examples": [
+            "Google Photos did not back up the photos properly because on iPhone the app requires being opened regularly to trigger backup, unlike Android where backup is automatic.",
+            "Photos not syncing/backing up properly, possibly due to being on a different account, local-only display, incomplete backup, or app setup still in progress",
+            "Keyword search only indexes/returns photos backed up from the old phone (2023 or earlier); newer photos from the current phone are not indexed or searchable, despite being backed up."
+          ]
+        },
+        {
+          "name": "Data Loss",
+          "definition": "Photos have been deleted, corrupted, or permanently removed from Google Photos.",
+          "examples": [
+            "The photos were deleted from Google Photos and are not present in local device storage (Files app/Pictures folder or local Photos app), making them unrecoverable through normal local search.",
+            "Data loss - most of the photos from that time window are missing from Google Photos, with only a handful remaining; some photos are also partially corrupted or render as noise",
+            "Deleting photos in Google Photos did not actually free up storage, suggesting the files were moved to some unseen recycle bin folder rather than deleted, and the user cannot locate this bin via search."
+          ]
+        }
+      ]
+    },
+    "run_2": {
+      "categories": [
+        {
+          "name": "Search Quality Degradation",
+          "definition": "Issues where search functionality has become less effective over time, returning fewer relevant results, more irrelevant results, or no results for queries that previously worked.",
+          "examples": [
+            "The search returned many irrelevant results unrelated to the search term (e.g., trains, lakes, restaurants, menus, scooter shops) while missing a large portion of the actual relevant photos, resulting in low precision and recall for most keyword searches except a few like 'fence', 'reflection', and 'waterfall'.",
+            "Google Photos' object/content recognition search feature degraded over time, returning far fewer or irrelevant results compared to before",
+            "Search terms that previously worked (paintbucket, bucket, paint) returned no results, indicating the search function's indexing/recognition had degraded or changed."
+          ]
+        },
+        {
+          "name": "AI Search Limitations",
+          "definition": "Problems arising from Google Photos' shift to AI-based (Gemini) search, including reduced support for keyword matching, natural language misunderstandings, or content censoring.",
+          "examples": [
+            "Classic keyword-based search was replaced by Gemini AI search, which no longer supports searching by the renamed keyword filenames the user relied on.",
+            "Gemini search fails to understand natural language queries and censors results containing certain flagged words (e.g., pornhub), refusing to help even when content isn't NSFW",
+            "Google appears to have switched to an AI-based image search that requires very specific, detailed context rather than simple keyword matches, causing short or one/two word searches to fail overnight."
+          ]
+        },
+        {
+          "name": "Indexing & Processing Delays",
+          "definition": "Issues where photos or metadata are not immediately searchable after upload, backup, or modification because Google Photos has not yet processed or indexed them.",
+          "examples": [
+            "The description text had not yet been indexed by Google Photos at the time of searching",
+            "Search did not work immediately because indexing had not yet completed",
+            "Processing delay - Google Photos takes time (2-3 weeks) to process and automatically recognize/add new photos to an existing face group"
+          ]
+        },
+        {
+          "name": "Text & OCR Search Failure",
+          "definition": "Issues where text-based search fails to find photos containing visible text, whether from image OCR, photo descriptions, overlays, or filenames.",
+          "examples": [
+            "Google Photos stopped searching the text in the Info/description field, so keyword searches for terms added there returned no results.",
+            "Text/OCR-based search within screenshots has become inconsistent or stopped working recently, despite previously functioning well",
+            "Google Photos' text search (OCR-based) failed to match a word that was clearly visible in the image, suggesting inconsistent indexing or OCR performance"
+          ]
+        },
+        {
+          "name": "Face Recognition Failure",
+          "definition": "Issues where facial recognition is not working properly, including failure to detect new faces, incorrect face grouping, or inability to search by person's name.",
+          "examples": [
+            "Google Photos is no longer recognizing new faces, so face search fails to retrieve photos of the new grandchild even after her name was added",
+            "The \"(Me)\" identifier is incorrectly assigned to the friend's face group (James) instead of the user's own face group (Gideon), causing \"Me\" searches to return the friend's photos.",
+            "Face detection is inconsistent/incomplete - after uploading a large batch of photos, only a small fraction of faces get detected and the process stalls after the first week with no documented way to restart it"
+          ]
+        },
+        {
+          "name": "Date Search Issues",
+          "definition": "Problems where searching, filtering, or browsing by date returns incorrect results, including all photos from a date instead of specific ones, or failure to display photos by date range.",
+          "examples": [
+            "Searching by date returns all photos from that day rather than the single specific photo matching the exact filename, since the user has many photos from that same date.",
+            "An app update appears to have broken the date-search feature, causing it to return random/irrelevant results instead of filtering by the specific month and day, with sort options that don't resolve the issue.",
+            "Date search no longer returns results regardless of input format, possibly a bug"
+          ]
+        },
+        {
+          "name": "Sync & Backup Failure",
+          "definition": "Issues where photos are not properly backed up, synced, or appearing in Google Photos despite being uploaded or existing in linked accounts/folders.",
+          "examples": [
+            "Photos not syncing/backing up properly, possibly due to being on a different account, local-only display, incomplete backup, or app setup still in progress",
+            "Photos that were reportedly backed up successfully did not appear in the app, cause unknown",
+            "Photos copied into the Drive-linked Google Photos folder did not appear in Google Photos despite finished syncing and correct dates."
+          ]
+        },
+        {
+          "name": "Location Search Limitations",
+          "definition": "Issues where location-based search or filtering is unavailable, incomplete, or returns incorrect results, including missing map features or inability to search unmapped locations.",
+          "examples": [
+            "The map/heatmap view with zoom functionality available on the mobile app does not seem to exist on the web version of Google Photos, so the location cannot be pinpointed without a named place.",
+            "Search now returns only a small subset of \"Best Matches\" instead of all photos matching the location, after a long load time",
+            "The location is remote/in the middle of nowhere, so Google Photos does not generate a named location that can be searched for text-based location search."
+          ]
+        },
+        {
+          "name": "Filename Search Issues",
+          "definition": "Problems where search does not accurately match filenames, including over-matching on date portions, requiring exact formatting, or not supporting filename-based search at all.",
+          "examples": [
+            "Search does not match exact filename substrings; instead it over-matches on partial tokens (e.g. just the year \"2022\"), returning irrelevant results instead of exact filename matches.",
+            "Search by filename is not supported; instead the search engine matches the date portion of the filename and returns all photos taken on that date rather than the exact file",
+            "The user initially may have misread or searched using a dash instead of the correct tilde symbol in the filename, causing confusion in locating the file."
+          ]
+        },
+        {
+          "name": "Album Search & Access",
+          "definition": "Issues where albums cannot be found through search, are not visible in the interface, or lack direct search/filtering capabilities.",
+          "examples": [
+            "Google Photos previously lacked the ability to search for album titles directly, making it impossible to locate a specific album without browsing",
+            "The Hangouts album disappeared from the normal Google Photos/Google Plus interface, making it inaccessible through regular navigation",
+            "The 'Recently Added' option was not visible/available in the normal UI, requiring a workaround"
+          ]
+        },
+        {
+          "name": "Editing & Display Issues",
+          "definition": "Problems where edited photos are not saved, displayed, or indexed properly, or where the app reverts to showing original images instead of edits.",
+          "examples": [
+            "The saved copy of the edited photo does not appear in Recently Added or anywhere else, and the app seems to revert to showing the original image instead of the edited copy",
+            "Google Photos cannot distinguish edited photos within a bulk upload, so keyword searches like \"edited\" don't work natively",
+            "The edited file was not being displayed/surfaced in search even though it existed"
+          ]
+        },
+        {
+          "name": "Filter & Sort Limitations",
+          "definition": "Issues where Google Photos lacks specific filtering or sorting options, or where existing sort/filter features don't work as expected.",
+          "examples": [
+            "Google Photos lacks direct tag support and has limited search/sort capabilities, so there's no built-in way to filter specifically for slow-motion videos",
+            "Unable to combine multiple search criteria (person + date + exclusion) into one search/album in Google Photos",
+            "Google Photos does not support advanced/empty filter searches with multiple attributes or exclusion operators, and support staff could not explain how to achieve this"
+          ]
+        },
+        {
+          "name": "Storage & Deletion Issues",
+          "definition": "Problems where photos are not properly deleted, storage is not freed, or photos remain accessible through unexpected mechanisms after deletion attempts.",
+          "examples": [
+            "Deleting photos from Google Drive did not remove them from 'Your photos', which still displays photos shared through Google Talk",
+            "Google Photos could only identify 24 of thousands of backed-up photos for deletion and then errored out while attempting to delete even those, likely because the photos reside on the SD card rather than internal storage",
+            "Deleting photos in Google Photos did not actually free up storage, suggesting the files were moved to some unseen recycle bin folder rather than deleted, and the user cannot locate this bin via search."
+          ]
+        },
+        {
+          "name": "Search Result Inconsistency",
+          "definition": "Issues where search results differ between different versions, devices, or accounts, or where the same search produces inconsistent results over time.",
+          "examples": [
+            "Inconsistent search results between phone app and laptop browser versions of Google Photos",
+            "Searching for the pet's name in the Google Photos mobile app on the Pixel returns no results, even though the same search on the Windows PC browser version finds the pictures, suggesting a discrepancy in how the app indexes or searches the Info/description field compared to the web version.",
+            "Keyword search only indexes/returns photos backed up from the old phone (2023 or earlier); newer photos from the current phone are not indexed or searchable, despite being backed up."
+          ]
+        },
+        {
+          "name": "Content Recognition Issues",
+          "definition": "Issues where Google Photos' AI fails to properly recognize or categorize photo content, including misidentifying objects, animals, or categorizing items incorrectly.",
+          "examples": [
+            "The pictures might confuse Google's AI, implying search/categorization issues with such photos",
+            "Searching for the actual subject (groundhog) returned no results, and searching for the mislabeled category (dog) only returned a handful of mostly irrelevant photos instead of the many dog photos actually present.",
+            "Search returned irrelevant green-colored objects (peppers, bushes, stoplights, bottles) instead of the actual green car, even with Gemini enabled, and Gemini falsely claimed to have found images while withholding others it had."
+          ]
+        },
+        {
+          "name": "Metadata & Sorting Problems",
+          "definition": "Issues where photo metadata (dates, EXIF data, locations) is incorrect, not recognized, or causes sorting and display problems.",
+          "examples": [
+            "Google Photos did not respect the edited EXIF date metadata and instead sorted the photo by its upload date, so it did not appear in chronological order by date taken.",
+            "Camera-added location metadata cannot be edited or removed in Google Photos, unlike estimated or manually added locations.",
+            "The photos found by search may have incorrect or mismatched date metadata, so they don't appear when browsing the Feb 2020 date range in the main Google Photos view."
+          ]
+        },
+        {
+          "name": "Banned Search Terms",
+          "definition": "Issues where specific search terms are blocked, filtered, or censored by Google Photos, preventing normal searches even for non-NSFW content.",
+          "examples": [
+            "Certain words (like \"fat\") in the query seem to cause zero results, and general search quality has degraded so queries return far fewer relevant results than before.",
+            "The search term \"tattoo\" appears to be blocked or filtered by Google Photos, similar to banned NSFW terms, even though the content is not NSFW, so it returns zero results including for photos with \"tattoo\" explicitly in the description.",
+            "Google Photos blocked/censored the search term \"THC\", preventing normal search results"
+          ]
+        },
+        {
+          "name": "Partial Match & Substring Issues",
+          "definition": "Problems where partial or substring search fails to work, or where search interprets partial queries incorrectly by over-matching or under-matching.",
+          "examples": [
+            "Partial/substring search term did not match the OCR text, so searching only part of the word \"kero\" failed to retrieve the image even though the full word \"kerokero\" worked.",
+            "Search requires a fairly specific device name; a generic term like 'iPhone' is too vague and fails to return results.",
+            "The search engine ignores everything after the underscore in the filename, treating it as a prefix match on the date portion only, rather than matching the exact full filename."
+          ]
+        },
+        {
+          "name": "Navigation & Display Bugs",
+          "definition": "Issues where the app interface fails to display photos or navigation options correctly, including missing UI elements, glitches, or display problems.",
+          "examples": [
+            "The main Photos tab fails to display photos from Feb 2020, even though they still exist and have correct metadata, indicating a display/indexing bug rather than missing data",
+            "Scrolling through older dates in the Google Photos app fails to display the photos, even though they are present and findable via date search or the web interface",
+            "The app glitched and appeared to fail to create the album"
+          ]
+        },
+        {
+          "name": "Feature Availability Gaps",
+          "definition": "Issues where Google Photos lacks specific features or search capabilities that users expect, such as reverse image search, duplicate detection, or bulk operations.",
+          "examples": [
+            "Google Photos has no built-in feature specifically for finding duplicate photos",
+            "Google Photos lacks reverse image/drag-and-drop search within one's own library, face recognition fails on old Polaroids, and text search isn't sufficient to find a specific photo among tens of thousands.",
+            "No search feature exists or is known to search by photographer identity"
+          ]
+        },
+        {
+          "name": "User Confusion & Misunderstanding",
+          "definition": "Issues where the user misunderstood a feature, setting, or search result, rather than the feature itself being broken.",
+          "examples": [
+            "The user misunderstood the 'free up space' feature, thinking it would delete backed-up junk files, but it actually removed local copies from the phone/gallery, leaving only the cloud backup as the sole remaining copy, which they now can't delete without losing the files entirely.",
+            "Without knowing the time the photo was taken, the user is unable to locate it in the normal chronological photo search/browsing.",
+            "The user did not know the filename including extension of the screen recording"
+          ]
+        }
+      ]
+    },
+    "run_3": {
+      "categories": [
+        {
+          "name": "Search Not Indexing",
+          "definition": "Search failures where content exists but hasn't been indexed yet, or indexing is incomplete or delayed.",
+          "examples": [
+            "Search performed too soon after backup, before the new description/keyword had time to be indexed (\"settle\"), so the photo did not appear in results.",
+            "The description text had not yet been indexed by Google Photos at the time of searching",
+            "Delayed indexing - the photo had not yet been processed/indexed by Google Photos search"
+          ]
+        },
+        {
+          "name": "AI Search Degradation",
+          "definition": "Search quality has declined after AI integration or algorithm changes, returning fewer relevant results or irrelevant content compared to previous performance.",
+          "examples": [
+            "The AI-based search now fails to retrieve most matching images, finding only a recent cluster plus a couple old ones, missing the majority of relevant photos and including irrelevant results, whereas the older keyword search used to find nearly all matches.",
+            "The user implies the search feature stopped working properly after Gemini was integrated into Google Photos",
+            "The search algorithm/feature appears to have changed or degraded, now returning irrelevant results under new \"most recent\" and \"best match\" categories instead of accurately matching objects, text, or captions as before."
+          ]
+        },
+        {
+          "name": "Face Recognition Failure",
+          "definition": "Facial recognition and face-based search not functioning correctly, including inability to detect, match, or search for specific people.",
+          "examples": [
+            "Google Photos is no longer recognizing new faces, so face search fails to retrieve photos of the new grandchild even after her name was added",
+            "Facial recognition doesn't run on photos added by friends to the user's album, and the user cannot edit the description of those photos, so the photo isn't indexed by name.",
+            "Search fails to return results whenever a pet's name is included in the query, despite pets being registered as faces with many associated photos"
+          ]
+        },
+        {
+          "name": "Date Search Malfunction",
+          "definition": "Search or filtering by date is broken, returning incorrect results, all-day results instead of specific dates, or no results.",
+          "examples": [
+            "An app update appears to have broken the date-search feature, causing it to return random/irrelevant results instead of filtering by the specific month and day, with sort options that don't resolve the issue.",
+            "The app's search returns random, unrelated photos instead of filtering by the specified date",
+            "Date search no longer returns results regardless of input format, possibly a bug"
+          ]
+        },
+        {
+          "name": "Keyword Search Not Matching",
+          "definition": "Text-based keyword and description search fails to match relevant photos despite the search terms being present in image content, descriptions, or metadata.",
+          "examples": [
+            "The AI search failed to match the descriptive keywords entered by the user to the relevant photo",
+            "Google Photos search does not index or recognize the added text overlay or the manually entered description, so searching for those terms fails to surface the image.",
+            "Google Photos stopped searching the text in the Info/description field, so keyword searches for terms added there returned no results."
+          ]
+        },
+        {
+          "name": "Text/OCR Search Failing",
+          "definition": "Optical character recognition (OCR) and text-in-image search is not working or has become inconsistent, failing to match visible text in photos.",
+          "examples": [
+            "Search returned far fewer results than expected and failed to match photos of tags that actually contained the visible text \"Trina Turk\", indicating broken text/OCR recognition in photo search",
+            "Google Photos' text search (OCR-based) failed to match a word that was clearly visible in the image, suggesting inconsistent indexing or OCR performance",
+            "Text-based location searches do not return all photos geotagged in that area"
+          ]
+        },
+        {
+          "name": "Upload/Sync Not Complete",
+          "definition": "Photos have not successfully uploaded, synced, or backed up to Google Photos, remaining inaccessible or missing.",
+          "examples": [
+            "Photo appears missing from Google Photos, implied to be due to failed or incomplete upload/sync",
+            "The photo was not uploading/syncing and there was no error or progress indicator shown, so the user could not tell why it wasn't appearing on the PC",
+            "Photos not syncing/backing up properly, possibly due to being on a different account, local-only display, incomplete backup, or app setup still in progress"
+          ]
+        },
+        {
+          "name": "Album/Collection Not Found",
+          "definition": "Albums, collections, or grouped content are not appearing in search, navigation, or expected UI locations.",
+          "examples": [
+            "The Hangouts album disappeared from the normal Google Photos/Google Plus interface, making it inaccessible through regular navigation",
+            "Searching for the exact album title term returned no results, despite the album having just been created with that title.",
+            "Search stopped matching album titles, so searching partial album name text no longer surfaced the album/photos; best match and most recent results were poor."
+          ]
+        },
+        {
+          "name": "Search Result Limitations",
+          "definition": "Search returns an unexpectedly small subset of matching results or cannot be narrowed/expanded as needed.",
+          "examples": [
+            "The search/filter by people only returned one result instead of the many photos that should match",
+            "Search results became limited to only one old photo (from 2018) instead of all museum visits, with no clear reason given",
+            "New search only returned 2 photos and falsely indicated there were no more results, despite many matching photos existing"
+          ]
+        },
+        {
+          "name": "Content Missing/Deleted",
+          "definition": "Photos or data have been deleted, lost, or are no longer present in Google Photos or local storage.",
+          "examples": [
+            "The photos were deleted from Google Photos and are not present in local device storage (Files app/Pictures folder or local Photos app), making them unrecoverable through normal local search.",
+            "Data loss - most of the photos from that time window are missing from Google Photos, with only a handful remaining; some photos are also partially corrupted or render as noise",
+            "Deleting photos from Google Drive did not remove them from 'Your photos', which still displays photos shared through Google Talk"
+          ]
+        },
+        {
+          "name": "Search Filter Limitations",
+          "definition": "Google Photos lacks specific search or filtering features, or cannot combine multiple search criteria together.",
+          "examples": [
+            "Unable to combine multiple search criteria (person + date + exclusion) into one search/album in Google Photos",
+            "Google Photos does not support advanced/empty filter searches with multiple attributes or exclusion operators, and support staff could not explain how to achieve this",
+            "Google Photos lacks direct tag support and has limited search/sort capabilities, so there's no built-in way to filter specifically for slow-motion videos"
+          ]
+        },
+        {
+          "name": "Metadata/Sorting Issue",
+          "definition": "Photos are not sorting correctly by date, location, or other metadata, or metadata has not been respected in search/display.",
+          "examples": [
+            "Google Photos did not respect the edited EXIF date metadata and instead sorted the photo by its upload date, so it did not appear in chronological order by date taken.",
+            "The search engine returns recent photos sorted by storage order instead of matching the typed keyword/year, ignoring the actual search query",
+            "Scrolling through the timeline view shows far fewer photos than actually exist for that period, suggesting a display/sync bug in the chronological scroll view"
+          ]
+        },
+        {
+          "name": "Filename Search Not Working",
+          "definition": "Search by filename or file-naming conventions is not matching correctly or is not supported.",
+          "examples": [
+            "Search does not match exact filename substrings; instead it over-matches on partial tokens (e.g. just the year \"2022\"), returning irrelevant results instead of exact filename matches.",
+            "Search by filename does not distinguish the exact filename without the \"(0)\" suffix, returning both similarly named files instead of only the exact match",
+            "The search engine ignores everything after the underscore in the filename, treating it as a prefix match on the date portion only, rather than matching the exact full filename."
+          ]
+        },
+        {
+          "name": "Search Term Blocked",
+          "definition": "Specific search terms are blocked, filtered, censored, or produce no results despite content existing.",
+          "examples": [
+            "Searching for \"women\" returns no results (blank), even though photos containing women exist, including family photos with both men and women that only appear under \"men\" search",
+            "Google Photos blocked/censored the search term \"THC\", preventing normal search results",
+            "The search term \"tattoo\" appears to be blocked or filtered by Google Photos, similar to banned NSFW terms, even though the content is not NSFW, so it returns zero results including for photos with \"tattoo\" explicitly in the description."
+          ]
+        },
+        {
+          "name": "Location Search Issue",
+          "definition": "Search or filtering by location/geotag is not working correctly or lacks expected functionality.",
+          "examples": [
+            "The location is remote/in the middle of nowhere, so Google Photos does not generate a named location that can be searched for text-based location search.",
+            "The map/heatmap view with zoom functionality available on the mobile app does not seem to exist on the web version of Google Photos, so the location cannot be pinpointed without a named place.",
+            "The heat map / map view methods allow isolating a location but do not support filtering results to only videos, so photos and videos remain mixed together."
+          ]
+        },
+        {
+          "name": "Inconsistent Cross-Platform Search",
+          "definition": "Search results or functionality differ between different versions or platforms (mobile app vs. web, iOS vs. Android, etc.).",
+          "examples": [
+            "Searching for the pet's name in the Google Photos mobile app on the Pixel returns no results, even though the same search on the Windows PC browser version finds the pictures, suggesting a discrepancy in how the app indexes or searches the Info/description field compared to the web version.",
+            "The user states iOS Photos search is inferior to Google Photos, so they continue to rely on Google Photos for searching old photos rather than the native app.",
+            "Inconsistent search results between phone app and laptop browser versions of Google Photos"
+          ]
+        },
+        {
+          "name": "Feature Change/Removal",
+          "definition": "Google Photos removed, replaced, or changed a search or navigation feature that users relied on.",
+          "examples": [
+            "Classic keyword-based search was replaced by Gemini AI search, which no longer supports searching by the renamed keyword filenames the user relied on.",
+            "Google changed the default search results to no longer separate photos by date, making it harder to browse/find photos chronologically.",
+            "Google Photos previously lacked the ability to search for album titles directly, making it impossible to locate a specific album without browsing"
+          ]
+        }
+      ]
+    },
+    "run_4": {
+      "categories": [
+        {
+          "name": "Search Algorithm Degradation",
+          "definition": "Cases where search functionality has declined in quality, returning fewer relevant results, more irrelevant results, or changed behavior compared to previous performance.",
+          "examples": [
+            "The search no longer reliably returns relevant results for descriptive queries that used to work; it either returns nothing or returns mostly irrelevant results (e.g., photos of paintings with a person in the shot instead of actual portraits).",
+            "Google Photos' object/content recognition search feature degraded over time, returning far fewer or irrelevant results compared to before",
+            "The AI-based search now fails to retrieve most matching images, finding only a recent cluster plus a couple old ones, missing the majority of relevant photos and including irrelevant results, whereas the older keyword search used to find nearly all matches."
+          ]
+        },
+        {
+          "name": "Indexing & Processing Delays",
+          "definition": "Cases where search fails because Google Photos has not yet processed, indexed, or recognized newly added or modified content.",
+          "examples": [
+            "Delayed indexing - the photo had not yet been processed/indexed by Google Photos search",
+            "Search may fail if performed too soon after uploading, before Google Photos has finished processing/indexing the images for text recognition",
+            "Processing delay - Google Photos takes time (2-3 weeks) to process and automatically recognize/add new faces to an existing face group"
+          ]
+        },
+        {
+          "name": "OCR & Text Search Failures",
+          "definition": "Cases where text-based or OCR search fails to match visible text within images or manually added descriptions.",
+          "examples": [
+            "Google Photos' text search (OCR-based) failed to match a word that was clearly visible in the image, suggesting inconsistent indexing or OCR performance",
+            "Partial/substring search term did not match the OCR text, so searching only part of the word \"kero\" failed to retrieve the image even though the full word \"kerokero\" worked.",
+            "Typing the exact text contained in the image into the search bar on the phone returns no results"
+          ]
+        },
+        {
+          "name": "Filename Search Malfunction",
+          "definition": "Cases where search by filename does not work as expected, including prefix matching, symbol misinterpretation, or complete failure.",
+          "examples": [
+            "Search by file name stopped working, returning no results and prompting to try a synonym or more general keyword instead",
+            "The search engine ignores everything after the underscore in the filename, treating it as a prefix match on the date portion only, rather than matching the exact full filename.",
+            "Search by filename does not distinguish the exact filename without the \"(0)\" suffix, returning both similarly named files instead of only the exact match"
+          ]
+        },
+        {
+          "name": "Face Detection & Recognition Issues",
+          "definition": "Cases where face detection is incomplete, inconsistent, or fails to recognize specific individuals despite being registered or having many associated photos.",
+          "examples": [
+            "Face detection is inconsistent/incomplete - after uploading a large batch of photos, only a small fraction of faces get detected and the process stalls after the first week with no documented way to restart it",
+            "Google Photos is no longer recognizing new faces, so face search fails to retrieve photos of the new grandchild even after her name was added",
+            "Search fails to return results whenever a pet's name is included in the query, despite pets being registered as faces with many associated photos"
+          ]
+        },
+        {
+          "name": "Keyword & Description Search Failures",
+          "definition": "Cases where keyword, tag, or description-based searches fail to return results despite matching content existing with those terms.",
+          "examples": [
+            "Google Photos stopped searching the text in the Info/description field, so keyword searches for terms added there returned no results.",
+            "Search no longer matches the tagged keywords/descriptions and instead returns irrelevant results",
+            "The search no longer returns the image using any partial or full match of the manually input description, including terms that previously worked"
+          ]
+        },
+        {
+          "name": "Multi-Criteria Search Limitations",
+          "definition": "Cases where Google Photos cannot combine multiple search filters or criteria in a single query.",
+          "examples": [
+            "Unable to combine multiple search criteria (person + date + exclusion) into one search/album in Google Photos",
+            "Switching to \"most recent\" sort order discarded the search filter and displayed all photos instead of just the relevant search results in chronological order",
+            "Combining a date_range query with any other search term returns no results"
+          ]
+        },
+        {
+          "name": "Date-Based Search Problems",
+          "definition": "Cases where searching or filtering by date fails, returns incorrect results, or does not work as expected.",
+          "examples": [
+            "The app's search returns random, unrelated photos instead of filtering by the specified date",
+            "An app update appears to have broken the date-search feature, causing it to return random/irrelevant results instead of filtering by the specific month and day, with sort options that don't resolve the issue.",
+            "Date search no longer returns results regardless of input format, possibly a bug"
+          ]
+        },
+        {
+          "name": "Content-Specific Search Filters",
+          "definition": "Cases where Google Photos lacks built-in search or filtering options for specific content types or attributes.",
+          "examples": [
+            "The heat map / map view methods allow isolating a location but do not support filtering results to only videos, so photos and videos remain mixed together.",
+            "Google Photos lacks direct tag support and has limited search/sort capabilities, so there's no built-in way to filter specifically for slow-motion videos",
+            "Searching the term \"burst\" does not return burst photos, and there is no Burst category in Explore to filter by"
+          ]
+        },
+        {
+          "name": "Gemini AI Search Issues",
+          "definition": "Cases where the newer Gemini-based AI search performs poorly compared to traditional keyword search or fails to understand natural language queries.",
+          "examples": [
+            "Gemini sorts results by relevance rather than reverse chronological order like normal search, so simple keyword searches don't behave as expected",
+            "Gemini search fails to understand natural language queries and censors results containing certain flagged words (e.g., pornhub), refusing to help even when content isn't NSFW",
+            "The user implies the search feature stopped working properly after Gemini was integrated into Google Photos"
+          ]
+        },
+        {
+          "name": "Content Visibility & Display Issues",
+          "definition": "Cases where indexed or backed-up photos fail to display in the normal interface despite existing in the library.",
+          "examples": [
+            "The main Photos tab fails to display photos from Feb 2020, even though they still exist and have correct metadata, indicating a display/indexing bug rather than missing data",
+            "Scrolling through older dates in the Google Photos app fails to display the photos, even though they are present and findable via date search or the web interface",
+            "Scrolling through the timeline view shows far fewer photos than actually exist for that period, suggesting a display/sync bug in the chronological scroll view"
+          ]
+        },
+        {
+          "name": "Album Search & Navigation Failures",
+          "definition": "Cases where albums cannot be searched by title, are not indexed, or are difficult to locate through normal search.",
+          "examples": [
+            "No search function for album titles; only manual browsing is available",
+            "Search stopped matching album titles, so searching partial album name text no longer surfaced the album/photos; best match and most recent results were poor.",
+            "Searching for the exact album title term returned no results, despite the album having just been created with that title."
+          ]
+        },
+        {
+          "name": "Platform Inconsistencies",
+          "definition": "Cases where search behavior differs between Google Photos versions or platforms (e.g., mobile app vs. web browser).",
+          "examples": [
+            "Searching for the pet's name in the Google Photos mobile app on the Pixel returns no results, even though the same search on the Windows PC browser version finds the pictures, suggesting a discrepancy in how the app indexes or searches the Info/description field compared to the web version.",
+            "Inconsistent search results between phone app and laptop browser versions of Google Photos",
+            "The map/heatmap view with zoom functionality available on the mobile app does not seem to exist on the web version of Google Photos, so the location cannot be pinpointed without a named place."
+          ]
+        },
+        {
+          "name": "Search Term Filtering & Censorship",
+          "definition": "Cases where specific search terms are blocked, filtered, or censored by Google Photos, preventing normal search results.",
+          "examples": [
+            "Certain specific search terms and their synonyms appear to be banned/filtered by Google Photos search, blocking direct searches for those terms.",
+            "Google Photos blocked/censored the search term \"THC\", preventing normal search results",
+            "The search term 'WA' stopped matching WhatsApp media filenames, suggesting a change in how Google Photos indexes or searches filenames"
+          ]
+        },
+        {
+          "name": "Location-Based Search Limitations",
+          "definition": "Cases where location-based search fails due to missing location data, remote locations, or platform limitations.",
+          "examples": [
+            "The location is remote/in the middle of nowhere, so Google Photos does not generate a named location that can be searched for text-based location search.",
+            "Text-based location searches do not return all photos geotagged in that area",
+            "Uncertainty whether this location-based heat map feature exists on iOS"
+          ]
+        },
+        {
+          "name": "Backup & Sync Problems",
+          "definition": "Cases where photos fail to back up, sync, or appear in Google Photos despite being uploaded or saved to Drive.",
+          "examples": [
+            "Photo appears missing from Google Photos, implied to be due to failed or incomplete upload/sync",
+            "Photos copied into the Drive-linked Google Photos folder did not appear in Google Photos despite finished syncing and correct dates.",
+            "Saving an email attachment to the Google Photos folder in Drive does not actually sync/import the file into Google Photos, so it never appears there despite being in the correct Drive folder."
+          ]
+        },
+        {
+          "name": "Metadata & Sorting Issues",
+          "definition": "Cases where EXIF data, dates, or sorting preferences are not respected or cause unexpected search/display behavior.",
+          "examples": [
+            "Google Photos did not respect the edited EXIF date metadata and instead sorted the photo by its upload date, so it did not appear in chronological order by date taken.",
+            "The default 'most relevant' sorting did not match how the user remembers photos, making it harder to locate the desired picture",
+            "Google changed the default search results to no longer separate photos by date, making it harder to browse/find photos chronologically."
+          ]
+        },
+        {
+          "name": "Large Library Search Challenges",
+          "definition": "Cases where finding specific photos becomes impractical due to library size or search limitations without knowing identifying details.",
+          "examples": [
+            "Too many Google Drive accounts/videos to manually search through, and no reverse video search tool like Google Images' similar image search exists for video content on Drive",
+            "Too many photos to manually search through without knowing the date",
+            "Unable to locate the specific photo among hundreds of orchid photos, likely due to having a large collection of similar plant photos"
+          ]
+        },
+        {
+          "name": "Semantic & Object Search Failures",
+          "definition": "Cases where search fails to match descriptive queries, objects, or concepts that the user expects to find.",
+          "examples": [
+            "The search returned mostly irrelevant results (191 photos unrelated to the intended concept) and only a few of the many relevant concert photos, suggesting poor semantic matching for the search term.",
+            "Search returned irrelevant green-colored objects (peppers, bushes, stoplights, bottles) instead of the actual green car, even with Gemini enabled, and Gemini falsely claimed to have found images while withholding others it had.",
+            "The search returned many irrelevant results unrelated to the search term (e.g., trains, lakes, restaurants, menus, scooter shops) while missing a large portion of the actual relevant photos, resulting in low precision and recall for most keyword searches except a few like 'fence', 'reflection', and 'waterfall'."
+          ]
+        },
+        {
+          "name": "Export & Metadata Limitations",
+          "definition": "Cases where downloading or exporting photos from Google Photos loses metadata, quality, or original formatting.",
+          "examples": [
+            "Potential limitation if the user has heavy annotations, albums, or edits on the images, since the Download option only provides the images themselves without JSON metadata",
+            "Downloaded/shared files are served at reduced quality with metadata stripped, even though the owner shared them and they appear fine in the web UI, making it impossible to retrieve the true original via the album ZIP download.",
+            "Not a search failure; the reply addresses potential difficulty bulk-exporting a very large (500+ GB) photo library, not a failed memory-based search."
+          ]
+        }
+      ]
+    }
+  },
+  "workaround": {
+    "run_1": {
+      "categories": [
+        {
+          "name": "Manual Browsing",
+          "definition": "Physically scrolling through photos, albums, or timelines without using search functionality, either due to search failure or as a deliberate alternative method.",
+          "examples": [
+            "No effective workaround found; user is resorting to manually scrolling through all photos",
+            "Manually browsing through all albums one by one",
+            "Manually scrolling through thousands of product photos to find the correct one"
+          ]
+        },
+        {
+          "name": "Query Syntax Adjustment",
+          "definition": "Modifying the search query format, phrasing, or special characters (quotation marks, operators, spelling variants) to improve search results.",
+          "examples": [
+            "Put quotation marks around the file name when searching, which successfully returned the photo.",
+            "Switched to typing the date in MM-DD numeric format (e.g., \"03-15\") instead of the spelled-out month and day name",
+            "Tried multiple misspellings of the word until one ('Firepiy') happened to surface the photos."
+          ]
+        },
+        {
+          "name": "Feature Toggling",
+          "definition": "Enabling, disabling, or switching between Google Photos features and settings to restore previous functionality or avoid unwanted search behavior.",
+          "examples": [
+            "Turned off the \"Activity-based personalization\" setting in Google Photos preferences, which restored the sort option in search results",
+            "User disabled the new \"Ask Photos\" (Gemini) search feature via Settings > Preferences > Gemini features in Photos, turning off \"Search with Ask Photos\" to revert to the previous standard search.",
+            "Navigating to account settings > photo settings > preferences > Gemini and toggling Gemini off in hopes of restoring the old search feature"
+          ]
+        },
+        {
+          "name": "Location-Based Search",
+          "definition": "Using map views, heatmaps, or location metadata to find photos by geographical location rather than text-based search.",
+          "examples": [
+            "Using the location metadata of a photo to navigate to a heat map view of the area, then zooming into the desired place to browse all photos/videos taken there instead of using text search",
+            "Using the Google Photos mobile app's map/heatmap feature instead of the web version, since zooming into the map is only possible there.",
+            "User wants to use a map view (like the one available on Android) to zoom in on the specific area and find photos by location visually instead of relying on text-based location search."
+          ]
+        },
+        {
+          "name": "Face/People Filtering",
+          "definition": "Leveraging facial recognition, people tagging, and face group features to filter and narrow down search results.",
+          "examples": [
+            "Using the face/people album feature: tapping on face circles at the top to add people, then using the \"only them\" filter option to narrow results to selected faces",
+            "Searching by combining the names of two tagged people (e.g., \"Jack and Jill\") to narrow down photos containing both of them",
+            "Name faces on the Android phone app instead of the computer browser; for disappearing names, search for the name or go to the face in the info tab, open the 3-dot menu and select 'remove name label' to restore it"
+          ]
+        },
+        {
+          "name": "OCR/Text Search",
+          "definition": "Using optical character recognition to search for text visible within photos, rather than relying on filenames or metadata.",
+          "examples": [
+            "Used the exact full OCR text \"kerokero\" as the search query instead of a partial term.",
+            "Used Google Photos' text recognition (OCR) search to find the image by searching for a word appearing in the photographed text, since the saved wifi login was lost after switching phones.",
+            "Searching the full, exact filename does retrieve the target file, though it still returns many unrelated extra results."
+          ]
+        },
+        {
+          "name": "Category/Filter Selection",
+          "definition": "Using preset categories, filters, and suggestions in the search interface instead of typing text queries.",
+          "examples": [
+            "Used the Search field's category suggestions, clicking \"Show more\" to reveal and select the \"Motion photos\" filter/category instead of typing a text query.",
+            "Search by a filename substring (like 'slowmo') or by a comment string added to the video/album, or alternatively use the 'videos' section under search to browse all videos",
+            "Search Google Photos in the web browser version by typing just the filename/timestamp number directly into the search bar without any extra words or quotation marks."
+          ]
+        },
+        {
+          "name": "Platform/Interface Switching",
+          "definition": "Switching between different platforms, devices, or interfaces (web vs. mobile app, Google Photos vs. other services) to perform the same search successfully.",
+          "examples": [
+            "Used photos.google.com website instead of the mobile app to perform the same date search successfully",
+            "Switched to Classic Search using the same search term, which returned all expected photos in date order with dates shown",
+            "Used Apple Photos search on an iPad instead of Google Photos"
+          ]
+        },
+        {
+          "name": "Album Creation/Organization",
+          "definition": "Creating new albums, manually adding photos to them, or reorganizing existing albums as a workaround to improve searchability or access.",
+          "examples": [
+            "Create a new personal album with the same name and manually add all the saved photos to it so it appears in the library tab.",
+            "Manually selected all the filtered photos and added them to a newly created album instead of relying solely on search/filter functionality.",
+            "Created a dedicated album named \"FindMe\" to manually store and retrieve the photos, also tried renaming the file and searching from the uploader's account"
+          ]
+        },
+        {
+          "name": "Metadata Modification",
+          "definition": "Adding, editing, or modifying photo metadata such as descriptions, timestamps, or tags to make photos more searchable.",
+          "examples": [
+            "Copy and paste the album title into every picture's description so that search picks up the text via descriptions instead of album titles.",
+            "Manually changed all photos' timestamps per folder to a distinct uniform date so they could be selected together by date range and grouped into per-folder albums",
+            "Wait a day after adding the description text before searching again, since indexing takes time"
+          ]
+        },
+        {
+          "name": "Date-Based Retrieval",
+          "definition": "Searching by specific dates, date ranges, or date formats rather than keyword search.",
+          "examples": [
+            "Used the search bar to search for the date 'Feb 2020' instead of browsing the main Photos tab, which successfully surfaced the images organized by day",
+            "Typed 'Recently Added' into the search box to trigger the suggestion, or used a direct URL link (https://photos.google.com/search/tra) to go straight to the Recently Added photos.",
+            "Searching for the specific date instead of scrolling through the timeline"
+          ]
+        },
+        {
+          "name": "Visual/Image-Based Search",
+          "definition": "Using visual search, image similarity matching, or Lens features to find photos based on appearance rather than text.",
+          "examples": [
+            "Tried using Google Lens to search by image, but it searches the whole internet instead of just her own Google Photos library, returning unrelated strangers' Polaroids.",
+            "Used Google Photos' image search to query for the content descriptively rather than browsing manually",
+            "Asking whether Google Photos can perform a visual/image match search using the recent photo to find the older one"
+          ]
+        },
+        {
+          "name": "File Download/Export",
+          "definition": "Downloading, exporting, or obtaining photos through alternative methods such as Takeout, direct downloads, or sharing links.",
+          "examples": [
+            "Locate the photo in Google Photos, swipe up on it, and use the download option (or share directly to an app) to get a local copy",
+            "Used the \"Download\" option under the three-dot menu on the Google Photos page itself (instead of Google Takeout) to select and zip-download photos directly",
+            "Contacting the original uploader directly to obtain the full-quality original file, since the ZIP download/export does not provide it."
+          ]
+        },
+        {
+          "name": "No Workaround Found",
+          "definition": "Phrases indicating that no successful workaround or solution has been found, and the user is seeking help or acknowledging failure.",
+          "examples": [
+            "None found; the user is asking if there is a fix rather than describing one they used.",
+            "No effective workaround found; user is asking others for an alternative method.",
+            "Looked for solutions in Google Photos Help Community and via general Google search, but found no working method; no successful workaround achieved"
+          ]
+        },
+        {
+          "name": "Batch Selection/Bulk Operations",
+          "definition": "Using multi-select functionality to select and perform operations on multiple photos at once rather than individual searches.",
+          "examples": [
+            "Used multi-select (shift-click on browser or finger-drag on mobile) to select and delete all screenshots at once after searching for them.",
+            "Manually exported photos album by album from Google Photos (selecting all photos via shift-click) and re-imported them into iCloud under matching album names, rather than searching for specific images.",
+            "Used the Explore > Recently added section (sorted by upload date) with shift-click selection instead of search to locate the files."
+          ]
+        },
+        {
+          "name": "Sync/Backup Troubleshooting",
+          "definition": "Attempting to resolve search issues by restarting backups, changing sync settings, reinstalling the app, or waiting for indexing to complete.",
+          "examples": [
+            "Tried turning backup off and on again, but this did not fix the issue; could not find a solution online.",
+            "Wait and retry the search later after the backup has had time to settle, rather than testing immediately after backup.",
+            "Uninstalling and redownloading the app, and checking on another device (computer, tablet, or phone) to see if photos appear there"
+          ]
+        },
+        {
+          "name": "External Manual Tracking",
+          "definition": "Using external tools, notes, or manual record-keeping systems outside of Google Photos to track and organize photos.",
+          "examples": [
+            "Manually recording the exact date a photo/video was taken in a separate notepad app to locate it later, instead of relying on Google Photos search",
+            "Plans to manually write down progress/location fixed so far to track which photos still need location fixed, since only 50% have been fixed so far using the suggested tip",
+            "Searched month by month and kept a manual record of which months were \"done\"; also turned off auto-upload and only uploaded photos directly into albums so the \"not backed up\" cloud icon indicated un-filed photos; now maintains a daily recurring to-do task to sort, archive, and delete new photos"
+          ]
+        }
+      ]
+    },
+    "run_2": {
+      "categories": [
+        {
+          "name": "Search Query Reformulation",
+          "definition": "Modifying the search term itself\u2014changing keywords, spelling, language, format, or adding/removing punctuation\u2014to find photos that standard search missed.",
+          "examples": [
+            "Tried multiple misspellings of the word until one ('Firepiy') happened to surface the photos.",
+            "Tried rephrasing the search query (e.g., switching from \"yellow truck\" to \"pickup truck\") to capture different subsets of the results, though this caused other matches to drop out.",
+            "Searching using alternative keywords instead of the word \"tattoo\" to locate the same photos."
+          ]
+        },
+        {
+          "name": "Alternative Platform or Device",
+          "definition": "Accessing photos through a different app, website interface, device type, or service instead of the primary method that failed.",
+          "examples": [
+            "Used Google Photos on the web, clicked Photos, looked under Album, and scrolled right repeatedly until finding the greyed out albums",
+            "Used Apple Photos search on an iPad instead of Google Photos",
+            "Searching via the Google Photos web interface on a Windows PC browser instead of the mobile app"
+          ]
+        },
+        {
+          "name": "Manual Metadata or Organization",
+          "definition": "Manually adding, recording, or organizing metadata (tags, descriptions, albums, notes) to make photos findable or to work around search limitations.",
+          "examples": [
+            "Copy and paste the album title into every picture's description so that search picks up the text via descriptions instead of album titles.",
+            "Manually recording the exact date a photo/video was taken in a separate notepad app to locate it later, instead of relying on Google Photos search",
+            "Save the photos externally as Notes with Attachments in a password manager app for easier future retrieval"
+          ]
+        },
+        {
+          "name": "Visual Browsing by Attribute",
+          "definition": "Navigating through photos by scrolling, zooming, or filtering by a visual characteristic (date, location, timeline) rather than using text search.",
+          "examples": [
+            "Manually exported photos album by album from Google Photos (selecting all photos via shift-click) and re-imported them into iCloud under matching album names, rather than searching for specific images.",
+            "Zoomed in on the gallery layout in search results to reveal date headers, then clicked the down arrow on each date to see all photos from that day",
+            "Using the location metadata of a photo to navigate to a heat map view of the area, then zooming into the desired place to browse all photos/videos taken there instead of using text search"
+          ]
+        },
+        {
+          "name": "Filter or Category Selection",
+          "definition": "Using built-in filter options, preset categories, or UI controls to narrow results instead of typing a text query.",
+          "examples": [
+            "Used the Search field's category suggestions, clicking \"Show more\" to reveal and select the \"Motion photos\" filter/category instead of typing a text query.",
+            "Using the videos filter and selecting one of the limited preset locations shown (works only for those few locations, not for any arbitrary location)",
+            "Using the face/people album feature: tapping on face circles at the top to add people, then using the \"only them\" filter option to narrow results to selected faces"
+          ]
+        },
+        {
+          "name": "Settings or Feature Adjustment",
+          "definition": "Disabling, enabling, or adjusting app settings, preferences, or feature toggles to restore or change search behavior.",
+          "examples": [
+            "Turned off the \"Activity-based personalization\" setting in Google Photos preferences, which restored the sort option in search results",
+            "Navigating to account settings > photo settings > preferences > Gemini and toggling Gemini off in hopes of restoring the old search feature",
+            "User disabled the new \"Ask Photos\" (Gemini) search feature via Settings > Preferences > Gemini features in Photos, turning off \"Search with Ask Photos\" to revert to the previous standard search."
+          ]
+        },
+        {
+          "name": "File System or Export Workaround",
+          "definition": "Working with photos outside Google Photos by downloading, exporting, moving, or accessing local files to retrieve or organize them.",
+          "examples": [
+            "Downloaded the attachment to the local computer and then manually uploaded it to Google Photos.",
+            "Locate the photo in Google Photos, swipe up on it, and use the download option (or share directly to an app) to get a local copy",
+            "Use Google Takeout to export photos, convert them to .jpeg using third-party software on a computer, then undo backup settings in Google Photos"
+          ]
+        },
+        {
+          "name": "Filename or Text Recognition Search",
+          "definition": "Searching by exact or partial filenames, OCR text within photos, or filename patterns rather than general keywords or descriptions.",
+          "examples": [
+            "Searched using the partial filename/timestamp pattern and the search successfully returned the photo",
+            "Used Google Photos' text recognition (OCR) search to find the image by searching for a word appearing in the photographed text, since the saved wifi login was lost after switching phones.",
+            "Put quotation marks around the file name when searching, which successfully returned the photo."
+          ]
+        },
+        {
+          "name": "App Refresh or Reinstallation",
+          "definition": "Restarting, reinstalling, or resyncing the app or device to resolve technical issues preventing photos from appearing or being searchable.",
+          "examples": [
+            "Uninstalling and redownloading the app, and checking on another device (computer, tablet, or phone) to see if photos appear there",
+            "Tried using the \"Back up all\" option in the app/website to force a sync, but it had no effect",
+            "Tried turning backup off and on again, but this did not fix the issue; could not find a solution online."
+          ]
+        },
+        {
+          "name": "Content Re-upload or Refresh",
+          "definition": "Deleting and re-uploading photos, renaming files, or re-importing content to trigger reindexing or restore visibility and searchability.",
+          "examples": [
+            "Deleted the previously uploaded photos from Google Photos, moved the local copies into the phone's DCIM/Camera folder, and re-uploaded them, which caused them to start appearing in Memories again",
+            "Created a dedicated album named \"FindMe\" to manually store and retrieve the photos, also tried renaming the file and searching from the uploader's account",
+            "Searched for the original image's filename (e.g. PXL_12345...) in files or Google Photos, which then caused the edited file to appear"
+          ]
+        },
+        {
+          "name": "Temporal or Chronological Navigation",
+          "definition": "Finding photos by browsing through time-based views or using date-based searches rather than keyword or category searches.",
+          "examples": [
+            "Used the search function with the query 'February 2020' instead of scrolling through the timeline to find all the photos",
+            "Browsing the normal chronological timeline on photos.google.com instead of using date-based search, and manually clicking the \u25bc expander symbol to reveal hidden photos on a given date.",
+            "Searching for the specific date instead of scrolling through the timeline"
+          ]
+        },
+        {
+          "name": "Advanced Query Operators",
+          "definition": "Using special search syntax\u2014quotation marks, plus/minus signs, operators, or exact phrase formatting\u2014to refine or force specific search behavior.",
+          "examples": [
+            "Searched by the filename prefix \"RPReplay\" (or older \"ScreenRecording\") to locate screen recordings",
+            "User experimented on their own to discover that combining location with +Person and -Person operators could include/exclude specific people from search results",
+            "Searching for the term in quotation marks to bypass the block, though it only returned a few results"
+          ]
+        },
+        {
+          "name": "Descriptive or Detailed Query",
+          "definition": "Using highly specific, detailed, or descriptive search terms\u2014often combining multiple words or concepts\u2014instead of simple single-word keywords.",
+          "examples": [
+            "They used an extremely detailed, highly specific multi-word search query instead of the simple term, which successfully returned the photo as the first result.",
+            "Used Google Photos' image search to query for the content descriptively rather than browsing manually",
+            "Switched to typing the date in MM-DD numeric format (e.g., \"03-15\") instead of the spelled-out month and day name"
+          ]
+        },
+        {
+          "name": "Interface Interaction Gesture",
+          "definition": "Using specific touch gestures or UI interactions (pinch-to-zoom, tap-and-hold, shift-click) to reveal hidden information or access additional search/navigation options.",
+          "examples": [
+            "Used pinch-to-zoom gesture (learned from another user's tip) to zoom in and out of search results since the date separation feature was removed.",
+            "Tap-and-hold on the highlights tile to reveal a 'Remove' option, used in combination with turning off other settings, to remove the highlights tile from albums.",
+            "User used pinch-to-zoom gesture on the results screen to make the dates appear."
+          ]
+        },
+        {
+          "name": "Direct Contact or External Help",
+          "definition": "Reaching out to other people (original uploaders, support, the community) or using external resources to obtain or locate photos rather than using search.",
+          "examples": [
+            "Contacting the original uploader directly to obtain the full-quality original file, since the ZIP download/export does not provide it.",
+            "No successful workaround found; user is asking the community for a method",
+            "Considering contacting Google support to try to retrieve the missing photos"
+          ]
+        },
+        {
+          "name": "Waiting or Delayed Indexing",
+          "definition": "Deferring action and waiting for the system to process, index, or synchronize content before retrying the search.",
+          "examples": [
+            "Wait and retry the search later after the backup has had time to settle, rather than testing immediately after backup.",
+            "Wait a day after adding the description text before searching again, since indexing takes time",
+            "Waiting several weeks before adding new photos of a face so that automatic face grouping has time to process them"
+          ]
+        },
+        {
+          "name": "Sort or Result Order Adjustment",
+          "definition": "Changing the sort order or result ranking (e.g., from most relevant to most recent, or manually scrolling to the correct position) to find photos in search results.",
+          "examples": [
+            "Manually switching the sort toggle from 'most relevant' to 'most recent' and scrolling to the approximate date",
+            "Switched to Classic Search using the same search term, which returned all expected photos in date order with dates shown",
+            "Check the main library directly, compare app vs web results, and use broader search terms or date/location filters instead of keyword search"
+          ]
+        }
+      ]
+    },
+    "run_3": {
+      "categories": [
+        {
+          "name": "Manual Browsing",
+          "definition": "Workarounds involving manually scrolling, clicking through, or visually browsing through photos instead of using search functionality.",
+          "examples": [
+            "Manually scrolled back through photos to locate the screenshot instead of relying on search",
+            "Manually scrolling through thousands of photos to find the desired images instead of relying on search",
+            "Manually scrolling through all albums to visually locate the desired one"
+          ]
+        },
+        {
+          "name": "Search Query Modification",
+          "definition": "Workarounds that involve changing the search terms, phrasing, or format to successfully find photos.",
+          "examples": [
+            "Tried multiple misspellings of the word until one ('Firepiy') happened to surface the photos.",
+            "Switched to typing the date in MM-DD numeric format (e.g., \"03-15\") instead of the spelled-out month and day name",
+            "Searching using the English term \"thermal\" instead of the French \"thermique\""
+          ]
+        },
+        {
+          "name": "Exact Match Search",
+          "definition": "Workarounds using quotation marks, exact filenames, or precise search terms to retrieve specific photos.",
+          "examples": [
+            "Put quotation marks around the file name when searching, which successfully returned the photo.",
+            "Searching for the term in quotation marks to bypass the block, though it only returned a few results",
+            "Used the exact full OCR text \"kerokero\" as the search query instead of a partial term."
+          ]
+        },
+        {
+          "name": "Interface Selection",
+          "definition": "Workarounds involving switching between different interfaces, platforms, or versions of Google Photos.",
+          "examples": [
+            "Used the photos.google.com website instead of the mobile app to perform the same date search successfully",
+            "Switched to Classic Search using the same search term, which returned all expected photos in date order with dates shown",
+            "Searching via the Google Photos web interface on a Windows PC browser instead of the mobile app"
+          ]
+        },
+        {
+          "name": "Feature Toggle",
+          "definition": "Workarounds involving turning off or disabling specific features or settings to restore previous functionality.",
+          "examples": [
+            "User disabled the new \"Ask Photos\" (Gemini) search feature via Settings > Preferences > Gemini features in Photos, turning off \"Search with Ask Photos\" to revert to the previous standard search.",
+            "Turned off the \"Activity-based personalization\" setting in Google Photos preferences, which restored the sort option in search results",
+            "Navigating to account settings > photo settings > preferences > Gemini and toggling Gemini off in hopes of restoring the old search feature"
+          ]
+        },
+        {
+          "name": "External Organization",
+          "definition": "Workarounds involving creating albums, saving photos externally, or organizing content outside of Google Photos search.",
+          "examples": [
+            "Created a dedicated album named \"FindMe\" to manually store and retrieve the photos, also tried renaming the file and searching from the uploader's account",
+            "Create an album, search for the photos, move matching results into the album, then download and back up the album via takeout, and consider migrating to self-hosted Immich while deleting from Google Photos.",
+            "Create a new personal album with the same name and manually add all the saved photos to it so it appears in the library tab."
+          ]
+        },
+        {
+          "name": "Date-Based Navigation",
+          "definition": "Workarounds involving searching by date, using date filters, or navigating through chronological views.",
+          "examples": [
+            "Used the search bar to search for the date 'Feb 2020' instead of browsing the main Photos tab, which successfully surfaced the images organized by day",
+            "Manually scrolled through photos from 2018 and 2019 to locate the images.",
+            "Browsing the normal chronological timeline on photos.google.com instead of using date-based search, and manually clicking the \u25bc expander symbol to reveal hidden photos on a given date."
+          ]
+        },
+        {
+          "name": "Location-Based Search",
+          "definition": "Workarounds involving using map views, location metadata, or geographic navigation to find photos.",
+          "examples": [
+            "Using the location metadata of a photo to navigate to a heat map view of the area, then zooming into the desired place to browse all photos/videos taken there instead of using text search",
+            "Using the Google Photos mobile app's map/heatmap feature instead of the web version, since zooming into the map is only possible there.",
+            "User wants to use a map-based view, navigating to a remembered location to find associated photos instead of searching by date."
+          ]
+        },
+        {
+          "name": "Face/People Search",
+          "definition": "Workarounds involving using facial recognition, people tags, or person-based filters to locate photos.",
+          "examples": [
+            "Using the face/people album feature: tapping on face circles at the top to add people, then using the \"only them\" filter option to narrow results to selected faces",
+            "Searching by combining the names of two tagged people (e.g., \"Jack and Jill\") to narrow down photos containing both of them",
+            "Name faces on the Android phone app instead of the computer browser; for disappearing names, search for the name or go to the face in the info tab, open the 3-dot menu and select 'remove name label' to restore it"
+          ]
+        },
+        {
+          "name": "Text Recognition",
+          "definition": "Workarounds involving OCR, text search within photos, or searching for text visible in images.",
+          "examples": [
+            "Used Google Photos' text recognition (OCR) search to find the image by searching for a word appearing in the photographed text, since the saved wifi login was lost after switching phones.",
+            "Tried adding text overlay to the image and adding a text description to the photo in Google Photos to make it searchable, but neither worked.",
+            "Copy and paste the album title into every picture's description so that search picks up the text via descriptions instead of album titles."
+          ]
+        },
+        {
+          "name": "Metadata Check",
+          "definition": "Workarounds involving viewing, verifying, or using photo metadata like filenames, dates, or file properties.",
+          "examples": [
+            "Use the Info panel (circled \"i\") in the Google Photos app or website to view the filename and extension, or download the file to the computer to check its filename",
+            "Suggests checking the photo info pane to verify the actual recorded date metadata for the photos found via search versus those expected in the date range.",
+            "Use a photo viewer utility or Windows Explorer to view embedded metadata (create date column), and upload photos directly via the Google Photos website instead of the Drive client."
+          ]
+        },
+        {
+          "name": "Category Filter",
+          "definition": "Workarounds using built-in category filters, suggestions, or preset filters instead of text search.",
+          "examples": [
+            "Used the Search field's category suggestions, clicking \"Show more\" to reveal and select the \"Motion photos\" filter/category instead of typing a text query.",
+            "Search by a filename substring (like 'slowmo') or by a comment string added to the video/album, or alternatively use the 'videos' section under search to browse all videos",
+            "Search by the filename prefix \"RPReplay\" (or older \"ScreenRecording\") to locate screen recordings"
+          ]
+        },
+        {
+          "name": "Operator-Based Search",
+          "definition": "Workarounds involving search operators like + and - to include or exclude specific criteria in search queries.",
+          "examples": [
+            "User experimented on their own to discover that combining location with +Person and -Person operators could include/exclude specific people from search results",
+            "Deselect photos/videos that have camera-added location data when batch editing, so only editable (estimated or manual) locations are changed.",
+            "Search Google Photos in the web browser version by typing just the filename/timestamp number directly into the search bar without any extra words or quotation marks."
+          ]
+        },
+        {
+          "name": "Sync/Backup Reset",
+          "definition": "Workarounds involving uninstalling, rebooting, or resetting backup and sync settings to resolve search or display issues.",
+          "examples": [
+            "Tried using the \"Back up all\" option in the app/website to force a sync, but it had no effect",
+            "Uninstalling and redownloading the app, and checking on another device (computer, tablet, or phone) to see if photos appear there",
+            "Tried turning backup off and on again, but this did not fix the issue; could not find a solution online."
+          ]
+        },
+        {
+          "name": "Image-Based Search",
+          "definition": "Workarounds involving using image search, visual matching, or searching by similar photos instead of keywords.",
+          "examples": [
+            "Used Google Photos' image search to query for the content descriptively rather than browsing manually",
+            "Tried using Google Lens to search by image, but it searches the whole internet instead of just her own Google Photos library, returning unrelated strangers' Polaroids.",
+            "Asking whether Google Photos can perform a visual/image match search using the recent photo to find the older one"
+          ]
+        },
+        {
+          "name": "File Export/Migration",
+          "definition": "Workarounds involving exporting photos, downloading files, or migrating to alternative services.",
+          "examples": [
+            "Use Google Takeout to export photos, convert them to .jpeg using third-party software on a computer, then undo backup settings in Google Photos",
+            "Manually exported photos album by album from Google Photos (selecting all photos via shift-click) and re-imported them into iCloud under matching album names, rather than searching for specific images.",
+            "Downloaded the attachment to the local computer and then manually uploaded it to Google Photos."
+          ]
+        },
+        {
+          "name": "Recently Added View",
+          "definition": "Workarounds using the Recently Added section or feature to locate recently uploaded or modified photos.",
+          "examples": [
+            "Used the Explore > Recently added section (sorted by upload date) with shift-click selection instead of search to locate the files.",
+            "Typed 'Recently Added' into the search box to trigger the suggestion, or used a direct URL link (https://photos.google.com/search/tra) to go straight to the Recently Added photos.",
+            "Instead of searching, the user suggests browsing the \"Photos\" view near the original photo, or checking the \"Recently added\" view where the edited photo would appear first."
+          ]
+        },
+        {
+          "name": "Multi-Criteria Search",
+          "definition": "Workarounds involving combining multiple search terms, filters, or criteria to narrow down results.",
+          "examples": [
+            "They used an extremely detailed, highly specific multi-word search query instead of the simple term, which successfully returned the photo as the first result.",
+            "Tried rephrasing the search query (e.g., switching from \"yellow truck\" to \"pickup truck\") to capture different subsets of the results, though this caused other matches to drop out.",
+            "Combined the search term with the word \"screenshots\" in the query, though this did not correctly filter to text matches only within screenshots"
+          ]
+        },
+        {
+          "name": "Sort Order Adjustment",
+          "definition": "Workarounds involving changing sort settings or using visual display adjustments like zoom to reveal date information.",
+          "examples": [
+            "Used pinch-to-zoom gesture (learned from another user's tip) to zoom in and out of search results since the date separation feature was removed.",
+            "Manually switching the sort toggle from 'most relevant' to 'most recent' and scrolling to the approximate date",
+            "Zoomed in on the gallery layout in search results to reveal date headers, then clicked the down arrow on each date to see all photos from that day"
+          ]
+        },
+        {
+          "name": "Manual Timestamp Recording",
+          "definition": "Workarounds involving manually recording or modifying photo timestamps and metadata for better organization.",
+          "examples": [
+            "Manually changed all photos' timestamps per folder to a distinct uniform date so they could be selected together by date range and grouped into per-folder albums",
+            "Manually recording the exact date a photo/video was taken in a separate notepad app to locate it later, instead of relying on Google Photos search",
+            "Plans to manually write down progress/location fixed so far to track which photos still need location fixed, since only 50% have been fixed so far using the suggested tip"
+          ]
+        },
+        {
+          "name": "Settings/Preferences Adjustment",
+          "definition": "Workarounds involving changing app settings, preferences, or account configurations to enable search functionality.",
+          "examples": [
+            "Tap-and-hold on the highlights tile to reveal a 'Remove' option, used in combination with turning off other settings, to remove the highlights tile from albums.",
+            "Turned off the phone and re-entered the PIN, which caused the locked folder to reappear",
+            "Waiting several weeks before adding new photos of a face so that automatic face grouping has time to process them"
+          ]
+        }
+      ]
+    },
+    "run_4": {
+      "categories": [
+        {
+          "name": "Manual Browsing",
+          "definition": "Physical scrolling, clicking through chronological timelines, or visually examining photos/albums without using search functionality.",
+          "examples": [
+            "Manually scrolling through thousands of product photos to find the correct one",
+            "Manually scrolling through all albums to visually locate the desired one",
+            "Browsing the normal chronological timeline on photos.google.com instead of using date-based search, and manually clicking the \u25bc expander symbol to reveal hidden photos on a given date."
+          ]
+        },
+        {
+          "name": "Search Query Modification",
+          "definition": "Changing, rephrasing, or reformatting the search terms or query syntax to improve results.",
+          "examples": [
+            "Switched to typing the date in MM-DD numeric format (e.g., \"03-15\") instead of the spelled-out month and day name",
+            "Tried rephrasing the search query (e.g., switching from \"yellow truck\" to \"pickup truck\") to capture different subsets of the results, though this caused other matches to drop out.",
+            "Tried multiple misspellings of the word until one ('Firepiy') happened to surface the photos."
+          ]
+        },
+        {
+          "name": "Alternative Search Interface",
+          "definition": "Using a different platform, app version, or feature within Google Photos to perform searches (web vs. mobile, different tabs, filters).",
+          "examples": [
+            "Switched to Classic Search using the same search term, which returned all expected photos in date order with dates shown",
+            "Searching via the Google Photos web interface on a Windows PC browser instead of the mobile app",
+            "Used the photos.google.com website instead of the mobile app to perform the same date search successfully"
+          ]
+        },
+        {
+          "name": "Metadata Enhancement",
+          "definition": "Adding, editing, or modifying photo descriptions, captions, tags, or filenames to make photos more searchable.",
+          "examples": [
+            "Copy and paste the album title into every picture's description so that search picks up the text via descriptions instead of album titles.",
+            "Save the friend's photo into their own library (so facial rec/description editing applies) or add a separate text block/caption mentioning Denise.",
+            "Tried adding text overlay to the image and adding a text description to the photo in Google Photos to make it searchable, but neither worked."
+          ]
+        },
+        {
+          "name": "Feature Filtering",
+          "definition": "Using built-in filters, categories, or feature-specific search (face recognition, location, videos, motion photos) to narrow results.",
+          "examples": [
+            "Using the videos filter and selecting one of the limited preset locations shown (works only for those few locations, not for any arbitrary location)",
+            "Using the face/people album feature: tapping on face circles at the top to add people, then using the \"only them\" filter option to narrow results to selected faces",
+            "Used the Search field's category suggestions, clicking \"Show more\" to reveal and select the \"Motion photos\" filter/category instead of typing a text query."
+          ]
+        },
+        {
+          "name": "Export and Retrieval",
+          "definition": "Downloading, exporting, or transferring photos outside Google Photos to access or back them up.",
+          "examples": [
+            "Used the \"Download\" option under the three-dot menu on the Google Photos page itself (instead of Google Takeout) to select and zip-download photos directly",
+            "Locate the photo in Google Photos, swipe up on it, and use the download option (or share directly to an app) to get a local copy",
+            "Downloaded the attachment to the local computer and then manually uploaded it to Google Photos."
+          ]
+        },
+        {
+          "name": "Organizational Workaround",
+          "definition": "Creating albums, adding photos to collections, or using naming conventions to organize or track photos instead of relying on search.",
+          "examples": [
+            "Manually selected all the filtered photos and added them to a newly created album instead of relying solely on search/filter functionality.",
+            "Create a new personal album with the same name and manually add all the saved photos to it so it appears in the library tab.",
+            "Created a dedicated album named \"FindMe\" to manually store and retrieve the photos, also tried renaming the file and searching from the uploader's account"
+          ]
+        },
+        {
+          "name": "Settings Adjustment",
+          "definition": "Changing app preferences, toggles, or system settings to restore functionality or improve search behavior.",
+          "examples": [
+            "Turned off the \"Activity-based personalization\" setting in Google Photos preferences, which restored the sort option in search results",
+            "Navigating to account settings > photo settings > preferences > Gemini and toggling Gemini off in hopes of restoring the old search feature",
+            "User disabled the new \"Ask Photos\" (Gemini) search feature via Settings > Preferences > Gemini features in Photos, turning off \"Search with Ask Photos\" to revert to the previous standard search."
+          ]
+        },
+        {
+          "name": "Temporal Strategy",
+          "definition": "Using timing or waiting periods to allow background processes (indexing, syncing, face recognition) to complete before searching.",
+          "examples": [
+            "Wait a day after adding the description text before searching again, since indexing takes time",
+            "Wait and retry the search later after the backup has had time to settle, rather than testing immediately after backup.",
+            "Waiting several weeks before adding new photos of a face so that automatic face grouping has time to process them"
+          ]
+        },
+        {
+          "name": "OCR Text Search",
+          "definition": "Searching for text that appears within the photo itself using optical character recognition.",
+          "examples": [
+            "Used Google Photos' text recognition (OCR) search to find the image by searching for a word appearing in the photographed text, since the saved wifi login was lost after switching phones.",
+            "Used the exact full OCR text \"kerokero\" as the search query instead of a partial term.",
+            "Searching using alternative keywords instead of the word \"tattoo\" to locate the same photos."
+          ]
+        },
+        {
+          "name": "Visual Zoom Technique",
+          "definition": "Using pinch-to-zoom or zoom gestures on search results to reveal hidden elements like date separators.",
+          "examples": [
+            "Used pinch-to-zoom gesture (learned from another user's tip) to zoom in and out of search results since the date separation feature was removed.",
+            "Zoomed in on the gallery layout in search results to reveal date headers, then clicked the down arrow on each date to see all photos from that day",
+            "User used pinch-to-zoom gesture on the results screen to make the dates appear."
+          ]
+        },
+        {
+          "name": "Batch Operations",
+          "definition": "Selecting multiple photos at once and performing bulk actions like deletion, moving, or downloading.",
+          "examples": [
+            "Used multi-select (shift-click on browser or finger-drag on mobile) to select and delete all screenshots at once after searching for them.",
+            "Used the Explore > Recently added section (sorted by upload date) with shift-click selection instead of search to locate the files.",
+            "Manually exported photos album by album from Google Photos (selecting all photos via shift-click) and re-imported them into iCloud under matching album names, rather than searching for specific images."
+          ]
+        },
+        {
+          "name": "Device Switching",
+          "definition": "Accessing Google Photos from a different device, app version, or platform to achieve better results.",
+          "examples": [
+            "Searched month by month and kept a manual record of which months were \"done\"; also turned off auto-upload and only uploaded photos directly into albums so the \"not backed up\" cloud icon indicated un-filed photos; now maintains a daily recurring to-do task to sort, archive, and delete new photos",
+            "Used Apple Photos search on an iPad instead of Google Photos",
+            "Using the Google Photos mobile app's map/heatmap feature instead of the web version, since zooming into the map is only possible there."
+          ]
+        },
+        {
+          "name": "Location-Based Search",
+          "definition": "Using geographical metadata, maps, heatmaps, or location information to find photos instead of text search.",
+          "examples": [
+            "Using the location metadata of a photo to navigate to a heat map view of the area, then zooming into the desired place to browse all photos/videos taken there instead of using text search",
+            "User wants to use a map-based view, navigating to a remembered location to find associated photos instead of searching by date.",
+            "Asking whether Google Photos can perform a visual/image match search using the recent photo to find the older one"
+          ]
+        }
+      ]
+    }
+  }
+}
