@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The MVP walkthrough — Google Photos Retrieval Study</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
+<style>
+  :root {
+    --bg: #F3F4F6; --surface: #FFFFFF; --ink: #16181B; --secondary: #595F66;
+    --muted: #8A9199; --rule: #DEE1E5; --data: #2A6DAD; --emphasis: #C98214;
+    --failure: #A6442A; color-scheme: light;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background-color: var(--bg); color: var(--ink);
+    font-family: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+    font-size: 16px; line-height: 1.5; padding: 16px; min-height: 100vh;
+  }
+  .container {
+    max-width: 62rem; margin: 0 auto; background-color: var(--surface);
+    padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  }
+  .back { font-size: 0.875rem; color: #1a73e8; text-decoration: none; }
+  h1 { font-size: 2.1rem; line-height: 1.2; margin: 0.9rem 0 0.4rem; }
+  .subtitle { font-size: 1.05rem; color: var(--secondary); max-width: 54rem; }
+  .metadata-strip {
+    display: flex; flex-wrap: wrap; gap: 1rem; padding-bottom: 1.25rem;
+    margin-bottom: 1.5rem; border-bottom: 1px solid var(--rule);
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 0.875rem; color: var(--secondary);
+  }
+  .metadata-strip span { color: var(--ink); font-weight: 500; }
+  video {
+    width: 100%; display: block; border-radius: 8px;
+    border: 1px solid var(--rule); background: #000;
+  }
+  .caption { font-size: 0.875rem; color: var(--muted); margin-top: 0.6rem; }
+  h2 {
+    font-size: 0.875rem; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.05em; color: var(--secondary);
+    border-bottom: 1px solid var(--rule); padding-bottom: 0.5rem;
+    margin: 2.25rem 0 1rem;
+  }
+  ol { padding-left: 1.3rem; }
+  li { margin-bottom: 0.5rem; }
+  li b { font-weight: 600; }
+  .links { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.5rem; }
+  .links a {
+    display: inline-block; background: var(--data); color: #fff;
+    text-decoration: none; font-weight: 600; font-size: 0.95rem;
+    padding: 0.7rem 1.25rem; border-radius: 999px;
+  }
+  .links a.alt { background: var(--surface); color: var(--data); border: 1px solid var(--data); }
+  footer {
+    margin-top: 2.5rem; padding-top: 1.1rem; border-top: 1px solid var(--rule);
+    font-size: 0.85rem; color: var(--muted);
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <a class="back" href="index.html">&larr; Back to the findings</a>
+  <h1>The MVP walkthrough</h1>
+  <p class="subtitle">Every part of the running build, end to end: speak or type a fragment of what you
+  remember, compare the three search modes against each other, ask the person who was there, scratch the
+  daily card, and watch a phrase you saved come back as the thing that finds the photo. No sound &mdash;
+  captions are embedded, and the transcript is below.</p>
+
+  <div class="metadata-strip">
+    <div>Length: <span>7 min 43 s</span></div>
+    <div>Demo library: <span>37 items</span></div>
+    <div>Modes compared: <span>3</span></div>
+    <div>Sign-in: <span>none</span></div>
+  </div>
+
+  <video controls playsinline preload="metadata" src="mvp-walkthrough.mp4" crossorigin="anonymous">
+    <track kind="captions" src="mvp-walkthrough.vtt" srclang="en" label="English" default>
+  </video>
+  <p class="caption">Screen capture of the live build. Voice input uses the browser&rsquo;s speech API, so
+  that part needs Chrome &mdash; Brave does not support the flow. Everything else works anywhere.</p>
+
+  <h2>What the walkthrough covers</h2>
+  <ol>
+    <li><b>Four places to start</b> &mdash; Library browses, Find searches from remembered fragments, Card
+    invites a memory note, Index shows the phrases already saved against photos.</li>
+    <li><b>Speaking instead of typing</b> &mdash; voice search, and a spoken note on the daily card. The
+    recognised words appear as editable text before they are sent, so a misheard word can be corrected
+    rather than silently searched.</li>
+    <li><b>What is in the library</b> &mdash; 37 items spanning 2019&ndash;2024: 30 photos, five receipts
+    and two screenshots, with type badges so documents are findable in the grid.</li>
+    <li><b>Describing a photo in your own words</b> &mdash; a caf&eacute; with yellow walls and green
+    chairs; the build returns candidates and asks a question that distinguishes them, rather than
+    guessing.</li>
+    <li><b>Uncertainty shown rather than hidden</b> &mdash; near-identical frames are grouped as the same
+    moment, and the build says plainly that it cannot tell them apart from what it has.</li>
+    <li><b>Three modes side by side</b> &mdash; Classic keyword search, a single confident answer, and
+    The One Where. Classic returns 21 items for &ldquo;cafe&rdquo; and nothing at all for the longer vague
+    description; the single answer picks one photo and explains itself.</li>
+    <li><b>An honest no-match</b> &mdash; asked for a clinic receipt that is not in the library, the build
+    says so instead of offering the nearest thing.</li>
+    <li><b>Pass It On</b> &mdash; a two-device simulation: your search on the left, the other
+    person&rsquo;s reply on the right. It asks about the occasion, keeps both recollections when they
+    disagree, and files the reply as a deposit.</li>
+    <li><b>The scratch card</b> &mdash; reveal a forgotten photo, skip it freely, write or speak a line,
+    then search that line and watch the photo come back badged <b>YOUR WORDS</b>.</li>
+    <li><b>Your own photos</b> &mdash; the upload notice, the picker, indexing, and a search across what
+    you added. This run used ten images from the public demo library rather than private photos.</li>
+  </ol>
+
+  <h2>What the walkthrough does not show</h2>
+  <p>The capture states its own gaps rather than editing around them: the API-limit wait during indexing
+  is shortened; uploaded images without EXIF dates were grouped as a same-day set and the site warns about
+  it on screen; <b>Reset demo state</b> and <b>Delete everything</b> are shown but were not executed, so
+  their outcomes are not demonstrated; and on the classic-mode no-match, <i>&ldquo;Try describing it
+  instead&rdquo;</i> was visible but clicking it did not visibly change the mode in that run.</p>
+
+  <div class="links">
+    <a href="index.html">Read the findings</a>
+    <a class="alt" href="how-it-works.html">How the discovery engine works</a>
+    <a class="alt" href="mvp-sessions.html">The four MVP test sessions</a>
+    <a class="alt" href="workflow.html">Run the engine yourself</a>
+  </div>
+
+  <footer>Part 3 of the graduation project &mdash; the deployed MVP. Demo library included; no sign-in
+  required.</footer>
+</div>
+</body>
+</html>

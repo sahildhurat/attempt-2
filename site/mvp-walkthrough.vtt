@@ -1,0 +1,333 @@
+WEBVTT
+
+00:00.000 --> 00:05.500
+The One Where MVP walkthrough — Speak a memory, find the photo, and save
+the words that make it easier to retrieve next time. This walkthrough
+
+00:05.500 --> 00:11.000
+starts with voice input in Chrome.
+
+00:11.000 --> 00:15.500
+Four places to start — Library lets you browse. Find searches from
+remembered fragments. Card invites a memory note. Index shows the phrases
+
+00:15.500 --> 00:20.000
+saved against photos.
+
+00:20.000 --> 00:26.000
+Voice search works in Chrome — Voice is a core MVP feature: speak a memory
+instead of typing it. It works in Chrome. Use Chrome for this demo because
+
+00:26.000 --> 00:32.000
+Brave does not support the voice flow.
+
+00:32.000 --> 00:38.000
+Say what you remember — Tap the microphone, allow access if prompted, and
+say a fragment such as “a café with yellow walls and green chairs.” Review
+
+00:38.000 --> 00:44.000
+the recognised words, then send with the arrow.
+
+00:44.000 --> 00:48.500
+Speak a postcard note too — Card also offers voice input. Reveal the
+photo, tap its microphone, and say the memory you want to save. A spoken
+
+00:48.500 --> 00:53.000
+note can become a cue for finding that photo again.
+
+00:53.000 --> 00:57.500
+See what can be found — The curated demo contains 37 items: 30 photos,
+five receipts, and two screenshots, spanning 2019–2024. The count
+
+00:57.500 --> 01:02.000
+describes this demo library.
+
+01:02.000 --> 01:12.500
+Browse, open, inspect — Tap a thumbnail to open its detail sheet. Close it
+to continue browsing. Scroll to explore more of the library.
+
+01:12.500 --> 01:16.500
+More than trip photos — Receipts and screenshots appear alongside everyday
+photos. Type badges make documents and screenshots easier to spot in the
+
+01:16.500 --> 01:20.500
+grid.
+
+01:20.500 --> 01:25.000
+Read the photo context — The detail sheet shows the description, date,
+location, people, and item kind when that information is available. Close
+
+01:25.000 --> 01:29.500
+returns to the grid.
+
+01:29.500 --> 01:33.500
+Inspect a receipt — A receipt opens in the same detail sheet. You can
+inspect the original image and its date, location, and receipt
+
+01:33.500 --> 01:37.500
+classification.
+
+01:37.500 --> 01:41.500
+Jump from browsing to search — “Search for this one” opens Find with a
+short description and submits it. You can continue describing the item in
+
+01:41.500 --> 01:45.500
+your own words.
+
+01:45.500 --> 01:50.000
+Start with a fragment — Choose a suggested search or type anything you
+remember: a colour, person, object, expression, or approximate context.
+
+01:50.000 --> 01:54.500
+Use the arrow to send it.
+
+01:54.500 --> 02:00.850
+Describe it naturally — Here, a café search starts with yellow walls and
+green chairs. The MVP processes the description, shows candidate photos,
+
+02:00.850 --> 02:07.200
+and asks a follow-up question.
+
+02:07.200 --> 02:11.700
+Ask a useful next question — The expression-based example asks whether
+Priya was holding her chest. The follow-up gives the user another way to
+
+02:11.700 --> 02:16.200
+distinguish similar frames.
+
+02:16.200 --> 02:20.200
+Show uncertainty visibly — Similar photos are grouped as the same moment.
+The MVP explicitly says it cannot tell them apart from the information it
+
+02:20.200 --> 02:24.200
+has.
+
+02:24.200 --> 02:28.700
+Add another remembered clue — A follow-up can add who was there or what
+the chairs looked like. The conversation returns another candidate set and
+
+02:28.700 --> 02:33.200
+can suggest asking someone who was there.
+
+02:33.200 --> 02:39.200
+Compare three modes — Switch between Classic Search, Single answer, and
+The One Where. Classic uses a keyword result grid; Single answer selects
+
+02:39.200 --> 02:45.200
+one; The One Where supports follow-up questions.
+
+02:45.200 --> 02:53.200
+Classic: a keyword grid — A simple “cafe” keyword returns 21 items in this
+demo. The user scans thumbnails and opens whichever result looks right.
+
+02:53.200 --> 02:58.200
+Classic: no keyword match — The longer, vague description returned no
+keyword match. “Try describing it instead” was visible; clicking it did
+
+02:58.200 --> 03:03.200
+not visibly change the mode in the captured run.
+
+03:03.200 --> 03:07.700
+Single answer: one selection — Single answer responds with an explanation
+and one selected photo. The viewer can still open that photo and confirm
+
+03:07.700 --> 03:12.200
+whether it is the intended one.
+
+03:12.200 --> 03:16.700
+An honest no-match response — The clinic-receipt suggestion did not match
+an item in the curated library. The MVP said it could not find that clinic
+
+03:16.700 --> 03:21.200
+receipt or amount.
+
+03:21.200 --> 03:25.700
+Open the selected photo — The full-size viewer shows the photo and its
+available context: date, place, and people. The close control returns to
+
+03:25.700 --> 03:30.200
+the search.
+
+03:30.200 --> 03:34.700
+Tell the MVP: “That’s it” — Confirming the photo saves the words used
+during the search as cues for that image. “View your index” leads to the
+
+03:34.700 --> 03:39.200
+saved memory phrases.
+
+03:39.200 --> 03:44.200
+Ask someone who was there — An “Ask them?” suggestion opens Pass It On.
+This is a two-device simulation: the left pane is your search; the right
+
+03:44.200 --> 03:49.200
+pane demonstrates Amit’s reply.
+
+03:49.200 --> 03:54.200
+Give the other person a clue — “Ask Amit” reveals a distinguishing
+question. The café scenario offers a cold coffee, a snack jar, or the
+
+03:54.200 --> 03:59.200
+table edge, plus a free-text answer field.
+
+03:59.200 --> 04:04.200
+Keep both recollections — The café demo adds Amit’s reply and saves it as
+a deposit. It also explains the blue-versus-green chair disagreement
+
+04:04.200 --> 04:09.200
+instead of declaring one memory wrong.
+
+04:09.200 --> 04:13.700
+Try the stalled-trek scenario — The scenario buttons switch the demo. A
+stalled trek search asks about the time of reaching the summit signboard
+
+04:13.700 --> 04:18.200
+to help distinguish similar photos.
+
+04:18.200 --> 04:22.200
+A reply can be free text — The recipient can type a remembered detail
+rather than use a preset. The demo displays that reply back in the
+
+04:22.200 --> 04:26.200
+original search conversation.
+
+04:26.200 --> 04:31.200
+Use the shared memory again — Selecting the mid-morning clue adds it to
+the conversation, updates the candidate emphasis, and saves the reply as a
+
+04:31.200 --> 04:36.200
+deposit for the photo.
+
+04:36.200 --> 04:40.200
+A small reason to revisit — Card presents a hidden, forgotten photo. The
+scratch coating turns opening the memory into an interaction, with “Not
+
+04:40.200 --> 04:44.200
+this one” available to skip it.
+
+04:44.200 --> 04:49.200
+Scratch to reveal — Drag across the coating. The image gradually becomes
+visible as the scratched area grows.
+
+04:49.200 --> 04:57.200
+Skip a photo you do not want — “Not this one” loads a replacement card.
+The new image begins hidden, ready for another reveal.
+
+04:57.200 --> 05:00.200
+Reveal the next memory — Continue scratching until the coating disappears.
+The memory prompt and message field then become visible beneath the photo.
+
+05:00.200 --> 05:04.200
+The prompt is now ready — The revealed card asks “What was this?” Type or
+speak a short phrase that carries personal context the photo alone may not
+
+05:04.200 --> 05:08.200
+contain. Use Chrome for voice input.
+
+05:08.200 --> 05:12.700
+Write the memory in your words — For this demo, the sample note is “The
+cinnamon joke at our coffee catch-up.” Pressing the arrow attaches the
+
+05:12.700 --> 05:17.200
+phrase to this photo.
+
+05:17.200 --> 05:21.700
+Make the payoff immediate — The card confirms that the photo now answers
+to the saved phrase. “Try finding it” opens Find and searches that phrase
+
+05:21.700 --> 05:26.200
+immediately.
+
+05:26.200 --> 05:31.200
+Retrieve the same photo — The saved phrase retrieves this photo. The
+result quotes the note and carries a “YOUR WORDS” badge, showing the
+
+05:31.200 --> 05:36.200
+connection to the user’s memory cue.
+
+05:36.200 --> 05:44.200
+One card for today — Returning after completion shows “You’ve opened
+today’s card.” The next-card message says another will arrive tomorrow.
+
+05:44.200 --> 05:49.700
+See the phrases you have saved — Index groups remembered phrases under
+their photos, with available photo context and the note date. It brings
+
+05:49.700 --> 05:55.200
+together confirmed search words, card notes, and handoff deposits.
+
+05:55.200 --> 05:59.700
+Move beyond the curated demo — “Use your own photos” reveals the Demo
+Library / Your Photos switch. Selecting Your Photos opens the notice and
+
+05:59.700 --> 06:04.200
+the photo picker.
+
+06:04.200 --> 06:09.700
+Read the upload notice — The notice says images are resized in the browser
+and kept locally, while downscaled copies are sent for description. It
+
+06:09.700 --> 06:15.200
+also notes possible Google model-improvement use.
+
+06:15.200 --> 06:19.700
+Choose 10–60 images — The picker accepts multiple photos. This walkthrough
+used ten images already present in the public demo library, rather than
+
+06:19.700 --> 06:24.200
+private personal photos.
+
+06:24.200 --> 06:29.200
+Wait while descriptions are created — The upload run paused at “Waiting
+for API limits…” during image description. The waiting time is shortened
+
+06:29.200 --> 06:34.200
+here; all ten images later finished indexing.
+
+06:34.200 --> 06:39.200
+Inspect the indexed library — All ten selected images appear in Your
+photos with generated descriptions. In this run, missing dates caused them
+
+06:39.200 --> 06:44.200
+to be grouped as a same-day set.
+
+06:44.200 --> 06:49.700
+Dates depend on the source file — The site warned about missing EXIF
+dates. This sample detail sheet shows 7 October 2026 as its date, so that
+
+06:49.700 --> 06:55.200
+displayed date should not be treated as the original capture date.
+
+06:55.200 --> 07:00.200
+Search your uploaded collection — A description of a woman in green, iced
+coffee, and yellow café walls finds a matching uploaded image. The header
+
+07:00.200 --> 07:05.200
+makes the active collection explicit.
+
+07:05.200 --> 07:09.700
+Confirm and save a cue here too — Uploaded results use the same viewer and
+“That’s it” flow. Confirmation saves the search words against the uploaded
+
+07:09.700 --> 07:14.200
+image and provides an Index shortcut.
+
+07:14.200 --> 07:18.700
+A control for restarting the demo — The Card header includes “Reset demo
+state.” It is shown here for completeness; the reset action was not
+
+07:18.700 --> 07:23.200
+executed during the walkthrough.
+
+07:23.200 --> 07:27.700
+Delete the uploaded collection — The Your Photos notice includes “Delete
+everything.” The control is shown, but deletion was not executed, so its
+
+07:27.700 --> 07:32.200
+final outcome is not demonstrated.
+
+07:32.200 --> 07:37.700
+From a fragment to a memory cue — Browse the collection, describe a
+fragment, refine or ask someone, confirm the photo, and add personal words
+
+07:37.700 --> 07:43.200
+that make the next search easier.
