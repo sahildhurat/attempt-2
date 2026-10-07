@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MVP test sessions — Google Photos Retrieval Study</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
+<style>
+  :root {
+    --bg:#F3F4F6; --surface:#FFFFFF; --ink:#16181B; --secondary:#595F66;
+    --muted:#8A9199; --rule:#DEE1E5; --data:#2A6DAD; --emphasis:#C98214;
+    color-scheme: light;
+  }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--ink);
+    font-family:'IBM Plex Sans',system-ui,-apple-system,sans-serif;
+    font-size:16px; line-height:1.5; padding:16px; }
+  .container { max-width:54rem; margin:0 auto; background:var(--surface);
+    padding:2rem; border-radius:8px; box-shadow:0 4px 6px rgba(0,0,0,.05); }
+  .back { font-size:.875rem; color:#1a73e8; text-decoration:none; }
+  h1 { font-size:2rem; line-height:1.2; margin:.9rem 0 .4rem; }
+  .subtitle { font-size:1.05rem; color:var(--secondary); max-width:48rem; }
+  .metadata-strip { display:flex; flex-wrap:wrap; gap:1rem; padding-bottom:1.25rem;
+    margin-bottom:1rem; border-bottom:1px solid var(--rule);
+    font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:.875rem; color:var(--secondary); }
+  .metadata-strip span { color:var(--ink); font-weight:500; }
+  h2 { font-size:1.3rem; margin:2.5rem 0 .25rem; padding-top:1.25rem;
+    border-top:1px solid var(--rule); }
+  h2:first-of-type { border-top:0; padding-top:0; }
+  h3 { font-size:.8125rem; font-weight:600; text-transform:uppercase; letter-spacing:.05em;
+    color:var(--secondary); margin:1.5rem 0 .5rem; }
+  p { margin-bottom:.55rem; }
+  p.line b { color:var(--data); font-weight:600; }
+  footer { margin-top:2.5rem; padding-top:1.1rem; border-top:1px solid var(--rule);
+    font-size:.85rem; color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="container">
+  <a class="back" href="index.html">&larr; Back to the findings</a>
+  <h1>MVP test sessions</h1>
+  <p class="subtitle">Four moderated sessions on the working prototype: the participant&rsquo;s own unresolved search first, then the same hunt inside the build &mdash; classic search, the conversation, Pass it on, and the scratch card.</p>
+  <div class="metadata-strip"><div>Sessions: <span>4</span></div><div>Parts: <span>7 per session</span></div><div>Period: <span>Oct 2026</span></div></div>
+  <h2>Session 1 &mdash; Nikhil</h2>
+  <p>Profile carried forward: His original unsuccessful search was for a Hampi cafe photo: yellowish wall, Dev with cold coffee, and chairs he could not confidently recall as blue or green. He had sent his colleague alternative recommendations without finding the intended photo. Whether the original image was still in his library remained unconfirmed.</p>
+  <h3>Part 1 — His own Google Photos search</h3>
+  <p class="line"><b>Moderator</b> Think of a photo you&#x27;ve tried to find in the last month or two and struggled with. Don&#x27;t describe it yet. Open your Photos app and find it now.</p>
+  <p class="line"><b>Nikhil</b> “Okay. I&#x27;m trying that cafe again. I&#x27;ll start with ‘Hampi cafe.’”</p>
+  <p class="line"><b>action</b> Types “Hampi cafe,” then “blue chairs.” After about 1 minute 20 seconds, switches from changing queries to scrolling trip photos. Opens two restaurants that are not the intended place. Stops at about 5 minutes 30 seconds without confirming the target.</p>
+  <p>Nikhil, thinking aloud: “This has chairs, but the place is much bigger. Maybe the chairs weren&#x27;t blue. I&#x27;m back to looking through the whole trip now. I wouldn&#x27;t keep doing this while somebody&#x27;s waiting for a reply.”</p>
+  <p class="line"><b>Moderator</b> What did you actually remember about it?</p>
+  <p class="line"><b>Nikhil</b> “Dev looking sleepy with a cold coffee. A yellowish wall. We had gone on a scooter. The name and year are the bits I don&#x27;t have. The chair colour is becoming less certain the more I look.”</p>
+  <p class="line"><b>Moderator</b> Why did you type that?</p>
+  <p class="line"><b>Nikhil</b> “‘Hampi cafe’ feels like a search. ‘The place we went after getting the scooter’ feels like a message to Dev. I don&#x27;t expect a search box to understand that.”</p>
+  <p class="line"><b>Moderator</b> What would you have had to type for it to work?</p>
+  <p class="line"><b>Nikhil</b> “Probably the cafe&#x27;s name, or the correct date. Which is annoying because those are exactly what I don&#x27;t remember. I also don&#x27;t know if the photo is definitely still here.”</p>
+  <h3>Part 2 — A memory from the demo library</h3>
+  <p class="line"><b>Moderator</b> Scroll through these for a minute, the way you&#x27;d scroll your own.</p>
+  <p class="line"><b>action</b> Notices the yellow-wall cafe set. The moderator closes Library after the browse.</p>
+  <p class="line"><b>Moderator</b> Name one you&#x27;d want to find again.</p>
+  <p class="line"><b>Nikhil</b> “The small yellow cafe with the woman and a coffee. I think it had green chairs, but there were several versions. The one near the open front.”</p>
+  <p>Nikhil, at Find: “Looks like I can say what I remember rather than knowing the name. Those suggestions are quite close to how I&#x27;d explain a picture.”</p>
+  <h3>Part 3 — Classic Search</h3>
+  <p class="line"><b>Moderator</b> Find it.</p>
+  <p class="line"><b>Nikhil</b> “I&#x27;ll put ‘cafe.’”</p>
+  <p class="line"><b>action</b> Classic Search shows 21 results. He scans the grid and recognizes the general scene, but cannot identify the particular frame from his brief memory.</p>
+  <p class="line"><b>Nikhil</b> “It&#x27;s here somewhere, but I&#x27;ve also got menus, other people, everything. I still have to do the choosing. At least it&#x27;s not the whole library.”</p>
+  <h3>Part 4 — The One Where and comparison</h3>
+  <p class="line"><b>Moderator</b> Try the same thing here.</p>
+  <p>Nikhil, first query: “Small cafe, yellowish wall, a woman with cold coffee. Maybe green chairs. I think the street was visible on the left.”</p>
+  <p>turn 1: The app returns similar cafe candidates and asks whether the chairs were blue or green.</p>
+  <p>Nikhil, turn 2: “I&#x27;m not sure. Don&#x27;t remove the blue ones. I&#x27;m more sure about the open front and the coffee.”</p>
+  <p class="line"><b>action</b> The uncertainty band appears. The moderator remains silent for five seconds.</p>
+  <p>Nikhil, unprompted: “Oh. It&#x27;s saying it hasn&#x27;t actually picked the exact one. I thought the first image was its answer.”</p>
+  <p class="line"><b>Moderator</b> What did it just tell you?</p>
+  <p class="line"><b>Nikhil</b> “That several match what I said. Fine, but asking blue or green doesn&#x27;t help if that was the part I was guessing. Ask me something else, or let me look at them bigger.”</p>
+  <p>Nikhil, turn 3: “Show the ones with the street in the picture. I can&#x27;t remember enough to choose between the others.”</p>
+  <p>outcome: He has a plausible group but stops without confirming one exact frame. The search has narrowed the task; it has not completed it.</p>
+  <p class="line"><b>Moderator</b> Describe what each of those three just did.</p>
+  <p class="line"><b>Nikhil</b> “Classic gave me everything with cafe in it. Single answer chose one and talked like that was it. This one let me add the bits I remember and then admitted it still had several.”</p>
+  <p class="line"><b>Moderator</b> Which would you rather have on your phone?</p>
+  <p class="line"><b>Nikhil</b> “The One Where, for this kind of search.”</p>
+  <p class="line"><b>Moderator</b> Why?</p>
+  <p class="line"><b>Nikhil</b> “I don&#x27;t have to turn every half-memory into a separate search word. But I still want the pictures, not ten questions. When I say I&#x27;m unsure, it shouldn&#x27;t make that guess a rule.”</p>
+  <h3>Part 5 — Pass it on</h3>
+  <p class="line"><b>action</b> He notices the invitation to ask someone and opens the staged cafe handoff. The earlier search names Kavya; the handoff uses Amit. No actual message is sent.</p>
+  <p class="line"><b>Nikhil</b> “Why is it Amit now? I assume this is showing me an example. In my actual search I&#x27;d ask Dev.”</p>
+  <p class="line"><b>Moderator</b> Would you actually send that?</p>
+  <p class="line"><b>Nikhil</b> “A short question, yes. Not a quiz about a jar on the counter. Dev may remember the outing without remembering tiny things in the photo.”</p>
+  <p class="line"><b>Moderator</b> What would you have asked instead?</p>
+  <p class="line"><b>Nikhil</b> “‘Do you remember the cafe we went to on the scooter in Hampi, where you had cold coffee? Can you send any photos from that stop, or the cafe name?’ I&#x27;d avoid saying blue chairs again. That already confused us once.”</p>
+  <h3>Part 6 — The scratch card</h3>
+  <p>Mock action: Scratches the demo cafe card, pauses at the note prompt, and writes “coffee at the yellow cafe by the street.”</p>
+  <p class="line"><b>Nikhil</b> “I can&#x27;t give it a real memory because I wasn&#x27;t there. That&#x27;s just what I can see. On my own photo I&#x27;d put something like ‘Dev half asleep after the scooter ride.’”</p>
+  <p class="line"><b>Moderator</b> Would you do that again tomorrow?</p>
+  <p class="line"><b>Nikhil</b> “Maybe once more to see what comes up. Every day, probably not. I don&#x27;t want a backlog of photos I&#x27;m supposed to describe. If a useful old one appears, I&#x27;d do that one.”</p>
+  <h3>Part 7 — The payoff</h3>
+  <p class="line"><b>Moderator</b> Type the exact words you just wrote on that photo.</p>
+  <p>Mock action: Searches “coffee at the yellow cafe by the street.” The saved photo appears first with the YOUR WORDS badge.</p>
+  <p class="line"><b>Moderator</b> What just happened?</p>
+  <p class="line"><b>Nikhil</b> “It remembered my label and used that to get this photo. So next time I can search the words I actually use. That&#x27;s useful. It doesn&#x27;t find my old cafe unless I already added something to it, though.”</p>
+  <h3>Closing questions</h3>
+  <p class="line"><b>Moderator</b> If this disappeared tomorrow, what would you go back to doing?</p>
+  <p class="line"><b>Nikhil</b> “Search the place, scroll the trip, then message Dev. Or send another recommendation if I&#x27;m in a hurry.”</p>
+  <p class="line"><b>Moderator</b> When in the last month would you have used this?</p>
+  <p class="line"><b>Nikhil</b> “When my colleague asked about Hampi. I&#x27;d have put the scooter and sleepy coffee description in instead of spending ages changing colours.”</p>
+  <p class="line"><b>Moderator</b> What would you call this thing?</p>
+  <p class="line"><b>Nikhil</b> “‘That photo where…’ That&#x27;s pretty much how I ask friends.”</p>
+  <p class="line"><b>Moderator</b> What&#x27;s the one thing you&#x27;d remove?</p>
+  <p class="line"><b>Nikhil</b> “A follow-up that asks me to be certain about something I&#x27;ve already said I&#x27;m unsure about.”</p>
+  <p class="line"><b>Takeaway</b> A conversational query can preserve uncertain clues, but the next question must not force the participant to invent certainty. Nikhil&#x27;s exact-frame hunt remains unresolved; the card payoff is a separate success.</p>
+  <p>quote for discussion: “When I say I&#x27;m unsure, it shouldn&#x27;t make that guess a rule.”</p>
+  <h2>Session 2 &mdash; Prajakta</h2>
+  <p>Profile carried forward: Her original anniversary search eventually succeeded. She compared around twenty or thirty balcony frames to find a laughing expression with a mug near her face. The difficulty was choosing the exact moment after reaching the right holiday, not an inability to find any balcony photo.</p>
+  <h3>Part 1 — Her own Google Photos search</h3>
+  <p class="line"><b>Moderator</b> Think of a photo you&#x27;ve tried to find in the last month or two and struggled with. Don&#x27;t describe it yet. Open your Photos app and find it now.</p>
+  <p class="line"><b>Prajakta</b> “The laughing balcony one. I&#x27;ve found it before, but I didn&#x27;t favourite it afterward. Let me see how quickly I can get back to it.”</p>
+  <p class="line"><b>action</b> Types “balcony,” then “Manali.” After about 50 seconds, moves to opening and swiping similar holiday frames. Finds the intended frame at about 4 minutes 40 seconds. This repeat search succeeds; it is not reported as a new failure. Her original search took longer.</p>
+  <p>Prajakta, thinking aloud: “Right morning, wrong expression. This one is nicer as a photograph, actually. But it isn&#x27;t the one I printed. Here—mug tilted, eyes almost closed. That&#x27;s it.”</p>
+  <p class="line"><b>Moderator</b> What did you actually remember about it?</p>
+  <p class="line"><b>Prajakta</b> “Brown sweater, mug up, laughing instead of posing. The feeling is clearer than the exact position of my face. Once I open it I know.”</p>
+  <p class="line"><b>Moderator</b> Why did you type that?</p>
+  <p class="line"><b>Prajakta</b> “Those words get me to the scene. I don&#x27;t expect ‘laughing’ to separate all the moments where I&#x27;m laughing. The little change between two frames is the thing I care about.”</p>
+  <p class="line"><b>Moderator</b> What would you have had to type for it to work?</p>
+  <p class="line"><b>Prajakta</b> “Something like ‘the one where my eyes are nearly closed and the mug is tilted.’ But if I&#x27;ve described the expression badly, I&#x27;d still need to compare the images. I don&#x27;t want it choosing the most flattering one for me.”</p>
+  <h3>Part 2 — A memory from the demo library</h3>
+  <p class="line"><b>action</b> Browses for a minute, paying attention to the six similar laughing portraits. Library is then closed.</p>
+  <p class="line"><b>Moderator</b> Name one you&#x27;d want to find again.</p>
+  <p class="line"><b>Prajakta</b> “The woman laughing at the cafe, with her hand against her chest. One was closer and her eyes looked almost shut. I want that expression, not simply any picture of her.”</p>
+  <p>Prajakta, at Find: “I think this is trying to let me describe the moment. Let me try it before you explain anything.”</p>
+  <h3>Part 3 — Classic Search</h3>
+  <p class="line"><b>Moderator</b> Find it.</p>
+  <p class="line"><b>Prajakta</b> “I&#x27;ll try ‘cafe,’ then look for her.”</p>
+  <p class="line"><b>action</b> Classic Search returns 21 results. She finds the portrait cluster, but the small previews do not make the preferred expression easy to distinguish.</p>
+  <p class="line"><b>Prajakta</b> “I can get to the woman quite easily. Now I&#x27;m doing exactly the same opening and closing as on my phone.”</p>
+  <h3>Part 4 — The One Where and comparison</h3>
+  <p class="line"><b>Moderator</b> Try the same thing here.</p>
+  <p>Prajakta, first query: “The woman laughing at a cafe, hand near her chest, eyes almost closed. I think it was a tighter shot.”</p>
+  <p>turn 1: Similar laughing frames appear and the app asks for a distinguishing detail. The uncertainty band appears. The moderator waits five seconds.</p>
+  <p>Prajakta, unprompted: “Yes, that&#x27;s the difficult bit. These all look like the same moment.”</p>
+  <p class="line"><b>Moderator</b> What did it just tell you?</p>
+  <p class="line"><b>Prajakta</b> “That it can find the set but can&#x27;t tell which expression I mean. That&#x27;s reasonable. Now make those pictures large enough that I can decide.”</p>
+  <p>Prajakta, turn 2: “Closer, I think. But don&#x27;t treat ‘eyes closed’ as exact. She might just be looking down. Keep the nearby frames too.”</p>
+  <p class="line"><b>action</b> Opens and compares three candidate images, then selects the one she recognizes from browsing. outcome: Exact demo frame confirmed after two conversational turns plus manual comparison. The final identification comes from Prajakta inspecting the image, not from the app proving the expression match.</p>
+  <p class="line"><b>Moderator</b> Describe what each of those three just did.</p>
+  <p class="line"><b>Prajakta</b> “Classic found the subject. Single answer made the final choice for me. The One Where narrowed it and kept the uncertainty visible. It still left me a choice.”</p>
+  <p class="line"><b>Moderator</b> Which would you rather have on your phone?</p>
+  <p class="line"><b>Prajakta</b> “The One Where, with a better comparison view.”</p>
+  <p class="line"><b>Moderator</b> Why?</p>
+  <p class="line"><b>Prajakta</b> “The exact expression is personal. A sharper photo could be the wrong memory. I want help getting to the few relevant ones, then I want to make that last decision.”</p>
+  <h3>Part 5 — Pass it on</h3>
+  <p class="line"><b>action</b> After the ambiguous portrait set, she explores the ask-someone route. The staged handoff demonstrates another person&#x27;s input rather than actually contacting her partner.</p>
+  <p class="line"><b>Moderator</b> Would you actually send that?</p>
+  <p class="line"><b>Prajakta</b> “For the holiday date, yes. For choosing my expression, no. He could tell me where to look, but he wouldn&#x27;t know which tiny moment I want unless I showed him.”</p>
+  <p class="line"><b>Moderator</b> What would you have asked instead?</p>
+  <p class="line"><b>Prajakta</b> “‘Which morning at the Naggar cottage did you take the mug photos? Send me the whole little sequence if you have it.’ I&#x27;d ask for the set, not for him to pick my favourite.”</p>
+  <h3>Part 6 — The scratch card</h3>
+  <p class="line"><b>action</b> Scratches the demo cafe card and writes “yellow cafe with the street outside.”</p>
+  <p class="line"><b>Prajakta</b> “It&#x27;s pleasant to uncover the picture. But this isn&#x27;t my past, so I&#x27;m only describing it. On the balcony one I&#x27;d write ‘laughing at his terrible joke, anniversary print.’ That&#x27;s why I kept it.”</p>
+  <p class="line"><b>Moderator</b> Would you do that again tomorrow?</p>
+  <p class="line"><b>Prajakta</b> “Yes, if it showed my own photos. I might write something on an important one. I wouldn&#x27;t write on every card. Some photographs don&#x27;t need another sentence.”</p>
+  <h3>Part 7 — The payoff</h3>
+  <p class="line"><b>Moderator</b> Type the exact words you just wrote on that photo.</p>
+  <p class="line"><b>action</b> Searches “yellow cafe with the street outside.” The saved card image appears first with the YOUR WORDS badge.</p>
+  <p class="line"><b>Moderator</b> What just happened?</p>
+  <p class="line"><b>Prajakta</b> “My description has become a way back to that exact frame. Not just the cafe set. For the balcony sequence, I could mark the particular one that mattered without turning the whole holiday into an album.”</p>
+  <h3>Closing questions</h3>
+  <p class="line"><b>Moderator</b> If this disappeared tomorrow, what would you go back to doing?</p>
+  <p class="line"><b>Prajakta</b> “Search the location, compare all the frames, and finally favourite the one I don&#x27;t want to lose again.”</p>
+  <p class="line"><b>Moderator</b> When in the last month would you have used this?</p>
+  <p class="line"><b>Prajakta</b> “While collecting pictures for the anniversary print. Also the windy scarf photo from that same holiday, where searching for the monastery doesn&#x27;t directly describe the picture.”</p>
+  <p class="line"><b>Moderator</b> What would you call this thing?</p>
+  <p class="line"><b>Prajakta</b> “‘Find the moment.’ The place is usually not my problem.”</p>
+  <p class="line"><b>Moderator</b> What&#x27;s the one thing you&#x27;d remove?</p>
+  <p class="line"><b>Prajakta</b> “The need to keep switching modes and doing the same search again. Let me get alternatives from whichever answer I&#x27;m already looking at.”</p>
+  <h3>extension — 12 of her own photos</h3>
+  <p>After the core session, the moderator offers the upload exercise. It is separate from the comparable demo task. Before selection, the moderator explains that downscaled images leave the device for model description, including the screen&#x27;s notice about potential use to improve models.</p>
+  <p class="line"><b>Prajakta</b> “I&#x27;ll use twelve ordinary holiday photographs, not documents or anything private. I wouldn&#x27;t put someone&#x27;s sensitive pictures here just to test a search.”</p>
+  <p class="line"><b>action</b> Selects six frames of a holiday moment and six surrounding trip photos. Waits through the description step. This extension invents neither an actual upload nor verified model outputs.</p>
+  <p class="line"><b>Prajakta</b> “For a test, a couple of minutes is okay. I wouldn&#x27;t want to choose batches and wait like this for my entire library.”</p>
+  <p>task: Searches for the laughing mug moment. The script assumes the app narrows to the relevant sequence but still needs manual comparison, rather than assuming it can reliably distinguish subtle expressions.</p>
+  <p class="line"><b>Prajakta</b> “It&#x27;s more useful when I recognize the people. But the small difference between these two expressions still needs me. If I label the one I pick, that would help the next time.”</p>
+  <p>takeaway: Reaching the correct set and choosing the correct frame are separate stages. A comparison view and a frame-specific note may matter more than an additional question.</p>
+  <p>quote for discussion: “A sharper photo could be the wrong memory.”</p>
+  <h2>Session 3 &mdash; Shraddha</h2>
+  <p>Profile carried forward: Her original unsuccessful target was a screenshot of silver earrings with hanging white beads, saved to find the exact seller later. She tried changing object names, checked Instagram, and asked a friend, but did not confirm the original screenshot or seller. She had not established whether that screenshot was backed up.</p>
+  <h3>Part 1 — Her own Google Photos search</h3>
+  <p class="line"><b>Moderator</b> Think of a photo you&#x27;ve tried to find in the last month or two and struggled with. Don&#x27;t describe it yet. Open your Photos app and find it now.</p>
+  <p class="line"><b>Shraddha</b> “The earrings. Let me try ‘jhumka’ first.”</p>
+  <p class="line"><b>action</b> Types “jhumka,” then “silver earrings,” then “hanging earrings.” Starts opening and scrolling product screenshots at about 1 minute 45 seconds. Stops after about 6 minutes without confirming the saved design or seller.</p>
+  <p>Shraddha, thinking aloud: “These are close, but the beads are around the edge, not hanging below. This is the sort of thing I want, but finding something similar doesn&#x27;t tell me which shop I saved.”</p>
+  <p class="line"><b>Moderator</b> What did you actually remember about it?</p>
+  <p class="line"><b>Shraddha</b> “Little white beads under a curved silver piece. Maybe a hoop, maybe not a full circle. The seller was written at the bottom. I remember wanting to buy them more than I remember the words on the post.”</p>
+  <p class="line"><b>Moderator</b> Why did you type that?</p>
+  <p class="line"><b>Shraddha</b> “I keep changing the name because that&#x27;s the part I can type. ‘Jhumka’ is probably not even the right name for this shape.”</p>
+  <p class="line"><b>Moderator</b> What would you have had to type for it to work?</p>
+  <p class="line"><b>Shraddha</b> “The seller, or a description of the shape without me having to know what it&#x27;s called. But if I never backed up that screenshot, no wording is going to make it appear.”</p>
+  <h3>Part 2 — A memory from the demo library</h3>
+  <p class="line"><b>action</b> Browses for a minute. Notices that the demo screenshots are chats, not shopping posts. Library is closed.</p>
+  <p class="line"><b>Moderator</b> Name one you&#x27;d want to find again.</p>
+  <p class="line"><b>Shraddha</b> “The screenshot where people were arranging to meet at a cafe. There was another chat about a trek. I want the cafe conversation.”</p>
+  <p>Shraddha, at Find: “I think it searches the details inside the images. I&#x27;ll try it. This is a much smaller set than my screenshots, though.”</p>
+  <h3>Part 3 — Classic Search</h3>
+  <p class="line"><b>Moderator</b> Find it.</p>
+  <p class="line"><b>Shraddha</b> “Screenshot.”</p>
+  <p class="line"><b>action</b> Classic Search returns 2 results. She opens the cafe chat and confirms the task in one search. The baseline succeeds.</p>
+  <p class="line"><b>Shraddha</b> “With just two, I can pick it myself. I don&#x27;t really need help beyond getting these out of the photos.”</p>
+  <h3>Part 4 — The One Where and comparison</h3>
+  <p class="line"><b>Moderator</b> Try the same thing here.</p>
+  <p>Shraddha, first query: “The screenshot of messages about meeting at a cafe, I think before the cafe visit. Not the trek chat.”</p>
+  <p>outcome: The correct chat appears after one conversational turn and she confirms it. No splitting question or uncertainty band is triggered in this imagined task; neither is presented as an observed participant reaction.</p>
+  <p class="line"><b>Shraddha</b> “Okay, that understood the description. But the first search already got me there. I&#x27;d need to try it with actual product screenshots before I could tell you whether it fixes the earrings problem.”</p>
+  <p class="line"><b>Moderator</b> Describe what each of those three just did.</p>
+  <p class="line"><b>Shraddha</b> “Classic put the two screenshots together. Single answer gave me the cafe chat directly. The One Where also understood which chat I meant. On this example, the last two feel similar.”</p>
+  <p class="line"><b>Moderator</b> Which would you rather have on your phone?</p>
+  <p class="line"><b>Shraddha</b> “Single answer for a search like this.”</p>
+  <p class="line"><b>Moderator</b> Why?</p>
+  <p class="line"><b>Shraddha</b> “If it can show the right screenshot and I can read it, I&#x27;d rather just open it. I don&#x27;t want a conversation for something simple.”</p>
+  <p class="line"><b>Moderator</b> What would have to be true for you to prefer the other one?</p>
+  <p class="line"><b>Shraddha</b> “If there were lots of similar designs, or if I opened the answer and it wasn&#x27;t the seller I meant. Then show alternatives and let me say ‘the beads hang underneath.’ I wouldn&#x27;t want one answer to mean there are no others.”</p>
+  <h3>Part 5 — Pass it on</h3>
+  <p>method note: Her successful task does not naturally reach a handoff. After the task, the moderator opens the staged cafe handoff for a separate concept probe. The following answers are not counted as spontaneous feature discovery.</p>
+  <p class="line"><b>Moderator</b> Would you actually send that?</p>
+  <p class="line"><b>Shraddha</b> “For the earrings I&#x27;d message my friend, yes. But she wasn&#x27;t there when I saved the screenshot. ‘Someone who was there’ isn&#x27;t always the right person for this kind of image.”</p>
+  <p class="line"><b>Moderator</b> What would you have asked instead?</p>
+  <p class="line"><b>Shraddha</b> “‘Do you remember the Instagram page with those curved silver earrings and little white beads? If you still have the post or our old chat, send it.’ I wouldn&#x27;t just ask her to choose between two similar pairs.”</p>
+  <h3>Part 6 — The scratch card</h3>
+  <p class="line"><b>action</b> Scratches the cafe card and writes “yellow wall wali coffee place.”</p>
+  <p class="line"><b>Shraddha</b> “That&#x27;s how I&#x27;d say it. On a screenshot I&#x27;d probably write ‘earrings for cousin&#x27;s wedding’ instead of giving it a proper product name.”</p>
+  <p class="line"><b>Moderator</b> Would you do that again tomorrow?</p>
+  <p class="line"><b>Shraddha</b> “Probably tomorrow, to see what picture it shows. The scratch bit is fun once. Whether I write anything depends on the picture. If it&#x27;s a random bill, I&#x27;ll skip it. I don&#x27;t want to write a quote just to finish a card.”</p>
+  <h3>Part 7 — The payoff</h3>
+  <p class="line"><b>Moderator</b> Type the exact words you just wrote on that photo.</p>
+  <p class="line"><b>action</b> Searches “yellow wall wali coffee place.” The saved image appears first with the YOUR WORDS badge.</p>
+  <p class="line"><b>Moderator</b> What just happened?</p>
+  <p class="line"><b>Shraddha</b> “It saved my wording. I didn&#x27;t have to translate it into some formal title. If I had put ‘cousin&#x27;s wedding earrings’ on that screenshot when I saved it, I&#x27;d have something to search later.”</p>
+  <p>Shraddha, continuing: “But today you&#x27;ve told me to use exactly the same sentence. If I type it differently next month, that&#x27;s the test I&#x27;d want to try.”</p>
+  <p>method note: This exact saved-phrase exercise illustrates retrieval of the stored words. It does not establish multilingual understanding, translation, or retrieval from a differently worded query.</p>
+  <h3>Closing questions</h3>
+  <p class="line"><b>Moderator</b> If this disappeared tomorrow, what would you go back to doing?</p>
+  <p class="line"><b>Shraddha</b> “Photos screenshots, Instagram saved posts, and the chat with my friend. Usually I go round all three.”</p>
+  <p class="line"><b>Moderator</b> When in the last month would you have used this?</p>
+  <p class="line"><b>Shraddha</b> “When I was trying to buy those earrings. I&#x27;d describe the beads and shape instead of trying five different names. I&#x27;d still need the seller text readable.”</p>
+  <p class="line"><b>Moderator</b> What would you call this thing?</p>
+  <p class="line"><b>Shraddha</b> “‘The screenshot I saved for…’ That&#x27;s often what I actually remember.”</p>
+  <p class="line"><b>Moderator</b> What&#x27;s the one thing you&#x27;d remove?</p>
+  <p class="line"><b>Shraddha</b> “Any feeling that I must write something on the daily card. Let me skip it without making it feel unfinished.”</p>
+  <p class="line"><b>Takeaway</b> A successful, distinctive query may not need a conversation. Preference for Single answer on this small demo is compatible with needing alternatives for an ambiguous shopping screenshot.</p>
+  <p>quote for discussion: “I don&#x27;t want a conversation for something simple.”</p>
+  <h2>Session 4 &mdash; Sanjay</h2>
+  <p>Profile carried forward: His original broadband search initially produced the wrong monthly payment confirmation, despite matching the provider and ₹1,499 amount. His wife noticed an account detail that ruled it out; he then checked the plan-change period and found the correct receipt. His account has Ask Photos enabled.</p>
+  <h3>Part 1 — His own Google Photos search</h3>
+  <p class="line"><b>Moderator</b> Think of a photo you&#x27;ve tried to find in the last month or two and struggled with. Don&#x27;t describe it yet. Open your Photos app and find it now.</p>
+  <p class="line"><b>Sanjay</b> “I&#x27;ll look for that broadband payment again. ‘The broadband payment receipt for 1499.’”</p>
+  <p class="line"><b>action</b> Opens a plausible confirmation after about 55 seconds, checks its date and account details, rejects it, and then uses the provider&#x27;s plan-change message to identify the older period. Confirms the intended receipt at about 3 minutes 30 seconds. His prior mistake makes him more cautious in this repeat task.</p>
+  <p>Sanjay, thinking aloud: “Same amount, same green screen. This is why I got it wrong before. That account is the later one. I&#x27;ll check the message rather than assuming the first familiar screen is enough.”</p>
+  <p class="line"><b>Moderator</b> What did you actually remember about it?</p>
+  <p class="line"><b>Sanjay</b> “The amount, provider, and green success screen. The useful bit is that it was around the plan change, after a failed attempt. Most of that isn&#x27;t written on the successful-payment screenshot.”</p>
+  <p class="line"><b>Moderator</b> Why did you type that?</p>
+  <p class="line"><b>Sanjay</b> “It describes what I can see. I already use longer searches sometimes. The problem wasn&#x27;t that the description was false; more than one payment matched it.”</p>
+  <p class="line"><b>Moderator</b> What would you have had to type for it to work?</p>
+  <p class="line"><b>Sanjay</b> “The correct month or account detail. Or have it ask which payment I mean instead of stopping at the matching amount. A familiar layout isn&#x27;t proof of the transaction.”</p>
+  <h3>Part 2 — A memory from the demo library</h3>
+  <p class="line"><b>action</b> Browses for a minute, pausing over the similar supermarket receipts. Library is closed.</p>
+  <p class="line"><b>Moderator</b> Name one you&#x27;d want to find again.</p>
+  <p class="line"><b>Sanjay</b> “The long white shop receipt on the table. I noticed there were several that looked the same. I can&#x27;t honestly say I remember the amount.”</p>
+  <p>Sanjay, at Find: “Looks like the question is whether it can separate things that share the same description. That would matter for my bills.”</p>
+  <h3>Part 3 — Classic Search</h3>
+  <p class="line"><b>Moderator</b> Find it.</p>
+  <p class="line"><b>Sanjay</b> “Receipt.”</p>
+  <p class="line"><b>action</b> Classic Search returns 5 results. He can distinguish the cafe receipt from the supermarket-looking set, but cannot verify one intended version.</p>
+  <p class="line"><b>Sanjay</b> “It found receipts. I can&#x27;t call that finding my receipt yet. On my phone I&#x27;d open them and read dates or amounts.”</p>
+  <h3>Part 4 — The One Where and comparison</h3>
+  <p class="line"><b>Moderator</b> Try the same thing here.</p>
+  <p>Sanjay, first query: “The supermarket receipt on white paper beside a cup. I think there were several versions. I don&#x27;t remember the total.”</p>
+  <p>turn 1: The app returns similar receipts and asks for a detail that could distinguish them.</p>
+  <p>Sanjay, turn 2: “I don&#x27;t know the amount or date. Show the possibilities. Don&#x27;t choose one just because the paper looks right.”</p>
+  <p class="line"><b>action</b> The uncertainty band appears. The moderator waits five seconds.</p>
+  <p>Sanjay, unprompted: “Good. That&#x27;s the warning I didn&#x27;t give myself last time.”</p>
+  <p class="line"><b>Moderator</b> What did it just tell you?</p>
+  <p class="line"><b>Sanjay</b> “My clues don&#x27;t identify one item. It hasn&#x27;t proved the right transaction. I still need the date or another detail. Saying it can&#x27;t tell is useful, but it doesn&#x27;t finish the job.”</p>
+  <p>Sanjay, turn 3: “I&#x27;ll open the full receipts and check the printed details. If I still can&#x27;t remember which one I saw, I can&#x27;t verify it.”</p>
+  <p>outcome: Stops without confirming an exact demo receipt. The honest outcome is unresolved, not a successful retrieval because one thumbnail looks plausible.</p>
+  <p class="line"><b>Moderator</b> Describe what each of those three just did.</p>
+  <p class="line"><b>Sanjay</b> “Classic gave a category. Single answer picked a likely receipt. The One Where said why there might be more than one and asked me to separate them.”</p>
+  <p class="line"><b>Moderator</b> Which would you rather have on your phone?</p>
+  <p class="line"><b>Sanjay</b> “The One Where for documents and payments.”</p>
+  <p class="line"><b>Moderator</b> Why?</p>
+  <p class="line"><b>Sanjay</b> “A wrong holiday picture wastes a bit of time. A wrong payment confirmation changes what I think happened. I want a likely match to stay a likely match until I&#x27;ve checked it.”</p>
+  <h3>Part 5 — Pass it on</h3>
+  <p>method note: The receipt task does not have a demonstrated, relevant person-to-contact prompt. The moderator shows the staged cafe handoff after the task. This is a separate concept probe, not evidence that the MVP identified his wife or linked his financial messages.</p>
+  <p class="line"><b>Moderator</b> Would you actually send that?</p>
+  <p class="line"><b>Sanjay</b> “I&#x27;d ask my wife if she might know the missing detail. I wouldn&#x27;t send a receipt image to whoever the app picked. Let me choose the person and the question.”</p>
+  <p class="line"><b>Moderator</b> What would you have asked instead?</p>
+  <p class="line"><b>Sanjay</b> “‘Around the broadband plan change, were we paying from the old bank account or the new one? Do you have the provider&#x27;s message with the date?’ That rules things out. ‘Which green screenshot is right?’ doesn&#x27;t.”</p>
+  <h3>Part 6 — The scratch card</h3>
+  <p class="line"><b>action</b> Scratches the demo cafe card and writes “cafe with the open street on the left.”</p>
+  <p class="line"><b>Sanjay</b> “I&#x27;ve written what I can see because this isn&#x27;t my photo. For my own payment I&#x27;d add ‘first successful payment after plan change.’ That is the bit the screenshot won&#x27;t explain by itself.”</p>
+  <p class="line"><b>Moderator</b> Would you do that again tomorrow?</p>
+  <p class="line"><b>Sanjay</b> “No, not as a daily game. I&#x27;d add a note to a bill I know I&#x27;ll need, preferably when I save it. Scratching a random photo isn&#x27;t something I&#x27;d make time for every morning.”</p>
+  <h3>Part 7 — The payoff</h3>
+  <p class="line"><b>Moderator</b> Type the exact words you just wrote on that photo.</p>
+  <p class="line"><b>action</b> Searches “cafe with the open street on the left.” The saved photo appears first with the YOUR WORDS badge.</p>
+  <p class="line"><b>Moderator</b> What just happened?</p>
+  <p class="line"><b>Sanjay</b> “It matched the note attached to this photo. That could carry the reason for keeping a payment screenshot, not just the amount printed on it. But if I put the note on the wrong receipt, it would still bring back the wrong receipt. I&#x27;d check before labelling it.”</p>
+  <h3>Closing questions</h3>
+  <p class="line"><b>Moderator</b> If this disappeared tomorrow, what would you go back to doing?</p>
+  <p class="line"><b>Sanjay</b> “Search the provider and amount, read the actual receipt, then check the message history for the date.”</p>
+  <p class="line"><b>Moderator</b> When in the last month would you have used this?</p>
+  <p class="line"><b>Sanjay</b> “When we checked the payment during the plan change. Also for the older washing-machine repair invoice, where the same shop&#x27;s refrigerator bill looked right at first.”</p>
+  <p class="line"><b>Moderator</b> What would you call this thing?</p>
+  <p class="line"><b>Sanjay</b> “‘Find it and check it.’ I don&#x27;t want the first half to make me skip the second.”</p>
+  <p class="line"><b>Moderator</b> What&#x27;s the one thing you&#x27;d remove?</p>
+  <p class="line"><b>Sanjay</b> “The scratch step for documents. Let me write the useful note while I&#x27;m already saving or checking the receipt.”</p>
+  <p class="line"><b>Takeaway</b> Honesty about ambiguity can prevent premature acceptance, but it cannot substitute for transaction verification. Notes add context only when attached to the correct image.</p>
+  <p>quote for discussion: “I want a likely match to stay a likely match until I&#x27;ve checked it.”</p>
+  <footer>Part 2 of the graduation project. Participants are referred to by first name with their
+  consent; interviews are numbered in the order they were conducted.</footer>
+</div>
+</body>
+</html>
