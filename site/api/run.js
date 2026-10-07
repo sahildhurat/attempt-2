@@ -49,6 +49,9 @@ async function call(ai, systemInstruction, text, responseSchema) {
         const config = {
           systemInstruction,
           temperature: 0,
+          // Both schemas are small. Without a ceiling a degenerate generation can run
+          // to hundreds of KB before it stops, which is slow and unparseable anyway.
+          maxOutputTokens: 3072,
           responseMimeType: "application/json",
           responseSchema
         };
@@ -60,14 +63,23 @@ async function call(ai, systemInstruction, text, responseSchema) {
             config
           });
           const raw = String(r.text).replace(/^```json\s*/, "").replace(/\s*```$/, "").trim();
-          return JSON.parse(raw);
+          try {
+            return JSON.parse(raw);
+          } catch (parseError) {
+            // The model ran away or was cut off mid-object. That is a transient
+            // failure of this attempt, not a bad request, so let the retry and the
+            // model fallback below handle it instead of failing the whole call.
+            const bad = new Error("malformed model output (" + raw.length + " chars)");
+            bad.retryable = true;
+            throw bad;
+          }
         } catch (e) {
           lastError = e;
           const code = e.status || e.code;
           const msg = String(e && e.message || "");
           // the thinking flag was not accepted - drop it and try this model again
           if (noThinking && (code === 400 || /think/i.test(msg))) continue;
-          if (!(code === 503 || code === 429 || code === 500)) throw e;
+          if (!(e.retryable || code === 503 || code === 429 || code === 500)) throw e;
           break;
         }
       }
@@ -127,6 +139,9 @@ export default async function handler(req, res) {
     });
   } catch (e) {
     const code = e.status || e.code;
+    if (e.retryable || /malformed model output/.test(String(e.message || ""))) {
+      return res.status(503).json({ error: "The model returned an unusable response on every attempt. Try again \u2014 it usually works on the next run." });
+    }
     if (code === 503 || code === 429 || code === 500) {
       return res.status(503).json({ error: "The model is busy. Give it a few seconds and try again." });
     }
