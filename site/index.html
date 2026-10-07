@@ -94,6 +94,43 @@
             margin-bottom: 2rem;
         }
 
+
+        .run-cta {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            background: #F7FAFD;
+            border: 1px solid var(--rule);
+            border-left: 4px solid var(--data);
+            border-radius: 8px;
+            padding: 1.1rem 1.35rem;
+            margin: 0 0 2.75rem;
+            text-decoration: none;
+            color: inherit;
+        }
+        .run-cta:hover { background: #EDF4FB; }
+        .run-cta-text { flex: 1; min-width: 17rem; }
+        .run-cta-eyebrow {
+            font-family: 'IBM Plex Mono', ui-monospace, monospace;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            font-weight: 600;
+            color: var(--data);
+            margin-bottom: 0.3rem;
+        }
+        .run-cta-body { font-size: 0.9rem; color: var(--secondary); line-height: 1.45; }
+        .run-cta-btn {
+            flex-shrink: 0;
+            background: var(--data);
+            color: #FFFFFF;
+            font-weight: 600;
+            font-size: 0.95rem;
+            padding: 0.7rem 1.25rem;
+            border-radius: 999px;
+            white-space: nowrap;
+        }
         .metadata-strip {
             display: flex;
             flex-wrap: wrap;
@@ -317,6 +354,16 @@
                 <div class="metadata-item has-ev" tabindex="0" role="button" data-g="sources" data-c="funnel">Sources: <span>7 collected &middot; 5 carried evidence</span></div>
             </div>
         </header>
+
+        <a class="run-cta" href="workflow.html">
+            <div class="run-cta-text">
+                <p class="run-cta-eyebrow">Run the engine yourself</p>
+                <p class="run-cta-body">Every number on this page came out of a three-pass pipeline. Pick any report
+                from the corpus and watch it move through the relevance gate, grounded extraction and taxonomy
+                assignment &mdash; or paste your own text and run all three passes live.</p>
+            </div>
+            <span class="run-cta-btn">Run the discovery engine &rarr;</span>
+        </a>
 
         <section>
             <h2>What People Were Looking For</h2>
@@ -574,6 +621,7 @@
         </section>
         <p style="margin:44px 0 0;padding-top:18px;border-top:1px solid #e8eaed;
                   font-size:.85rem;color:#80868b;text-align:center">
+          Run the pipeline yourself on the <a href="workflow.html" style="color:#1a73e8">workflow page</a>.
           The prompts, the four taxonomies with their full definitions, and the validation at each
           stage are in the <a href="notes.html" style="color:#1a73e8">reference notes</a>, for anyone
           who wants to check the numbers.
