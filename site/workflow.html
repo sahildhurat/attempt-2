@@ -357,8 +357,11 @@ $('own-run').addEventListener('click', async () => {
   const text = $('own-text').value.trim();
   const out = $('own-out'), btn = $('own-run');
   if (!text) { out.innerHTML = '<p class="note">Write something first.</p>'; return; }
-  btn.disabled = true; btn.textContent = 'Running…';
-  out.innerHTML = '<p class="note">Passing it through the gate, then extraction…</p>';
+  btn.disabled = true; btn.textContent = 'Running… 0s';
+  let __secs = 0;
+  const __tick = setInterval(() => { __secs++; btn.textContent = 'Running… ' + __secs + 's'; }, 1000);
+  out.innerHTML = '<p class="note">Running the relevance gate and the grounded extraction together, ' +
+    'as two live model calls. Typically a few seconds; the counter on the button is the real elapsed time.</p>';
   try {
     const r = await fetch('/api/run', {
       method: 'POST', headers: { 'Content-Type': 'application/json' },
@@ -385,7 +388,7 @@ $('own-run').addEventListener('click', async () => {
   } catch (e) {
     out.innerHTML = '<p class="note err">Couldn’t run it: ' + esc(e.message) +
       '<br>The sample runs above are unaffected — they are recorded outputs, not live calls.</p>';
-  } finally { btn.disabled = false; btn.textContent = 'Run all three passes'; }
+  } finally { clearInterval(__tick); btn.disabled = false; btn.textContent = 'Run all three passes'; }
 });
 
 </script>

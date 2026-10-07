@@ -41,25 +41,37 @@ async function call(ai, systemInstruction, text, responseSchema) {
   let lastError;
   for (const model of MODELS) {
     for (let attempt = 0; attempt < 2; attempt++) {
-      try {
-        const r = await ai.models.generateContent({
-          model,
-          contents: [{ role: "user", parts: [{ text }] }],
-          config: {
-            systemInstruction,
-            temperature: 0,
-            responseMimeType: "application/json",
-            responseSchema
-          }
-        });
-        const raw = String(r.text).replace(/^```json\s*/, "").replace(/\s*```$/, "").trim();
-        return JSON.parse(raw);
-      } catch (e) {
-        lastError = e;
-        const code = e.status || e.code;
-        if (!(code === 503 || code === 429 || code === 500)) throw e;
-        if (attempt === 0) await delay(700);
+      // These two passes are deterministic classification against a fixed rubric,
+      // so there is nothing for the model to deliberate about. Thinking is the
+      // dominant cost here, so it is switched off; if a model rejects the flag we
+      // immediately retry the same model without it.
+      for (const noThinking of [true, false]) {
+        const config = {
+          systemInstruction,
+          temperature: 0,
+          responseMimeType: "application/json",
+          responseSchema
+        };
+        if (noThinking) config.thinkingConfig = { thinkingBudget: 0 };
+        try {
+          const r = await ai.models.generateContent({
+            model,
+            contents: [{ role: "user", parts: [{ text }] }],
+            config
+          });
+          const raw = String(r.text).replace(/^```json\s*/, "").replace(/\s*```$/, "").trim();
+          return JSON.parse(raw);
+        } catch (e) {
+          lastError = e;
+          const code = e.status || e.code;
+          const msg = String(e && e.message || "");
+          // the thinking flag was not accepted - drop it and try this model again
+          if (noThinking && (code === 400 || /think/i.test(msg))) continue;
+          if (!(code === 503 || code === 429 || code === 500)) throw e;
+          break;
+        }
       }
+      if (attempt === 0) await delay(700);
     }
   }
   throw lastError;
@@ -78,12 +90,22 @@ export default async function handler(req, res) {
   try {
     const ai = new GoogleGenAI({ apiKey: key });
 
-    const gate = await call(ai, GATE_PROMPT, text, gateSchema);
+    // Both passes are started together. The gate decides whether the extraction is
+    // shown, not whether it runs, so waiting for one before starting the other only
+    // doubled the time the user sits looking at a spinner.
+    const gateCall = call(ai, GATE_PROMPT, text, gateSchema);
+    const extractCall = call(ai, EXTRACT_PROMPT, text, extractSchema)
+      .then((v) => ({ value: v }), (err) => ({ error: err }));
+
+    const gate = await gateCall;
     if (gate.decision === "no") {
+      await extractCall;                       // settle it so nothing is left dangling
       return res.status(200).json({ gate_decision: "no", gate_reason: gate.reason });
     }
 
-    const ex = await call(ai, EXTRACT_PROMPT, text, extractSchema);
+    const exResult = await extractCall;
+    if (exResult.error) throw exResult.error;
+    const ex = exResult.value;
 
     // The grounding rule is enforced here rather than trusted to the model:
     // a cue whose span is not a verbatim substring of the input is discarded.
