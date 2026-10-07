@@ -11,7 +11,10 @@ const gateSchema = {
   type: "object",
   properties: {
     decision: { type: "string", enum: ["yes", "partial", "no"] },
-    reason: { type: "string" }
+    reason: { type: "string" },
+    // The gate prompt asks for this. Without a slot of its own the model appends
+    // "language: en" to the reason, which then shows up in the UI.
+    language: { type: "string" }
   },
   required: ["decision", "reason"]
 };
@@ -39,8 +42,14 @@ const delay = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function call(ai, systemInstruction, text, responseSchema) {
   let lastError;
-  for (const model of MODELS) {
+  for (let m = 0; m < MODELS.length; m++) {
+    const model = MODELS[m];
     for (let attempt = 0; attempt < 2; attempt++) {
+      // The first try is temperature 0, the setting the corpus was built with.
+      // Retries move off it: at temperature 0 a run-on generation is reproducible,
+      // so an identical retry fails identically and the fallback models are wasted.
+      const tryIndex = m * 2 + attempt;
+      const temperature = tryIndex === 0 ? 0 : Math.min(0.3 + 0.2 * tryIndex, 1);
       // These two passes are deterministic classification against a fixed rubric,
       // so there is nothing for the model to deliberate about. Thinking is the
       // dominant cost here, so it is switched off; if a model rejects the flag we
@@ -48,7 +57,7 @@ async function call(ai, systemInstruction, text, responseSchema) {
       for (const noThinking of [true, false]) {
         const config = {
           systemInstruction,
-          temperature: 0,
+          temperature,
           // Both schemas are small. Without a ceiling a degenerate generation can run
           // to hundreds of KB before it stops, which is slow and unparseable anyway.
           maxOutputTokens: 3072,
